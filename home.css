@@ -1,8 +1,13 @@
 /*-------------------------- header style--------------------------- */
 *{
     margin: 0px;
+    font-family: 'Roboto Slab',sans-serif;
 
 }
+body{
+    position: relative;
+}
+
 #header{
     display: flex;
     width: 100%;
@@ -13,6 +18,11 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 75px;
     margin: 5px 0px auto 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 10;
+    
 }
 #header>div{
     display: flex;
@@ -46,6 +56,7 @@
     margin-top: 20px;
     width: 98%;
     background-color: black;
+    
 }
 #top{
     display: flex;
@@ -69,13 +80,23 @@
     align-items: center;
     
 }
-#slide1{
-   position: relative;
-   left: 20px;
+.breaking-news{
+    padding: 0 100px;
+    color: white;
+    /* font-weight: 800; */
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
 }
-#slide2{
-position: relative;
-right: 20px;
+.breaking-news:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.bntime{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
 }
 /* ---------------------------------footer------------------------------------- */
 #main-footer{
@@ -83,9 +104,12 @@ right: 20px;
     margin-top: 15px;
     color: grey;
     width: 100%;
+    /* position: fixed; */
+    /* position: -webkit-sticky;
+    top: 10px; */
     /* padding: 30px; */
 }
-hr{
+#main-footer>hr{
    border: .1px solid grey;
     width: 98%;
     margin: auto;
@@ -142,4 +166,133 @@ hr{
 }
 #bot-line:hover{
     color: blue;
+}
+/*-------------------------------------main body-----------------------------------*/
+#center{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 2fr;
+    /* border: 4px solid black; */
+    margin-top: 20px;
+    gap: 20px;
+    /* padding: 15x; */
+}
+#center>div{
+    border: 2px solid red;
+}
+#left{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(12,1fr);
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+
+    font-size: 20px;
+    /* gap: 1px; */
+    margin-left: 15px;
+}
+#left>div{
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ 
+}
+#left>div:hover{
+    background-color: rgb(226, 226, 43);
+}
+#righth1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+#righth1>p{
+    font-weight: bolder;
+}
+#righth1>p+p{
+    font-size: 14px;
+    font-weight: 100;
+}
+#right>hr{
+    background-color: rgb(226, 226, 43);
+    height: 3px;
+    margin-top: 10px;
+}
+#trend-topics{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#trend-news a{
+    
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+}
+#trend-news{
+    display: flex;
+        gap: 15px;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+#trend-news>:nth-child(1){
+    background-color: rgb(165, 67, 80);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+#trend-news>:nth-child(2){
+    background-color: rgb(84, 84, 153);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+#trend-news>:nth-child(3){
+    background-color: rgb(175, 108, 175);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#science{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    
+}
+#science img {
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+#science div{
+    display:flex;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 160px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    text-align:justify;
+    
+}
+#science p{
+    font-size: 20px;
 }
