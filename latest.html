@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+    #latest{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#latest img {
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+#latest div{
+    display:flex;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+    border-radius: 10px;
+    /* height: 160px; */
+    overflow: auto;
+    text-overflow: ellipsis;
+    text-align:justify;
+    
+}
+#latest p{
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+}
+#latest p:hover{
+    color: blue;
+    cursor: pointer;
+    /* padding: 25px; */
+    font-size: 25px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+            <a href="#" class="breaking-news">
+                <p class="bntime">21 July 2022</p>
+                In Sri Lanka, the crisis is not over, yet</a>
+            <a href="#" class="breaking-news">
+                <p class="bntime">21 July 2022</p>
+                Elon Musk-Twitter takeover dispute trial set to begin in October
+            </a>
+            <a href="#" class="breaking-news">
+                <p class="bntime">21 July 2022</p>
+                High blood pressure may double risk of severe Covid despite vaccination: Study
+            </a>
+            <a href="#" class="breaking-news">
+                <p class="bntime">21 July 2022</p>
+                Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+            </a>
+            <a href="#" class="breaking-news">
+                <p class="bntime">21 July 2022</p>
+                England skipper Jos Buttler terms Ben Stokes as, "once-in-a-generation player" after Ben Stokes played his last ODI
+            </a>
+        </marquee>
+      </div>
+    </div>
+    <!---------------------- main body------------------- -->
+    <div id="center">
+      <div>
+        <div id="left">
+          <div style="background-color: rgb(233, 233, 12);">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div id="worldjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""/>
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <!-------------------- top-head--------------------- -->
+      <div>
+        <h1>Latest News</h1>
+        <div id="latest"></div>
+      
+      </div>
+      <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <hr>
+       <div id="trend-news">
+        <div >
+            <a href="health.html">
+              <p>HEALTH</p>
+
+            </a>
+        </div>
+        <div>
+          <a href="tech.html">
+            <p>TECHNOLOGY</p>
+
+          </a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+    <hr>
+    <div id="science"></div>
+      </div>
+     
+    </div>
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="home.js"></script>
+  <script>
+   let latest = [
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Tech Desk",
+"title": "Google Pixel 6a vs Nothing Phone (1): A comparison of the two smartphones - The Indian Express",
+"description": "Here's a direct comparison of the Google Pixel 6a against the Nothing Phone (1) to help you pick one of the two new smartphones.",
+"url": "https://indianexpress.com/article/technology/mobile-tabs/pixel-6a-vs-nothing-phone-1-price-features-specifications-compared-8045121/",
+"urlToImage": "https://images.indianexpress.com/2022/07/Google-Pixel-6A-vs-Nothing-Phone-1.jpg",
+"publishedAt": "2022-07-22T07:35:48Z",
+"content": "The Google Pixel 6a has now gone up for pre-order in India, after Google announced the phone earlier this year in other regions. With stock Android, a focus on user experience, upper mid-range specif… [+4859 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NDTV News"
+},
+"author": null,
+"title": "Arvind Kejriwal's Deputy Named In Lt Governor's Call For New CBI Probe - NDTV",
+"description": "\"Minister In-charge of the Excise Department, Manish Sisodia took and got executed, major decisions/actions in violation of the statutory provisions and the notified Excise Policy that had huge financial implications,\" Mr Saxena's office said.",
+"url": "https://www.ndtv.com/india-news/delhi-lt-governor-recommends-cbi-probe-into-arvind-kejriwal-governments-liquor-policy-alleges-lapses-news-agency-pti-3182612",
+"urlToImage": "https://i.ndtvimg.com/i/2016-04/arvind-kejriwal-manish-sisodia-pti_650x400_71460207111.jpg",
+"publishedAt": "2022-07-22T07:25:00Z",
+"content": "The new Excise policy 2021-22 was implemented from November 17 last year.\r\nNew Delhi: Delhi's Lieutenant Governor Vinai Kumar Saxena today recommended an investigation by probe agency Central Bureau … [+2558 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "GSMArena.com"
+},
+"author": "Yordan",
+"title": "OnePlus Ace Pro in the works with flagship chipset and 16 GB RAM - GSMArena.com news - GSMArena.com",
+"description": "Some reports suggest it is the OnePlus 10T for the domestic audience.",
+"url": "https://www.gsmarena.com/oneplus_ace_pro_in_the_works_with_flagship_chipset_and_16_gb_ram-news-55153.php",
+"urlToImage": "https://fdn.gsmarena.com/imgroot/news/22/06/oneplus-10t-renders/-952x498w6/gsmarena_000.jpg",
+"publishedAt": "2022-07-22T07:15:01Z",
+"content": "OnePlus 10T will arrive on August 3 and we will also see OxygenOS 13 on stage. The phone is expected to have a Snapdragon 8+ Gen 1 chipset but it might not be the only phone with this platform OnePlu… [+1218 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Bloomberg",
+"title": "China is facing competition for its favorite Russian oil from India - Economic Times",
+"description": "Cargoes of ESPO can be shipped to China in around five days, and the nations refiners have been eagerly snapping up the cheap Russian barrels, which have displaced flows from other suppliers such as West Africa and Brazil.",
+"url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/china-is-facing-competition-for-its-favorite-russian-oil-from-india/articleshow/93047269.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93047255,width-1070,height-580,imgsize-43172,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T06:59:00Z",
+"content": "India has ramped up purchases of crude from Russias far east, a grade thats typically favored by Chinese oil refiners.\r\nFour vessels hauling Russian ESPO oil are making their way to India, with two t… [+931 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Moneycontrol"
+},
+"author": "Moneycontrol News",
+"title": "RBI sets no particular level for rupee, but working to check volatility, says Governor Das - Moneycontrol",
+"description": "The rate-setting panel hiked interest rates by a cumulative 90 basis points in recent months to fight a high inflation that has stayed above the 6 percent mark for six consecutive months",
+"url": "https://www.moneycontrol.com/news/business/indian-economy-better-placed-despite-global-headwinds-affirms-rbi-governor-8868551.html",
+"urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/04/4-shaktikanta-das-rbi-governor-770x433.jpg",
+"publishedAt": "2022-07-22T06:54:02Z",
+"content": "Reserve Bank of India (RBI) Governor Shaktikanta Das said the central bank is not looking at any particular level for the rupee but will act to curb the volatility plaguing the currency.\r\nWe have no … [+2587 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NDTV News"
+},
+"author": null,
+"title": "Koffee With Karan 7: Samantha Ruth Prabhu On The Worst Rumour About Herself - Rs 250 Crore Alimony - NDTV",
+"description": "Samantha Ruth Prabhu opened up about her divorce with Naga Chaitanya on the talk show with Karan Johar",
+"url": "https://www.ndtv.com/entertainment/koffee-with-karan-7-samantha-prabhu-calls-reports-of-her-asking-rs-250-cr-alimony-worst-rumour-about-herself-3182490",
+"urlToImage": "https://c.ndtvimg.com/2022-07/jahqd1ag_samantha_625x300_22_July_22.jpg",
+"publishedAt": "2022-07-22T06:48:31Z",
+"content": "Samantha Ruth Prabhu shared this image. (courtesy: samantharuthprabhuoffl)\r\nNew Delhi: Koffee With Karan 7's latest episode with powerhouse performers Akshay Kumar and Samantha Ruth Prabhu featured t… [+2240 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Hindustan Times"
+},
+"author": "Anirudh Bhattacharyya",
+"title": "India concerned about the growth of pro-Khalistan movement in Canada: Officials - Hindustan Times",
+"description": "Indian officials told the Hindustan Times that there were at least eight such prominent gang leaders present in Canada at this time and they appear to direct activities from here | World News",
+"url": "https://www.hindustantimes.com/world-news/india-concerned-about-the-growth-of-pro-khalistan-movement-in-canada-officials-101658471898679.html",
+"urlToImage": "https://images.hindustantimes.com/img/2022/07/22/1600x900/67624192-0988-11ed-8045-0e66fdd513ce_1658471893813.jpg",
+"publishedAt": "2022-07-22T06:38:18Z",
+"content": "TORONTO: India is watching warily the growth of the pro-Khalistan movement in Canada particularly as it appears to have entered a new phase. The most concern is about the enhanced linkage with organi… [+2135 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Nihal Koshie",
+"title": "History awaits Neeraj Chopra: Can he become the first since 2009 to win both Olympics and World Championships at same time? - The Indian Express",
+"description": "With just one throw, Chopra qualified for the finals of the World Championships. Though overweight in the months after Olympics, Chopra shed 14 kilos, improved arm speed, honed his technique to have a real shot at history.",
+"url": "https://indianexpress.com/article/sports/sport-others/world-championships-neeraj-chopra-aces-qualifying-with-88-39-metres-in-round-1-makes-final-8044648/",
+"urlToImage": "https://images.indianexpress.com/2022/07/Neeraj-Chopra.jpg",
+"publishedAt": "2022-07-22T06:31:29Z",
+"content": "As ever, it took just one throw for Neeraj Chopra to wrap up his day and qualify for the Sunday finals. History awaits. Since 2009, no one has had both the Olympics and World Championships medals wra… [+6888 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Thehansindia.com"
+},
+"author": "Kahekashan",
+"title": "Flipkart Big Saving Days: Great Discounts on Blaupunkt Smart TVs - The Hans India",
+"description": "Flipkart Plus Customers will be able to get early access to the offers   Flipkart sale to be live...",
+"url": "https://www.thehansindia.com/technology/tech-news/flipkart-big-saving-days-great-discounts-on-blaupunkt-smart-tvs-754621",
+"urlToImage": "https://assets.thehansindia.com/h-upload/2022/07/22/1304222-blaupunkt.jpg",
+"publishedAt": "2022-07-22T06:22:40Z",
+"content": "Walmart-owned E-commerce platform Flipkart is back with its popular Big Saving Days, which will start on 23rd July 2022 and will be live till 27th July 2022.\r\nAs a part of its special 5 days sale, Fl… [+3306 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Hindustan Times"
+},
+"author": "Hindustantimes",
+"title": "Study shows 95% monkeypox cases via sexual activity, WHO holds meet | 5 points - Hindustan Times",
+"description": "The World Health Organization's (WHO) emergency committee met for the second time to discuss the monkeypox outbreak. | World News",
+"url": "https://www.hindustantimes.com/world-news/study-shows-95-monkeypox-cases-via-sexual-activity-who-holds-meet-5-points-101658464954240.html",
+"urlToImage": "https://images.hindustantimes.com/img/2022/07/22/1600x900/DRC-WHO-HEALTH-VIRUS-MONKEYPOX-0_1657205197725_1658469544754_1658469544754.jpg",
+"publishedAt": "2022-07-22T06:21:20Z",
+"content": "As the monkeypox outbreak is spreading across the world and two cases have been detected in India, a study has shown that 95% of the cases have been transmitted through sexual activity. According to … [+2089 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Arun Janardhanan",
+"title": "'Cut off', Lakshadweep sees protests, arrests and a government clarification - The Indian Express",
+"description": "Ships to mainland down to two from seven due to combination of reasons; people protest, held",
+"url": "https://indianexpress.com/article/political-pulse/cut-off-lakshadweep-sees-protests-arrests-and-a-government-clarification-8044598/",
+"urlToImage": "https://images.indianexpress.com/2022/07/lakshdweeep-1-1.jpg",
+"publishedAt": "2022-07-22T06:01:05Z",
+"content": "A severe transportation crisis in Lakshadweep has spiralled into protests and mass arrests by the administration, feeding into existing resentment against the Union territory administration led by Pr… [+3544 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Hindustan Times"
+},
+"author": "Bishal Kalita",
+"title": "CBSE 12th Results 2022: Only 30% weightage to term 1 theory exams - Hindustan Times",
+"description": "CBSE said in the case of theory exams, 30% weightage has been given to term 1 and 70% to term 2 and for practicals, it has followed a 50-50 formula.",
+"url": "https://www.hindustantimes.com/education/board-exams/cbse-12th-results-2022-only-30-weightage-to-term-1-theory-exams-101658469278241.html",
+"urlToImage": "https://images.hindustantimes.com/img/2022/07/22/1600x900/cbse-result_1658469446776_1658469446971_1658469446971.jpg",
+"publishedAt": "2022-07-22T05:59:51Z",
+"content": "CBSE Results 2022: Thirty per cent weightage has been given to term 1 exam in the case of theory exams, not 50%, in order to prepare Class 12 final results, Central Board of Secondary Education (CBSE… [+1284 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Livemint"
+},
+"author": "Livemint",
+"title": "Rakesh Jhunjhunwala-backed Akasa Air open for booking: check flight routes | Mint - Mint",
+"description": "Rakesh Jhunjhunwala promoted Akasa Air carrier informed that the flight operations will be conducted on two routes.",
+"url": "https://www.livemint.com/news/india/rakesh-jhunjhunwala-backed-akasa-air-open-for-booking-check-flight-routes-11658467324102.html",
+"urlToImage": "https://images.livemint.com/img/2022/07/22/600x338/Akasa_Air_1658469225919_1658469226087_1658469226087.jpg",
+"publishedAt": "2022-07-22T05:58:42Z",
+"content": "The Akasa Air, India's newest airline promoted by billionaire investor Rakesh Jhunjhunwala has opened bookings for commercial flight operations starting from August 7 this year on two routes using a … [+2247 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Hindustan Times"
+},
+"author": "HT News Desk",
+"title": "Why Congress said ‘hypocrisy zindabad’ after PM Modi tweeted on Nehru, tricolour - Hindustan Times",
+"description": "'Har Ghar Tiranga' is an initiative by the ministry of culture to mark celebrations for India's 75th year of Independence under which citizens are being encouraged to hoist the tricolour at their homes during August 13-15. | Latest News India",
+"url": "https://www.hindustantimes.com/india-news/congress-says-hypocrisy-zindabad-as-pm-modi-tweets-on-nehru-first-tricolour-101658465660540.html",
+"urlToImage": "https://images.hindustantimes.com/img/2022/07/22/1600x900/congress_attacks_modi_for_tricolour_nehru_tweet_1658469196476_1658469196704_1658469196704.jpg",
+"publishedAt": "2022-07-22T05:55:03Z",
+"content": "Congress on Friday attacked Prime Minister Narendra Modi for sharing a historical fact involving India's first prime minister Jawaharlal Nehru and the tricolour, calling it a hypocrisy. While making … [+2066 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Amit Mudgill",
+"title": "Prashant Jain initiates talks to tender his resignation at HDFC AMC - Economic Times",
+"description": "​The market rally in July has made Jain the first fund manager in India to oversee Rs 1-lakh-crore equity assets.",
+"url": "https://economictimes.indiatimes.com/markets/stocks/news/prashant-jain-initiates-talks-to-tender-his-resignation-at-hdfc-amc/articleshow/93045673.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93045662,width-1070,height-580,imgsize-667428,overlay-etmarkets/photo.jpg",
+"publishedAt": "2022-07-22T05:55:00Z",
+"content": "NEW DELHI: on Friday said Prashant Jain has tendered his resignation after staying as CIO with the asset management company for 19 years.\r\nThe board at the fund house has approved the appointment of … [+2076 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "TIMESOFINDIA.COM",
+"title": "How much should you WALK to reduce your risk of heart disease? Here's what study tells us - Times of India",
+"description": "Heart disease describes a wide range of conditions that affect the heart. It is the leading cause of death worldwide and accounts for an estimated 17.9 million deaths each year, reports the World Health Organization (WHO).",
+"url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/how-much-should-you-walk-to-reduce-your-risk-of-heart-disease-heres-what-study-tells-us/photostory/93029816.cms",
+"urlToImage": "https://static.toiimg.com/photo/93029940.cms",
+"publishedAt": "2022-07-22T05:30:00Z",
+"content": "According to the American Heart Association (AHA), walking is one of the best exercises for heart health. Not only does it help boost energy, but it also improves one's cholesterol and blood pressure… [+441 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Ranveer Singh's reaction to Vijay Devarakonda wearing chappals at Liger trailer launch is hilarious. Watch - India Today",
+"description": "Ranveer Singh had the funniest reaction to Vijay Devarakonda wearing chappals at the Liger trailer launch. Liger releases on August 25.",
+"url": "https://www.indiatoday.in/movies/celebrities/story/ranveer-singh-s-reaction-to-vijay-devarakonda-wearing-chappals-at-liger-trailer-launch-is-hilarious-watch-1978559-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/ranveer__10_-647x363.png?M.yA9aPI7.m1p0XOtEs.6fdFca2WVWiq",
+"publishedAt": "2022-07-22T05:08:27Z",
+"content": "Vijay Devarakonda and Ananya Panday's Liger is making all the noise. The much-awaited trailer was released yesterday, July 21. Both Vijay and Ananya attended the trailer launch, first in Hyderabad an… [+1288 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "News18"
+},
+"author": "D P Satish",
+"title": "Dinesh Gunawardena, Whose Parents Fought in India’s Freedom Struggle, Is Sri Lanka’s New Prime Minister - News18",
+"description": "He was foreign affairs and education minister in the previous Gotabaya-Mahinda government",
+"url": "https://www.news18.com/news/world/dinesh-gunawardena-whose-parents-fought-in-indias-freedom-struggle-is-sri-lankas-new-prime-minister-5601823.html",
+"urlToImage": "https://images.news18.com/ibnlive/uploads/2022/07/dinesh-gunawardena-165846990216x9.jpg",
+"publishedAt": "2022-07-22T05:08:11Z",
+"content": "Seventy-two-year-old Dinesh Gunawardena is Sri Lankas new prime minister. The leader of the House in Parliament took oath as PM on Friday.\r\nHe was the foreign affairs and education minister in the pr… [+3317 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Gadgets Now"
+},
+"author": "IANS",
+"title": "Nasa targets late Aug for Artemis 1 moon rocket launch, claims report - Gadgets Now",
+"description": "Nasa's much awaited Artemis 1 moon rocket will likely be launched in late August, the agency has said.Nasa said it has tentatively selected 3 dates for the launch: August 29; September 2; and September 5.However, \"it's not an agency commitment,\" Jim Free, Nas…",
+"url": "https://www.gadgetsnow.com/tech-news/nasa-targets-late-aug-for-artemis-1-moon-rocket-launch-claims-report/articleshow/93044169.cms",
+"urlToImage": "https://static.toiimg.com/thumb/resizemode-4,msid-93044169,imgsize-238676,width-800/93044169.jpg",
+"publishedAt": "2022-07-22T04:58:00Z",
+"content": "Nasa's much awaited Artemis 1 moon rocket will likely be launched in late August, the agency has said.Nasa said it has tentatively selected 3 dates for the launch: August 29; September 2; and Septemb… [+1573 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "TIMESOFINDIA.COM",
+"title": "Garena Free Fire Max Redeem Codes for July 22, 2022: Win exciting bundles and gun skins - Times of India",
+"description": "Players can choose their starting positions in this game, as well as collect supplies and weaponry to keep them going while on the battlefield. There",
+"url": "https://timesofindia.indiatimes.com/gadgets-news/garena-free-fire-max-redeem-codes-for-july-22-2022-win-exciting-bundles-and-gun-skins/articleshow/93043984.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-93044052,width-1070,height-580,imgsize-35438,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T04:55:00Z",
+"content": ""
+}
+]
+let art = document.querySelector("#latest");
+      latest.forEach(function (el) {
+        let div = document.createElement("div");
+        let imgage = document.createElement("img");
+        imgage.src = el.urlToImage;
+        let h2 = document.createElement("h2");
+        h2.innerText = el.title;
+        let para = document.createElement("p");
+        para.innerText = el.description;
+        let anc = document.createElement("a");
+        anc.href = el.url;
+        art.append(div);
+        div.append(imgage,para);
+      });
+  </script>
