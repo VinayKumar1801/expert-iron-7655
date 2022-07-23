@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+    #travel{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#travel img {
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+#travel div{
+    display:flex;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+    border-radius: 10px;
+    /* height: 160px; */
+    overflow: auto;
+    text-overflow: ellipsis;
+    text-align:justify;
+    
+}
+#travel p{
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+}
+#travel p:hover{
+    color: blue;
+    cursor: pointer;
+    /* padding: 25px; */
+    font-size: 25px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div  style="background-color: rgb(233, 233, 12);">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>Travels News</h1>
+        <div id="travel"></div>
+        
+      </div>
+      <div> <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <hr>
+       <div id="trend-news">
+        <div >
+           <a href="health.html">
+            <p>HEALTH</p></a>
+        </div>
+        <div>
+            <a href="tech.html">
+            <p>TECHNOLOGY</p></a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+    <hr>
+    <div id="science"></div>
+      </div>
+     
+    </div>
+    </div>
+    </div>
+   
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+let travel = [
+
+
+{
+"source": {
+"id": null,
+"name": "allears.net"
+},
+"author": "Hannah Risser",
+"title": "The Ultimate Portable Charger BATTLEDOME!",
+"description": "If you're headed to Disney you NEED a portable charger. Check out our guide to the best ones for your trip.\nThe post The Ultimate Portable Charger BATTLEDOME! appeared first on AllEars.Net.",
+"url": "https://allears.net/2022/07/22/the-ultimate-portable-charger-battledome/",
+"urlToImage": "https://allears.net/wp-content/uploads/2022/06/2022-dlr-disneyland-sleeping-beauty-castle-1.jpg",
+"publishedAt": "2022-07-22T15:00:22Z",
+"content": "DISCLOSURE: This post may contain affiliate links, meaning when you click the links and make a purchase, we receive a commission.These days, a portable charger is a must when it comes to packing your… [+5368 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Points Guy"
+},
+"author": "Benét J. Wilson",
+"title": "Benét on the runway: How to eat locally at the airport",
+"description": "Editor’s note: This is a new column by senior editor Benét J. Wilson that will cover what’s happening at the world’s airports. My child and I recently traveled to New Orleans for a quick work trip. They are a huge foodie and quite the budding chef, so I of co…",
+"url": "http://thepointsguy.com/guide/eat-locally-airport/",
+"urlToImage": "https://thepointsguy.global.ssl.fastly.net/us/originals/2022/07/GettyImages-1225632085-scaled.jpg",
+"publishedAt": "2022-07-22T15:00:16Z",
+"content": "Editor’s note: This is a new column by senior editor Benét J. Wilson that will cover what’s happening at the world’s airports.\r\nMy child and I recently traveled to New Orleans for a quick work trip. … [+13170 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Eonline.com"
+},
+"author": "Marenah Dobin",
+"title": "Shop These Game-Changing Travel Finds and Great Deals Under $40",
+"description": "We independently selected these deals and products because we love them, and we think you might like them at these prices. E! has affiliate relationships, so we may get a commission if you...",
+"url": "https://www.eonline.com/news/1338732/affordable-travel-finds",
+"urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2022620/rs_1200x1200-220720104342-1200-daily-pop-travel.cm.72022.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+"publishedAt": "2022-07-22T15:00:00Z",
+"content": "We independently selected these deals and products because we love them, and we think you might like them at these prices. E! has affiliate relationships, so we may get a commission if you purchase s… [+1128 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Jack Abela)",
+"title": "Chickenpox first signs, how long is it contagious for and how does it spread?",
+"description": "With chickenpox treatments sold out in many supermarket, we take a look at how contagious the virus really is, who can catch it and how it actually spreads",
+"url": "https://www.mirror.co.uk/lifestyle/health/chickenpox-first-signs-how-long-27552878",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27301553.ece/ALTERNATES/s1200/0_Female-hand-applying-cream-on-little-girl-with-chicken-pox-at-home.jpg",
+"publishedAt": "2022-07-22T14:56:30Z",
+"content": "Chickenpox is a common illness in young children, although it is possible for people to catch it at any age. \r\nThe itchy condition affects thousands of people each year and while it can cause a lot o… [+2770 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": "Larry Grady",
+"title": "Back-to-School Spending Surges, Women Voters 55+ Name Their Concerns, Priorities | This Week on PR Newswire",
+"description": "Also in this week’s press release roundup, the Humane Society will transfer 4,000 beagles from a breeding facility.",
+"url": "https://mediablog.prnewswire.com/2022/07/22/press-release-recap-072222/",
+"urlToImage": "https://i0.wp.com/mediablog.prnewswire.com/wp-content/uploads/2022/07/On-PR-Newswire-Thumbnail-woman-voting.png",
+"publishedAt": "2022-07-22T14:55:32Z",
+"content": "With thousands of press releases published each week, it can be difficult to keep up with everything on PR Newswire for Journalists. Here are some of this weeks most newsworthy:\r\nSource: PRNewsfoto/D… [+4508 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Theflightdeal.com"
+},
+"author": "The Flight Deal",
+"title": "American: Washington D.C. – San Jose, Costa Rica. $208 (Basic Economy) / $288 (Regular Economy). Roundtrip, including all Taxes",
+"description": "A good sale to San Jose. Pricing will vary slightly depending on routingThe $288 fare is the regular fare which allows for normal size carry-on and personal item in addition to advance sea",
+"url": "https://www.theflightdeal.com/2022/07/22/american-washington-d-c-san-jose-costa-rica-208-basic-economy-288-regular-economy-roundtrip-including-all-taxes/",
+"urlToImage": "https://www.theflightdeal.com/wp-content/uploads/2014/10/san_jose_costa_rica_september-640x390.jpg",
+"publishedAt": "2022-07-22T14:55:01Z",
+"content": "This site is part of an affiliate sales network and receives compensation for sending traffic to partner sites, such as CreditCards.com. This compensation may impact how and where links appear on thi… [+4315 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Muvija M",
+"title": "UK's Dover port declares 'critical incident' as travellers face hours-long wait",
+"description": "The Port of Dover, Britain's main gateway to Europe, on Friday declared a 'critical incident' over long delays, blaming a lack of French customs officials...",
+"url": "https://news.yahoo.com/uks-dover-port-declares-critical-145456784.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/W2WsFF50p0Ej8l7yF.iySA--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/9116bb075d8a41708342b7e4b07fe210",
+"publishedAt": "2022-07-22T14:54:56Z",
+"content": "By Muvija M\r\nLONDON (Reuters) - The Port of Dover, Britain's main gateway to Europe, on Friday declared a 'critical incident' over long delays, blaming a lack of French customs officials for causing … [+2364 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "esquire.com"
+},
+"author": "Madison Vain",
+"title": "Jack White Is Calling From the Future",
+"description": "What's it like? \"Trump’s in prison. The Supreme Court have all been impeached. It’s great. I can’t wait ‘til you get here.\"",
+"url": "https://www.esquire.com/entertainment/music/a40689195/jack-white-entering-heaven-alive/",
+"urlToImage": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2022-07-22-at-9-36-41-am-1658497022.png?crop=1.00xw:0.333xh;0,0.285xh&resize=1200:*",
+"publishedAt": "2022-07-22T14:54:00Z",
+"content": "\"Nobody wants to be the bad guy,\" says \r\nJack White, voice beaming through my laptop from France, via Zoom. We're talking about parentingmaybe not the most rock n' roll of topics for one of the bigge… [+19202 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Keithen Drury)",
+"title": "3 Explosive Stocks to Buy Right Now",
+"description": "Although these companies are large, they can still grow at impressive rates.",
+"url": "https://www.fool.com/investing/2022/07/22/3-explosive-stocks-to-buy-right-now/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/688128/0x0-models_05.jpg",
+"publishedAt": "2022-07-22T14:53:00Z",
+"content": "Despite a grim outlook for the economy, there are still plenty of companies growing explosively. Contrary to popular belief, large companies can grow rapidly even in a downturn due to their broad rev… [+4904 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Sylhetmirror.com"
+},
+"author": "Enamul Haque Renu",
+"title": "What all one needs for a seamless travel: Tips and tricks",
+"description": "Day dreaming about traveling to your favorite destination? Don’t worry, it happens with everyone. Although most people suffer from pre-travel anxiety, which is also common. When we are traveling to some place away from home, we have to get out of our comfort …",
+"url": "https://sylhetmirror.com/2022/07/22/what-all-one-needs-for-a-seamless-travel-tips-and-tricks/",
+"urlToImage": "https://sylhetmirror.com/files/uploads/2022/07/t56y67.jpg",
+"publishedAt": "2022-07-22T14:50:50Z",
+"content": "Day dreaming about traveling to your favorite destination? Dont worry, it happens with everyone. Although most people suffer from pre-travel anxiety, which is also common. When we are traveling to so… [+4030 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Barron's"
+},
+"author": "Teresa Rivas",
+"title": "Nordstrom and 2 Other Retail Stocks That Stand Out From the Pack",
+"description": "Piper Sandler analyst Edward Yruma initiated coverage on a number of retail stocks in what he called an environment with “intensifying macro pressures.”",
+"url": "https://www.barrons.com/articles/nordstrom-retail-slowdown-defensive-51658501050",
+"urlToImage": "https://images.barrons.com/im-588996/social",
+"publishedAt": "2022-07-22T14:50:35Z",
+"content": "Years ago, the cast of MTVs Jersey Shore came up with the acronym GTL, immortalizing their priorities of gym, tan, and laundry. Todays retail investors should take the same approach, embracing WOT, o… [+1859 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Jon Swartz",
+"title": ": It’s the end of ‘fantasyland’ for Big Tech and its workers",
+"description": "After Big Tech grew in unprecedented and unchecked fashion for a decade, building ostentatious palaces to house growing workforces while plying them luxuriant freebies to keep them from defecting to rivals, is the wild ride over?",
+"url": "https://www.marketwatch.com/story/its-the-end-of-fantasyland-for-big-tech-and-its-workers-11658501167",
+"urlToImage": "https://images.mktw.net/im-586452/social",
+"publishedAt": "2022-07-22T14:50:35Z",
+"content": "After Big Tech grew in unprecedented and unchecked fashion for a decade, building ostentatious palaces to house growing workforces while plying them luxuriant freebies to keep them from defecting to … [+8532 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Greg Heffer",
+"title": "Union vows legal challenge after ministers lift ban on agency staff replacing workers on strike",
+"description": "UNISON hit out at the 'reckless and unlawful' move and warned Business Secretary Kwasi Kwarteng it would seek a judicial review of a new law.",
+"url": "https://www.dailymail.co.uk/news/article-11039687/Union-vows-legal-challenge-ministers-lift-ban-agency-staff-replacing-workers-strike.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/15/60579919-0-image-a-56_1658501185554.jpg",
+"publishedAt": "2022-07-22T14:49:18Z",
+"content": "Britain's largest trade union today vowed to drag the Government to court after ministers lifted a ban on temporary staff being allowed to replace striking workers.\r\nUNISON hit out at the 'reckless a… [+4419 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "taz.de"
+},
+"author": "Bernd Müllender",
+"title": "Übernachten mit Rad: Willkommen in unserem Garten",
+"description": "Eine belgische Plattform bringt Hausbesitzer und Slow Traveller erfolgreich zusammen. Das Ziel: Menschen miteinander verbinden.",
+"url": "https://taz.de/Uebernachten-mit-Rad/!5869277/",
+"urlToImage": "https://taz.de/picture/5683121/948/radfahren-im-wald-1.jpeg",
+"publishedAt": "2022-07-22T14:49:00Z",
+"content": "Eine belgische Plattform bringt Hausbesitzer und Slow Traveller erfolgreich zusammen. Das Ziel: Menschen miteinander verbinden.\r\nRadfahren ist ja auch der einfachste Weg, fremde Welten zu erkunden Fo… [+7063 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Raw Story"
+},
+"author": "Sara Wilson, Colorado Newsline",
+"title": "Arrest warrant issued for Tina Peters after the conservative clerk allegedly violates protection order",
+"description": "An arrest warrant was issued Thursday for indicted Mesa County Clerk Tina Peters after she allegedly violated a protection order and her bond conditions by contacting an employee of the Mesa County elections division.\n\nThe warrant alleges that Peters sent an …",
+"url": "https://www.rawstory.com/arrest-warrant-issued-for-tina-peters-after-the-conservative-clerk-allegedly-violates-protection-order/",
+"urlToImage": "https://www.rawstory.com/media-library/tina-peters-released-on-bond-from-mesa-county-jail.jpg?id=29525178&width=1200&coordinates=0%2C25%2C0%2C25&height=600",
+"publishedAt": "2022-07-22T14:48:09Z",
+"content": "Bannon, who led Trump's successful 2016 presidential election campaign, was among dozens of people called to testify about the storming of Congress by Trump supporters.\r\nBannon was indicted on two ch… [+2345 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Hip-Hop Wired"
+},
+"author": "D.L. Chandler",
+"title": "Fairies & Fades: Disney World Attendees Engage In Fisticuffs Over Cell Phone, Allegedly",
+"description": "A pair of families at Disney World got into an all-out brawl after a woman attempted to retrieve a lost cell phone.",
+"url": "http://hiphopwired.com/1222048/fairies-fades-disney-world-attendees-engage-in-fisticuffs-over-cell-phone-allegedly/",
+"urlToImage": "https://hiphopwired.com/wp-content/uploads/sites/43/2022/07/16585010254326.jpg?quality=85&strip=all&w=560&crop=0,0,100,320px",
+"publishedAt": "2022-07-22T14:47:35Z",
+"content": "HipHopWired Featured Video\r\nSource: Anadolu Agency / Getty\r\nDisney World is a preferred travel destination for families from all over the world as gatherers come to enjoy the fantastical elements of … [+1504 chars]"
+},
+{
+"source": {
+"id": "newsweek",
+"name": "Newsweek"
+},
+"author": "Simona Kitanovska, Zenger News",
+"title": "Identical Twins Die Hours Apart, Get Matching Coffins",
+"description": "According to their children, Alan and Geoff Bates were close their whole lives and died three hours apart.",
+"url": "https://www.newsweek.com/identical-twins-die-hours-apart-get-matching-coffins-1727113",
+"urlToImage": "https://d.newsweek.com/en/full/2083316/twins-alan-geoff.jpg",
+"publishedAt": "2022-07-22T14:47:29Z",
+"content": "Identical twins who spent their lives together passed away from separate illnesses just hours apart—at the age of 70.\r\nBrothers Alan and Geoff Bates died only three hours apart and had a joint funera… [+4356 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Codie Bullen",
+"title": "Love Island SPOILER: A surprise recoupling is set to shake the villa as girls choose the boys",
+"description": "Love Island has confirmed that the girls will choose the boys in a surprise recoupling - just two days after four new bombshells arrived in the villa.",
+"url": "https://www.dailymail.co.uk/tvshowbiz/article-11039559/Love-Island-SPOILER-surprise-recoupling-set-shake-villa-girls-choose-boys.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/15/60579835-0-image-a-17_1658500483946.jpg",
+"publishedAt": "2022-07-22T14:45:57Z",
+"content": "Paige  Thorne\r\nName: Paige Thorne\r\nAge: 24\r\nLocation: Swansea\r\nOccupation: Paramedic\r\nWho is their type on paper? 'In Swansea there is just no-one I can find. \r\n'I haven't got to swipe. So, hopefully… [+3335 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Home-designing.com"
+},
+"author": "HD Staff",
+"title": "51 Steampunk Clocks That Will Make You Dream Of Steam",
+"description": "The term “steampunk” was first coined in 1987 by fiction author K. W. Jeter, who penned the time-travel adventure novel Morlock Night. The idea of steam as the driver of technological advancement has captured the imagination of fantasy fans everywhere. Inspir…",
+"url": "http://www.home-designing.com/buy-steampunk-clocks-for-sale-online",
+"urlToImage": "http://cdn.home-designing.com/wp-content/uploads/2022/07/Nixie-tube-clock.jpg",
+"publishedAt": "2022-07-22T14:45:00Z",
+"content": "The term steampunk was first coined in 1987 by fiction author K. W. Jeter, who penned the time-travel adventure novel Morlock Night. The idea of steam as the driver of technological advancement has c… [+524 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Elmira Tanatarova",
+"title": "Love Island SPOILER: The boys strip down in sultry postal-themed in new You've Got Male challenge",
+"description": "Working for the Love Island Postal Service - L.I.P.S - each boy emerges from a delivery van, hops onto a conveyor belt and strips out of their kit before selecting a girl to put in their trolley.",
+"url": "https://www.dailymail.co.uk/tvshowbiz/article-11039529/Love-Island-SPOILER-boys-strip-sultry-postal-themed-new-Youve-Got-Male-challenge.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/15/60579979-0-image-a-96_1658500760983.jpg",
+"publishedAt": "2022-07-22T14:45:00Z",
+"content": "Paige  Thorne\r\nName: Paige Thorne\r\nAge: 24\r\nLocation: Swansea\r\nOccupation: Paramedic\r\nWho is their type on paper? 'In Swansea there is just no-one I can find. \r\n'I haven't got to swipe. So, hopefully… [+3335 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Coolmaterial.com"
+},
+"author": "Amos Kwon",
+"title": "The Best Touring Motorcyles for Road Trips",
+"description": "The summer isn’t over just yet, so there’s still ample time for a road trip… on two wheels. Even with current stratospheric gas prices, there’s still nothing like an open-road motorcycle road trip to escape…\nThe post The Best Touring Motorcyles for Road Trips…",
+"url": "https://coolmaterial.com/rides/best-road-trip-touring-motorcycles/",
+"urlToImage": "https://coolmaterial.com/wp-content/uploads/2022/07/Best-Motorcyles-for-Roadtrips-2.jpg",
+"publishedAt": "2022-07-22T14:44:44Z",
+"content": "The summer isn’t over just yet, so there’s still ample time for a road trip… on two wheels. Even with current stratospheric gas prices, there’s still nothing like an open-road motorcycle road trip to… [+11300 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Johnnyjet.com"
+},
+"author": "Josh Patoka",
+"title": "New Marriott Bonvoy Business Card Benefits + 125K Welcome Bonus",
+"description": "This post contains references to products from one or more of our advertisers. We may receive compensation when you click on links to those products. For an explanation of our...\nThe post New Marriott Bonvoy Business Card Benefits + 125K Welcome Bonus appeare…",
+"url": "https://www.johnnyjet.com/new-marriott-bonvoy-business-card-benefits-125k-bonus/",
+"urlToImage": "https://287rdd4e492u2pyoiu9wz52k-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/marriott_4871101226262424-e1635433224174.jpg",
+"publishedAt": "2022-07-22T14:44:28Z",
+"content": "This post contains references to products from one or more of our advertisers. We may receive compensation when you click on links to those products. For an explanation of our Advertising Disclosure,… [+5189 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Martin Symington",
+"title": "The Dales are a doddle: A Yorkshire walking tour lets others do the heavy lifting on your behalf",
+"description": "The Daily Mail's Martin Symington went on a week-long walk with On Foot Holidays. The trip took him and his wife from Fountains in the east to Austwick in the west.",
+"url": "https://www.dailymail.co.uk/travel/escape/article-11019949/The-Dales-doddle-Yorkshire-walking-tour-lets-heavy-lifting-behalf.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/16/11/60337253-0-image-a-67_1657966999311.jpg",
+"publishedAt": "2022-07-22T14:43:48Z",
+"content": "Our hiking holiday gets off to a mesmerising start. Fountains Abbey, a giant jumble of fragmented arches and the remains of roofless cloisters, stands serenely next to the swirling River Skell in the… [+3624 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Eliza Mcphee",
+"title": "Green Magic Homes fighting to repair reputation in Australia as victim loses $400k to builder",
+"description": "Bushfire victims say they've lost their life savings to a man who promised to build them eco-friendly hobbit-style homes. One woman claims she's still owed.",
+"url": "https://www.dailymail.co.uk/news/article-10936607/Green-Magic-Homes-fighting-repair-reputation-Australia-victim-loses-400k-builder.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/05/60561455-0-image-a-9_1658463331541.jpg",
+"publishedAt": "2022-07-22T14:43:34Z",
+"content": "A reputable building company from the United States that creates 'hobbit' homes of the future is furious and fighting to repair its reputation in Australia after a builder allegedly went rogue and de… [+9640 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Associated Press",
+"title": "Associated Press: U.K. blames France as holiday travelers face hours-long delays",
+"description": "Britons heading off on holiday by ferry, along with truck drivers, faced hours-long waits at the port of Dover on Friday, with authorities blaming French officials for the chaos.",
+"url": "https://www.marketwatch.com/story/u-k-blames-france-as-holiday-travelers-face-hours-long-delays-01658500264",
+"urlToImage": "https://images.mktw.net/im-589097/social",
+"publishedAt": "2022-07-22T14:39:30Z",
+"content": "Britons heading off on holiday by ferry, along with truck drivers, faced hours-long waits at the port of Dover on Friday, with authorities blaming French officials for the chaos.Dover authorities sai… [+2385 chars]"
+},
+{
+"source": {
+"id": "vice-news",
+"name": "Vice News"
+},
+"author": "Deborah Bonello, Michael Learmonth",
+"title": "Mexico’s Most Famous Female Narco Just Got a New Gig: TikTok Influencer",
+"description": "After a lifetime in the shadows, Sandra Ávila Beltrán is turning to social media to trade on her mythical status in Mexican culture.",
+"url": "https://www.vice.com/en/article/wxnd7m/mexico-female-narco-tiktok-influencer",
+"urlToImage": "https://video-images.vice.com/articles/62dab24d59f358009b5fc8c2/lede/1658499921978-sandra-avila-beltran.jpeg?image-resize-opts=Y3JvcD0xeHc6MC44MjgxeGg7MHh3LDAuMDc2N3hoJnJlc2l6ZT0xMjAwOiomcmVzaXplPTEyMDA6Kg",
+"publishedAt": "2022-07-22T14:35:26Z",
+"content": "MEXICO CITY — Sandra Ávila Beltrán is Mexico’s most legendary female drug trafficker. Known as \"Queen of the Pacific,\" she helped connect the fabled Sinaloa cartel with Colombian cocaine providers be… [+4753 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "BGR"
+},
+"author": "Chris Smith",
+"title": "Deadpool 3 MCU announcement might come at SDCC 2022",
+"description": "Comic-Con 2022 (SDCC) is underway in San Diego, with Marvel set to make its big reveals on Saturday, during a panel that will explore the immediate future of the MCU. There’s plenty of things to talk about, given all the rumors about unannounced future MCU pr…",
+"url": "https://bgr.com/entertainment/deadpool-3-mcu-announcement-might-come-at-sdcc-2022/",
+"urlToImage": "https://bgr.com/wp-content/uploads/2021/07/Deadpool-and-Korg-React.jpg?quality=82&strip=all",
+"publishedAt": "2022-07-22T14:35:00Z",
+"content": "Comic-Con 2022 (SDCC) is underway in San Diego, with Marvel set to make its big reveals on Saturday, during a panel that will explore the immediate future of the MCU. There’s plenty of things to talk… [+2854 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Coolmaterial.com"
+},
+"author": "John A. Paradiso",
+"title": "What We’re Buying: Travel-Friendly Suits, AirPods Pro, and More",
+"description": "Every week there are dozens of new and exciting pieces of gear. But are they actually worth buying? Trust the team at Cool Material to help you find the latest and greatest releases in a…\nThe post What We’re Buying: Travel-Friendly Suits, AirPods Pro, and Mor…",
+"url": "https://coolmaterial.com/what-were-buying/what-were-buying-21/",
+"urlToImage": "https://coolmaterial.com/wp-content/uploads/2022/07/Sunglasses-Feature.jpg",
+"publishedAt": "2022-07-22T14:33:20Z",
+"content": "“Fancy designer sunglasses are not for me. I’m in and out of test cars all the time, and I have three little active little kids. But I do need good prescription sunglasses that can handle my progress… [+553 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Page Six"
+},
+"author": "Caroline Blair",
+"title": "Honey Boo Boo, 16, defends age gap with boyfriend Dralin Carswell, 21",
+"description": "The \"Here Comes Honey Boo Boo\" alum and Carswell have been dating since mid-2021 and went Instagram-official in September.",
+"url": "https://pagesix.com/2022/07/22/honey-boo-boo-defends-age-gap-with-boyfriend-dralin-carswell/",
+"urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2022/07/alana-thompson-dralin-carswell-94.jpg?quality=75&strip=all&w=1200",
+"publishedAt": "2022-07-22T14:32:32Z",
+"content": "Alana “Honey Boo Boo” Thompson doesn’t care that people criticize her four-year age gap with her boyfriend, Dralin Carswell.\r\nThe former Toddlers &amp; Tiaras star, 16, said in a new interview that s… [+1959 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Designyoutrust.com"
+},
+"author": "Dmitry",
+"title": "Designer Turns Mundane Life Into Graphic Stories on The Back of Coffee Recipes and Organizes Papers Into Massive Web Archive",
+"description": "Hopes and fears, dreams and travel, happy and mundane life in Japan are the core sources of inspiration for the hand-drawn comics of Chinese-born artist Odding Wang. More: Coffee Receipt Stories h/t: readymag In 2017, his self-doubt and penchant for coffee cu…",
+"url": "https://designyoutrust.com/2022/07/designer-turns-mundane-life-into-graphic-stories-on-the-back-of-coffee-recipes-and-organizes-papers-into-massive-web-archive/",
+"urlToImage": "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2022/07/1111111.jpg?iv=422",
+"publishedAt": "2022-07-22T14:31:52Z",
+"content": "Hopes and fears, dreams and travel, happy and mundane life in Japan are the core sources of inspiration for the hand-drawn comics of Chinese-born artist Odding Wang. \r\nMore: Coffee Receipt Stories h/… [+3640 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Chris Carosa, Senior Contributor, \n Chris Carosa, Senior Contributor\n https://www.forbes.com/sites/chriscarosa/",
+"title": "Should Retirees Be Less Worried About Inflation Than Current Headlines Suggest?",
+"description": "If you’re retired, you might be happy to discover these factors that may insulate you from the ravages of inflation. If you haven’t already, you can make adjustments to take advantage of them.",
+"url": "https://www.forbes.com/sites/chriscarosa/2022/07/22/should-retirees-be-less-worried-about-inflation-than-current-headlines-suggest/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62daafec507be26a47c1ec9e/0x0.jpg?format=jpg&crop=3728,2097,x0,y314,safe&width=1200",
+"publishedAt": "2022-07-22T14:30:50Z",
+"content": "getty\r\nAre you living a comfortable retirement? Do the latest news reports cause you to worry about how ultra-high inflation affects your retirement? Should you proactively adopt strategies to tackle… [+7752 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Euronews"
+},
+"author": "Angela Symons",
+"title": "Airport etiquette: How to avoid being 'that' annoying passenger on a flight",
+"description": "With staff shortages, heatwaves and strikes, airports are chaotic enough right now. Here's how to be a considerate traveller.",
+"url": "https://www.euronews.com/travel/2022/07/22/airport-etiquette-how-to-avoid-being-that-annoying-passenger-on-a-flight",
+"urlToImage": "https://static.euronews.com/articles/stories/06/87/31/42/1000x563_cmsv2_2764d52a-c89a-5858-9b1b-937233735a3e-6873142.jpg",
+"publishedAt": "2022-07-22T14:30:46Z",
+"content": "Staff shortages, heatwaves and strikes have combined for an unruly summer travel season. Airports, in particular, are chaotic enough right now.\r\nThousands of passengers across Europe have faced fligh… [+5034 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Fly4free.com"
+},
+"author": "Giovanni",
+"title": "High Season holidays in Phuket for €452 p.p: flights from Athens + 14-night stay in 4* resort!",
+"description": "Check out this package deal and spend 14  nights in paradisiacal Phuket! The price includes Scoot flights from Athens and accommodation in the well-rated 4* resort for only €452 per person (based on 2 people sharing)",
+"url": "https://www.fly4free.com/flight-deals/europe/holiday-in-phuket-from-athens-e452/",
+"urlToImage": "https://com.f4fcdn.eu/wp-content/uploads/2020/04/NEW_750px_ST_Phuket_Thailand_ph_Day2505-e1612610952970.jpg",
+"publishedAt": "2022-07-22T14:30:31Z",
+"content": "Check out this package deal and spend 14 nights in paradisiacal Phuket! The price includes Scoot flights from Athens and accommodation in the well-rated 4* resort for only 452 per person (based on 2 … [+805 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "John Csiszar",
+"title": "Top Purchases You Should Always Make With a Credit Card",
+"description": "Some financial advisors suggest that consumers should never buy anything with a credit card and should only use cash for purchases. The philosophy behind...",
+"url": "https://finance.yahoo.com/news/top-purchases-always-credit-card-143024265.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/SVursscKYLFg3beJN0mBBA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/uu/api/res/1.2/1PeN9RmRPQEARrTRPIIl_Q--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/gobankingrates_644/12101089ce86672b794185930905bbec",
+"publishedAt": "2022-07-22T14:30:24Z",
+"content": "Some financial advisors suggest that consumers should never buy anything with a credit card and should only use cash for purchases. The philosophy behind this advice does have some merit, but for tho… [+7710 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Science X staff",
+"title": "Supermassive black hole influences star formation",
+"description": "A European team of astronomers led by Professor Kalliopi Dasyra of the National and Kapodistrian University of Athens, Greece, under participation of Dr. Thomas Bisbas, University of Cologne modeled several emission lines in Atacama Large Millimeter Array (AL…",
+"url": "https://phys.org/news/2022-07-supermassive-black-hole-star-formation.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2019/4-blackhole.jpg",
+"publishedAt": "2022-07-22T14:30:03Z",
+"content": "A European team of astronomers led by Professor Kalliopi Dasyra of the National and Kapodistrian University of Athens, Greece, under participation of Dr. Thomas Bisbas, University of Cologne modeled … [+4541 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Jennifer Saibil)",
+"title": "$5,000 Invested in These 3 Stocks Could Make You Rich Over the Next 20 Years",
+"description": "Growth stocks are down now, but over time, they should come back big -- just choose the right ones.",
+"url": "https://www.fool.com/investing/2022/07/22/5000-invested-in-these-3-stocks-could-make-you-ric/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/688607/people-looking-at-samples-in-a-furniture-store.jpg",
+"publishedAt": "2022-07-22T14:30:00Z",
+"content": "For long-term investing, $5,000 is an excellent starting point, and if you have that amount available to put to work for your savings after debts are paid and an emergency fund is set up, you have a … [+5841 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Cnyhomepage.com"
+},
+"author": "Julian Resendiz",
+"title": "Advocates bring closure to families of migrants who died crossing border",
+"description": "As migrants continue to die along the U.S.-Mexico border, members of an Arizona nonprofit are working to bring closure to their families.",
+"url": "https://www.cnyhomepage.com/news/regional-news/advocates-bring-closure-to-families-of-migrants-who-died-crossing-border/",
+"urlToImage": "https://www.cnyhomepage.com/wp-content/uploads/sites/6/2022/07/GettyImages-617793868.jpg?w=1280",
+"publishedAt": "2022-07-22T14:26:28Z",
+"content": "Colibri Center experts use forensic, language and cultural skills in helping authorities identify remains found in the desertTUCSON, Arizona (Border Report) As migrants continue to die along the U.S.… [+6477 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "CBS Sports"
+},
+"author": "CBS Sports Staff",
+"title": "Cardinals vs. Reds odds, prediction, line: 2022 MLB picks, Friday, July 22 best bets from proven model",
+"description": "SportsLine simulated Cincinnati Reds vs. St. Louis Cardinals featuring Paul Goldschmidt, Albert Pujols and Joey Votto 10,000 times",
+"url": "https://www.cbssports.com/mlb/news/cardinals-vs-reds-odds-prediction-line-2022-mlb-picks-friday-july-22-best-bets-from-proven-model/",
+"urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/07/22/22dcf9d8-e756-47ec-a580-47db333be29e/thumbnail/1200x675/2fde45cb2d33f56c81b82b20ad1fde89/paul-goldschmidt-cardinals.jpg",
+"publishedAt": "2022-07-22T14:23:47Z",
+"content": "The St. Louis Cardinals (50-44) travel to Great American Ball Park to play the Cincinnati Reds (34-57) in the first matchup of a three-game series on Friday evening. The Cardinals rolled into the All… [+3490 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Guardian"
+},
+"author": "Sally Weale Education correspondent",
+"title": "Scottish universities offer cash incentives to lure other UK students",
+"description": "Scholarships and bursaries on offer as universities gear up for ‘clearing campaign like no other’Universities in Scotland are racing to attract students from the rest of the UK in what promises to be “a clearing campaign like no other”, offering a range of fi…",
+"url": "https://amp.theguardian.com/education/2022/jul/22/scottish-universities-offer-cash-incentives-to-lure-other-uk-students",
+"urlToImage": "https://i.guim.co.uk/img/media/4bf5196b6c7919dc4708c7b02dc893cc7b209b38/0_87_5273_3165/master/5273.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f589335f507ae9dda02a12e9b58b3699",
+"publishedAt": "2022-07-22T14:20:16Z",
+"content": "Universities in Scotland are racing to attract students from the rest of the UK in what promises to be a clearing campaign like no other, offering a range of financial incentives to lure them to stud… [+4411 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "The Inspector",
+"title": "'This place does the pub industry proud': The Mail's Inspector reviews Norfolk's The Brisley Bell",
+"description": "The Brisley Bell, near Dereham in North Norfolk, was in a terrible state six years ago, the Inspector reveals, before Marcus and Amelia bought it and embarked on a major transformation.",
+"url": "https://www.dailymail.co.uk/travel/escape/article-11019937/This-place-does-pub-industry-proud-Mails-Inspector-reviews-Norfolks-Brisley-Bell.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/15/60579317-0-image-a-2_1658499392557.jpg",
+"publishedAt": "2022-07-22T14:19:40Z",
+"content": "Hardly a day goes by without stories of pubs shutting down for good.\r\nLast week, Tim Martin, boss of Wetherspoons of which there are around 900 in the UK gave a bleak assessment and called on the Gov… [+2740 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Milesforfamily.com"
+},
+"author": "Miles For Family",
+"title": "Best Rows for Families on Southwest Airlines, Award Redemptions from the Good Old Days and More",
+"description": "Best Rows for Families on Southwest Airlines: I saw this post from Katie’s Travel Kicks on Instagram earlier this week, and it makes sense. See what I’m talking about in this article from Travel+Leisure. 10 Things You Do on Vacation That You Don’t Do at Home:…",
+"url": "https://milesforfamily.com/2022/07/22/best-rows-for-families-on-southwest-airlines-award-redemptions-from-the-good-old-days-and-more/",
+"urlToImage": "https://milesforfamily.com/wp-content/uploads/2022/07/andrey-andreyev-dh8ONmfQyQQ-unsplash-1-1024x672.jpg",
+"publishedAt": "2022-07-22T14:18:45Z",
+"content": "Best Rows for Families on Southwest Airlines: I saw this post from Katie’s Travel Kicks on Instagram earlier this week, and it makes sense. See what I’m talking about in this article from Travel+Leis… [+786 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Greater Greater Washington"
+},
+"author": "Kristen Jeffers (Editorial Board Alum)",
+"title": "Breakfast links: VDOT solicits vendors for AI pilot in NoVA that predicts traffic disruptions",
+"description": "VDOT solicits vendors for AI pilot that predicts traffic disruptions\nThe Virginia Department of Transportation (VDOT) is seeking vendors to help it build an artificial intelligence platform to aid the agency in using prior and current traffic conditions to pr…",
+"url": "https://ggwash.org/view/86036/breakfast-links-vdot-soliciting-vendor-for-nova-fredericksburg-pilot-to-use-ai-to-predict-traffic-disruptions",
+"urlToImage": "https://ggwash.org/images/posts/_resized/49465097676_7763d12c44_c_%281%29.jpg",
+"publishedAt": "2022-07-22T14:18:00Z",
+"content": "The 511 mobile app will be one source of information for the VDOT pilot AI interface by Tom Saunders, VDOT licensed under Creative Commons.\r\nHave a tip for the links? Submit it here.\r\nContinue the co… [+126 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Globalresearch.ca"
+},
+"author": "Dr. Naomi Wolf",
+"title": "Facing the Beast. Can We Really Confront the Biggest Crime in Human History?",
+"description": "All Global Research articles can be read in 51 languages by activating the “Translate Website” drop down menu on the top banner of our home page (Desktop version). To receive Global Research’s Daily Newsletter (selected articles), click here. Follow us on Ins…",
+"url": "https://www.globalresearch.ca/facing-beast-can-we-really-confront-biggest-crime-human-history/5787541",
+"urlToImage": "https://www.globalresearch.ca/wp-content/uploads/2021/04/breakthrough-cases-covid-vaccine-feature-800x417.jpg",
+"publishedAt": "2022-07-22T14:14:50Z",
+"content": "All Global Research articles can be read in 51 languages by activating the Translate Website drop down menu on the top banner of our home page (Desktop version).\r\nTo receive Global Researchs Daily Ne… [+23058 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Melhoresdestinos.com.br"
+},
+"author": "Leonardo Cassol",
+"title": "Últimos dias! Seguro Viagem Allianz com cupom exclusivo 60% OFF e cobertura para covid",
+"description": "Ainda dá tempo de aproveitar o maior desconto do ano no seguro viagem da Allianz Travel, com nosso cupom 60% OFF. Ele é válido para todos os destinos e planos e ainda permite parcelar em até 6 vezes sem juros. Para aproveitar, basta acessar o site da promoção…",
+"url": "https://www.melhoresdestinos.com.br/promocao/seguro-viagem-allianz-julho-2022",
+"urlToImage": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/07/seguro-viagem-14-anos-capa-02.jpg",
+"publishedAt": "2022-07-22T14:13:56Z",
+"content": "Ainda dá tempo de aproveitar o maior desconto do ano no seguro viagem da Allianz Travel, com nosso cupom 60% OFF. Ele é válido para todos os destinos e planos e ainda permite parcelar em até 6 vezes … [+2700 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Bob Yirka",
+"title": "Astronomer suggests it is time to look for near-Earth asteroids in the direction of the sun",
+"description": "Scott Sheppard, an astronomer with the Institute of Astronomy at the University of Hawaii, has published a Perspective piece in the journal Science suggesting that it is time for the space science community to take a closer look at near-Earth objects (NEOs) t…",
+"url": "https://phys.org/news/2022-07-astronomer-near-earth-asteroids-sun.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2019/3-asteroid.jpg",
+"publishedAt": "2022-07-22T14:12:29Z",
+"content": "Scott Sheppard, an astronomer with the Institute of Astronomy at the University of Hawaii, has published a Perspective piece in the journal Science suggesting that it is time for the space science co… [+2384 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "City A.M."
+},
+"author": "Ilaria Grasso Macola",
+"title": "French border police blames ‘unexpected’ incident for Dover bottlenecks",
+"description": "The French border police has blamed an “unexpected technical” incident for the hour-long bottlenecks at the port of Dover. Authorities said they will work closely with the UK counterparts to handle surging traffic levels. The remarks come after the Port of Do…",
+"url": "https://www.cityam.com/french-border-police-blames-unexpected-incident-for-dover-bottlenecks/",
+"urlToImage": "https://www.cityam.com/wp-content/uploads/2022/07/FYRVwtPXgAAX8RN-e1658493966118.jpeg",
+"publishedAt": "2022-07-22T14:12:00Z",
+"content": "Friday 22 July 2022 3:12 pm\r\nDover is doing “all it can” to manage the disruption, port authorities said. (Photo/ Rob B via Twitter)\r\nThe French border police has blamed an “unexpected technical” inc… [+3513 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Bikerumor.com"
+},
+"author": "editor@bikerumor.com (Bikerumor.com / Tyler Benedict)",
+"title": "Lezyne permanently fixes your tubeless tires, tracks bikes & packs a proper pump for travel",
+"description": "The biggest thing Lezyne had to show us was actually quite small, this simple little Tubeless Pro Plug. While they had plenty more new tools, a new travel floor pump that looked super functional, and even the neatest Airtag integration I’ve seen yet, it was t…",
+"url": "https://bikerumor.com/lezyne-2022-eurobike-tubeless-tire-repair-airtag-trackers-new-pumps/",
+"urlToImage": "https://s3.amazonaws.com/www.bikerumor.com/wp-content/uploads/2022/07/22082933/Lezyne-Tubeless-Pro-Plugs-fix-damaged-tires.jpg",
+"publishedAt": "2022-07-22T14:08:31Z",
+"content": "The biggest thing Lezyne had to show us was actually quite small, this simple little Tubeless Pro Plug. While they had plenty more new tools, a new travel floor pump that looked super functional, and… [+9161 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Wall-street.ro"
+},
+"author": "office@wall-street.ro (Redactia Wall-Street)",
+"title": "Christmas in July: reduceri masive pentru vacanțe în destinații mai puțin vizitate de români",
+"description": "DAL Travel lansează o nouă ofertă promoțională de reduceri, similară ofertelor tip „Black Friday” sau de Crăciun, și anume ”Christmas in July”. Reducerile sunt de până la 150 euro/persoană, iar Peru, Islanda, Alsacia și Lorena, Pakistanul de Nord,...",
+"url": "https://www.wall-street.ro/articol/Turism/287863/christmas-in-july-reduceri-masive-pentru-vacante-in-destinatii-mai-putin-vizitate-de-romani.html",
+"urlToImage": "https://www.wall-street.ro/article_pictures/287863_articol.jpg?v=1658498417",
+"publishedAt": "2022-07-22T14:07:25Z",
+"content": "DAL Travel lanseaz o nou ofert promoional de reduceri, similar ofertelor tip Black Friday sau de Crciun, i anume Christmas in July. Reducerile sunt de pân la 150 euro/persoan, iar Peru, Islanda, Alsa… [+2043 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Milestomemories.com"
+},
+"author": "Mark Ostermann",
+"title": "Paceline Credit Card Shutdown, Secret French Coast That Is Nicer Than Nice & Hulu Is Actually Disney’s Crown Jewel Of Streaming",
+"description": "My latest edition of articles from around the web. Around the web is collection of articles that I found interesting that are travel related.\nThe post Paceline Credit Card Shutdown, Secret French Coast That Is Nicer Than Nice & Hulu Is Actually Disney’s Crown…",
+"url": "https://milestomemories.com/around-the-web-884/",
+"urlToImage": "https://milestomemories.com/wp-content/uploads/2021/10/Around-the-Web.jpg",
+"publishedAt": "2022-07-22T14:07:00Z",
+"content": "Advertiser Disclosure  -  Terms of Use  -  Privacy Policy\r\nDisclaimer - Miles to Memories &amp; the author are not credit providers and do not provide personal financial or professional advice or cre… [+844 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Cheryl Winokur Munk",
+"title": "What to know about the financial risks of becoming your own boss",
+"description": "While starting your own business and becoming your own boss is intriguing, there are several important financial considerations.",
+"url": "https://www.cnbc.com/2022/07/22/what-to-know-about-the-financial-risks-of-becoming-your-own-boss.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107053852-1651258391864-gettyimages-1323708768-amv-bcn2021vanesloft2585.jpeg?v=1651258426&w=1920&h=1080",
+"publishedAt": "2022-07-22T14:06:51Z",
+"content": "Amid the \"Great Resignation,\" many people continue to relish the idea of being their own boss. While autonomy and flexibility can be alluring, there are also important financial considerations.\r\nThis… [+5500 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viewfromthewing.com"
+},
+"author": "Gary Leff",
+"title": "American Airlines Loses Money Flying Passengers, Profit Comes From Selling Miles",
+"description": "The top line message from the American Airlines second quarter was record revenue and a return to profitability. But their financial statements actually show that flying planes from one place to another, and selling tickets, doesn't generate profit for Americ…",
+"url": "https://viewfromthewing.com/american-airlines-loses-money-flying-passengers-all-profit-comes-from-selling-miles/",
+"urlToImage": "https://viewfromthewing.com/wp-content/uploads/2020/03/american-airlines-effects.jpg",
+"publishedAt": "2022-07-22T14:04:40Z",
+"content": "American Airlines filed its second quarter financials with the SEC, and while their 10-K is dense at 156 pages, it contains a lot of fascinating and underreported data. \r\nThe top line message from th… [+2925 chars]"
+},
+
+{
+"source": {
+"id": "newsweek",
+"name": "Newsweek"
+},
+"author": "Leonie Helm",
+"title": "'Cheapskate' Couple's Rant Over Excessive Tip Culture in the U.S. Dragged",
+"description": "A post on Reddit about tipping in America has got people sharing their hilarious stories of outrageous tip requests.",
+"url": "https://www.newsweek.com/has-tipping-america-got-out-control-1727042",
+"urlToImage": "https://d.newsweek.com/en/full/2083062/tipping-culture.jpg",
+"publishedAt": "2022-07-22T14:04:07Z",
+"content": "A post on Reddit has got people sharing their sometimes hilarious experiences of when they have been asked if they would like to leave a tip.\r\nThe post, \"Tipping in USA is getting way out of hand,\" b… [+4111 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Boardingarea.com"
+},
+"author": "Brian Cohen",
+"title": "Flight 93 Heroes Gala Fundraiser 2022 For The Jason Dahl Scholarship Fund",
+"description": "The annual charity event to raise funds for the Jason Dahl Scholarship Fund known as the Flight 93 Heroes Gala will occur this year at the Gaylord Rockies Resort & Convention Center in Aurora in Colorado on the evening of Saturday, August 20, 2022 — almost 21…",
+"url": "https://thegate.boardingarea.com/flight-93-heroes-gala-fundraiser-2022-for-the-jason-dahl-scholarship-fund/",
+"urlToImage": "https://thegate.boardingarea.com/wp-content/uploads/2016/04/IMG_1471.jpg",
+"publishedAt": "2022-07-22T14:03:10Z",
+"content": "The annual charity event to raise funds for the Jason Dahl Scholarship Fund known as the Flight 93 Heroes Gala will occur this year at the Gaylord Rockies Resort &amp; Convention Center in Aurora in … [+3460 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Granta.com"
+},
+"author": "Lucy Diver",
+"title": "Another Patagonia",
+"description": "‘From the sloth skin onwards, In Patagonia is built around scraps and surfaces.’ \nLouis Rogers on travelling in Bruce Chatwin’s footsteps. \nThe post Another Patagonia appeared first on Granta.",
+"url": "https://granta.com/another-patagonia-bruce-chatwin/",
+"urlToImage": "https://granta.com/wp-content/uploads/2022/07/Louis-Rogers-Patagonia-1280x339.jpg",
+"publishedAt": "2022-07-22T14:02:53Z",
+"content": "Bruce Chatwin begins his book about travelling to Patagonia with the ostensive reason for his trip. It is esoteric, personal, verging on the fetishistic: a scrap of giant sloth skin, brought back fro… [+22811 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Laurence Dollimore",
+"title": "Passport Office is blasted for suspending emergency phone line for MPs due to the heat",
+"description": "During a grilling at a Home Affairs Committee on Wednesday, director Thomas Greig admitted that the service had 'not been open on Tuesday.'",
+"url": "https://www.dailymail.co.uk/news/article-11039195/Passport-Office-blasted-suspending-emergency-phone-line-MPs-heat.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/13/60576683-0-image-a-42_1658494468118.jpg",
+"publishedAt": "2022-07-22T14:02:21Z",
+"content": "HM Passport Office has been blasted for suspending its emergency MP hotline this week because staff complained it was too hot - despite the department facing a backlog of more than half a million app… [+28878 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Us Weekly"
+},
+"author": "Yana Grebenyuk",
+"title": "Scheana Shay and Brock Davies' Wedding: Everything We Know So Far",
+"description": "Happily ever after! Ahead of their wedding, Scheana Shay and Brock Davies have teased their big plans for the special day. Viewers saw the reality TV couple get engaged during season 9 of Vanderpump Rules. At the time, Scheana and Brock’s milestone moment bec…",
+"url": "https://www.usmagazine.com/celebrity-news/pictures/scheana-shay-and-brock-davies-wedding-everything-we-know-so-far/",
+"urlToImage": "https://i0.wp.com/www.usmagazine.com/wp-content/uploads/2022/07/Everything-We-Know-So-Far-About-Scheana-Shay-Brock-Davies-Wedding-0002.png?crop=0px%2C30px%2C682px%2C358px&resize=1200%2C630&ssl=1&quality=86&strip=all",
+"publishedAt": "2022-07-22T14:00:40Z",
+"content": "Happily ever after! Ahead of their wedding, Scheana Shay and Brock Davies have teased their big plans for the special day.\r\nViewers saw the reality TV couple get engaged during season 9 of Vanderpump… [+2399 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NBCSports.com"
+},
+"author": "Joe Prince-Wright",
+"title": "Chelsea transfer news, live! Latest reports, rumors, updates",
+"description": "After the takeover of the club was finally completed the Chelsea transfer news has gone into overdrive as Thomas Tuchel aims to reshape his squad this summer.",
+"url": "https://soccer.nbcsports.com/2022/07/22/chelsea-transfer-news-latest-reports-rumors-updates-july-22/",
+"urlToImage": "https://soccer.nbcsports.com/wp-content/uploads/sites/14/2022/07/GettyImages-1241292061-e1658244793929.jpg",
+"publishedAt": "2022-07-22T14:00:38Z",
+"content": "After the takeover of the west London club was finally completed the Chelsea transfer news has gone into overdrive as Thomas Tuchel aims to reshape his squad this summer.\r\n[ VIDEO: Premier League ana… [+45547 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NBCSports.com"
+},
+"author": "Joe Prince-Wright",
+"title": "Premier League transfer news live, today! Latest updates on the summer window",
+"description": "We are set for a very busy summer of transfer activity, as the latest transfer news keeps flooding in and plenty of big names are expected to be on the move in the coming months.",
+"url": "https://soccer.nbcsports.com/2022/07/22/transfer-news-live-today-updates-reports-latest-july-22/",
+"urlToImage": "https://soccer.nbcsports.com/wp-content/uploads/sites/14/2022/07/GettyImages-1241123750.jpg",
+"publishedAt": "2022-07-22T14:00:32Z",
+"content": "We are all set for a very busy summer of transfer activity, as the latest transfer news keeps flooding in and plenty of big names are expected to be on the move in the coming months.\r\n[ VIDEO: Premie… [+150172 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "tor.com"
+},
+"author": "Molly Templeton",
+"title": "Becky Chambers’ Books Give Us Permission to Be Human",
+"description": "Like many people, I played a lot of Animal Crossing: New Horizons in 2020. Eventually, though, I walked away from my island, with its carefully terraformed ponds and a half-built castle and an entire rainbow of flowers. I have no desire to go back. It’s so mu…",
+"url": "https://www.tor.com/2022/07/22/becky-chambers-books-give-us-permission-to-be-human/",
+"urlToImage": "https://i0.wp.com/www.tor.com/wp-content/uploads/2022/07/Crown-Shy-crop.jpg?fit=1200%2C+9999&crop=0%2C0%2C100%2C700px&quality=100&ssl=1",
+"publishedAt": "2022-07-22T14:00:27Z",
+"content": "Like many people, I played a lot of Animal Crossing: New Horizons in 2020. Eventually, though, I walked away from my island, with its carefully terraformed ponds and a half-built castle and an entire… [+11223 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "Olectra to supply 300 electric buses worth Rs 500 crore to Telangana",
+"description": "Olectra Greentech Ltd (OLECTRA) will supply 300 electric buses worth Rs 500 crore to Telangana State Road Transport Corporation (TSRTC).\nThe Megha Engineering & Infrastructure Ltd (MEIL) group company, Evey Trans Private Ltd (EVEY), has received the Letter of…",
+"url": "https://www.business-standard.com/article/companies/olectra-to-supply-300-electric-buses-worth-rs-500-crore-to-telangana-122072200933_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-05/29/full/1653842390-2254.jpg",
+"publishedAt": "2022-07-22T13:59:00Z",
+"content": "Olectra Greentech Ltd (OLECTRA) will supply 300 electric buses worth Rs 500 crore to Telangana State Road Transport Corporation (TSRTC).\r\nThe Megha Engineering &amp; Infrastructure Ltd (MEIL) group c… [+3853 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Nakedcapitalism.com"
+},
+"author": "Yves Smith",
+"title": "More Monkeypox Vaccines Are Coming to NYC. Should You Get Vaccinated — And How?",
+"description": "\"Your guide to all things monkeypox — from symptoms to where to get vaccinated in the city.\"",
+"url": "https://www.nakedcapitalism.com/2022/07/more-monkeypox-vaccines-are-coming-to-nyc-should-you-get-vaccinated-and-how.html",
+"urlToImage": "https://www.nakedcapitalism.com/wp-content/uploads/2022/07/00-monkeypox.jpg",
+"publishedAt": "2022-07-22T13:55:14Z",
+"content": "Yves here. This post is instructive, but not in a good way. Keep in mind that despite the scary spectacle of New York City hospitals overloaded with Covid patients in March 2020, that was not the fau… [+10025 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Fark.com"
+},
+"author": null,
+"title": "Gas prices may rise based on the knowledge that gas prices can only either go up, down, or stay the same, and we need clicks [Spiffy]",
+"description": "Gas prices may rise based on the knowledge that gas prices can only either go up, down, or stay the same, and we need clicks",
+"url": "https://www.fark.com/comments/12476704/Gas-prices-may-rise-based-on-knowledge-that-gas-prices-can-only-either-go-up-down-stay-same-we-need-clicks",
+"urlToImage": "https://usrimg-full.fark.net/C/Cy/fark_Cy_yjK63veGFGaZZMynbqMWfI9E.jpg?AWSAccessKeyId=HBAYEKZHGUB4NAYQBVSQ&Expires=1658721600&Signature=08cmDFYoGTDCfoTAH6c9qZ80gIQ%3D",
+"publishedAt": "2022-07-22T13:55:00Z",
+"content": "Dafatone:Rapmaster2000: It's 50 to 60 cents cheaper than it was a month ago.\r\nBut it's not like that matters.  Everyone is telling me gas is the most expensive ever, but traffic is as bad as ever so … [+806 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNET"
+},
+"author": "Robin Mosley",
+"title": "Save Up to 50% Off on Clothing Made for The Great Outdoors at Roots - CNET",
+"description": "With this summer sale at Roots, you'll look good during every adventure by the lake.",
+"url": "https://www.cnet.com/deals/save-up-to-50-off-on-clothing-made-for-the-great-outdoors-at-roots/",
+"urlToImage": "https://www.cnet.com/a/img/resize/fe60d0a3c71f11d5082860446ef65f765278c88b/2022/07/22/df350177-328d-4c92-90e1-3a6d82f18cb5/roots-1.png?auto=webp&fit=crop&height=630&width=1200",
+"publishedAt": "2022-07-22T13:55:00Z",
+"content": "We all know there's specialty gear for camping, hiking, surfing and more, but sometimes we need casual clothing that makes us look and feel good when we're not out and about doing an activity. For th… [+1448 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Kari Molvar, Forbes Staff, \n Kari Molvar, Forbes Staff\n https://www.forbes.com/sites/forbes-personal-shopper/people/kari-molvar/",
+"title": "13 Of The Most Comfortable Sandals For Women To Wear In 2022",
+"description": "What makes a sandal stylish is often a matter of taste and opinion. Comfort, however, comes down to specific criteria. Here are the best expert-tested options to shop right now.",
+"url": "https://www.forbes.com/sites/forbes-personal-shopper/2022/07/22/most-comfortable-sandals-for-women/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62a0d0897953ca095ff0076c/0x0.jpg?format=jpg&crop=1536,864,x0,y703,safe&width=1200",
+"publishedAt": "2022-07-22T13:54:12Z",
+"content": "What makes a sandal stylish is often a matter of taste and opinion. Comfort, however, comes down to specific criteria. Materials, construction, flexibility and breathability are some of the factors t… [+10569 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Kenzi Devine",
+"title": "Love Island SPOILER: The hideaway is open! Indiyah and Dami head for a steamy night",
+"description": "Indiyah Polack and Dami Hope are set to enjoy some alone time during Friday evening's episode as the hideaway opens it's doors.",
+"url": "https://www.dailymail.co.uk/tvshowbiz/article-11039541/Love-Island-SPOILER-hideaway-open-Indiyah-Dami-head-steamy-night.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/14/60578501-0-image-a-7_1658498308867.jpg",
+"publishedAt": "2022-07-22T13:51:03Z",
+"content": "Paige  Thorne\r\nName: Paige Thorne\r\nAge: 24\r\nLocation: Swansea\r\nOccupation: Paramedic\r\nWho is their type on paper? 'In Swansea there is just no-one I can find. \r\n'I haven't got to swipe. So, hopefully… [+3335 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Christina Cheddar Berk, Robert Hum",
+"title": "Travel spending is back, and it's not just consumers, American Express earnings show",
+"description": "American Express said travel and entertainment spending topped pre-pandemic levels in April and it wasn't just consumers spending money.",
+"url": "https://www.cnbc.com/2022/07/22/american-express-earnings-reveal-a-bounce-back-in-corporate-travel.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107092744-1658494284657-gettyimages-1408040944-1007_48_rdl040622-37.jpeg?v=1658494337&w=1920&h=1080",
+"publishedAt": "2022-07-22T13:51:00Z",
+"content": "Spending on travel and entertainment came roaring back in the second quarter, and it wasn't just consumers making the purchases, according to the latest results from American Express.\r\nThe company sa… [+1902 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Independent.ie"
+},
+"author": null,
+"title": "Swedish student cycling from Stockholm to attend college at ATU Sligo",
+"description": "A Swedish environmental student is cycling from Stockholm in Sweden to Sligo in Ireland, to attend a Summer University course at ATU Sligo on the 9th of August. Jonathan Welén has chosen to cycle the 2,700 km journey, to raise awareness of climate change and …",
+"url": "https://www.independent.ie/regionals/sligochampion/news/swedish-student-cycling-from-stockholm-to-attend-college-at-atu-sligo-41860595.html",
+"urlToImage": "https://www.independent.ie/regionals/sligochampion/news/c49a4/41860594.ece/AUTOCROP/w1240h700/IMG_5926%201.jpg",
+"publishedAt": "2022-07-22T13:50:41Z",
+"content": "A Swedish environmental student is cycling from Stockholm in Sweden to Sligo in Ireland, to attend a Summer University course at ATU Sligo on the 9th of August. Jonathan Welén has chosen to cycle the… [+1531 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Vox"
+},
+"author": "Benji Jones",
+"title": "Beavers are heat wave heroes",
+"description": "Heat waves, fueled by climate change, are tough on wild animals, too. Lucky for them, they have beavers, which help cool the water and air.",
+"url": "https://www.vox.com/down-to-earth/23273240/heat-wave-beavers-climate-change",
+"urlToImage": "https://cdn.vox-cdn.com/thumbor/gm8IB_sln6FnD29pdHNl3gmrTNg=/0x420:4000x2514/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23892559/GettyImages_1160279312.jpg",
+"publishedAt": "2022-07-22T13:50:00Z",
+"content": "A North American beaver seen in Wyoming. | Troy Harrison/Getty Images\r\n\n \n\n Animals don’t have AC. But they have beavers. During an intense heat wave, humans have a number of tools to stay cool, such… [+6172 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Seeking Alpha"
+},
+"author": "Kevin P. Curran",
+"title": "Gentex shares tumble on earnings miss, margin compression",
+"description": "Gentex Corporation (GNTX) stock slid sharply on Friday after posting a disappointing earnings report prior to the market open.",
+"url": "https://seekingalpha.com/news/3859639-gentex-shares-tumble-on-earnings-miss-margin-compression",
+"urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1285181845/image_1285181845.jpg?io=getty-c-w750",
+"publishedAt": "2022-07-22T13:49:55Z",
+"content": "Kwangmoozaa/iStock via Getty Images\r\nGentex Corporation (NASDAQ:GNTX) stock slid sharply on Friday after posting a disappointing earnings report prior to the market open.\r\nFor the second quarter, the… [+1922 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "វីអូអេ - VOA Khmer"
+},
+"author": "khmerservicevoa@gmail.com (Agence France-Presse)",
+"title": "US Citizen Detained in Myanmar: Embassy",
+"description": "An American citizen is being wrongfully detained in junta-ruled Myanmar, a US embassy spokesperson told AFP on Friday.\n\n\"We are aware of the wrongful detention of a US citizen in Burma,\" the spokesperson told AFP, using the country's former name.\n\nThe US has …",
+"url": "https://www.voacambodia.com/a/us-citizen-detained-in-myanmar-embassy/6669663.html",
+"urlToImage": "https://gdb.voanews.com/02210000-0aff-0242-5f7e-08da26a8f564_w1200_r1.jpg",
+"publishedAt": "2022-07-22T13:49:50Z",
+"content": "Yangon  An American citizen is being wrongfully detained in junta-ruled Myanmar, a US embassy spokesperson told AFP on Friday.\r\n\"We are aware of the wrongful detention of a US citizen in Burma,\" the … [+1962 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Codie Bullen",
+"title": "Love Island SPOILER: Ekin-Su and Nathalia's feud continues as they battle for Davide's affection",
+"description": "Love Island's Ekin-Su and Nathalia's fued continues as they battle for Davide's affection in Friday night's episode before a shock recoupling rocks the villa.",
+"url": "https://www.dailymail.co.uk/tvshowbiz/article-11039421/Love-Island-SPOILER-Ekin-Su-Nathalias-feud-continues-battle-Davides-affection.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/14/60577447-0-image-a-12_1658496986685.jpg",
+"publishedAt": "2022-07-22T13:46:34Z",
+"content": "Paige  Thorne\r\nName: Paige Thorne\r\nAge: 24\r\nLocation: Swansea\r\nOccupation: Paramedic\r\nWho is their type on paper? 'In Swansea there is just no-one I can find. \r\n'I haven't got to swipe. So, hopefully… [+3335 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Fly4free.com"
+},
+"author": "Giovanni",
+"title": "Until May 2023! Cheap flights from New York & Chicago to Warsaw, Poland from only $373!",
+"description": "Discover Poland! Book cheap flights from New York EWR and Chicago to Warsaw starting at only $373 for a round trip with TAP!",
+"url": "https://www.fly4free.com/flight-deals/usa/flights-from-usa-to-poland/",
+"urlToImage": "https://com.f4fcdn.eu/wp-content/uploads/2022/04/NEW_750px_Warsaw_Poland-ST.jpg",
+"publishedAt": "2022-07-22T13:45:48Z",
+"content": "Discover Poland! Book cheap flights from New York EWR and Chicago to Warsaw starting at only $373 for a round trip with TAP!Stunning sandy coast, mountains and lakes, 15 UNESCO World Heritage Sites, … [+1320 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "tomandlorenzo.com"
+},
+"author": "Lorenzo Marquez",
+"title": "T LOunge for July 22nd, 2022",
+"description": "Ark Bar, Restaurant and Cafe – Glyfada, South Athens, Greece   It’s all waiting for you. Because it’s FRIDAY and because you’ve earned it. Pick a view and make it yours for the day, kittens.   Christian Bérard Helped Shape Fashion History—The Artist Finally G…",
+"url": "https://tomandlorenzo.com/2022/07/t-lounge-for-july-22nd-2022/",
+"urlToImage": "https://tomandlorenzo.com/wp-content/uploads/2022/07/Bars-Restaurants-Cafes-Lounges-7-22-2022-Tom-Lorenzo-Site-1.jpg",
+"publishedAt": "2022-07-22T13:45:28Z",
+"content": "Ark Bar, Restaurant and Cafe – Glyfada, South Athens, Greece\r\nIt’s all waiting for you. Because it’s FRIDAY and because you’ve earned it. Pick a view and make it yours for the day, kittens.\r\nChristia… [+16010 chars]"
+}
+
+]
+</script>
+<script>
+        let art = document.querySelector("#travel");
+      travel.forEach(function (el) {
+        let div = document.createElement("div");
+        let imgage = document.createElement("img");
+        imgage.src = el.urlToImage;
+        let h2 = document.createElement("h2");
+        h2.innerText = el.title;
+        let para = document.createElement("p");
+        para.innerText = el.description;
+        let anc = document.createElement("a");
+        anc.href = el.url;
+        art.append(div);
+        div.append(imgage,para);
+      });
+</script>

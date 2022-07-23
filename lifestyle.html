@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+    #lifestyles{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#lifestyles img {
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+#lifestyles div{
+    display:flex;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+    border-radius: 10px;
+    /* height: 160px; */
+    overflow: auto;
+    text-overflow: ellipsis;
+    text-align:justify;
+    
+}
+#lifestyles p{
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+}
+#lifestyles p:hover{
+    color: blue;
+    cursor: pointer;
+    /* padding: 25px; */
+    font-size: 25px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div  style="background-color: rgb(233, 233, 12);">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div >
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>Lifestyle News</h1>
+        <div id="lifestyles"></div>
+        
+      </div>
+      <div> <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <hr>
+       <div id="trend-news">
+        <div >
+           <a href="health.html">
+            <p>HEALTH</p></a>
+        </div>
+        <div>
+            <a href="tech.html">
+            <p>TECHNOLOGY</p></a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+    <hr>
+    <div id="science"></div>
+      </div>
+     
+    </div>
+    </div>
+    </div>
+   
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+    let lifestyle = [
+{
+"source": {
+"id": null,
+"name": "Page Six"
+},
+"author": "Sara Nathan",
+"title": "Meghan Markle wanted to be like Ivanka Trump: ‘Beautiful, intelligent, she does it all’",
+"description": "Meghan Markle fan-girled over former First Daughter Ivanka Trump before embarking on royal life, a new book reports.",
+"url": "https://pagesix.com/2022/07/22/meghan-markle-wanted-to-be-ivanka-trump-she-does-it-all/",
+"urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2022/07/markle-ivanka.jpg?quality=75&strip=all&w=1200",
+"publishedAt": "2022-07-22T15:18:06Z",
+"content": "Meghan Markle fan-girled over former First Daughter Ivanka Trump before embarking on royal life, a new book reports.\r\nThe Duchess of Sussex interviewed Ivanka for her now-defunct blog The Tig back in… [+2521 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Darryn King, Contributor, \n Darryn King, Contributor\n https://www.forbes.com/sites/darrynking/",
+"title": "Let’s Get Loud: Men’s Shirts For Fancy Fellows And Fun Lovers",
+"description": "Men's shirts for those particularly unafraid to wear their passions on their sleeves.",
+"url": "https://www.forbes.com/sites/darrynking/2022/07/22/lets-get-loud-mens-shirts-for-fancy-fellows-and-fun-lovers/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62dabbc4e2e7ad618439dc4a/0x0.jpg?format=jpg&crop=720,337,x0,y0,safe&width=1200",
+"publishedAt": "2022-07-22T15:12:41Z",
+"content": "In Part Two of our exploration of the latest and most inspired in mens shirts, we highlight brands for those particularly unafraid to wear their passions on their sleeves (and sometimes their shorts)… [+6521 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Stephen Johnson",
+"title": "How much superannuation you need to retire on and the lifestyle Barefoot Investor's advice would buy",
+"description": "Australians can retire with a lot less than what the superannuation industry is recommending - if they are prepared to forgo a flashy new car and regular overseas holidays.",
+"url": "https://www.dailymail.co.uk/news/article-11033739/How-superannuation-need-retire-lifestyle-Barefoot-Investors-advice-buy.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/21/06/60521139-0-image-a-29_1658382999128.jpg",
+"publishedAt": "2022-07-22T15:05:59Z",
+"content": "Australians can retire with a lot less than what the superannuation industry is recommending - if they are prepared to forgo a flashy new car and regular overseas holidays.\r\nFinancial advice author S… [+4634 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Emily Craig",
+"title": "Overweight mother, 52, lost SEVEN stone by listening to a mindfulness tape while she SLEPT",
+"description": "EXCLUSIVE: Rachael Buckett, from Inverness, was approaching her 50 but felt like she was three decades older at 19 stone, as she struggled with every movement.",
+"url": "https://www.dailymail.co.uk/health/article-11014969/Overweight-mother-52-lost-SEVEN-stone-listening-mindfulness-tape-SLEPT.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/15/60575285-0-image-a-12_1658500229787.jpg",
+"publishedAt": "2022-07-22T14:57:39Z",
+"content": "A mother-of-three claims listening to a mindfulness tape while she slept helped her lose 7st (98lbs). \r\nRachael Buckett, from Inverness, was approaching her fifties weighing 19st (252lbs).\r\nBut her e… [+8869 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "WWD"
+},
+"author": "Layla Ilchi",
+"title": "Skechers Teams With Tokidoki on Sneaker Collection",
+"description": "The collection includes whimsical designs inspired by the characters in the Tokidoki universe.",
+"url": "https://wwd.com/fashion-news/fashion-scoops/skechers-tokidoki-sneakers-collection-release-info-1235260564/",
+"urlToImage": "https://wwd.com/wp-content/uploads/2022/07/Skechers-x-tokidoki-Announcement-Image.jpg?w=1024",
+"publishedAt": "2022-07-22T14:55:36Z",
+"content": "Skechers is teaming with Tokidoki for its latest collaboration.\r\nThe shoe brand partnered with the Japanese lifestyle label for a sneaker collaboration inspired by Tokidoki’s colorful characters. The… [+1449 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New Atlas"
+},
+"author": "Bridget Borgobello",
+"title": "Extra-wide tiny house pushes the boundaries for comfort and style",
+"description": "Stepping outside the norm of 8.5-ft (2.6-m)-wide tiny home construction, Colorado's MitchCraft has created a stunning extra-wide micro home on wheels that could even convert the tiny lifestyle skeptic. Dubbed Kay's Tiny Home, this new take on a tiny house mea…",
+"url": "https://newatlas.com/tiny-houses/kays-mitchcraft/",
+"urlToImage": "https://assets.newatlas.com/dims4/default/e669cc1/2147483647/strip/true/crop/1500x788+0+169/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fa6%2F85%2Fa4368df2461380cf0ca061deaf30%2Fkay-1.jpg",
+"publishedAt": "2022-07-22T14:53:40Z",
+"content": "Stepping outside the norm of 8.5-ft (2.6-m)-wide tiny home construction, Colorado's MitchCraft has created a stunning extra-wide micro home on wheels that could even convert the tiny lifestyle skepti… [+2200 chars]"
+},
+{
+"source": {
+"id": "focus",
+"name": "Focus"
+},
+"author": "Von FOCUS-Online-Autor Fabian Prahl",
+"title": "Interview mit Christoph Kuban von Revolut Deutschland - Revoluts Pläne für Deutschland: „Wachstum im dreistelligen Prozentbereich“",
+"description": "Eine halbe Million Nutzer in Deutschland verzeichnet Revolut bisher. Zu wenig für die ambitionierten Ziele der Briten. Christoph Kuban, Head of Lending Revolut Deutschland, verrät, was die nächsten Schritte zur Finanz-Super-App hierzulande sind.Von FOCUS-Onli…",
+"url": "https://www.focus.de/finanzen/banken/interview-mit-christoph-kuban-von-revolut-deutschland-revoluts-plaene-fuer-deutschland-wachstum-im-dreistelligen-prozentbereich_id_121248942.html",
+"urlToImage": "https://p6.focus.de/img/fotos/id_121258919/revolut2.png?im=Crop%3D%28144%2C0%2C831%2C415%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=medium&hash=ef8134e4e2716529147d4a765b89ce067d892747e05a7df639b37e4e150b9079",
+"publishedAt": "2022-07-22T14:51:46Z",
+"content": "Eine halbe Million Nutzer in Deutschland verzeichnet Revolut bisher. Zu wenig für die ambitionierten Ziele der Briten. Christoph Kuban, Head of Lending Revolut Deutschland, verrät, was die nächsten S… [+8486 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viva.co.id"
+},
+"author": "Adinda Permatasari",
+"title": "Sambut Hari Anak Nasional dengan Kenalkan Gaya Hidup Sehat",
+"description": "Hari Anak Nasional (HAN) 2022 kali ini mengusung tema \"Anak Terlindungi, Indonesia Maju\" dengan tagline #AnakTangguhPascaPandemiCOVID19.",
+"url": "https://www.viva.co.id/gaya-hidup/inspirasi-unik/1500877-sambut-hari-anak-nasional-dengan-kenalkan-gaya-hidup-sehat",
+"urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2021/03/25/605c4f6da5c51-ilustrasi-ibu-dan-anak-parenting_665_374.jpg",
+"publishedAt": "2022-07-22T14:51:21Z",
+"content": "VIVA Lifestyle  Pada hari ini Herbalife Nutrition Indonesia merayakan Hari Anak Nasional (HAN) 2022, dengan berbagai rangkaian kegiatan bersama anak-anak progam Casa Herbalife Nutrition dari Panti As… [+2584 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Nikhil Agarwal",
+"title": "Reliance Retail Q1 Results: Profit zooms 114% YoY; logs best-ever quarterly revenue at Rs 58,554 crore",
+"description": "Reliance Retail's operating EBITDA shot up by 180.4 per cent YoY to Rs 3,897 crore with a 350-bps improvement in the margin at 7.6 per cent compared to 4.1 per cent in the corresponding quarter of the previous year.",
+"url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-retail-q1-results-profit-zooms-114-yoy-logs-best-ever-quarterly-revenue-at-rs-58554-crore/articleshow/93058499.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93058572,width-1070,height-580,imgsize-56888,overlay-etmarkets/photo.jpg",
+"publishedAt": "2022-07-22T14:45:03Z",
+"content": "Reliance Retail today said its net profit for the June quarter jumped by 114.2 per cent YoY to Rs 2,061 crore. The Mukesh Ambani-owned retail chain's quarterly revenue was the best ever at Rs 58,554 … [+995 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Thegatewaypundit.com"
+},
+"author": "Jim Hoft",
+"title": "A LOVE STORY FOR THE AGES: Establishment Republican Karrin Robson Married Her Multi-Millionaire Husband Who Is 34 Years Her Elder When He Was 86",
+"description": "The leading Republican Primary candidate for Arizona Governor is conservative maverick Kari Lake. She’s not afraid to push back against the fake news media or corrupt politicians. She’s also been endorsed by President Trump. Her opponent is Karrin Kunasek, wh…",
+"url": "https://www.thegatewaypundit.com/2022/07/love-story-ages-establishment-republican-karrin-robson-married-billionaire-husband-34-years-elder-86/",
+"urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/karrin-robson-.jpg",
+"publishedAt": "2022-07-22T14:43:00Z",
+"content": "The leading Republican Primary candidate for Arizona Governor is conservative maverick Kari Lake. She’s not afraid to push back against the fake news media or corrupt politicians. She’s also been end… [+6218 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viva.co.id"
+},
+"author": "Adinda Permatasari",
+"title": "Anak-anak Menanggung Beban Berat dari Dampak Krisis Iklim",
+"description": "Tema Hari Anak Nasional 2022, “Anak Terlindungi, Indonesia Maju”, juga menggambarkan tentang pentingnya upaya pemulihan pasca pandemi dan membangun ketangguhan anak.",
+"url": "https://www.viva.co.id/gaya-hidup/parenting/1500875-anak-anak-menanggung-beban-berat-dari-dampak-krisis-iklim",
+"urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2021/08/31/612da2bd3fc91-ilustrasi-anak-pakai-masker_665_374.jpg",
+"publishedAt": "2022-07-22T14:42:05Z",
+"content": "VIVA Lifestyle  Tanggal 23 Juli setiap tahunnya Indonesia memperingati Hari Anak Nasional (HAN), momentum ini tidak hanya sekadar perayaan hak-hak anak, tetapi juga menjadi waktu yang tepat untuk ref… [+2561 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Jami Farkas",
+"title": "Experts: Here’s How Much You Should Have in Your Retirement Account at Every Stage of Life",
+"description": "In your 20s, as you start your career and make real money for the first time, your spending changes. After living with your parents or in a college dorm, you...",
+"url": "https://finance.yahoo.com/news/experts-much-retirement-account-every-143143143.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/FI3tusO9a7b2xp4OZz0mdg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/uu/api/res/1.2/s1ndxY7.4oFgB0Bza1t5Ew--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/gobankingrates_644/eb08ba355179ffaec712dab218836ace",
+"publishedAt": "2022-07-22T14:31:43Z",
+"content": "SeventyFour / Getty Images/iStockphoto\r\nIn your 20s, as you start your career and make real money for the first time, your spending changes. After living with your parents or in a college dorm, you c… [+8041 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Lifestyle Desk",
+"title": "Disney swaps the use of ‘fairy godmothers in training’ for a more gender-neutral term",
+"description": "The decision was taken so that cast members that \"might not identify as female\" can still be \"part of the process to dress up and style the children without having to refer to themselves as a female Disney character\"",
+"url": "https://indianexpress.com/article/lifestyle/destination-of-the-week/disney-fairy-godmothers-in-training-gender-neutral-term-8046026/",
+"urlToImage": "https://images.indianexpress.com/2022/07/Disney-1200.jpg",
+"publishedAt": "2022-07-22T14:30:34Z",
+"content": "With gender-neutral terms gaining acceptance around the world, Disney is doing its bit to keep the conversation going. According to reports, it has done away with the popular term ‘fairy godmothers’ … [+1811 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Mark Donaldson",
+"title": "Why Kim's Final Lie About Howard In Better Call Saul Hurts So Much",
+"description": "Howard's fate in Better Call Saul forces Kim and Jimmy to double down on their scam with devastating repercussions for Howard's reputation and legacy.",
+"url": "https://screenrant.com/better-call-saul-kim-lie-howard-wife/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/better-call-saul-kim-lie-howard-wife1.jpg",
+"publishedAt": "2022-07-22T14:30:13Z",
+"content": "WARNING: Spoilers ahead for Better Call Saul season 6, episode 9.\r\nKim's final lie to Howard's wife in Better Call Saulseason 6, episode 9 is the cruelest one of all. Entitled \"Fun and Games,\" Better… [+4756 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Retail Dive"
+},
+"author": "Retail Dive Staff",
+"title": "The Weekly Closeout: Tractor Supply names chief marketer and Mattel partners with Space X",
+"description": "Kimberley Gardiner joins the retailer as its former CMO retires. Meanwhile, the toy company signed a multi-year agreement with Elon Musk’s space firm.",
+"url": "https://www.retaildive.com/news/tractor-supply-chief-marketing-officer-mattel-SpaceX/627874/",
+"urlToImage": "https://www.retaildive.com/imgproxy/Fjm3nF-g67m45-yCsYc70PSALAqHwChmQLRglVtgm-k/g:ce/rs:fill:770:364:0/bG9jYWw6Ly8vZGl2ZWltYWdlLzE0MzQwMjIwNDI5XzIzNjYzMDQ1NmJfay5qcGc.jpg",
+"publishedAt": "2022-07-22T14:28:00Z",
+"content": "Its been another week with far more retail news than there is time in the day. Below, we break down some things you may have missed during the week, and what were still thinking about.\r\nFrom Vuoris e… [+7650 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "U.Today"
+},
+"author": "U.Today",
+"title": "3AC Founders Finally Speak Out about Hedge Fund's Implosion",
+"description": "3AC's Kyle Davies and Su Zhu have finally broken their silence after their hedge fund filed for bankruptcy earlier this month",
+"url": "https://u.today/3ac-founders-finally-speak-out-about-hedge-funds-implosion",
+"urlToImage": "https://u.today/sites/default/files/styles/twitter/public/2022-07/22029.jpg",
+"publishedAt": "2022-07-22T14:23:00Z",
+"content": "Kyle Davies and Su Zhu, the co-founders of embattled hedge fund Three Arrows Capital, have finally set the record straight about their epic fall from grace in an extensive interview with Bloomberg.\r\n… [+1406 chars]"
+},
+{
+"source": {
+"id": "news24",
+"name": "News24"
+},
+"author": "Cebelihle Bhengu",
+"title": "News24.com | R99.9m PowerBall winner won't quit his day job: 'I may just buy a car and a house'",
+"description": "A man who works in the finance sector became an instant multimillionaire after spending R150 on a PowerBall ticket via the FNB app.",
+"url": "https://www.news24.com/news24/SouthAfrica/News/r999m-powerball-winner-wont-quit-his-day-job-i-may-just-buy-a-car-and-a-house-20220722",
+"urlToImage": "https://cdn.24.co.za/files/Cms/General/d/574/8381d12de120406aac5a6b376952165e.jpg",
+"publishedAt": "2022-07-22T14:20:16Z",
+"content": "<ul><li>A Gauteng man became an instant multimillionaire after winning nearly R100m in Tuesday's PowerBall.</li><li>Ithuba and FNB have notified him.</li><li>He says he won't make excessive changes i… [+1443 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Ashley Strickland, CNN",
+"title": "Meet the rare and mysterious Patagonian ice dragon that lives on rapidly disappearing glaciers",
+"description": "A mysterious tiny dragon lives among the ice of the Andes Mountains in South America. The Patagonian ice dragon, is just over half an inch long and it lives on rapidly disappearing glaciers.",
+"url": "https://www.cnn.com/2022/07/22/world/patagonian-ice-dragon-scn/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220718115135-patagonia-ice-dragon-super-tease.jpg",
+"publishedAt": "2022-07-22T14:19:19Z",
+"content": "The new docuseries \"Patagonia: Life on the Edge of the World\" explores one of the wildest places on Earth. Catch the latest episode at 9 p.m. ET/PT Sunday on CNN.\r\n (CNN)A mysterious tiny dragon live… [+5387 chars]"
+},
+{
+"source": {
+"id": "newsweek",
+"name": "Newsweek"
+},
+"author": "Emma Nolan",
+"title": "Meghan Expressed 'Irritation' Over Jessica Mulroney 'Stylist' Claims—Book",
+"description": "Fans of Meghan Markle will recall her apparent rift with Mulroney, when the duchess seemingly cut ties with her over a Black Lives Matter scandal.",
+"url": "https://www.newsweek.com/meghan-markle-jessica-mulroney-stylist-harry-kate-middleton-1727116",
+"urlToImage": "https://d.newsweek.com/en/full/2083237/meghan-markle-jessica-mulroney.png",
+"publishedAt": "2022-07-22T14:14:41Z",
+"content": "Meghan Markle was not pleased with Jessica Mulroney being described as her stylist before their apparent falling out, a new book has claimed.\r\nIn fact, the Duchess of Sussex is said to have described… [+4335 chars]"
+},
+
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Lauryn Overhultz",
+"title": "Gwyneth Paltrow says she does not miss acting 'at all' after creating lifestyle brand Goop",
+"description": "Gwyneth Paltrow does not miss acting \"at all\" after she pivoted to a career creating lifestyle products. The Goop founder opened up about leaving acting behind in an upcoming interview.",
+"url": "https://www.foxnews.com/entertainment/gwyneth-paltrow-acting-creating-lifestyle-brand-goop",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/08/Gwyneth_Paltrow_Getty_Images.jpg",
+"publishedAt": "2022-07-22T14:02:43Z",
+"content": "Gwyneth Paltrow is satisfied with her career change.\r\nThe 49-year-old Goop founder revealed she does not miss acting in a preview of her interview with Willie Geist on \"Sunday Today.\"\r\n\"I really don'… [+2405 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Crypto Briefing"
+},
+"author": "Chris Williams",
+"title": "“So Amazing I Don’t Know Where to Begin”: Hayes Mocks 3AC Interview",
+"description": "Didnt read the whitepaper tisk tisk tisk, Hayes said of Three Arrows losses on Terras LUNA token. Arthur Hayes Slams 3AC One of cryptos most beloved pranksters is firing arrows...",
+"url": "https://cryptobriefing.com/so-amazing-i-dont-know-where-begin-hayes-mocks-3ac-interview/",
+"urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2022/07/22094736/hayes-cover-768x403.jpg",
+"publishedAt": "2022-07-22T13:50:13Z",
+"content": "Key Takeaways\r\n<ul><li>Three Arrows Capital co-founders Su Zhu and Kyle Davies spoke out for the first time since their firm went bankrupt in an interview with Bloomberg today. </li><li>BitMEX co-fou… [+1130 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Former BMW Group chief of design Chris Bangle starts collaboration with BOTINKIT",
+"description": "SHENZHEN, China, July 22, 2022 /PRNewswire/ -- BOTINKIT, a kitchen robot brand in Shenzhen, recently announced that Chris Bangle, the former Chief of Design at BMW Group and now Managing Director at Chris Bangle Associates in Italy, will work as a design cons…",
+"url": "https://www.prnewswire.com/news-releases/former-bmw-group-chief-of-design-chris-bangle-starts-collaboration-with-botinkit-301591739.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864712/image_5024541_39311374.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:45:00Z",
+"content": "Chris Bangle graduated from the Art Center College of Design, a global leader in design and art education. He worked at German automobile manufacturer Opel and Italian carmaker Fiat. Since 1992 he le… [+1082 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "TODAY"
+},
+"author": "Rachel Paula Abrahamson",
+"title": "I had weight-loss surgery. Here's what Honey Boo Boo, and everyone, gets wrong about it",
+"description": "Alana \"Honey Boo Boo\" Thompson will undergo a non-surgical weight-loss procedure this summer, her manager confirmed to TODAY.",
+"url": "https://www.today.com/parents/essay/weight-loss-surgery-honey-boo-boo-personal-essay-rcna39339",
+"urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2022-07/Alana-thompson-honey-boo-boo-split-mc-220721-copy-8b0295.jpg",
+"publishedAt": "2022-07-22T13:44:51Z",
+"content": "Alana \"Honey Boo Boo\" Thompson will undergo a non-surgical weight-loss procedure this summer, her manager confirmed to TODAY. The former \"Toddlers and Tiaras\" star, now 16, told Entertainment Tonight… [+2376 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Triathlete.com"
+},
+"author": "Susan Lacke",
+"title": "How Do I Know When I’m Ready to Race Again?",
+"description": "You shouldn't race again until you're fully recovered from your last one - but what does that look like? Dr. Cory Nyamora outlines the physical and mental signs of recovery.\nRead the full article at How Do I Know When I’m Ready to Race Again? on Triathlete.",
+"url": "https://www.triathlete.com/training/how-do-i-know-when-im-ready-to-race-again/",
+"urlToImage": "https://www.triathlete.com/wp-content/uploads/2022/07/Featured-6-3.jpg?width=1200",
+"publishedAt": "2022-07-22T13:44:30Z",
+"content": "Table of Contents\r\n<ol><li>Physical Signs of Recovery</li><li>Mental Signs of Recovery</li><li>Sprint to 140.6: A Recovery Timeline</li><li>How to Recover Well</li></ol>\r\nAs endurance athletes, we sp… [+7058 chars]"
+},
+{
+"source": {
+"id": "independent",
+"name": "Independent"
+},
+"author": "Oliver Browning",
+"title": "Harry Styles and Florence Pugh share passionate kiss in Don’t Worry Darling trailer",
+"description": "A new trailer for Don't Worry Darling has teased a passionate kiss between Harry Styles and Florence Pugh.",
+"url": "https://www.independent.co.uk/tv/culture/harry-styles-florence-pugh-kiss-b2129162.html",
+"urlToImage": "https://cdn.jwplayer.com/v2/media/60jxdP1f/poster.jpg?width=720",
+"publishedAt": "2022-07-22T13:32:43Z",
+"content": "A new trailer for Don't Worry Darling has teased a passionate kiss between Harry Styles and Florence Pugh.\r\nThe two stars play Jack and Alice Chambers, who seem to be the perfect couple living in an … [+412 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Lifestyle Desk",
+"title": "Flashback Friday: Sidharth Malhotra to Malaika Arora, celebs who put their best fashion foot forward this week",
+"description": "Here's a round-up of our favourite looks from the week that was all about glitter and glam!",
+"url": "https://indianexpress.com/article/lifestyle/fashion/flashback-friday-sidharth-malhotra-malaika-arora-hina-khan-aditi-rao-hydari-photos-fashion-8043988/",
+"urlToImage": "https://images.indianexpress.com/2022/07/feature-image-1.jpg",
+"publishedAt": "2022-07-22T13:30:35Z",
+"content": "Without further ado, lets round up the best looks from this week that left us in absolute awe.\r\nBuy Now | Our best subscription plan now has a special price\r\nMalaika Arora ensures to take her fashion… [+1413 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "The D2C Market has expanded steadily, driven by rising Internet and smartphone penetration, an expanding population, and the expansion of online retailers and payment methods: Ken Analysis: Ken Research",
+"description": "GURUGRAM, India, July 22, 2022 /PRNewswire/ -- ~60% of the total population in 2021 (162,541k) under the age bracket 15-54 years supplemented by the high per capita income (USD 4,349.5 in 2021) represents a huge potential market. D2C Market in Indonesia is",
+"url": "https://www.prnewswire.com/news-releases/the-d2c-market-has-expanded-steadily-driven-by-rising-internet-and-smartphone-penetration-an-expanding-population-and-the-expansion-of-online-retailers-and-payment-methods-ken-analysis-ken-research-301591603.html",
+"urlToImage": "https://mma.prnewswire.com/media/661352/Ken_Research_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:30:00Z",
+"content": "GURUGRAM, India, July 22, 2022 /PRNewswire/ --\r\n<ul><li>~60% of the total population in 2021 (162,541k) under the age bracket 15-54 years supplemented by the high per capita income (USD 4,349.5 in 20… [+8396 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Gab Hernandez",
+"title": "10 Most Controversial Anime Endings of the Past Decade",
+"description": "Anime has an odd track record with endings. From unpopular changes to the source material to production cuts, these endings caused quite the uproar.",
+"url": "https://screenrant.com/most-controversial-anime-endings-past-decade/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Temp-1400x70084.png",
+"publishedAt": "2022-07-22T13:25:26Z",
+"content": "Anime has had an odd relationship with endings. The nature of many anime is to shill the manga while still being its product. However, that is a difficult balance. Other times, some anime don't have … [+8417 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "Candy Digital and the National Baseball Hall of Fame and Museum Announce Digital Collectibles Partnership",
+"description": "NEW YORK--(BUSINESS WIRE)--Candy Digital, a next generation digital collectibles company, and the National Baseball Hall of Fame and Museum today announced a new partnership that establishes Candy Digital as the Museum’s official licensee of digital collectib…",
+"url": "https://www.businesswire.com/news/home/20220722005099/en/Candy-Digital-and-the-National-Baseball-Hall-of-Fame-and-Museum-Announce-Digital-Collectibles-Partnership",
+"urlToImage": "https://mms.businesswire.com/media/20220722005099/en/1521497/23/Candy_High_Res_Logo.jpg",
+"publishedAt": "2022-07-22T13:10:44Z",
+"content": "NEW YORK--(BUSINESS WIRE)--Candy Digital, a next generation digital collectibles company, and the National Baseball Hall of Fame and Museum today announced a new partnership that establishes Candy Di… [+6195 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "Wrangler® Honors 75 Years of Western Heritage on National Day of the Cowboy",
+"description": "GREENSBORO, N.C.--(BUSINESS WIRE)--With 75 years of western heritage at its core, Wrangler®, one of America’s most recognized denim labels, is celebrating cowboy culture during National Day of the Cowboy on July 23, 2022. Throughout its history, the brand has…",
+"url": "https://www.businesswire.com/news/home/20220722005063/en/Wrangler%C2%AE-Honors-75-Years-of-Western-Heritage-on-National-Day-of-the-Cowboy",
+"urlToImage": "https://mms.businesswire.com/media/20220722005063/en/1521329/23/HO21_PLR_7995.jpg",
+"publishedAt": "2022-07-22T13:10:44Z",
+"content": "GREENSBORO, N.C.--(BUSINESS WIRE)--With 75 years of western heritage at its core, Wrangler®, one of Americas most recognized denim labels, is celebrating cowboy culture during National Day of the Cow… [+3899 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "Hyppe: New Product Max Air 5000 Coming the End of July",
+"description": "LOS ANGELES--(BUSINESS WIRE)--The hot vape brand Hyppe, recently announced that its new product Max Air 5000 will be launched the end of July. Max Air 5000: Another Milestone? Max Air 5000 will be a disposable vape, but the capacity has been enlarged to 13ml-…",
+"url": "https://www.businesswire.com/news/home/20220722005013/en/Hyppe-New-Product-Max-Air-5000-Coming-the-End-of-July",
+"urlToImage": "https://mms.businesswire.com/media/20220722005013/en/1520376/23/MAX_AIR-%281500x1500%29.jpg",
+"publishedAt": "2022-07-22T13:10:44Z",
+"content": "LOS ANGELES--(BUSINESS WIRE)--The hot vape brand Hyppe, recently announced that its new product Max Air 5000 will be launched the end of July.\r\nMax Air 5000: Another Milestone?\r\nMax Air 5000 will be … [+1939 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Mackenzie Long",
+"title": "Jenna King's Best Instagram Posts Since Her Southern Charm Exit",
+"description": "Jenna King appeared on the premiere season of Southern Charm and made a lasting impression. She has kept fans in the loop with fun IG posts.",
+"url": "https://screenrant.com/southern-charm-season-1-jenna-king-instagram-posts/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/04/Jenna-King-6.jpg",
+"publishedAt": "2022-07-22T13:09:16Z",
+"content": "Jenna King was one of the original Southern Charm season 1 cast members, and has been sharing more of her life on Instagram since her exit from the show. Each season, viewers get an inside look into … [+2840 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Lifestyle Desk",
+"title": "‘The Master Speaks’: Vedanta exponent Swami A Parthasarathy to deliver powerful insights this Sunday",
+"description": "As the spiritual philosopher shares his knowledge on life and living, you find a message to \"find lasting peace and happiness amidst the trials and tribulations in this world\"",
+"url": "https://indianexpress.com/article/lifestyle/life-style/the-master-speaks-vedanta-exponent-swami-a-parthasarathy-8045622/",
+"urlToImage": "https://images.indianexpress.com/2022/07/parthasarthy.jpg",
+"publishedAt": "2022-07-22T13:07:25Z",
+"content": "Swami A Parthasarathy, believed to be one of the greatest living exponents of Vendanta, is all set to impart his powerful insights about life at 7 pm on July 24 in a worldwide online broadcast, The M… [+1294 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Heather Taylor",
+"title": "From Self Sufficiency to Abundant Wealth: Experts Reveal How To Reach Money Goals",
+"description": "Abundant wealth often seems out of reach, especially when so many Americans live paycheck to paycheck and are budgeting to counter high inflation rates...",
+"url": "https://finance.yahoo.com/news/self-sufficiency-abundant-wealth-experts-130053778.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/n.ZxWhz1o77YnhI1Qihojg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/uu/api/res/1.2/17H33pzbAel_ynGq7aGQvA--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/gobankingrates_644/ee76b31c7d41a171c272bc9eb981ee5c",
+"publishedAt": "2022-07-22T13:00:53Z",
+"content": "Abundant wealth often seems out of reach, especially when so many Americans live paycheck to paycheck and are budgeting to counter high inflation rates. However, it is not impossible to reach our mon… [+5634 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Guardian"
+},
+"author": "Jess Cartner-Morley",
+"title": "How the kaftan won hot hot summer",
+"description": "Forget loungewear. When it’s hot, try the airy, comfortable Persian favourite. Just don’t let anyone tell you it was ‘discovered’ by western fashionYoga, veganism, tattoos, wearing secondhand clothes, Glastonbury: the roll-call of stuff that once signalled an…",
+"url": "https://amp.theguardian.com/fashion/2022/jul/22/how-the-kaftan-won-hot-hot-summer",
+"urlToImage": "https://i.guim.co.uk/img/media/c1e6fade6361a620ac79b0fdf020100bde639b01/0_0_5760_3456/master/5760.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=31dd4cb9a26c74bd966a08ecceec6b68",
+"publishedAt": "2022-07-22T13:00:10Z",
+"content": "Yoga, veganism, tattoos, wearing secondhand clothes, Glastonbury: the roll-call of stuff that once signalled an alternative lifestyle and has now been comprehensively mainstreamed is endless, and get… [+3496 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "L.A. Care Health Plan - 25 Years Strong",
+"description": "L.A. Care Celebrates Reaching a $100 Million Milestone for its Elevating the Safety Net Initiative + the Fifth Year of Awarding Eight Full-Ride Medical School Scholarships LOS ANGELES, July 22, 2022 /PRNewswire/ -- L.A. Care Health Plan, the nation's largest …",
+"url": "https://www.prnewswire.com/news-releases/la-care-health-plan--25-years-strong-301589744.html",
+"urlToImage": "https://mma.prnewswire.com/media/1862645/LA_Care_Health_Plan.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "L.A. Care Celebrates Reaching a $100 Million Milestone for its Elevating the Safety Net Initiative + the Fifth Year of Awarding Eight Full-Ride Medical School Scholarships \r\nLOS ANGELES, July 22, 202… [+6568 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Coveteur.com"
+},
+"author": "Katie Mok",
+"title": "How Coveteur Staffers Unwind After a Long Day",
+"description": "When every day feels like a \"long day,\" it's helpful to look forward to the little moments: a couple hours to yourself post-work with no emails, no texts, no doomscrolling—just you. Think: snuggling up in your comfy pajamas with a book in hand and your favori…",
+"url": "https://coveteur.com/self-care-ideas",
+"urlToImage": "https://coveteur.com/media-library/image.jpg?id=30125867&width=1200&coordinates=0%2C0%2C0%2C125&height=600",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "When every day feels like a \"long day,\" it's helpful to look forward to the little moments: a couple hours to yourself post-work with no emails, no texts, no doomscrollingjust you. Think: snuggling u… [+4885 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Jeffrey Steele, Contributor, \n Jeffrey Steele, Contributor\n https://www.forbes.com/sites/jeffsteele/",
+"title": "Pandemic-Weary Luxury Vacation Home Buyers Embracing Co-Ownership",
+"description": "The hassle and upkeep in caring year-round for a vacation home has led many prospective buyers to seek alternatives. Many are turning to co-ownership, which is not to be mistaken for timeshares.",
+"url": "https://www.forbes.com/sites/jeffsteele/2022/07/22/pandemic-weary-luxury-vacation-home-buyers-embracing-co-ownership/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62d8cd940888f57a429391bd/0x0.jpg?format=jpg&width=1200",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "Riviera Maya's Fairmont Heritage Place Mayakoba and its resident-only amenities are convincing many ... [+] buyers to embrace the benefits of co-ownership.\r\nRLH Properties\r\nIf youve owned one, we nee… [+4566 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Nell McPherson)",
+"title": "Looking to Inflation-Proof Your Real Estate Portfolio? Try These 3 Tips",
+"description": "Some areas of real estate investing may be better positioned than others when it comes to inflation.",
+"url": "https://www.fool.com/real-estate/2022/07/22/looking-to-inflation-proof-your-real-estate-portfo/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/691348/happy-lady-on-laptop.jpg",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "As inflation continues to take a bite out of their portfolios, savvy real estate investors remain on the lookout for investment opportunities that are immune to its impact. But is there really such a… [+3355 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "NEW CRESCENT HILLS COMMUNITY BRINGS HIGH-QUALITY LENNAR DESIGN AT AN AFFORDABLE PRICE TO SAN ANTONIO'S LACKLAND AIR FORCE BASE MARKET",
+"description": "SAN ANTONIO, July 22, 2022 /PRNewswire/ -- Lennar, one of the nation's leading homebuilders, has opened the Welcome Home Center and sales office for Crescent Hills. The 170-acre, 546-home masterplanned community sits just four miles from Lackland Air Force Ba…",
+"url": "https://www.prnewswire.com/news-releases/new-crescent-hills-community-brings-high-quality-lennar-design-at-an-affordable-price-to-san-antonios-lackland-air-force-base-market-301591549.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864365/Lennar_Heather_Glen_Watermill_Nettleton_Exterior.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "\"Crescent Hills has something for everyone from new homebuyers and growing families to those downsizing for a simpler lifestyle,\" said Lennar Division President Brian Barron. \"Its location, close to … [+2779 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "L.A. Care Health Plan - 25 Years Strong",
+"description": "L.A. Care Health Plan, the nation's largest publicly operated health plan, is celebrating its 25th Anniversary. The health plan was founded in April of 1997 ...",
+"url": "https://finance.yahoo.com/news/l-care-health-plan-25-130000554.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/cQTvvi0zEuUVbP3WyEt82A--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/d6305c4162652d98f4b88df1a869188f",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "L.A. Care Celebrates Reaching a $100 Million Milestone for its Elevating the Safety Net Initiative + the Fifth Year of Awarding Eight Full-Ride Medical School Scholarships \r\nLOS ANGELES, July 22, 202… [+6781 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Kyle Thomas",
+"title": "Selena Gomez birth chart: Hollywood ‘Rare Beauty’ killed it with kindness",
+"description": "When it comes to elemental energy, Selena Gomez is significantly composed of Fire and Earth. This shows that she is immensely passionate and can channel her energy in practical and constructive ways.",
+"url": "https://nypost.com/article/selena-gomez-birth-chart-zodiac-sign/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/07/selena-gomez-birthchart.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "Selena Gomez: the modern-day Queen of Hollywood. \r\nAs one of the most influential pop stars and creatives in the entire world, the massively successful actress, singer, producer and entrepreneur has … [+10449 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Men's Underwear Expert Separatec Introduces New Summer Offering Featuring Dual Pouch™ and Quick-Dry Performance",
+"description": "NEW YORK, July 22, 2022 /PRNewswire/ -- Separatec, a tech-driven men's underwear expert, has introduced its summer collection of sports underwear that features superior quick-dry fabrics, as well as its proprietary Dual Pouch™ technology that offers great sep…",
+"url": "https://www.prnewswire.com/news-releases/mens-underwear-expert-separatec-introduces-new-summer-offering-featuring-dual-pouch-and-quick-dry-performance-301591634.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864503/SEPARATEC_Men_s_Sport_Performance_Underwear.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "\"Separatec has raised the bar for underwear innovation by developing the patented Dual Pouch tech that gives men's underwear extra space with cooling benefits that keep men's private area dry and hyg… [+3009 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Jezebel"
+},
+"author": "Audra Heinrichs",
+"title": "What Exactly Can We Learn From Harry Styles? Enough For A College Course, Apparently",
+"description": "“This is actually the most in-depth conversation I’ve had about this class,” Dr. Louie Dean Valencia confides near the end of our interview. It’s something of a compliment, considering that since July 16, when he announced a new university course of his own c…",
+"url": "https://jezebel.com/what-exactly-can-we-learn-from-harry-styles-enough-for-1849315281",
+"urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/bdb81e36665ba526e1423cec390d52c8.jpg",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "This is actually the most in-depth conversation Ive had about this class, Dr. Louie Dean Valencia confides near the end of our interview. Its something of a compliment, considering that since July 16… [+9162 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "FENDER CUSTOM SHOP™ AND ILLUMINATION JOIN FORCES TO CREATE ONE-OF-A-KIND \"FENDER® x MINIONS: THE RISE OF GRU\" COLLECTION TO SUPPORT FENDER PLAY FOUNDATION™, MUSIC EDUCATION IN LOS ANGELES",
+"description": "Proceeds from Masterbuilt Guitars, Bass and Ukulele to Benefit Fender Play Foundation™ and Los Angeles Unified Elementary And Middle School Program Students HOLLYWOOD, Calif., July 22, 2022 /PRNewswire/ -- Fender Custom Shop™ (FCS) and The Fender Play Foundat…",
+"url": "https://www.prnewswire.com/news-releases/fender-custom-shop-and-illumination-join-forces-to-create-one-of-a-kind-fender-x-minions-the-rise-of-gru-collection-to-support-fender-play-foundation-music-education-in-los-angeles-301591543.html",
+"urlToImage": "https://mma.prnewswire.com/media/1674641/Fender_Musical_Instruments_Corporation_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "Proceeds from Masterbuilt Guitars, Bass and Ukulele to Benefit Fender Play Foundation and Los Angeles Unified Elementary And Middle School Program Students  \r\nHOLLYWOOD, Calif., July 22, 2022 /PRNews… [+17109 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "Automotive Logistics Market Size is Projected To Reach USD 350700 Million By 2028 at a CAGR of 4.3% - Valuates Reports",
+"description": "The global Automotive Logistics market is segmented by Type - Transportation - Warehousing, Distribution, and Inventory Management, Other, by Application...",
+"url": "https://finance.yahoo.com/news/automotive-logistics-market-size-projected-130000732.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/9J_SnayryGSvKSGAAw._dw--~B/aD04Mjt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/ef6f54d92729337f45c428989e3002da",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "BANGALORE, India, July 22, 2022 /PRNewswire/ -- The global Automotive Logistics market\r\n is segmented by Type - Transportation - Warehousing, Distribution, and Inventory Management, Other, by Applica… [+14304 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "Men's Underwear Expert Separatec Introduces New Summer Offering Featuring Dual Pouch™ and Quick-Dry Performance",
+"description": "Separatec, a tech-driven men's underwear expert, has introduced its summer collection of sports underwear that features superior quick-dry fabrics, as well...",
+"url": "https://finance.yahoo.com/news/mens-underwear-expert-separatec-introduces-130000513.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/a7q9wurRtzyKG1QWtaOwCA--~B/aD0yNzA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/738a2ae9b549aee7d4acb888230004ea",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "NEW YORK, July 22, 2022 /PRNewswire/ -- Separatec, a tech-driven men's underwear expert, has introduced its summer collection of sports underwear that features superior quick-dry fabrics, as well as … [+3840 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Automotive Logistics Market Size is Projected To Reach USD 350700 Million By 2028 at a CAGR of 4.3% - Valuates Reports",
+"description": "BANGALORE, India, July 22, 2022 /PRNewswire/ -- The global Automotive Logistics market is segmented by Type - Transportation - Warehousing, Distribution, and Inventory Management, Other, by Application - Finished Vehicle, Auto Components, Others. Global Oppor…",
+"url": "https://www.prnewswire.com/news-releases/automotive-logistics-market-size-is-projected-to-reach-usd-350700-million-by-2028-at-a-cagr-of-4-3---valuates-reports-301591686.html",
+"urlToImage": "https://mma.prnewswire.com/media/1082232/Valuates_Reports_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T13:00:00Z",
+"content": "BANGALORE, India, July 22, 2022 /PRNewswire/ -- The global Automotive Logistics market\r\n is segmented by Type - Transportation - Warehousing, Distribution, and Inventory Management, Other, by Applica… [+14062 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viva.co.id"
+},
+"author": "Rochimawati",
+"title": "Bangkitkan Ekraf Kota Cilegon, Sandiaga Uno Kikis Pengangguran",
+"description": "Berita Bangkitkan Ekraf Kota Cilegon, Sandiaga Uno Kikis Pengangguran terbaru hari ini 2022-07-22 19:57:08 dari sumber yang terpercaya",
+"url": "https://www.viva.co.id/gaya-hidup/inspirasi-unik/1500837-bangkitkan-ekraf-kota-cilegon-sandiaga-uno-kikis-pengangguran",
+"urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2022/07/22/62da9da13b814-menparekraf-sandiaga-uno_665_374.jpg",
+"publishedAt": "2022-07-22T12:57:08Z",
+"content": "VIVA Lifestyle  Cilegon menjadi kota ke-21 penyelenggaraan Workshop Pengembangan Kabupaten/Kota (KaTa) Kreatif Indonesia 2022. Kota yang berada di Provinsi Banten tersebut mengunggulkan subsektor kri… [+1557 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Academy Awards® Qualifying Short Shorts Film Festival & Asia Closing Online Event",
+"description": "NTT presents International Conference for visualizing our future brought about by technological innovation feat. IOWN A new short film based on the best pitch expressing the coexistence of innovation and ideal lifestyle will be produced SHIBUYA, Japan, July 2…",
+"url": "https://www.prnewswire.com:443/news-releases/academy-awards-qualifying-short-shorts-film-festival--asia-closing-online-event-301591702.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864673/Speakers.jpg?p=facebook",
+"publishedAt": "2022-07-22T12:54:00Z",
+"content": "NTT presents International Conference for visualizing our future brought about by technological innovation feat. IOWN\r\nA new short film based on the best pitch expressing the coexistence of innovatio… [+2519 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CBS Sports"
+},
+"author": "Garrett Podell",
+"title": "Mac Jones expectations in Year 2: Can the trimmed down Patriots QB produce supersized production in 2022?",
+"description": "A better conditioned and more experienced Mac Jones could help turn the Patriots into a top-flight offense",
+"url": "https://www.cbssports.com/nfl/news/mac-jones-expectations-in-year-2-can-the-trimmed-down-patriots-qb-produce-supersized-production-in-2022/",
+"urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/07/22/ae124e90-4d52-4fec-afa0-98549e5b0811/thumbnail/1200x675/78c0e057d9a9751e1d6a7f079a8808a0/mac.jpg",
+"publishedAt": "2022-07-22T12:53:39Z",
+"content": "Mac Jones' rookie season with the New England Patriots was by all accounts successful as he led all first-year players in completion percentage (67.6%), passing yards (3,801), passing touchdowns (22)… [+8390 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viva.co.id"
+},
+"author": "Rochimawati",
+"title": "Mengenal Sistem Smart Home, Bikin Hidup Lebih Mudah",
+"description": "Kemunculan sietem smart home langsung mencuri perhatian banyak orang karena dipercaya dapat membuat hidup menjadi lebih mudah.",
+"url": "https://www.viva.co.id/gaya-hidup/inspirasi-unik/1500832-mengenal-sistem-smart-home-bikin-hidup-lebih-mudah",
+"urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2022/07/22/62da9c57200c4-ilustrasi-smart-home_665_374.jpg",
+"publishedAt": "2022-07-22T12:49:49Z",
+"content": "VIVA Lifestyle  Fenomena sistemsmart home, beberapa tahun terakhir ini memang banyak digemari oleh sebagian kalangan. Kemunculan sietem smart home langsung mencuri perhatian banyak orang karena diper… [+1276 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "CNW Group",
+"title": "TerrAscend to Delight NJ Shoppers with an Immersive Cookies Experience",
+"description": "TerrAscend Corp. (\"TerrAscend\" or the \"Company\") (CSE: TER) (OTCQX: TRSSF), a leading North American cannabis operator, today announced with Cookies, a...",
+"url": "https://finance.yahoo.com/news/terrascend-delight-nj-shoppers-immersive-124100298.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/P5quc.Xfh4ZJAM2.G7QZtQ--~B/aD03Njt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/cnwgroup.com/e69c1f68799df498ffc0215ea74ec3f1",
+"publishedAt": "2022-07-22T12:41:00Z",
+"content": "New Jersey's First-Ever Cookies Corner Opening Tomorrow at The Apothecarium Maplewood\r\nNEW YORK and TORONTO , July 22, 2022 /CNW/ - TerrAscend Corp. (\"TerrAscend\" or the \"Company\") (CSE: TER) (OTCQX:… [+8226 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Namrata Kohli",
+"title": "Rain check: How to stay healthy and safe in monsoon season",
+"description": "Change your lifestyle and invest in these accessories to shield your skin and digestive system",
+"url": "https://www.business-standard.com/article/pf/rain-check-how-to-stay-healthy-and-safe-in-monsoon-season-122072200513_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-07/22/full/1658472124-6141.jpg",
+"publishedAt": "2022-07-22T12:40:00Z",
+"content": "Business Standard has always strived hard to provide up-to-date information and commentary on developments that are of interest to you and have wider political and economic implications for the count… [+1029 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Saim Cheeda",
+"title": "Friends: Joey's Girlfriends, Ranked By Compatibility",
+"description": "Joey from Friends was famous for his revolving bedroom doors, sometimes these encounters turned to relationships, but who was the most compatible?",
+"url": "https://screenrant.com/friends-joeys-girlfriends-ranked/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/10/Friends-Joeys-Girlfriends-Ranked.jpg",
+"publishedAt": "2022-07-22T12:39:46Z",
+"content": "On Friends, Ross and Chandler were portrayed as two guys who were losers in love, while Joey was the friend who got all the women due to his impressive skills in wooing love interests. However, Joey … [+8818 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Lynn Gibbs",
+"title": "Gilmore Girls: 6 Things That Proved Lorelai Should Have Stayed With Jason (& 6 Proving She Shouldn't)",
+"description": "Lorelai's romance with childhood friend Jason had ups and downs. Should she have stayed with him, or was she right to leave in the end?",
+"url": "https://screenrant.com/gilmore-girls-lorelai-reasons-stay-with-jason-leave/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/12/Four-split-images-of-Lorelai-and-Jason-from-Gilmore-Girls.jpg",
+"publishedAt": "2022-07-22T12:39:46Z",
+"content": "Before Lorelai Gilmore started a whirlwind romance with Luke Danes on Gilmore Girls, she was in a brief romance with her childhood friend, Jason Stiles. The two met at summer camp when they were youn… [+9479 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Stephen Curry's Unanimous Media and Talent Resources Sports Host Star Studded Night Presented by FTX",
+"description": "Four-time NBA Champion and 2022 NBA MVP Celebrates Epic Year with Invite Only Bash LOS ANGELES , July 22, 2022 /PRNewswire/ -- Stephen Curry and his media company Unanimous Media along with Talent Resources Sports (TRS), the Premier Sports Marketing Agency jo…",
+"url": "https://www.prnewswire.com/news-releases/stephen-currys-unanimous-media-and-talent-resources-sports-host-star-studded-night-presented-by-ftx-301591509.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864304/CL1_0463.jpg?p=facebook",
+"publishedAt": "2022-07-22T12:36:00Z",
+"content": "Four-time NBA Champion and 2022 NBA MVP Celebrates Epic Year with Invite Only Bash \r\nLOS ANGELES , July 22, 2022 /PRNewswire/ --Stephen Curry and his media company Unanimous Media\r\n along with Talent… [+3474 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Minneapolis Star Tribune"
+},
+"author": "Kelly Klein",
+"title": "How do I find my way out of a fearful rental situation?",
+"description": "Your rental unit may no longer be fit for the use intended if your safety is at risk. Make sure to document.",
+"url": "https://www.startribune.com/how-do-i-find-my-way-out-of-a-fearful-rental-situation/600192203/",
+"urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1658437263",
+"publishedAt": "2022-07-22T12:30:00Z",
+"content": "Q: I am currently dealing with a toxic roommate situation and would like some advice.\r\nI moved into a house with two other people living there. I was initially told by the homeowner, who lives in the… [+3090 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Bringatrailer.com"
+},
+"author": "bringatrailer",
+"title": "BaT Auction: 1997 Toyota 4Runner Limited SEMA Student Build at No Reserve",
+"description": "This 1997 Toyota 4Runner Limited has been modified by the students of Comstock High School in Kalamazoo, Michigan, and is one of five 4×4 vehicles being auctioned this week on BaT in partnership with SEMA Education. The truck is finished in tan over a two-ton…",
+"url": "https://bringatrailer.com/listing/1997-toyota-4runner-64/",
+"urlToImage": "https://bringatrailer.com/wp-content/uploads/2022/06/1997_toyota_4runner_1997_toyota_4runner_3d8fb711-8341-451b-9da5-b1fb100dc8bf-ujiejn-12619-57371.jpg",
+"publishedAt": "2022-07-22T12:25:15Z",
+"content": "This 1997 Toyota 4Runner Limited has been modified by the students of Comstock High School in Kalamazoo, Michigan, and is one of five 4×4 vehicles being auctioned this week on BaT in partnership with… [+4646 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "City A.M."
+},
+"author": "Crypto AM: Taking a Byte Out of Digital Assets with Jonny Fry",
+"title": "How the metaverse will change the world",
+"description": "Crypto AM's Jonny Fry examines the metaverse and how he believes it will revolutionise virtually all aspects of human endeavour.\nThe post How the metaverse will change the world appeared first on CityAM.",
+"url": "https://www.cityam.com/how-the-metaverse-will-change-the-world/",
+"urlToImage": "https://www.cityam.com/wp-content/uploads/2021/11/CAMD-G89-1024-JFry-copy-6.jpg",
+"publishedAt": "2022-07-22T12:22:53Z",
+"content": "Friday 22 July 2022 1:22 pm\r\nLately, it is close to impossible not to come across the metaverse on the Internet. Although it was first described two decades ago, it has recently garnered vast interes… [+7658 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NDTV News"
+},
+"author": "Manya Singh",
+"title": "5 Potassium-rich Foods You Need To Add To your Diet",
+"description": "Potassium helps maintain the water levels inside our cells. In this article, we discuss the various high-potassium foods to help increase your intake of potassium.",
+"url": "https://doctor.ndtv.com/nutrition/5-potassium-rich-foods-you-need-to-add-to-your-diet-2942888",
+"urlToImage": "https://c.ndtvimg.com/2018-10/flo2rdd_bananas-_625x300_10_October_18.jpg",
+"publishedAt": "2022-07-22T12:15:12Z",
+"content": "Potassium is considered to be the third most found mineral in our body. It improves the circulation of fluids, nerve transmission, and muscle contraction control. Our cells contain almost 98 per cent… [+3772 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "9to5Toys"
+},
+"author": "Justin Kahn",
+"title": "Some of the best prices yet on Ninja CREAMi ice cream makers from $100 (Refurb, Reg. $230)",
+"description": "Woot is now offering some particularly notable price drops on refurbished Ninja CREAMi ice cream makers. You can land the CREAMi NC301 Ice Cream Maker for $109.99 Prime shipped. Otherwise, a $6 delivery fee will apply. Regularly $230, this model fetches $190 …",
+"url": "https://9to5toys.com/2022/07/22/ninja-creami-ice-cream-makers/",
+"urlToImage": "https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2022/03/Ninja-NC301CREAMi-ice-cream-and-smoothie-bowl-maker.jpg?resize=1200%2C628&ssl=1",
+"publishedAt": "2022-07-22T12:13:03Z",
+"content": "Woot is now offering some particularly notable price drops on refurbished Ninja CREAMi ice cream makers. You can land the CREAMi NC301Ice Cream Maker for $109.99 Prime shipped. Otherwise, a $6 delive… [+2178 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Finbold.com"
+},
+"author": "Jordan Major",
+"title": "Three Arrows founders break silence after 5 weeks on the run following 3AC collapse",
+"description": "Two of Three Arrows Capital’s (3AC) founders, who have been in hiding for the last five weeks, have spoken out... Continue reading \nThe post Three Arrows founders break silence after 5 weeks on the run following 3AC collapse appeared first on Finbold.",
+"url": "https://finbold.com/three-arrows-founders-break-silence-after-5-weeks-on-the-run-following-3ac-collapse/",
+"urlToImage": "https://finbold.com/app/uploads/2022/07/Three-Arrows-founders-break-silence-after-5-weeks-on-the-run-following-3AC-collapse.jpg",
+"publishedAt": "2022-07-22T12:12:08Z",
+"content": "Two of Three Arrows Capital’s (3AC) founders, who have been in hiding for the last five weeks, have spoken out about the stunning collapse of their once-promising crypto hedge fund.\r\nSu Zhu and Kyle … [+3111 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Tonya Garcia",
+"title": "Conagra raises dividend by 5.6%",
+"description": "Conagra Brands Inc. announced a 5.6% dividend hike on Friday. A quarterly dividend of 33 cents per share will be paid on September 1, 2022 to shareholders of record as of the close of business on August 3, 2022. Conagra stock is down 2.8% for the year to date…",
+"url": "https://www.marketwatch.com/story/conagra-raises-dividend-by-56-2022-07-22",
+"urlToImage": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg",
+"publishedAt": "2022-07-22T12:10:35Z",
+"content": "Tonya Garcia is a MarketWatch reporter covering retail and consumer-oriented companies. You can follow her on Twitter @tgarcianyc. She is based in New York. Tonya joined MarketWatch from Moguldom Med… [+309 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Screen Rant"
+},
+"author": "Saim Cheeda",
+"title": "10 Best Shows Like The CW's Devils | Screen Rant",
+"description": "The CW's Devils looks into the shady tactics of the corporate world. So which other shows offer similar but unique viewing experiences of their own?",
+"url": "https://screenrant.com/best-shows-like-cw-devils/",
+"urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-images-of-Black-Monday-Devils-and-Bad-Banks.jpg",
+"publishedAt": "2022-07-22T12:10:26Z",
+"content": "Fans of Succession have been excited ever since details of the fourth season emerged. The series has been a big hit that looks into the behind-the-scenes activities of a large conglomerate, which is … [+7599 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "KB Home Announces the Grand Opening of Cypress Crossings, a New Community of Popular Ranch-Style Homes in Oakley, California",
+"description": "OAKLEY, Calif.--(BUSINESS WIRE)-- #BuiltOnRelationships--KB Home announces the grand opening of Cypress Crossings, a new community of popular ranch-style homes in Oakley, California.",
+"url": "https://www.businesswire.com/news/home/20220722005074/en/KB-Home-Announces-the-Grand-Opening-of-Cypress-Crossings-a-New-Community-of-Popular-Ranch-Style-Homes-in-Oakley-California",
+"urlToImage": "https://mms.businesswire.com/media/20220722005074/en/1521360/23/Cypress_Crossings_Plan_2035.jpg",
+"publishedAt": "2022-07-22T12:06:37Z",
+"content": "OAKLEY, Calif.--(BUSINESS WIRE)--KB Home (NYSE: KBH) today announced the grand opening of Cypress Crossings, a new community of popular ranch-style homes in Oakley, California. Cypress Crossings is l… [+4280 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "KB Home Announces the Grand Opening of Camino Verde, a New Community of Popular Single-Story Homes in Tucson, Arizona",
+"description": "TUCSON, Ariz.--(BUSINESS WIRE)-- #BuiltOnRelationships--KB Home announces the grand opening of Camino Verde, a new community of popular single-story homes in Tucson, Arizona.",
+"url": "https://www.businesswire.com/news/home/20220722005066/en/KB-Home-Announces-the-Grand-Opening-of-Camino-Verde-a-New-Community-of-Popular-Single-Story-Homes-in-Tucson-Arizona",
+"urlToImage": "https://mms.businesswire.com/media/20220722005066/en/1521347/23/Camino_Verde_Plan_2013_Exterior.jpg",
+"publishedAt": "2022-07-22T12:06:37Z",
+"content": "TUCSON, Ariz.--(BUSINESS WIRE)--KB Home (NYSE: KBH) today announced the grand opening of Camino Verde, a quaint enclave of popular single-story homes in Tucson, Arizona. The new homes at Camino Verde… [+4115 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Lillian Gissen",
+"title": "Meet the stunning college gymnast who became viral TikTok star and MULTI-MILLIONAIRE at age 18",
+"description": "Olivia Dunne, now 19, who is originally from New Jersey, began competing for Louisiana State University in 2020, and soon became the most followed collegiate athlete on the web.",
+"url": "https://www.dailymail.co.uk/femail/article-11037095/Meet-stunning-college-gymnast-viral-TikTok-star-MULTI-MILLIONAIRE-age-18.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/12/60551491-0-image-a-4_1658490324408.jpg",
+"publishedAt": "2022-07-22T12:03:19Z",
+"content": "Get ready to meet the stunning college gymnast who has become a millionaire at age 18 by inking a host of lucrative sponsorship deals - after finding fame as a well-known star on TikTok, where she re… [+7389 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "24/7 Wall St."
+},
+"author": "247patrick",
+"title": "Cities Where the Fewest People Exercise",
+"description": "Many of the leading causes of premature death in the U.S. are related to lifestyle, among them poor diet and lack of adequate physical activity, both of which contribute to obesity and other morbidities. (The Centers for Disease Control and Prevention estimat…",
+"url": "https://247wallst.com/special-report/2022/07/22/cities-where-the-fewest-people-exercise/",
+"urlToImage": "https://247wallst.com/wp-content/uploads/2022/05/imageForEntry41-7kM.jpg",
+"publishedAt": "2022-07-22T12:00:50Z",
+"content": "Many of the leading causes of premature death in the U.S. are related to lifestyle, among them poor diet and lack of adequate physical activity, both of which contribute to obesity and other morbidit… [+3080 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Lifestyle Desk",
+"title": "After Kim Kardashian, Lizzo wraps herself in Balenciaga caution tape",
+"description": "\"I don't want to be the token big girl for the fashion world. I want to open the door. I want this for everybody,\" the singer said",
+"url": "https://indianexpress.com/article/lifestyle/fashion/lizzo-balenciaga-caution-tape-kim-kardashian-8045036/",
+"urlToImage": "https://images.indianexpress.com/2022/07/Lizzo-1200.jpg",
+"publishedAt": "2022-07-22T12:00:43Z",
+"content": "Buy Now | Our best subscription plan now has a special price\r\nChannelling the same style, Lizzo took the internet by storm as she featured on the cover of Elle UK‘s September 2022 issue wrapped in Ba… [+1556 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Tlnt.com"
+},
+"author": "Peter Crush",
+"title": "EY error leaves staff overdrawn; Amazon questions its office space needs (while its warehouses get investigated for safety)",
+"description": "Payroll error hits 55,000 EY staff in US More than 55,000 US staff working for EY had a nasty surprise when they woke up on Tuesday morning and found their latest wages had...well, vanished. The embarrassing disappearance (EY is, after all, an accounting firm…",
+"url": "https://www.tlnt.com/ey-error-leaves-staff-overdrawn-amazon-questions-its-office-space-needs-while-its-warehouses-get-investigated-for-safety/",
+"urlToImage": "https://www.tlnt.com/wp-content/uploads/sites/4/2022/07/bigstock-Toronto-Canada-November-298430131.jpg",
+"publishedAt": "2022-07-22T12:00:36Z",
+"content": "Payroll error hits 55,000 EY staff in US\r\nMore than 55,000 US staff working for EY had a nasty surprise when they woke up on Tuesday morning and found their latest wages had…well, vanished. The embar… [+7184 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Dnyuz.com"
+},
+"author": "dnyuz",
+"title": "After Roe, Republicans Sharpen Attacks on Gay and Trans Rights...",
+"description": "Days after the Supreme Court overturned the right to abortion, Michigan’s Republican candidates for governor were asked if it was",
+"url": "https://dnyuz.com/2022/07/22/after-roe-republicans-sharpen-attacks-on-gay-and-transgender-rights/",
+"urlToImage": "https://dnyuz.com/wp-content/uploads/2022/07/After-Roe-Republicans-Sharpen-Attacks-on-Gay-and-Transgender-Rights.jpg",
+"publishedAt": "2022-07-22T12:00:04Z",
+"content": "After Roe, Republicans Sharpen Attacks on Gay and Transgender Rights\nDays after the Supreme Court overturned the right to abortion, Michigan’s Republican candidates for governor were asked if it was … [+10779 chars]"
+},
+{
+"source": {
+"id": "newsweek",
+"name": "Newsweek"
+},
+"author": "Sophie Lloyd",
+"title": "Sexless Relationships: Why Couples Lose Their Spark And How To Get It Back",
+"description": "Americans are having less sex than ever. Relationship experts explain why couples end up with a dead bedroom, and how you can get your love life back on track.",
+"url": "https://www.newsweek.com/relationships-sexless-marriage-intimacy-1726246",
+"urlToImage": "https://d.newsweek.com/en/full/2081306/main-reasons-couples-stop-having-sex.jpg",
+"publishedAt": "2022-07-22T12:00:01Z",
+"content": "Whether you're in the throes of a new romance or have been together for decades, many people consider sex an important part of their relationship. So, why are Americans having less sex than ever?\r\nTh… [+4714 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Entrepreneur"
+},
+"author": "Thomas Hughes",
+"title": "Lackluster Results Provide An Opportunity In Tractor Supply Company",
+"description": "Tractor Supply Company (NASDAQ: TSCO) reported better than expected Q2 results and raised the guidance and yet shares fell because of it. Shares fell because the results and guidance, while...",
+"url": "https://www.entrepreneur.com/article/431974",
+"urlToImage": "https://assets.entrepreneur.com/providers/marketbeat/hero-image-marketbeat-431974.jpeg",
+"publishedAt": "2022-07-22T12:00:00Z",
+"content": "Tractor Supply Company Plows Ahead With Growth \r\nTractor Supply Company (NASDAQ: TSCO) reported better than expected Q2 results and raised the guidance and yet shares fell because of it. Shares fell … [+3568 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Yoshitsu Co., Ltd",
+"title": "Yoshitsu Co., Ltd Enters into Definitive Agreement to Acquire Tokyo Lifestyle Limited",
+"description": "To accelerate the Company's business expansion in the Southeast Asia market andadvance the digital transformation of live streaming e-commerce in its retail ...",
+"url": "https://finance.yahoo.com/news/yoshitsu-co-ltd-enters-definitive-120000461.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/Fbq6Vcg2LbAr4ddYH5juQw--~B/aD0yNjA7dz02Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/566648f8d3c9928c349e4cddf104da15",
+"publishedAt": "2022-07-22T12:00:00Z",
+"content": "To accelerate the Company's business expansion in the Southeast Asia market andadvance the digital transformation of live streaming e-commerce in its retail business\r\nTokyo, Japan, July 22, 2022 (GLO… [+4598 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Viva.co.id"
+},
+"author": "Donny Adhiyasa",
+"title": "Taruhannya Nyawa, Fragmen Wayang Sasak Ini Paling Ditakuti Dalang",
+"description": "Berita Taruhannya Nyawa, Fragmen Wayang Sasak Ini Paling Ditakuti Dalang terbaru hari ini 2022-07-22 18:55:20 dari sumber yang terpercaya",
+"url": "https://www.viva.co.id/gaya-hidup/inspirasi-unik/1500813-taruhannya-nyawa-fragmen-wayang-sasak-ini-paling-ditakuti-dalang",
+"urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2022/07/22/62da8b95a99be-ki-dalang-wildan_665_374.jpg",
+"publishedAt": "2022-07-22T11:55:20Z",
+"content": "VIVA Lifestyle Pulau Lombok dikenal memiliki tradisi dan budaya unik dan penuh misteri. Salah satu kisah mistis yang bikin bulu kuduk berdiri adalah sebuah fragmen dalam Wayang Sasak.\r\nSebuah fragmen… [+939 chars]"
+}
+]
+</script>
+<script>
+    let art = document.querySelector("#lifestyles");
+  lifestyle.forEach(function (el) {
+    let div = document.createElement("div");
+    let imgage = document.createElement("img");
+    imgage.src = el.urlToImage;
+    let h2 = document.createElement("h2");
+    h2.innerText = el.title;
+    let para = document.createElement("p");
+    para.innerText = el.description;
+    let anc = document.createElement("a");
+    anc.href = el.url;
+    art.append(div);
+    div.append(imgage,para);
+  });
+</script>

@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+    #india{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#india img {
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+#india div{
+    display:flex;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+    border-radius: 10px;
+    /* height: 160px; */
+    overflow: auto;
+    text-overflow: ellipsis;
+    text-align:justify;
+    
+}
+#india p{
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+}
+#india p:hover{
+    color: blue;
+    cursor: pointer;
+    /* padding: 25px; */
+    font-size: 25px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div style="background-color: rgb(233, 233, 12);">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div >
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>India News</h1>
+        <div id="india"></div>
+        
+      </div>
+      <div> <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <hr>
+       <div id="trend-news">
+        <div >
+           <a href="health.html">
+            <p>HEALTH</p></a>
+        </div>
+        <div>
+            <a href="tech.html">
+            <p>TECHNOLOGY</p></a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+    <hr>
+    <div id="science"></div>
+      </div>
+     
+    </div>
+    </div>
+    </div>
+   
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+let indiadata = [
+
+{
+"source": {
+"id": "reuters",
+"name": "Reuters"
+},
+"author": null,
+"title": "Indian refiners' June crude processing stays robust, output slips",
+"description": "India refiners' crude processing remained resilient in June, holding above pre-pandemic levels amid steady demand, while production eased with the increased availability of cheaper Russian crude, government data showed on Friday.",
+"url": "https://www.reuters.com/business/energy/indian-refiners-june-crude-processing-stays-robust-output-slips-2022-07-22/",
+"urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=105",
+"publishedAt": "2022-07-22T16:31:49Z",
+"content": "July 22 (Reuters) - India refiners' crude processing remained resilient in June, holding above pre-pandemic levels amid steady demand, while production eased with the increased availability of cheape… [+2873 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "PTI",
+"title": "India’s foreign exchange reserves fall $7.541 billion to $572.712 billion",
+"description": "During the reporting week ended July 15, the fall in the reserves was on account of a decline in the Foreign Currency Assets (FCAs), a major component of the overall reserves, and also in the gold reserves, the central bank said.",
+"url": "https://www.businesstoday.in/latest/economy/story/indias-foreign-exchange-reserves-fall-7541-billion-to-572712-billion-342467-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/foreign_currency_4-sixteen_nine.jpg",
+"publishedAt": "2022-07-22T16:23:54Z",
+"content": "The country's foreign exchange reserves declined by $7.541 billion to $572.712 billion in the week ended July 15 as the Reserve Bank continued to intervene in the market to curb the fall of the rupee… [+1720 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Viveat Susan Pinto",
+"title": "RIL Q1 net profit rises 46% to Rs 17,955 crore; revenue jumps 57%",
+"description": "RIL's consolidated gross debt stood at Rs 2.63 trillion at the end of Q1",
+"url": "https://www.business-standard.com/article/companies/ril-q1-net-profit-rises-46-to-rs-17-955-crore-revenue-jumps-57-122072201281_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2021-07/23/full/1627046074-4958.jpg",
+"publishedAt": "2022-07-22T16:23:31Z",
+"content": "Mukesh Ambani-led Reliance Industries (RIL) on Friday reported a consolidated net profit (attributable to the company’s owners) of Rs 17,955 crore for the quarter ended June 30, 2022 (Q1), up 46.3 pe… [+4504 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Sophie Curtis",
+"title": "Baking on the Bakerloo line? TFL trials new Tube station cooling system in wake of UK heatwave",
+"description": "The panel works by circulating cold water around pipework within a curved metal structure to chill it. This structure then cools the air around it, which is blown out using an industrial-sized fan.",
+"url": "https://www.dailymail.co.uk/sciencetech/article-11039599/Baking-Bakerloo-line-TFL-trials-new-Tube-station-cooling-wake-UK-heatwave.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/16/60580865-0-image-a-25_1658502123481.jpg",
+"publishedAt": "2022-07-22T16:21:27Z",
+"content": "Anyone who regularly travels on London's Tube network in the summer will no doubt have spent some time baking on the Bakerloo line, or perspiring on the Piccadilly.\r\nBut passengers travelling on the … [+8921 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Tech Xplore"
+},
+"author": "Science X staff",
+"title": "In a hotter world, air conditioning isn't a luxury, it's a lifesaver",
+"description": "As extreme heatwaves ravage the United States, Europe and Africa, killing thousands, scientists warn that the worst is still to come. With countries continuing to pump greenhouse gasses into the atmosphere and the chance of meaningful federal climate change l…",
+"url": "https://techxplore.com/news/2022-07-hotter-world-air-conditioning-isnt.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/in-a-hotter-world-air.jpg",
+"publishedAt": "2022-07-22T16:21:04Z",
+"content": "As extreme heatwaves ravage the United States, Europe and Africa, killing thousands, scientists warn that the worst is still to come. With countries continuing to pump greenhouse gasses into the atmo… [+5691 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Sourabh Lele",
+"title": "About 52 mn trained under digital literacy scheme: MoS Rajeev Chandrasekhar",
+"description": "UP has the most beneficiaries, with over 10.3 million candidates certified in the past five years. Bihar and MP come next, with 4.2 million and 3.3 million candidates, respectively",
+"url": "https://www.business-standard.com/article/current-affairs/about-52-mn-trained-under-digital-literacy-scheme-mos-rajeev-chandrasekhar-122072201278_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2021-12/04/full/1638599356-8876.jpg",
+"publishedAt": "2022-07-22T16:21:00Z",
+"content": "Around 52.4 million candidates have been trained under the rural digital literacy programme, Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA), since the inception of the scheme.\r\nThe PMGDIS… [+2894 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Statetimes.in"
+},
+"author": "Editor State Times",
+"title": "J&K opposition leaders frustrated, can’t see development, tourists, says BJP’s Shahnawaz Hussain",
+"description": "SRINAGAR: Some opposition leaders in Jammu and Kashmir are frustrated and cannot see development and tourists here, BJP leader Shahnawaz Hussain said on Friday and asserted that the time for dynasty politics is over. So many tourists are coming here. There ar…",
+"url": "https://web.statetimes.in/jk-opposition-leaders-frustrated-cant-see-development-tourists-says-bjps-shahnawaz-hussain/",
+"urlToImage": "https://web.statetimes.in/wp-content/uploads/2022/07/Shahnawaz-Hussain.jpg",
+"publishedAt": "2022-07-22T16:17:54Z",
+"content": "SRINAGAR: Some opposition leaders in Jammu and Kashmir are frustrated and cannot see development and tourists here, BJP leader Shahnawaz Hussain said on Friday and asserted that the time for dynasty … [+1453 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "Karnataka cabinet clears new employment policy, aims to increase jobs",
+"description": "The Karnataka cabinet on Friday gave its approval to the 'Karnataka Employment Policy 2022-25', mandating industries either expanding or setting up new units in the state, to increase jobs",
+"url": "https://www.business-standard.com/article/current-affairs/karnataka-cabinet-clears-new-employment-policy-aims-to-increase-jobs-122072201276_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2021-07/27/full/1627398089-6608.jpg",
+"publishedAt": "2022-07-22T16:16:00Z",
+"content": "The Karnataka cabinet on Friday gave its approval to the 'Karnataka Employment Policy 2022-25', mandating industries either expanding or setting up new units in the state, to increase the number of j… [+4516 chars]"
+},
+
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "Issue of checking corruption in judiciary is to be addressed by judiciary itself: Kiren Rijiju",
+"description": "Complaints and representations regarding allegation of corruption received are dealt with by the Chief Justice of India or by the chief justice of the high court concerned, as the case may be, for appropriate action. Similarly, complaints / representations ag…",
+"url": "https://economictimes.indiatimes.com/news/india/issue-of-checking-corruption-in-judiciary-is-to-be-addressed-by-judiciary-itself-kiren-rijiju/articleshow/93059919.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059941,width-1070,height-580,imgsize-8800,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T16:14:37Z",
+"content": "The issue of checking corruption in the judiciary is to be addressed by the judiciary itself as it is an independent organ under the Constitution, Law Minister Kiren Rijiju said in Lok Sabha on Frida… [+1075 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Beast"
+},
+"author": "David Rothkopf",
+"title": "What Comes Next After Biden’s Foreign Policy Marathon",
+"description": "Photo Illustration by Luis G. Rendon/The Daily Beast/Getty\r\nFor Joe Biden, the past two months have been a diplomatic marathon.Although the president has recently endured questions suggesting that he is too old for the office he holds, what he has accomplishe…",
+"url": "https://www.thedailybeast.com/what-comes-next-after-bidens-foreign-policy-marathon",
+"urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1658506078/072222-Rothkopf-sullivan-hero_e4oard",
+"publishedAt": "2022-07-22T16:12:53Z",
+"content": "For Joe Biden, the past two months have been a diplomatic marathon.\r\nAlthough the president has recently endured questions suggesting that he is too old for the office he holds, what he has accomplis… [+10678 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Gadgets360.com"
+},
+"author": "Press Trust of India",
+"title": "RuPay Credit Cards Will Be Linked to UPI Platform in a Few Months: NPCI MD",
+"description": "National Payments Corporation of India (NPCI) Managing Director and Chief Executive Officer Dilip Asbe said that in the next couple of months, RuPay credit cards will be linked to the UPI platform. He also mentioned that currency in circulation will reduce on…",
+"url": "https://gadgets360.com/internet/news/rupay-credit-cards-upi-platform-link-few-months-digital-payments-npci-md-dilip-asbe-3185006",
+"urlToImage": "https://i.gadgets360cdn.com/large/rupay_logo_phone_reuters_1639631751693.jpg",
+"publishedAt": "2022-07-22T16:12:28Z",
+"content": "With cash usage continuing to remain high despite a jump in online payments, a top NPCI official on Friday said currency in circulation will reduce only when a third of the population starts using di… [+2621 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Bharti Jain",
+"title": "Jalandhar priest attack: NIA declares Rs 10 lakh cash reward on terrorist Hardeep Singh Nijjar",
+"description": "India News: NEW DELHI: The National Investigation Agency (NIA) on Friday declared a cash award of Rs 10 lakh against Canada-based terrorists and chief of pro-Khal.",
+"url": "https://timesofindia.indiatimes.com/india/jalandhar-priest-attack-nia-declares-rs-10-lakh-cash-reward-on-terrorist-hardeep-singh-nijjar/articleshow/93059841.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-47529300,width-1070,height-580,imgsize-110164,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T16:12:01Z",
+"content": ""
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Shreya Nandi",
+"title": "Panel urges plan to help local vendors build ONDC-compatible technical tool",
+"description": "Says no clarity on ONDC network's liability in case a consumer is delivered substandard products; local businesses will also find it hard to compete with e-commerce giants",
+"url": "https://www.business-standard.com/article/companies/panel-urges-plan-to-help-local-vendors-build-ondc-compatible-technical-tool-122072201257_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-04/29/full/1651252096-5728.jpg",
+"publishedAt": "2022-07-22T16:11:00Z",
+"content": "The Parliamentary standing committee on commerce has urged the industry department to develop a concrete strategy to help local businesses design a technical tool compatible with Open Network for Dig… [+2940 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "The Indian Express"
+},
+"author": "Sofi Ahsan",
+"title": "No innocuous investigation: Meta on Whatsapp Privacy policy probe by CCI",
+"description": "CCI came to a prima facie conclusion in 2021 that the conduct of WhatsApp in “sharing of users’ personalised data with other Facebook companies, in a manner that is neither fully transparent nor based on voluntary and specific user consent'', appears unfair t…",
+"url": "https://indianexpress.com/article/cities/delhi/no-innocuous-investigation-meta-on-whatsapp-privacy-policy-probe-by-cci-8046221/",
+"urlToImage": "https://images.indianexpress.com/2022/07/delhi-high-court-1.jpg",
+"publishedAt": "2022-07-22T16:09:19Z",
+"content": "Meta Platforms, the owner of Facebook and WhatsApp, on Friday told the Delhi High Court that the Competition Commission of Indias (CCI) ongoing probe against it with regard to WhatsApps privacy polic… [+2780 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "Congress holds protest in Karnataka against ED questioning Sonia Gandhi",
+"description": "The Congress committees in Dakshina Kannada and Udupi on Friday held protests in Mangaluru and Udupi to protest against the Enforcement Directorate's interrogation of party president Sonia Gandhi.",
+"url": "https://www.business-standard.com/article/politics/congress-holds-protest-in-dk-udupi-against-ed-questioning-sonia-gandhi-122072201258_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-07/21/full/1658419622-4906.jpg",
+"publishedAt": "2022-07-22T16:09:00Z",
+"content": "The Congress district committees in Dakshina Kannada and Udupi on Friday held protests in Mangaluru and Brahmavar in Udupi to protest against the Enforcement Directorate's interrogation of party pres… [+2834 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Livemint"
+},
+"author": "Vipul Das",
+"title": "ITR Filing: Who Are Mandatory & Who Are Exempted To File ITR for AY 2022-23?",
+"description": "Individual taxpayers whose accounts do not need to be audited have until July 31, 2022, to file their ITR for the fiscal year 2021–22 (AY 2022–23).",
+"url": "https://www.livemint.com/money/personal-finance/itr-filing-who-are-mandatory-who-are-exempted-to-file-itr-for-ay-202223-11658505864768.html",
+"urlToImage": "https://images.livemint.com/img/2022/07/22/600x338/8cd1ac40-64a4-11eb-9f9d-968ab8437512_1612205525199_1612205578301_1658505946459_1658505946459.jpg",
+"publishedAt": "2022-07-22T16:08:18Z",
+"content": "Individual taxpayers whose accounts do not need to be audited have until July 31, 2022, to file their ITR for the fiscal year 202122 (AY 202223). Any assessee other than a corporate assessee or a non… [+4789 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Protothema.gr"
+},
+"author": "Thema Newsroom",
+"title": "Indian politician who drank water from a ‘sacred’ river to prove it is safe is taken to hospital",
+"description": "According to the Express, Mann was trying to demonstrate the effectiveness of a 22-year project to clean up the river",
+"url": "https://en.protothema.gr/indian-politician-who-drank-water-from-a-sacred-river-to-prove-it-is-safe-is-taken-to-hospital/",
+"urlToImage": "https://en.protothema.gr/wp-content/uploads/2022/07/ind88-150x150.jpg",
+"publishedAt": "2022-07-22T16:06:38Z",
+"content": "An Indian politician was taken to the hospital after drinking water from a ‘sacred’ river in an attempt to show it was clean and safe, according to local reports.\r\nBhagwant Mann, chief minister of th… [+534 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "KPBS"
+},
+"author": "",
+"title": "Beloved monarch butterflies now listed as endangered",
+"description": "Monarch butterflies are now listed as endangered because of fast dwindling populations in North America.",
+"url": "https://www.kpbs.org/news/local/2022/07/22/beloved-monarch-butterflies-now-listed-as-endangered",
+"urlToImage": "https://cdn.kpbs.org/dims4/default/03f2d65/2147483647/strip/true/crop/3264x1714+0+367/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2017%2F10%2F19%2FIMG_2117.JPG",
+"publishedAt": "2022-07-22T16:05:37Z",
+"content": "The monarch butterfly fluttered a step closer to extinction Thursday, as scientists put the iconic orange-and-black insect on the endangered list because of its fast dwindling numbers.\r\nIts just a de… [+3029 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "Banks likely to lose Rs 11,790 cr in Q1 on bond rally, says report",
+"description": "Banks are unlikely to take a big hit on profitability this quarter due to rising bond yields, which may eat up 5.3 per cent (Rs 11,790 crore) of their net income in the worst-case scenario",
+"url": "https://www.business-standard.com/article/finance/banks-likely-to-lose-rs-11-790-cr-in-q1-on-bond-rally-says-report-122072201255_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-04/22/full/1650647361-8908.jpg",
+"publishedAt": "2022-07-22T16:02:00Z",
+"content": "Banks are unlikely to take a big hit on profitability this quarter due to rising bond yields, which may eat up 5.3 per cent (Rs 11,790 crore) of their net income in the worst-case scenario, according… [+3078 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "INVENERGY LAUNCHES FIRST GREEN HYDROGEN PROJECT, DEPLOYING OHMIUM INTERNATIONAL SOLUTION, ACCELERATING CLEAN ENERGY TRANSITION",
+"description": "Invenergy to Develop Sauk Valley Hydrogen Project, Adding 5th Technology to Illinois Portfolio CHICAGO, July 22, 2022 /PRNewswire/ -- Invenergy, the largest privately held global developer, owner, and operator of sustainable energy solutions, has announced it…",
+"url": "https://www.prnewswire.com/news-releases/invenergy-launches-first-green-hydrogen-project-deploying-ohmium-international-solution-accelerating-clean-energy-transition-301591807.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864839/OHMIUM_COLOUR.jpg?p=facebook",
+"publishedAt": "2022-07-22T16:01:00Z",
+"content": "\"The Invenergy team is incredibly excited to launch our first green hydrogen venture as we continue to lead/accelerate the transition to a clean energy future,\" said Matt Nicholls, Vice President, Or… [+3067 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "Foreign exchange reserves fall $7.541 billion to $572.712 billion",
+"description": "During the reporting week ended July 15, the fall in the reserves was on account of a decline in the Foreign Currency Assets (FCAs), a major component of the overall reserves, and also in the gold reserves, the central bank said.",
+"url": "https://economictimes.indiatimes.com/news/economy/finance/foreign-exchange-reserves-fall-7-541-billion-to-572-712-billion/articleshow/93059694.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059738,width-1070,height-580,imgsize-1011254,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T15:59:06Z",
+"content": "The country's foreign exchange reserves declined by USD 7.541 billion to USD 572.712 billion in the week ended July 15 as the Reserve Bank continued to intervene in the market to curb the fall of the… [+1765 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Before Droupadi Murmu, how old were India's presidents when they assumed office | Infographic",
+"description": "Droupadi Murmu will be the first President of India who was born after the country gained Independence. She will also be the youngest to occupy the post.",
+"url": "https://www.indiatoday.in/india/story/droupadi-murmu-india-s-youngest-president-1978798-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/Cover_Photo__3-647x363.png?PfXqM2yat3JBYfFQwKVH.NCwilSZ2SnT",
+"publishedAt": "2022-07-22T15:57:31Z",
+"content": "Droupadi Murmu, the 64-year-old tribal leader from Odisha, scripted history on Thursday when she was elected as the President of India, defeating Opposition candidate Yashwant Sinha. Murmu became Ind… [+920 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Sushmi Dey",
+"title": "4 crore eligible beneficiaries yet to get first Covid jab in India",
+"description": "India News: An estimated four crore eligible people are yet to initiate Covid vaccination in the country as on July 18, even as the government has made vaccinatio",
+"url": "https://timesofindia.indiatimes.com/india/4-crore-eligible-beneficiaries-yet-to-get-first-covid-jab-in-india/articleshow/93059607.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-93059649,width-1070,height-580,imgsize-975695,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T15:56:13Z",
+"content": ""
+},
+
+{
+"source": {
+"id": null,
+"name": "Gadgets360.com"
+},
+"author": "Apoorva Sinha",
+"title": "BSNL 4G Services to be Rolled Out in the Next 18-24 Months, 5G Services Under Testing: Report",
+"description": "A recent report has revealed that BSNL is going to roll out its 4G services to pan-India subscribers in the next 18-24 months. Unlike other telecom operators, BSNL does not have 4G connectivity yet.",
+"url": "https://gadgets360.com/telecom/news/bsnl-4g-services-pan-india-subscribers-next-18-24-months-5g-undergoing-testing-tcs-report-3184937",
+"urlToImage": "https://i.gadgets360cdn.com/large/bsnl_gagdets_360_1570782314595.jpg",
+"publishedAt": "2022-07-22T15:49:23Z",
+"content": "Bharat Sanchar Nigam Limited (BSNL) is reportedly planning to roll out 4G services in India soon. The 4G services are said to roll out to Indian customers in the next 18 to 24 months. The latest repo… [+1973 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Associated Press",
+"title": "Beloved monarch butterflies now listed as endangered",
+"description": "The group estimates that the population of monarch butterflies in North America has declined between 22% and 72% over 10 years.",
+"url": "https://nypost.com/2022/07/22/beloved-monarch-butterflies-now-listed-as-endangered/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/07/Butterfly-feature.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2022-07-22T15:48:14Z",
+"content": "WASHINGTON The monarch butterfly fluttered a step closer to extinction Thursday, as scientists put the iconic orange-and-black insect on the endangered list because of its fast dwindling numbers.\r\nIt… [+3241 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Sonia Gandhi to be questioned by ED on July 26 now: Sources",
+"description": "Sonia Gandhi was earlier questioned by the financial probe agency on July 21 for nearly three hours in connection with the alleged money laundering case related to the National Herald newspaper.",
+"url": "https://www.indiatoday.in/india/story/sonia-gandhi-to-be-questioned-by-enforcement-directorate-on-july-26-now-sources-1978878-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/PTI07_21_2022_000067A_0_1200x7-647x363.jpeg?Xro5JJaprodYSt4fFXPCh2eBuuKcqiLB",
+"publishedAt": "2022-07-22T15:47:02Z",
+"content": "Sonia Gandhi has been asked to appear before the Enforcement Directorate on July 26 instead of July 25 for questioning in the National Herald case, sources told India Today TV. Fresh summons have als… [+572 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Kerala man dies after leaving police station, family alleges custodial torture",
+"description": "A Kerala man died after being released from police custody in Kozhikode on Thursday night.",
+"url": "https://www.indiatoday.in/india/story/kerala-man-dies-after-leaving-police-station-family-alleges-custodial-torture-1978875-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/dead-body-860x573_1200x768_0_1-647x363.jpeg?S8PQrsMcG.eRDl9l2QpUj5g1dDvpnNhs",
+"publishedAt": "2022-07-22T15:46:27Z",
+"content": "A 42-year-old man died after being released from police custody in Keralas Kozhikode. The family of the deceased has alleged custodial torture by the police.\r\nThe deceased, identified as P P Sajeevan… [+979 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Bhavini Mishra",
+"title": "No decision on UCC for now, some writ petitions are pending in SC: Rijiju",
+"description": "Law Minister says matter on setting up regional branches of Supreme Court is currently sub-judice",
+"url": "https://www.business-standard.com/article/current-affairs/no-decision-on-ucc-for-now-some-writ-petitions-are-pending-in-sc-rijiju-122072201231_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2019-05/31/full/1559311062-2876.jpg",
+"publishedAt": "2022-07-22T15:46:00Z",
+"content": "Union Law Minister Kiren Rijiju said no decision has been taken by the government to implement the Uniform Civil Code for now, as some writ petitions regarding the matter are pending in the apex cour… [+3501 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Stephen White)",
+"title": "UK's 40C heatwave will be normal in 30 years due to burning fossil fuels, study shows",
+"description": "Britain's worrying scorching temperatures of 40C will most likely be the norm within 30 years, according to research - as the extreme conditions could be a risk to lives and livelihoods",
+"url": "https://www.mirror.co.uk/news/uk-news/uks-40c-heatwave-normal-30-27550905",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27550993.ece/ALTERNATES/s1200/0_Summer-weather-July-19th-2022.jpg",
+"publishedAt": "2022-07-22T15:45:05Z",
+"content": "Britain's record 40C temperatures will be the norm... within 30 years, according to new research. \r\nThe study warns that extreme heatwaves will increase by more than 30 percent in the coming years.\r\n… [+6994 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "Outlook on the Connected Rail Global Market to 2030 - Featuring Sierra Wireless, ABB, Atos and Cisco Among Others",
+"description": "The \"Connected Rail Market Share, Size, Trends, Industry Analysis Report\" report has been added to ResearchAndMarkets.com's offering.",
+"url": "https://finance.yahoo.com/news/outlook-connected-rail-global-market-154500515.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/wDGPSO44TROYKbQSONxNmQ--~B/aD00Mjt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/e75ef6f3096d7cb6f5dd43ba82eca2fe",
+"publishedAt": "2022-07-22T15:45:00Z",
+"content": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Connected Rail Market Share, Size, Trends, Industry Analysis Report\" report has been added to ResearchAndMarkets.com's offering.\r\nResearch_and_Markets_Logo\r… [+8941 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Outlook on the Connected Rail Global Market to 2030 - Featuring Sierra Wireless, ABB, Atos and Cisco Among Others",
+"description": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Connected Rail Market Share, Size, Trends, Industry Analysis Report\" report has been added to ResearchAndMarkets.com's offering. The global connected rail market size is expected to reach USD 143.76 billion by 2030. …",
+"url": "https://www.prnewswire.com/news-releases/outlook-on-the-connected-rail-global-market-to-2030---featuring-sierra-wireless-abb-atos-and-cisco-among-others-301591729.html",
+"urlToImage": "https://mma.prnewswire.com/media/539438/Research_and_Markets_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T15:45:00Z",
+"content": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Connected Rail Market Share, Size, Trends, Industry Analysis Report\" report has been added to ResearchAndMarkets.com's offering.\r\nThe global connected rail … [+8712 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Sam Tonkin",
+"title": "Britain's record 40C temperatures could be the norm within 30 years",
+"description": "A new study, which analysed atmospheric circulation patterns and greenhouse gases, looked at data from last year when temperatures in the US and Canada more than doubled.",
+"url": "https://www.dailymail.co.uk/sciencetech/article-11039705/Britains-record-40C-temperatures-norm-30-years.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/16/60581667-0-image-a-44_1658503101977.jpg",
+"publishedAt": "2022-07-22T15:44:50Z",
+"content": "It may have been Britain's hottest day in history this week, but researchers warn such 40C temperatures won't be out of the ordinary within the next three decades.\r\nA new study suggests that extreme … [+6983 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Minneapolis Star Tribune"
+},
+"author": "Jasmine Snow",
+"title": "Just breathe? Twin Cities area 'breathing workshops' teach the ins and outs",
+"description": "Breathing is a natural part of life and has been since birth. So why are people paying $40 to learn how to do it?",
+"url": "https://www.startribune.com/just-breathe-twin-cities-area-breathing-workshops-teach-the-ins-and-outs/600192259/",
+"urlToImage": "https://chorus.stimg.co/23672236/Breath_3.jpeg?h=630&w=1200&fit=crop&bg=999&crop=faces",
+"publishedAt": "2022-07-22T15:43:00Z",
+"content": "I'm sitting in a room with about 20 other women at the Marsh, a fitness center in Minnetonka, where we have paid to breathe together for two hours.\r\nThis is my first \"breathing workshop.\" I am comple… [+5792 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "No time limit drawn for appointment of chairperson, members in Law Commission, says Centre",
+"description": "In a written reply, Law Minister Kiren Rijiju said the Cabinet had approved the constitution of 22nd Law Commission of India for a term of three years with effect from February 21, 2020.",
+"url": "https://economictimes.indiatimes.com/news/india/no-time-limit-drawn-for-appointment-of-chairperson-members-in-law-commission-says-centre/articleshow/93059462.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059499,width-1070,height-580,imgsize-43898,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T15:42:03Z",
+"content": "No time limit has been drawn for appointment of chairperson and full-time and part-time members in the Law Commission, the government told Lok Sabha citing the notification which formed the 22nd law … [+989 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "Not even prima facie material with CCI to initiate probe: Facebook Inc to HC",
+"description": "Senior advocate Mukul Rohatgi, appearing for Facebook Inc, contended that just because Facebook is the formal owner of WhatsApp and the instant messaging platform is said to share its data with the parent company does not mean that it is a necessary party to …",
+"url": "https://economictimes.indiatimes.com/tech/technology/not-even-prima-facie-material-with-cci-to-initiate-probe-facebook-inc-to-hc/articleshow/93059434.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059524,width-1070,height-580,imgsize-35014,overlay-ettech/photo.jpg",
+"publishedAt": "2022-07-22T15:40:48Z",
+"content": "Facebook Inc Friday argued in the Delhi High Court that there was not even prima facie material available for the Competition Commission of India (CCI) to start investigating it while conducting a pr… [+4237 chars]"
+},
+{
+"source": {
+"id": "la-nacion",
+"name": "La Nacion"
+},
+"author": null,
+"title": "Conservadores británicos presumen de diversidad en la elección de su próximo primer ministro",
+"description": "Conservadores británicos presumen de diversidad en la elección de su próximo primer ministro",
+"url": "https://www.lanacion.com.ar/agencias/conservadores-britanicos-presumen-de-diversidad-en-la-eleccion-de-su-proximo-primer-ministro-nid22072022/",
+"urlToImage": "https://resizer.glanacion.com/resizer/3RtWgCP--RAvm_gVQCN60D8EDIs=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/67GCK7VVHRH5JDZJTNRRSP7NEI.jpg",
+"publishedAt": "2022-07-22T15:38:50Z",
+"content": "El Partido Conservador británico, cuya afiliación está mayoritariamente compuesta por hombres blancos, elegirá entre una mujer y un hombre de origen indio para suceder a Boris Johnson como su líder y… [+4142 chars]"
+},
+
+{
+"source": {
+"id": "news24",
+"name": "News24"
+},
+"author": "Penelope Mashego",
+"title": "News24.com | SA's ARV producers cry foul over share of R11 billion tender",
+"description": "The Department of Health says has defended its decision to award almost half of an ARV tender to non-South African companies",
+"url": "https://www.news24.com/fin24/Companies/Health/sas-arv-producers-cry-foul-over-share-of-r11-billion-tender-20220722",
+"urlToImage": "https://cdn.24.co.za/files/Cms/General/d/4090/04ece38fc72c435686d762ba03598a9c.jpg",
+"publishedAt": "2022-07-22T15:37:15Z",
+"content": "<ul><li>South Africa's latest ARV government supply contract is valued at R11 billion.</li><li>49% of the tender went to companies based in India and the remainder will be produced by South African c… [+4393 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Times Of India",
+"title": "Live Cricket Score, England vs South Africa 2nd ODI",
+"description": "Stay updated with Times of India to get all the live cricket score updates, scorecard, and ball by ball commentary of the second ODI between England",
+"url": "https://timesofindia.indiatimes.com/sports/cricket/live-cricket-score-updates-england-vs-south-africa-2022-2nd-odi/liveblog/93059376.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-93059376,width-1070,height-580,imgsize-56516,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T15:37:13Z",
+"content": "Anrich Nortje to Jason Roy, OUT! CAUGHT! Anrich Nortje strikes and Roy after playing couple of fine shots, departs! This is tad shorter in length again but not short enough. Roy goes for the pull sho… [+135 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India TV News"
+},
+"author": "Reported by PTI",
+"title": "No plan to extend deadline for filing income tax returns: Government",
+"description": "The Income Tax Department has prescribed 7 types of ITR forms, whose applicability will depend on the nature and amount of income and the type of taxpayer.",
+"url": "https://www.indiatvnews.com/business/news/income-tax-returns-government-says-no-plan-to-extend-deadline-july-31-itr-forms-revenue-secretary-latest-updates-2022-07-22-794167",
+"urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/07/income-tax-1658503935.jpg",
+"publishedAt": "2022-07-22T15:34:05Z",
+"content": "The government is not considering extending the last date for filing income tax returns as it expects most returns to come in by the due date of July 31, a top official said on Friday. Revenue Secret… [+2271 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Dean Wilson)",
+"title": "Jonny Bairstow makes three-format vow for England after Ben Stokes quits ODIs",
+"description": "England star Jonny Bairstow loves each and every format of the game and simply can't get enough of the action",
+"url": "https://www.mirror.co.uk/sport/cricket/england-jonny-bairstow-ben-stokes-27553081",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27402784.ece/ALTERNATES/s1200/0_GettyImages-1241715333.jpg",
+"publishedAt": "2022-07-22T15:33:03Z",
+"content": "Jonny Bairstow has promised he wont be following Ben Stokes example and quitting any form of cricket for England. \r\n The in-form batsman has been the star turn this summer with the way he has dominat… [+3117 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Republic World"
+},
+"author": "Press Trust Of India",
+"title": "Farmers, farming must be treated with honour: Agriculture Minister Narendra Singh Tomar",
+"description": "When Prime Minister Narendra Modi made a scheme to support farmers' income, he named it as Kisan Samman Nidhi with a sense of pride, the minister said.",
+"url": "https://www.republicworld.com/india-news/general-news/farmers-farming-must-be-treated-with-honour-agriculture-minister-narendra-singh-tomar-articleshow.html",
+"urlToImage": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/uw8qjxkiv5gvylqf_1658503668.jpeg",
+"publishedAt": "2022-07-22T15:32:00Z",
+"content": "Agriculture Minister Narendra Singh Tomar on Friday said farmers and farming should be treated with honour. \r\nThe minister was addressing the inaugural session of the two-day International Conference… [+2074 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "ReportLinker",
+"title": "The market size of lithium-ion battery dispersant is estimated to grow from USD 735 million in 2022 to USD 1,285 million by 2027, at a CAGR of 11.8%",
+"description": "During the forecast period. The lithium-ion battery dispersant market has been growing moderately over the past five years, owing to rapid technological...",
+"url": "https://finance.yahoo.com/news/market-size-lithium-ion-battery-153200530.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/IN3_pUboxxFTZlP4bjcjcQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/4ce8962afb8a41766b626a7e61c8413f",
+"publishedAt": "2022-07-22T15:32:00Z",
+"content": "during the forecast period. The lithium-ion battery dispersant market has been growing moderately over the past five years, owing to rapid technological advancements and expansion in the consumer ele… [+4170 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Paints & Coatings Market Size, Share, Trends, and Industry Forecasts - Exclusive Report by MarketsandMarkets™",
+"description": "CHICAGO , July 22, 2022 /PRNewswire/ -- Paints & Coatings Market size is projected to grow from USD 184 Billion in 2021 to USD 212 Billion by 2026, at a CAGR of 2.9%, according to a new report by MarketsandMarkets™. Growing demand for Paints & Coatings due to…",
+"url": "https://www.prnewswire.com/news-releases/paints--coatings-market-size-share-trends-and-industry-forecasts--exclusive-report-by-marketsandmarkets-301591676.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864627/PAINT_COATINGS_MARKET.jpg?p=facebook",
+"publishedAt": "2022-07-22T15:30:00Z",
+"content": "Browse in-depth TOC on \"Paints &amp; Coatings Market\"\r\n535 Tables65 Figures439 Pages\r\nDrivers: Environmental regulations boosting the demand for VOC-free coatings\r\nNew rules and regulations such as t… [+6143 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "Paints & Coatings Market Size, Share, Trends, and Industry Forecasts - Exclusive Report by MarketsandMarkets™",
+"description": "Paints & Coatings Market size is projected to grow from USD 184 Billion in 2021 to USD 212 Billion by 2026, at a CAGR of 2.9%, according to a new report by...",
+"url": "https://finance.yahoo.com/news/paints-coatings-market-size-share-153000899.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/eFef6ZAbTMTiTCzeneFolg--~B/aD0yMzQ7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/cd3e8bbeac20cb7d9d85976683f4294a",
+"publishedAt": "2022-07-22T15:30:00Z",
+"content": "CHICAGO , July 22, 2022 /PRNewswire/ -- Paints &amp; Coatings Market size is projected to grow from USD 184 Billion in 2021 to USD 212 Billion by 2026, at a CAGR of 2.9%, according to a new report by… [+6877 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "NIA declares Rs 10 lakh reward on Khalistan terrorist Hardeep Singh Nijjar",
+"description": "The National Investigation Agency has declared a cash reward on Khalistan terrorist Hardeep Singh Nijjar accused of a murder conspiracy.",
+"url": "https://www.indiatoday.in/india/story/nia-declares-cash-reward-khalistan-terrorist-hardeep-singh-nijjar-1978870-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/Collage_Maker-15-Jul-2022-08.5_0-647x363.jpeg?8VJ2H4LrxEMiAOGUfNQeFt5iyfdeP5SF",
+"publishedAt": "2022-07-22T15:29:58Z",
+"content": "The National Investigation Agency (NIA) has declared a Rs 10 lakh reward on fugitive Khalistan terrorist Hardeep Singh Nijjar. He is accused of conspiring to kill a Hindu priest in Punjab's Jalandhar… [+663 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "ED seizes Rs 20 crore cash after raids on WB minister Partha Chatterjee's aide",
+"description": "India News: The Enforcement Directorate Friday said it has seized Rs 20 crore in cash after raids on the premises of Arpita Mukherjee, a close associate of West B",
+"url": "https://timesofindia.indiatimes.com/india/ed-seizes-rs-20-crore-cash-after-raids-on-wb-minister-partha-chatterjees-aide/articleshow/93059245.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-93059237,width-1070,height-580,imgsize-50252,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T15:29:11Z",
+"content": ""
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "Vivek Dubey",
+"title": "Ola's Bhavish Aggarwal shares naked Ranveer Singh meme; takes a dig at petrol scooters",
+"description": "Riding on the virality of a nude photo of actor Ranveer Singh for a magazine cover, Ola's founder and CEO Bhavish Aggarwal shared a meme on Twitter in which he took a dig at petrol scooters.",
+"url": "https://www.businesstoday.in/latest/trends/story/olas-bhavish-aggarwal-shares-naked-ranveer-singh-meme-takes-a-dig-at-petrol-scooters-342455-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/fyq9u_qusaas-zu-1-sixteen_nine.jpg",
+"publishedAt": "2022-07-22T15:28:56Z",
+"content": "Bhavish Aggarwal, founder and CEO of homegrown electric vehicle (EV) manufacturer Ola Electric, posted a meme on Twitter riding on the virality of a nude pic of actor Ranveer Singh to push his case f… [+2170 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "India's doctor-population ratio of 1:854 better than WHO standard of 1:1000: MoS tells LS",
+"description": "\"Assuming 80 per cent availability of registered allopathic doctors and 5.65 lakh AYUSH doctors, the doctor-population ratio in the country is 1:834, which is better than the WHO standard of 1:1000. Also, there are 34.33 lakh registered nursing personnel and …",
+"url": "https://economictimes.indiatimes.com/news/india/indias-doctor-population-ratio-of-1854-better-than-who-standard-of-11000-mos-tells-ls/articleshow/93059240.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059334,width-1070,height-580,imgsize-16736,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T15:28:47Z",
+"content": "New Delhi: India's doctor-population ratio at 1:854 is better than the World Health Organisation's standard of 1:1000, Union Minister of State Bharati Pravin Pawar informed the Lok Sabha on Friday. S… [+4763 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "CWG 2022: Will women's cricket successful debut help ICC's Olympic pitch?",
+"description": "Women cricketers will get to experience the vibe of a multi-sporting event for the very first time as the sport hopes to generate global eyeballs on its Commonwealth Games return after 24 long years",
+"url": "https://www.business-standard.com/article/sports/cwg-2022-will-women-s-cricket-successful-debut-help-icc-s-olympic-pitch-122072200396_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-03/23/full/1648055838-2883.jpg",
+"publishedAt": "2022-07-22T15:26:00Z",
+"content": "Women cricketers will get to experience the vibe of a multi-sporting event for the very first time as the sport hopes to generate global eyeballs when it returns to the Commonwealth Games after 24 lo… [+3923 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "CWG 2022: Less than 48 hours left for departure, six cricketers await visa",
+"description": "Six members of the Indian women's cricket contingent are yet to get visa, less than 48 hours before their departure for the Commonwealth Games in Birmingham.",
+"url": "https://www.business-standard.com/article/sports/cwg-2022-less-than-48-hours-left-for-departure-six-cricketers-await-visa-122072200991_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-03/06/full/1646554100-4414.jpg",
+"publishedAt": "2022-07-22T15:26:00Z",
+"content": "Six members of the Indian women's cricket contingent are yet to get visa, less than 48 hours before their departure for the Commonwealth Games in Birmingham.\r\nWomen's cricket is making its debut at t… [+3243 chars]"
+},
+{
+"source": {
+"id": "independent",
+"name": "Independent"
+},
+"author": "Holly Patrick",
+"title": "Indian politician drinks water from ‘holy’ river to prove it is clean, now hospitalised",
+"description": "The chief minister of a northern state in India has been hospitalised after he was filmed drinking water from a “holy” river to prove the water was clean.",
+"url": "https://www.independent.co.uk/tv/news/india-drink-river-pollution-water-b2129263.html",
+"urlToImage": "https://cdn.jwplayer.com/v2/media/QLIf6lOI/poster.jpg?width=720",
+"publishedAt": "2022-07-22T15:24:54Z",
+"content": "The chief minister of a northern state in India has been hospitalised after he was filmed drinking water from a holy river to prove the water was clean.\r\nPunjab minister Bhagwant Mann can be seen sco… [+311 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Hospitalisation, death rates low despite rise in Covid cases: Govt tells Lok Sabha",
+"description": "The Covid-19 case trajectory in some states is witnessing an upward trend since May but hospitalisation and death rates are low which can be attributed to immunisation efforts across India, the Lok Sabha was told Friday.",
+"url": "https://www.indiatoday.in/india/story/hospitalisation-death-rates-low-despite-rise-covid-cases-govt-lok-sabha-1978869-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/vaccine_RTS_1200x768-647x363.jpeg?XqNqhdtCTv6y6PHJ_1NeHXRqNbu_W03O",
+"publishedAt": "2022-07-22T15:19:57Z",
+"content": "The Covid-19 case trajectory in some states is witnessing an upward trend since May but hospitalisation and death rates are low which can be attributed to immunisation efforts across India, the Lok S… [+1774 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "PTI",
+"title": "Indian, Thai armies hold talks to boost cooperation",
+"description": "The Thai team was headed by Major General Thongchai Rodyoi from the Royal Thai Army.",
+"url": "https://www.businesstoday.in/latest/trends/story/indian-thai-armies-hold-talks-to-boost-cooperation-342461-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/ezgif-sixteen_nine_347.jpg",
+"publishedAt": "2022-07-22T15:18:21Z",
+"content": "The armies of India and Thailand have prepared a roadmap to boost engagement, especially to enhance cooperation in training and carrying out joint drills.\r\nThe roadmap was finalised at the fourth Arm… [+959 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Bhaskar Dutta",
+"title": "India's foreign exchange reserves drop $7.5 billion to $572.7 billion",
+"description": "Foreign exchange reserves depleted around $70 billion from its peak in September 2021",
+"url": "https://www.business-standard.com/article/finance/india-s-foreign-exchange-reserves-drop-7-5-billion-to-572-7-billion-122072201191_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-02/25/full/1582578515-6058.png",
+"publishedAt": "2022-07-22T15:18:00Z",
+"content": "India’s foreign exchange reserves dropped $7.5 billion to $572.7 billion during the week ended July 15, the latest data released by the Reserve Bank of India (RBI) showed. The reserves are now at 20-… [+1361 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "CWG 2022: High jumper Tejaswin \"will pick up the pieces\" at Birmingham",
+"description": "Indian high jumper Tejaswin Shankar says he will \"pick up the pieces\" and prepare in the best possible way after getting a last-minute entry into the Birmingham event",
+"url": "https://www.business-standard.com/article/sports/cwg-2022-high-jumper-tejaswin-will-pick-up-the-pieces-at-birmingham-122072201170_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-07/22/full/1658502992-4936.jpg",
+"publishedAt": "2022-07-22T15:16:00Z",
+"content": "He endured \"a roller-coaster of emotions\" after being ignored for the Commonwealth Games but Indian high jumper Tejaswin Shankar says he will \"pick up the pieces\" and prepare in the best possible way… [+4888 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "Rahul Oberoi",
+"title": "Weekly wrap: Sensex reclaims Mt 56K; BSE m-cap climbs Rs 9 lakh crore",
+"description": "Sectorwise, the BSE IT index gained 5.92% during the past five trading sessions. BSE Bankex, BSE Metal, BSE Capital Goods and BSE Realty also outpaced Sensex with a gain of over 4.60%.",
+"url": "https://www.businesstoday.in/markets/top-story/story/weekly-wrap-sensex-reclaims-mt-56k-bse-m-cap-climbs-rs-9-lakh-crore-342459-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/stock_4-sixteen_nine.jpg",
+"publishedAt": "2022-07-22T15:15:46Z",
+"content": "Hopes of a strong earnings season, buying by foreign institutional investors (FIIs), stabilising crude oil prices and positive global cues aided market sentiment this week. As a result, the benchmark… [+3784 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Global Business Jets Market Report 2022-2030: Increasing Demand for Improved Passenger Experience Drives Growth",
+"description": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Global Business Jets Market by Aircraft Type (Light, Mid-Sized, Large, Airliner), Systems (OEM Systems, Aftermarket Systems), End-Use (Private User, Operator), Point of Sale (OEM, Aftermarket), Services, Range and Re…",
+"url": "https://www.prnewswire.com/news-releases/global-business-jets-market-report-2022-2030-increasing-demand-for-improved-passenger-experience-drives-growth-301591706.html",
+"urlToImage": "https://mma.prnewswire.com/media/539438/Research_and_Markets_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T15:15:00Z",
+"content": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Global Business Jets Market by Aircraft Type (Light, Mid-Sized, Large, Airliner), Systems (OEM Systems, Aftermarket Systems), End-Use (Private User, Operato… [+3950 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "PR Newswire",
+"title": "Global Business Jets Market Report 2022-2030: Increasing Demand for Improved Passenger Experience Drives Growth",
+"description": "The \"Global Business Jets Market by Aircraft Type (Light, Mid-Sized, Large, Airliner), Systems (OEM Systems, Aftermarket Systems), End-Use (Private User...",
+"url": "https://finance.yahoo.com/news/global-business-jets-market-report-151500013.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/wDGPSO44TROYKbQSONxNmQ--~B/aD00Mjt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/e75ef6f3096d7cb6f5dd43ba82eca2fe",
+"publishedAt": "2022-07-22T15:15:00Z",
+"content": "DUBLIN, July 22, 2022 /PRNewswire/ -- The \"Global Business Jets Market by Aircraft Type (Light, Mid-Sized, Large, Airliner), Systems (OEM Systems, Aftermarket Systems), End-Use (Private User, Operato… [+4232 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "PTI",
+"title": "ED attaches gems, bank deposits worth over Rs 253 cr of Nirav Modi group in Hong Kong",
+"description": "Nirav Modi, 51, is presently lodged in a UK jail and has lost his extradition plea to India in connection with the USD 2-billion PNB fraud case that is also being investigated by the CBI.",
+"url": "https://www.businesstoday.in/latest/trends/story/ed-attaches-gems-bank-deposits-worth-over-rs-253-cr-of-nirav-modi-group-in-hong-kong-342460-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/ezgif-sixteen_nine_346.jpg",
+"publishedAt": "2022-07-22T15:14:52Z",
+"content": "The Enforcement Directorate Friday said it has attached gems, jewellery and bank deposits worth Rs 253.62 crore of some Hong Kong-based companies of fugitive diamond merchant Nirav Modi as part of a … [+1725 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "ET Online",
+"title": "RBI imposes restrictions on four co-op banks, caps withdrawals",
+"description": "​In view of their deteriorating financial positions, the RBI has imposed withdrawal restrictions, capping Saibaba Janata Sahakari Bank's withdrawals at Rs 20,000 and The Suri Friends' Union Co-operative Bank's at Rs 50,000.",
+"url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-imposes-restrictions-on-four-co-op-banks-caps-withdrawals/articleshow/93059062.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93059238,width-1070,height-580,imgsize-293494,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T15:14:02Z",
+"content": "Four co-operative banks - Saibaba Janata Sahakari Bank, The Suri Friends' Union Co-operative Bank Ltd, Suri (West Bengal) and National Urban Co-operative Bank Ltd, Bahraich - have had restrictions im… [+586 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "How the Aravalis have been gouged, rock by rock | Exclusive",
+"description": "Stretching from Rajasthan, Haryana, Delhi and ending in the plains of Gujarat, a natural 700-km barrier to the western desert has been stripped bare.",
+"url": "https://www.indiatoday.in/india/story/how-the-aravalis-have-been-gouged-rock-by-rock-exclusive-1978865-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/aravalis--2_660_071512035603-647x363.jpeg?MFCYyYj.xgoOKgGYpqfBeFlxUIqwGadQ",
+"publishedAt": "2022-07-22T15:13:44Z",
+"content": "Devoured and degraded.\r\nAnd now drenched in the blood of a senior police officer.\r\nIllegal mining fuels cocktail of violations. #Newstrack with @Rahulkanwal | #IllegalMining#HaryanaMiningMafiapic.twi… [+5781 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "RBI imposes restrictions on 4 cooperative banks",
+"description": "India Business News: MUMBAI: The Reserve Bank has imposed restrictions, including on withdrawals, on four cooperative banks in view of their deteriorating financial positi.",
+"url": "https://timesofindia.indiatimes.com/business/india-business/rbi-imposes-restrictions-on-4-cooperative-banks/articleshow/93058773.cms",
+"urlToImage": "https://static.toiimg.com/thumb/msid-93059012,width-1070,height-580,imgsize-30060,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+"publishedAt": "2022-07-22T15:10:41Z",
+"content": ""
+},
+
+{
+"source": {
+"id": null,
+"name": "Android Headlines"
+},
+"author": "Sumit Adhikari",
+"title": "July Update Live For Galaxy A72, Brings Camera Improvements",
+"description": "Samsung has started rolling out the July 2022 Android security patch to the Galaxy A72. The premium mid-range smartphone from last year is receiving the latest security update in Asia and Latin America. The rollout should reach other markets such as Europe in…",
+"url": "https://www.androidheadlines.com/2022/07/july-update-2022-galaxy-samsung-a72-camera-improvements.html",
+"urlToImage": "https://www.androidheadlines.com/wp-content/uploads/2021/03/14-Galaxy-A72_Lifestyle.jpg",
+"publishedAt": "2022-07-22T15:09:01Z",
+"content": "Samsung has started rolling out the July 2022 Android security patch to the Galaxy A72. The premium mid-range smartphone from last year is receiving the latest security update in Asia and Latin Ameri… [+2298 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNA"
+},
+"author": null,
+"title": "6 local cases of BA.2.75 subvariant detected in Singapore",
+"description": "All six local cases infected with the subvariant nicknamed Centaurus were isolated upon testing positive for COVID-19 and showed mild symptoms, says the Ministry of Health.",
+"url": "https://www.channelnewsasia.com/singapore/6-local-covid-19-cases-ba275-centaurus-subvariant-moh-2829591",
+"urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--lT6J9Gce--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/cna/image/2022/04/29/dsc_7158.jpg?itok=OfJQHU-Z",
+"publishedAt": "2022-07-22T15:07:15Z",
+"content": "SINGAPORE: Six local COVID-19 cases with the Omicron subvariant BA.2.75 were reported on Friday (Jul 22) in the Ministry of Health's (MOH) daily update of infection statistics. \r\nAll cases were isola… [+1432 chars]"
+},
+{
+"source": {
+"id": "espn-cric-info",
+"name": "ESPN Cric Info"
+},
+"author": null,
+"title": "Rain prevents Somerset's victory charge against Yorkshire",
+"description": "Complete Scorecard of Somerset vs Yorkshire 45th Match 2022, County Championship Division One only on ESPNcricinfo.com. Find the complete scorecard of Somerset vs Yorkshire 45th Match Online",
+"url": "https://www.espncricinfo.com/series/county-championship-division-one-2022-1297650/somerset-vs-yorkshire-45th-match-1297748/full-scorecard",
+"urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/319200/319203.6.jpg",
+"publishedAt": "2022-07-22T15:06:10Z",
+"content": "Live  1st ODI  Port of Spain\r\nINDIA\r\nWI\r\nWest Indies chose to field."
+},
+{
+"source": {
+"id": null,
+"name": "How-To Geek"
+},
+"author": "Fergus O'Sullivan",
+"title": "Does It Matter Where My VPN Is Based?",
+"description": "VPN providers love to tout the location they’re based in as if that’s a big deal. They’ll often cite the amazing privacy laws of the country they’re headquartered in, claiming that this acts as a second layer of protection on top of their other measures, like…",
+"url": "https://www.howtogeek.com/813030/does-it-matter-where-my-vpn-is-based/",
+"urlToImage": "https://www.howtogeek.com/wp-content/uploads/2022/06/shutterstock_2002914248.jpg?height=200p&trim=2,2,2,2",
+"publishedAt": "2022-07-22T15:00:42Z",
+"content": "Maxx-Studio/Shutterstock.com\r\nVPN providers love to tout the location they’re based in as if that’s a big deal. They’ll often cite the amazing privacy laws of the country they’re headquartered in, cl… [+5937 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "Solar Energy Market to Reach USD 223.3 Billion by 2026, Growing at a CAGR of 20.5% | Valuates Reports",
+"description": "BANGALORE, India, July 22, 2022 /PRNewswire/ -- The Global Solar Energy Market is Segmented by Technology (Photovoltaic Systems and Concentrated Solar Power Systems), by Solar Module (Monocrystalline, Polycrystalline, Cadmium Telluride, Amorphous Silicon Cell…",
+"url": "https://www.prnewswire.com/news-releases/solar-energy-market-to-reach-usd-223-3-billion-by-2026--growing-at-a-cagr-of-20-5--valuates-reports-301591731.html",
+"urlToImage": "https://mma.prnewswire.com/media/1082232/Valuates_Reports_Logo.jpg?p=facebook",
+"publishedAt": "2022-07-22T15:00:00Z",
+"content": "BANGALORE, India, July 22, 2022 /PRNewswire/ -- The Global Solar Energy Market\r\n is Segmented by Technology (Photovoltaic Systems and Concentrated Solar Power Systems), by Solar Module (Monocrystalli… [+11246 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PRNewswire"
+},
+"author": null,
+"title": "CAPTAIN PLANET FOUNDATION ANNOUNCES GLOBAL BLUE CLIMATE ACTION SUMMIT SERIES FOR YOUNG CHANGEMAKERS",
+"description": "ATLANTA, July 22, 2022 /PRNewswire/ -- Captain Planet Foundation (CPF), through its Planeteer Alliance Program, is hosting the Blue Climate Action Summit Series July 29-31. This training event will gather young climate heroes to restore and protect oceans, la…",
+"url": "https://www.prnewswire.com/news-releases/captain-planet-foundation-announces-global-blue-climate-action-summit-series-for-young-changemakers-301591761.html",
+"urlToImage": "https://mma.prnewswire.com/media/1864277/Captain_Planet_Foundation_BCAS_Series.jpg?p=facebook",
+"publishedAt": "2022-07-22T15:00:00Z",
+"content": "Young changemakers will gather to help restore and protect oceans, lakes, and rivers at virtual and in-person summits.\r\nTweet this\r\nThe in-person, youth-led summits will be hosted in Lake Tahoe, Cali… [+1941 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "XDA Developers"
+},
+"author": "Adam Conway",
+"title": "Google Pixel 6a Unboxing: What’s in the box?",
+"description": "The Google Pixel 6a has finally arrived, and it’s been a widely anticipated phone. It packs Google Tensor, a great camera, and Google’s amazing Pixel software. If you’re interested in what’s in the box, then we’ve got you covered. Here’s everything you’ll get…",
+"url": "https://www.xda-developers.com/google-pixel-6a-unboxing/",
+"urlToImage": "https://www.xda-developers.com/files/2022/07/Google-Pixel-6a-Unboxing-1-Cleaned-Watermarked.jpg",
+"publishedAt": "2022-07-22T14:59:33Z",
+"content": "The Google Pixel 6a has finally arrived, and it’s been a widely anticipated phone. It packs Google Tensor, a great camera, and Google’s amazing Pixel software. If you’re interested in what’s in the b… [+1875 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Manipurfact.com"
+},
+"author": "MF News Desk",
+"title": "Indian Railways suffer Rs 259.44 cr loss due to violent protests against Agnipath Scheme",
+"description": "New Delhi: Indian Railways suffered a loss of Rs 259.44 crores due to damage and destruction of its assets in agitations against the Agnipath Scheme, Union Railway Minister Ashwini Vaishnaw…",
+"url": "https://manipurfact.com/indian-railways-suffer-rs-259-44-cr-loss-due-to-violent-protests-against-agnipath-scheme/",
+"urlToImage": "https://manipurfact.com/wp-content/uploads/2022/07/Indian-railway.jpeg",
+"publishedAt": "2022-07-22T14:58:01Z",
+"content": "New Delhi: Indian Railways suffered a loss of Rs 259.44 crores due to damage and destruction of its assets in agitations against the Agnipath Scheme, Union Railway Minister Ashwini Vaishnaw told the … [+2919 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Sugata Ghosh",
+"title": "Winsome's Mehta claims $ 5 billion from De Beers, Standard Chartered & Kroll",
+"description": "In the summer of 2013, a chain of defaults, one triggering the other, by Jatin Mehta’s companies Winsome and Forever had rattled India’s jewellery trade and soured the relationship between banks and diamond and bullion houses.",
+"url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/winsomes-mehta-claims-5-billion-from-de-beers-standard-chartered-kroll/articleshow/93058823.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93058811,width-1070,height-580,imgsize-21316,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T14:57:55Z",
+"content": "Jatin Mehta, the disgraced diamantaire, who is currently residing in London after taking the citizenship of the Caribbean country Saint Kitts and Nevis, has moved a court in Surat to claim a damage o… [+3363 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Subrata Panda",
+"title": "RuPay credit card-UPI linkage to be operational in 2 months, says NPCI CEO",
+"description": "NPCI will come up with the guidelines in consultation with the ecosystem. It will send a formal proposal to the RBI, and after the apex bank's nod, it will be operationalised.",
+"url": "https://www.business-standard.com/article/finance/rupay-credit-card-upi-linkage-to-be-operational-in-2-months-says-npci-ceo-122072201101_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2021-03/20/full/1616181203-036.jpg",
+"publishedAt": "2022-07-22T14:57:00Z",
+"content": "The linking of Rupay credit cards to Unified Payments Interface (UPI) will be done in the next two months, Dilip Asbe, chief executive officer (CEO), National Payments Corporation of India (NPCI), sa… [+2437 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NDTV News"
+},
+"author": "NDTVSports",
+"title": "West Indies vs India Live Score Ball by Ball, West Indies vs India, 2022 Live Cricket Score Of Today's Match on NDTV Sports",
+"description": "Live Updates of Today Match between West Indies vs India from Queen's Park Oval, Port of Spain, Trinidad. Check commentary and full scoreboard of the match.",
+"url": "https://sports.ndtv.com/west-indies-vs-india-2022/west-indies-vs-india-live-score-over-1st-odi-odi-16-20-updates-3184652",
+"urlToImage": "https://edata.ndtv.com/twittergft/sport_automated_story/big_637941188665541681.png",
+"publishedAt": "2022-07-22T14:55:40Z",
+"content": "A dedicated team of experts bring you live score, live cricket score, live match update on Sports.NDTV.com. After 20.3 overs, India are 129/1. The live updates of West Indies vs India scorecard is al… [+5087 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Chicago Tribune"
+},
+"author": "Larry Neumeister",
+"title": "Feds: 1st cryptocurrency insider trading case snares 3",
+"description": "A former Coinbase product manager and his brother, along with a Houston man, were charged Thursday.",
+"url": "https://www.chicagotribune.com/business/ct-biz-crypto-insider-trading-charges-ap-20220722-inxss2nzxbglhdwwm6s4sqemgq-story.html",
+"urlToImage": "https://www.chicagotribune.com/resizer/pAC1XJCeyxdmDZPPJZq_Fi2hkE0=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/OEP4ADZDZTNAXDAJPL7PI4E3VM.jpg",
+"publishedAt": "2022-07-22T14:54:46Z",
+"content": "NEW YORK — A former Coinbase product manager and his brother, along with a Houston man, were charged Thursday in what federal authorities described as the U.S. governments first cryptocurrency inside… [+3324 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "India Today"
+},
+"author": null,
+"title": "Power tussle between bureaucrats and UP ministers in Yogi Adityanath's second term",
+"description": "Uttar Pradesh minister Dinesh Khatik resigned and later said he would work for his department. The minister alleged that he was being ignored by officials as he is Dalit and alleged corruption in his department.",
+"url": "https://www.indiatoday.in/india/story/uttar-pradesh-power-tussle-bureaucrats-ministers-yogi-adityanath-second-term-1978857-2022-07-22",
+"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/yohi-647x363.jpeg?N1EHd8Cx9ovJe7XFZAx1ob3BlpSY3I.M",
+"publishedAt": "2022-07-22T14:54:31Z",
+"content": "Uttar Pradesh minister Dinesh Khatik resigned alleging that he was sidelined by officials for being a Dalit, in a move that exposed the power tussle between bureaucrats and ministers in the state.\r\nD… [+3162 chars]"
+}
+]
+
+
+</script>
+<script>
+       let art = document.querySelector("#india");
+  indiadata.forEach(function (el) {
+    let div = document.createElement("div");
+    let imgage = document.createElement("img");
+    imgage.src = el.urlToImage;
+    let h2 = document.createElement("h2");
+    h2.innerText = el.title;
+    let para = document.createElement("p");
+    para.innerText = el.description;
+    let anc = document.createElement("a");
+    anc.href = el.url;
+    art.append(div);
+    div.append(imgage,para);
+  });
+</script>
