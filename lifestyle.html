@@ -22,8 +22,8 @@
     
 }
 #lifestyles img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     display: block;
 }
 #lifestyles div{
@@ -39,14 +39,14 @@
     
 }
 #lifestyles p{
-    font-size: 20px;
+    /* font-size: 20px; */
     color: rgb(59, 57, 57);
 }
 #lifestyles p:hover{
     color: blue;
     cursor: pointer;
     /* padding: 25px; */
-    font-size: 25px;
+    font-size: 18px;
 }
     </style>
   </head>
@@ -108,7 +108,7 @@
     <div id="center">
       <div>
         <div id="left">
-          <div>
+          <div id="latestjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
               alt=""
@@ -116,7 +116,7 @@
             <p>Latest News</p>
           </div>
 
-          <div>
+          <div id="photojs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
               alt=""
@@ -140,7 +140,7 @@
             <p>Exlainers</p>
           </div>
 
-          <div>
+          <div id="indiajs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
               alt=""
@@ -148,7 +148,7 @@
             <p>India</p>
           </div>
 
-          <div>
+          <div id="enter">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
               alt=""
@@ -156,7 +156,7 @@
             <p>Entertainment</p>
           </div>
 
-          <div>
+          <div id="sportsjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
               alt=""
@@ -172,7 +172,7 @@
             <p>Viral News</p>
           </div>
 
-          <div  style="background-color: rgb(233, 233, 12);">
+          <div id="lifestylejs"  style="background-color: rgb(233, 233, 12);">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
               alt=""
@@ -180,7 +180,7 @@
             <p>Lifestyle</p>
           </div>
 
-          <div >
+          <div id="traveljs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
               alt=""
@@ -188,7 +188,7 @@
             <p>Travels</p>
           </div>
 
-          <div>
+          <div id="worldjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
               alt=""
@@ -206,7 +206,7 @@
         </div>
       </div>
       <div>
-        <h1>Lifestyle News</h1>
+        <h1 style="border-bottom: 5px solid yellow;">Lifestyle News</h1>
         <div id="lifestyles"></div>
         
       </div>
@@ -215,7 +215,21 @@
             <p>TRENDING NEWS TOPIC</p>
             <p>More</p>
         </div>
-        <hr>
+         <!---------------------- extra ------------------>
+         <div id="elon">
+          <div id="bitcoin">
+              <img src="https://www.howtogeek.com/wp-content/uploads/2021/08/shutterstock_1434643079.jpg?height=200p&trim=2,2,2,2" alt="">
+              <h3>Cryptocurrency</h3>
+          </div>
+          <div>
+              <img src="https://images.moneycontrol.com/static-mcnews/2022/03/385764247.jpg?impolicy=website&width=770&height=431" alt="">
+              <h3>Electric vehicles</h3>
+              <div id="global">
+              <img src="https://www.conserve-energy-future.com/wp-content/uploads/2016/07/global-warming-burning-earth-burning.jpg" alt="">
+               <h3>Global Warming</h3>
+          </div>
+         </div>
+         <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
        <div id="trend-news">
         <div >
            <a href="health.html">
@@ -233,7 +247,7 @@
         <p>SPACE TOPICS</p>
         <p>More</p>
     </div>
-    <hr>
+ 
     <div id="science"></div>
       </div>
      
@@ -1313,4 +1327,52 @@
     art.append(div);
     div.append(imgage,para);
   });
+  let worldjs=document.getElementById("worldjs")
+worldjs.addEventListener("click",function(){
+  window.location.href="world.html"
+})
+let latestjs=document.getElementById("latestjs")
+latestjs.addEventListener("click",function(){
+  window.location.href="latest.html"
+})
+let photojs=document.getElementById("photojs")
+photojs.addEventListener("click",function(){
+  window.location.href="photo.html"
+})
+let enterjs=document.getElementById("enter")
+enterjs.addEventListener("click",function(){
+  window.location.href="enter.html"
+})
+let sportsjs=document.getElementById("sportsjs")
+sportsjs.addEventListener("click",function(){
+  window.location.href="sports.html"
+})
+let traveljs=document.getElementById("traveljs")
+traveljs.addEventListener("click",function(){
+  window.location.href="travel.html"
+})
+let lifestylejs=document.getElementById("lifestylejs")
+lifestylejs.addEventListener("click",function(){
+  window.location.href="lifestyle.html"
+})
+let india=document.getElementById("indiajs")
+india.addEventListener("click",function(){
+  window.location.href="india.html"
+})
+let logo=document.getElementById("logo")
+logo.addEventListener("click",function(){
+  window.location.href="home.html"
+})
+let cryptoC=document.getElementById("bitcoin")
+cryptoC.addEventListener("click",function(){
+  window.location.href="bitcoin.html"
+})
+let teslaC=document.getElementById("tesla")
+teslaC.addEventListener("click",function(){
+  window.location.href="tesla.html"
+})
+let globalC=document.getElementById("global")
+globalC.addEventListener("click",function(){
+  window.location.href="global.html"
+})
 </script>

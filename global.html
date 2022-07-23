@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      #global {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        margin-top: 30px;
+        padding: 10px;
+      }
+      #global img{
+        width: 100%;
+      }
+      #global div{
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+      }
+      #global div p:hover{
+        color: blue;
+        font-size: 18px;;
+      }
+      #elon{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+      }
+      #elon img{
+        width: 100%;
+      }
+      #elon div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div id="latestjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div id="photojs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div id="indiajs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div id="enter">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div id="sportsjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div id="lifestylejs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div id="traveljs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div id="worldjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 style="border-bottom: 5px solid yellow;">Global Warming</h1>
+        <div id="global"></div>
+        
+      </div>
+      <div> <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <div id="elon">
+            <div id="bitcoin">
+                <img src="https://www.howtogeek.com/wp-content/uploads/2021/08/shutterstock_1434643079.jpg?height=200p&trim=2,2,2,2" alt="">
+                <h3>Cryptocurrency</h3>
+            </div>
+            <div id="tesla">
+                <img src="https://images.moneycontrol.com/static-mcnews/2022/03/385764247.jpg?impolicy=website&width=770&height=431" alt="">
+                <h3>Electric Vehicles</h3>
+            </div>
+            <div id="global">
+                <img src="https://www.conserve-energy-future.com/wp-content/uploads/2016/07/global-warming-burning-earth-burning.jpg" alt="">
+                <h3>Global Warming</h3>
+            </div>
+           </div>
+           <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+       <div id="trend-news">
+        <div >
+           <a href="health.html">
+            <p>HEALTH</p></a>
+        </div>
+        <div>
+            <a href="tech.html">
+            <p>TECHNOLOGY</p></a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+   
+    <div id="science"></div>
+      </div>
+     
+    </div></div>
+    </div>
+   
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+    let global= [
+{
+"source": {
+"id": null,
+"name": "Post Magazine"
+},
+"author": "Cliff Buddle, Cliff Buddle",
+"title": "Global warming? Global roasting would be more accurate",
+"description": "Progress on finding an equitable solution to the climate crisis has been depressingly slow. Hope lies with those likely to be most affected – the young",
+"url": "https://www.scmp.com/comment/opinion/article/3186362/global-warming-global-roasting-would-be-more-accurate",
+"urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_opinion/public/d8/images/canvas/2022/07/23/a29e0e69-11ab-4bc7-b160-6042bf1da2cf_e155dd28.jpg?itok=JNXYjApg&v=1658583375",
+"publishedAt": "2022-07-23T14:00:25Z",
+"content": "Published: 10:00pm, 23 Jul, 2022\r\nUpdated: 10:00pm, 23 Jul, 2022"
+},
+{
+"source": {
+"id": null,
+"name": "Moonbattery.com"
+},
+"author": "Dave Blount",
+"title": "Watch Wind Turbine Belch Black Smoke",
+"description": "Excellent news: a hideous, mostly useless, doubtlessly taxpayer-subsidized wind turbine in Crowell, Texas will not be slicing wings off of any more eagles, now that it has been struck by lightning. We might need to crank up the AC today. That black smoke look…",
+"url": "https://moonbattery.com/watch-wind-turbine-belch-black-smoke/",
+"urlToImage": "https://moonbattery.com/wp/wp-content/uploads/2018/03/moonbattery_logo_square.jpg",
+"publishedAt": "2022-07-23T13:56:46Z",
+"content": "Excellent news: a hideous, mostly useless, doubtlessly taxpayer-subsidized wind turbine in Crowell, Texas will not be slicing wings off of any more eagles, now that it has been struck by lightning.\r\n… [+138 chars]"
+},
+{
+"source": {
+"id": "news24",
+"name": "News24"
+},
+"author": null,
+"title": "News24.com | EXPLAINER | How climate change drives heatwaves and wildfires",
+"description": "Brutal heatwaves are gripping both Europe and the US this week and are forecast to dump searing heat on much of China into late August.",
+"url": "https://www.news24.com/fin24/Climate_Future/explainer-how-climate-change-drives-heatwaves-and-wildfires-20220721",
+"urlToImage": "https://cdn.24.co.za/files/Cms/General/d/3699/3e098de056e041a090f27d586de5b708.jpg",
+"publishedAt": "2022-07-23T13:09:11Z",
+"content": "<ul><li>Brutal heatwaves are gripping both Europe and the US this week. </li><li>Climate change makes heatwaves hotter and more frequent.</li><li>The global average temperature is around 1.2C warmer … [+5711 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "24/7 Wall St."
+},
+"author": "Douglas A. McIntyre",
+"title": "The Coldest Place in the World Today",
+"description": "Those who believe global warming is not real only need to look at record temperatures that have been posted around the world this week. It was 104 degrees F in London. Most of Europe had record temperatures and huge, unprecedented wildfires. Large portions of…",
+"url": "https://247wallst.com/infrastructure/2022/07/23/the-coldest-place-in-the-world-today/",
+"urlToImage": "https://247wallst.com/wp-content/uploads/2022/07/Vostok-Station-Antaricia.jpg",
+"publishedAt": "2022-07-23T12:46:31Z",
+"content": "Those who believe global warming is not real only need to look at record temperatures that have been posted around the world this week. It was 104 degrees F in London. Most of Europe had record tempe… [+1157 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Moonbattery.com"
+},
+"author": "Dave Blount",
+"title": "Masks Back Despite Biden’s Covid",
+"description": "Despite explicitly promising us that the vaccine would prevent us from getting Covid, quadruple-vaxxed Joe Biden has Covid himself, just like quadruple-vaxxed Tony Fauci has twice. Both belong to the group at most serious risk of dying from Covid; Biden is 79…",
+"url": "https://moonbattery.com/masks-back-despite-bidens-covid/",
+"urlToImage": "https://moonbattery.com/wp/wp-content/uploads/2018/03/moonbattery_logo_square.jpg",
+"publishedAt": "2022-07-23T12:00:52Z",
+"content": "Despite explicitly promising us that the vaccine would prevent us from getting Covid, quadruple-vaxxed Joe Biden has Covid himself, just like quadruple-vaxxed Tony Fauci has twice. Both belong to the… [+792 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Estel Farell-Roig)",
+"title": "Worrying NASA satellite footage shows how dry and brown UK is now compared to a year ago",
+"description": "The stark images show how the landscape has changed after this week's heatwave which saw temperatures hit 40C, wildfires break out and the Met Office issue an unprecedented red warning",
+"url": "https://www.mirror.co.uk/news/uk-news/worrying-nasa-satellite-footage-shows-27557262",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27557312.ece/ALTERNATES/s1200/0_Worrying-NASA-satellite-footage-shows-how-dry-and-brown-UK-is-now-compared-to-a-year-ago.jpg",
+"publishedAt": "2022-07-23T12:00:41Z",
+"content": "Worrying NASA satellite images have shown the toll this week's record-shattering heatwave has taken on the UK. \r\nIn comparison to a mainly green landscape from a year ago, the images now show the cou… [+3475 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Los Angeles Times"
+},
+"author": "Paul Duginski",
+"title": "For coastal L.A., the hottest days of summer are yet to come",
+"description": "Coastal California gets its hottest days later than the rest of the country.",
+"url": "https://www.latimes.com/california/story/2022-07-23/for-coastal-l-a-the-hottest-days-of-summer-are-yet-to-come",
+"urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/f817fac/2147483647/strip/true/crop/1563x821+0+115/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F21%2Fe6%2F90bc333f4a408c66e0b3bde2a101%2Fla-me-hottest-day-of-the-year-map-072022-01.jpg",
+"publishedAt": "2022-07-23T12:00:06Z",
+"content": "While stifling heat besieges the nation this weekend from the desert Southwest to the Northeast, coastal Californians cant afford to be smug. The hottest weather of the season in the Southland is typ… [+7170 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "jzeballos@businessinsider.com (Joseph Zeballos-Roig)",
+"title": "Some Democrats are pushing for a Hail Mary attempt to win over Manchin on a climate deal after September. The odds are stacked against them.",
+"description": "Democrats seem wary of going on another wild-goose chase to win over Senator Joe Manchin on climate after a year of negotiating chaos.",
+"url": "https://www.businessinsider.com/democrats-manchin-climate-biden-congress-deal-2022-7",
+"urlToImage": "https://i.insider.com/62dacdf7d001100019100507?width=1200&format=jpeg",
+"publishedAt": "2022-07-23T11:40:00Z",
+"content": "Senate Majority Leader Chuck Schumer is advancing the skinny, healthcare package that Sen. Joe Manchin of West Virginia offered as a concession. But the Democratic lawmakers asking themselves \"Is thi… [+5499 chars]"
+},
+{
+"source": {
+"id": "bloomberg",
+"name": "Bloomberg"
+},
+"author": "Victoria Cavaliere",
+"title": "Your Weekend Reading: It Seems Like the Whole World Is On Fire",
+"description": "Get caught up.",
+"url": "https://www.bloomberg.com/news/newsletters/2022-07-23/bloomberg-weekend-reading-it-seems-like-the-whole-world-is-on-fire",
+"urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.TIOQ0JgIdg/v0/1200x800.jpg",
+"publishedAt": "2022-07-23T11:30:17Z",
+"content": "In the span of two weeks, temperature records \r\nhave been \r\nsmashed, railroad tracks warped, \r\nenergy grids pushed to the brink and massive swaths of land \r\ncharredall while the global death toll fro… [+1066 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "San Francisco Chronicle"
+},
+"author": "Carolyn Said",
+"title": "Could high-tech clothing combat climate change? Bay Area startup thinks so - San Francisco Chronicle",
+"description": "Could high-tech clothing combat climate change? Bay Area startup thinks so  San Francisco Chronicle",
+"url": "https://www.sfchronicle.com/bayarea/article/high-tech-clothing-climate-change-fabric-17323579.php",
+"urlToImage": "https://s.hdnux.com/photos/01/26/55/22/22729914/3/rawImage.jpg",
+"publishedAt": "2022-07-23T11:03:30Z",
+"content": "Heating and cooling of buildings hogs energy. Cooling, the bigger consumer, accounts for about a fifth of U.S. energy usage, according to the U.S. Energy Information Administration and that number is… [+6897 chars]"
+},
+{
+"source": {
+"id": "usa-today",
+"name": "USA Today"
+},
+"author": "USA TODAY, Saleen Martin, USA TODAY",
+"title": "Greenland hit with 'unusually extensive' melting of ice sheet, boosting sea levels, scientists say",
+"description": "Rapid melting can impact sea level rise and also countries that rely on seasonal water supply from melting glaciers, said scientist William Lipscomb.",
+"url": "https://www.usatoday.com/story/news/nation/2022/07/23/greenland-ice-sheet-melting/10120290002/",
+"urlToImage": "https://www.gannett-cdn.com/presto/2022/07/21/USAT/fc9390be-9735-46c6-b301-c53d74044d57-FYHQH3JWAAA1ErN.jpg?auto=webp&crop=1671,940,x0,y154&format=pjpg&width=1200",
+"publishedAt": "2022-07-23T11:00:53Z",
+"content": "It's getting hotter in Greenland and last weekend temperatures rose enough to cause 18 billion tons of the country's ice sheet to melt over a three-day period.\r\nScientists have warned about the impen… [+4476 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Seeking Alpha"
+},
+"author": "Doug Noland",
+"title": "Weekly Commentary: Nowhere To Hide",
+"description": "Stocks were hammered. Fixed-income fared only somewhat better. Treasuries, the iShares Treasury Bond ETF, to be more exact, returned negative 12.6% - and is down about 20% YTD.",
+"url": "https://seekingalpha.com/article/4525324-weekly-commentary-nowhere-to-hide",
+"urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/103060206/image_103060206.jpg?io=getty-c-w750",
+"publishedAt": "2022-07-23T10:58:13Z",
+"content": "Image Source/DigitalVision via Getty Images\r\nFirst vacation in a while, so coverage will be spotty for the next week or so. And I'll try to finish up this week's CBB news story extracts when I have a… [+66037 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "prosaaquino@insider.com (Paola Rosa-Aquino)",
+"title": "A new genetic analysis explains how penguins lost the ability to fly, headed south, and became excellent swimmers",
+"description": "Researchers analyzed genetic data of living and extinct penguin species. Their findings suggest global temperature changes drove penguin evolution.",
+"url": "https://www.businessinsider.com/temperature-changes-shaped-penguins-evolution-study-suggests-2022-7",
+"urlToImage": "https://i.insider.com/62dae7695bf4820019b5d13c?width=1200&format=jpeg",
+"publishedAt": "2022-07-23T10:16:00Z",
+"content": "About 60 million years ago, penguins evolved from their flying ancestors into the water-loving swimmers and divers we know today. A new genetic analysis reveals just how they evolved this underwater … [+3900 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Sumedha Tripathi",
+"title": "Tiger Crosses The Road With The Help Of Traffic Police Who Asked People To Wait",
+"description": "Shrinking forests due to construction, global warming and climate change are leading wild animals to enter residential areas making them cross paths with humans. Now, a lot of it is also leading to accidents. Traffic Police helps tiger cross the roadBut a tra…",
+"url": "https://www.indiatimes.com/trending/human-interest/traffic-police-asks-people-to-wait-for-tiger-to-cross-road-575501.html",
+"urlToImage": "https://im.indiatimes.in/content/2022/Jul/tiger-crosses-road_62dbcd0b08f2f.jpg",
+"publishedAt": "2022-07-23T09:17:17Z",
+"content": "Shrinking forests due to construction, global warming and climate change are leading wild animals to enter residential areas making them cross paths with humans. Now, a lot of it is also leading to a… [+1685 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "Pooja Yadav",
+"title": "Explained: How 72 Countries Will Replicate Indore’s Model Of Waste To Energy",
+"description": "Indore is the city that excelled at the idea of converting waste into energy. The success of the model is such that now 72 nations are now all set to follow the path of the city.According to a report published in TOI (2019 data), around 35 tonne of wet waste …",
+"url": "https://www.indiatimes.com/explainers/news/how-72-countries-will-replicate-indores-model-of-waste-to-energy-575502.html",
+"urlToImage": "https://im.indiatimes.in/content/2022/Jul/indore-waste-model1_62dbc035079f7.jpg",
+"publishedAt": "2022-07-23T09:06:45Z",
+"content": "Indore is the city that excelled at the idea of converting waste into energy. The success of the model is such that now 72 nations are now all set to follow the path of the city.\r\nAccording to a repo… [+4804 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Quietus"
+},
+"author": "Poppy Richler",
+"title": "We Are All Voluptuous: Luchita Hurtado's Sky Skin Series",
+"description": "An exhibition of previously unseen works provides a portal into the life and artistry of Luchita Hurtado, for Poppy Richler",
+"url": "https://thequietus.com/articles/31847-luchita-hurtado-hauser-wirth-london-review",
+"urlToImage": "http://s3.amazonaws.com/quietus_production/images/articles/31847/HURTA95662-hires_1658565725.jpg",
+"publishedAt": "2022-07-23T08:40:39Z",
+"content": "An exhibition of previously unseen works provides a portal into the life and artistry of Luchita Hurtado, for Poppy RichlerLuchita Hurtado, Untitled, c. 1976, Oil on canvas, 42.5 x 58.4 cm / 16 3/4 x… [+8525 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "The Guardian",
+"title": "Melting ‘snowflakes’? How climate change became a new front in the right’s culture war",
+"description": "The Daily Mail and others have now switched focus to criticising the policy response, says Leo Hickman, editor of Carbon Brief",
+"url": "https://ca.news.yahoo.com/melting-snowflakes-climate-change-became-080032004.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/zR79MK2.UM_diIeAYs1J4w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/uu/api/res/1.2/IxOSi4JNhYOJFFjwcXTuvw--~B/aD0xNTM2O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/theguardian_763/b3111b5b89c87e8141425dce442930d2",
+"publishedAt": "2022-07-23T08:00:32Z",
+"content": "On Tuesday, shortly before wildfires swept through parts of south-east England, the Daily Mail published a comment piece by a writer called Stephen Robinson. Why cant the Met Office just tell us the … [+6001 chars]"
+},
+{
+"source": {
+"id": "cbc-news",
+"name": "CBC News"
+},
+"author": "Evan Dyer",
+"title": "The long-term threats to global food security go far beyond Ukraine",
+"description": "A deal between Russia and Ukraine to reopen the Black Sea ports to grain shipments brought a ray of hope as the week closed. But the world still faces multiple threats to food security — and Canada is not immune.",
+"url": "https://www.cbc.ca/news/politics/ukraine-russia-grain-food-security-famine-1.6529556",
+"urlToImage": "https://i.cbc.ca/1.4583372.1521496985!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/pictures-of-the-week-photo-gallery.jpg",
+"publishedAt": "2022-07-23T08:00:00Z",
+"content": "In the Middle Ages, people knew from bitter experience that war and pestilence usually ride together with another horseman: famine.\r\n\"We face an unprecedented global hunger crisis,\" UN Secretary-Gene… [+11336 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "CBC",
+"title": "The long-term threats to global food security go far beyond Ukraine",
+"description": "In the Middle Ages, people knew from bitter experience that war and pestilence usually ride together with another horseman: famine. \"We face an unprecedented global hunger crisis,\" UN Secretary-General Antonio Guterres warned last month. \"In the past two year…",
+"url": "https://ca.news.yahoo.com/long-term-threats-global-food-080000291.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/IVar39lvCjIKg3xSIjO.mg--~B/aD04ODU7dz0xMTgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cbc.ca/145487ec630d50faafef5c9f81f76070",
+"publishedAt": "2022-07-23T08:00:00Z",
+"content": "A farm tractor and baler sit in a hay field on a misty morning near Cremona, Alta. Farmland loss, soil degradation and climate change are putting unprecedented pressures on humanity's ability to feed… [+11668 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Times"
+},
+"author": "Christopher Flavelle and Edmund Fountain",
+"title": "How the Government Is Failing Americans Uprooted by Natural Disaster",
+"description": "Climate change is creating a growing class of displaced Americans, and the federal government is struggling to decide how to help them.",
+"url": "https://www.nytimes.com/2022/07/23/climate/natural-disaster-relief-fema.html",
+"urlToImage": "https://static01.nyt.com/images/2022/07/07/climate/00CLI-DISASTERHOUSING-swope/merlin_208966425_dac33405-933a-4fca-8431-1c0a4c46aff6-facebookJumbo.jpg",
+"publishedAt": "2022-07-23T07:00:17Z",
+"content": "LAKE CHARLES, La. Two summers ago, Hurricane Laura wrecked Betty Swopes modest bungalow at the edge of Lake Charles, a city surrounded by oil refineries in southwest Louisiana. The Federal Emergency … [+18951 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": "PTI",
+"title": "Climate change adding layer of vulnerability to fragile Himalayas: Experts",
+"description": "Several key roads are currently blocked due to landslides triggered by heavy rain in Jammu and Kashmir, Himachal Pradesh, Uttarakhand and the northeast. The Himalayas are inherently vulnerable to heavy rains, flash floods, landslides etc, as these are new mou…",
+"url": "https://economictimes.indiatimes.com/news/india/climate-change-adding-layer-of-vulnerability-to-fragile-himalayas-experts/articleshow/93069211.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93069254,width-1070,height-580,imgsize-164442,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-23T06:52:39Z",
+"content": "Climate change and ill-planned human interventions in the Himalayas have accentuated the vulnerability of the hills to disasters, resulting in a manifold increase in loss of property and human lives,… [+5613 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Today"
+},
+"author": "PTI",
+"title": "Climate change adding layer of vulnerability to fragile Himalayas, warn experts",
+"description": "The Himalayas are inherently vulnerable to heavy rains, flash floods, landslides etc, as these are new mountains which are still growing and are seismically very active.",
+"url": "https://www.businesstoday.in/latest/trends/story/climate-change-adding-layer-of-vulnerability-to-fragile-himalayas-warn-experts-342472-2022-07-23",
+"urlToImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/nepal-5258059_1280-sixteen_nine.jpg",
+"publishedAt": "2022-07-23T05:31:48Z",
+"content": "Climate change and ill-planned human interventions in the Himalayas have accentuated the vulnerability of the hills to disasters, resulting in a manifold increase in loss of property and human lives,… [+5572 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "The Telegraph",
+"title": "The winners and losers of ‘tropical’ Britain",
+"description": "There have been moments during the past week where life here has felt like a post-apocalyptic world devoid of any nature. As temperatures topped 40C, the birds stopped singing, swift fledglings fell from their nests and, in Cambridge, parched purple hairstrea…",
+"url": "https://ca.sports.yahoo.com/news/winners-losers-tropical-britain-050000961.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/cIBxh2Cpi8rlQArapAnaEw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTA-/https://s.yimg.com/uu/api/res/1.2/uaBvmrLV91uJGwl0Pq06Tw--~B/aD0xODAwO3c9Mjg4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/the_telegraph_258/50a5d6deda5dfa464eec98a0cfea5eb9",
+"publishedAt": "2022-07-23T05:00:00Z",
+"content": "Tropical Britain could be noisier, wilder and more exotic than we will have experienced for centuries\r\nThere have been moments during the past week where life here has felt like a post-apocalyptic wo… [+8413 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Twistedsifter.com"
+},
+"author": "Matthew Gilligan",
+"title": "8 Troubling Before-And-After Photos That Show the Effects of Climate Change",
+"description": "These are heartbreaking.",
+"url": "https://twistedsifter.com/2022/07/8-troubling-before-and-after-photos-that-show-the-effects-of-climate-change/",
+"urlToImage": "https://twistedsifter.com/wp-content/uploads/2022/07/AR-New-Style-DO-NOT-DELETE-copy-3.jpg",
+"publishedAt": "2022-07-23T04:45:25Z",
+"content": "Climate change looks different depending on where you live, of course, and it often looks far different than we would expect, as well.\r\nAdd in the incremental way things are changing and maybe it’s n… [+1121 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Boston Herald"
+},
+"author": "Rich Lowry",
+"title": "Lowry: Biden’s bogus climate change ’emergency’",
+"description": "It's one thing to invoke emergency presidential powers to respond to a terror attack or pandemic; it's another to do it because the temperature in Boston is over 90 degrees.",
+"url": "https://www.bostonherald.com/2022/07/23/lowry-bidens-bogus-climate-change-emergency/",
+"urlToImage": "https://www.bostonherald.com/wp-content/uploads/2022/07/AP22200388089286.jpg?w=1024&h=688",
+"publishedAt": "2022-07-23T04:01:55Z",
+"content": "Word has come down from on high that it is now mandatory to refer to climate change as an “emergency.”\r\nDemocrats and climate activists are urging President Biden to declare a literal emergency to un… [+2993 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Press Trust of India",
+"title": "Climate change adding layer of vulnerability to fragile Himalayas: Experts",
+"description": "Climate change and ill-planned human interventions in the Himalayas have accentuated the vulnerability of the hills to disasters, resulting in a manifold increase in loss of property and human lives",
+"url": "https://www.business-standard.com/article/current-affairs/climate-change-adding-layer-of-vulnerability-to-fragile-himalayas-experts-122072300104_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2016-04/08/full/1460113525-106.jpg",
+"publishedAt": "2022-07-23T04:00:00Z",
+"content": "Climate change and ill-planned human interventions in the Himalayas have accentuated the vulnerability of the hills to disasters, resulting in a manifold increase in loss of property and human lives,… [+5739 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Gizmodo Australia"
+},
+"author": "Kevin Trenberth",
+"title": "How Not to Solve the Climate Change Problem",
+"description": "When politicians talk about reaching “net zero” emissions, they’re often counting on trees or technology that can pull carbon dioxide...\nThe post How Not to Solve the Climate Change Problem appeared first on Gizmodo Australia.\n  Related Stories\r\n<ul><li>How N…",
+"url": "https://www.gizmodo.com.au/2022/07/how-not-to-solve-the-climate-change-problem/",
+"urlToImage": "https://www.gizmodo.com.au/wp-content/uploads/sites/2/2022/07/22/GettyImages-1235138831.jpg?quality=80&resize=1280,720",
+"publishedAt": "2022-07-23T03:30:04Z",
+"content": "When politicians talk about reaching net zero emissions, theyre often counting on trees or technology that can pull carbon dioxide out of the air. What they dont mention is just how much these propos… [+7362 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Straits Times"
+},
+"author": "Hermes Auto",
+"title": "WHO says heatwave has caused 1,700 deaths in Spain, Portugal alone",
+"description": "‘Scorching summer is barely halfway done’.\n Read more at straitstimes.com.",
+"url": "https://www.straitstimes.com/world/europe/who-says-heatwave-has-caused-1700-deaths-in-spain-portugal-alone",
+"urlToImage": "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2022/07/23/md_europe1_23072022.jpg?VersionId=VzEZ3nYv8cyFxlz8DzGtr9x_LOzamCYr",
+"publishedAt": "2022-07-23T03:21:09Z",
+"content": "COPENHAGEN (AFP) - The World Health Organisation's (WHO) European office said Friday (July 22) the heatwave baking Europe has caused over 1,700 deaths on the Iberian peninsula alone, as it called for… [+1672 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Wattsupwiththat.com"
+},
+"author": "Anthony Watts",
+"title": "Wrong, Legacy Media, Climate Change Is Not Causing Summer Heatwaves in the U.S. and Europe",
+"description": "The headlines have been truly apoplectic, and absolutely wrong.",
+"url": "https://wattsupwiththat.com/2022/07/22/wrong-legacy-media-climate-change-is-not-causing-summer-heatwaves-in-the-u-s-and-europe/",
+"urlToImage": "https://149366104.v2.pressablecdn.com/wp-content/uploads/2022/07/Temperatures-UK-Europe-7-19-22-1.webp",
+"publishedAt": "2022-07-23T01:00:00Z",
+"content": "Originally posted at ClimateREALISM\r\nThis past week, both the U.S. and Europe have had significant localized heatwaves. The one in Europe is particularly bothersome for the media, since the area is n… [+8859 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Vnexpress.net"
+},
+"author": "AFP",
+"title": "WHO says heatwave caused 1,700 deaths in Spain, Portugal - VnExpress International",
+"description": "The World Health Organization's European office on Friday said the heatwave baking Europe has caused over 1,700 deaths on the Iberian peninsula alone, calling for joint action to tackle climate change.",
+"url": "https://e.vnexpress.net/news/world/who-says-heatwave-caused-1-700-deaths-in-spain-portugal-4491140.html",
+"urlToImage": "https://vcdn-english.vnecdn.net/2022/07/23/220096-1658533752-1658533765-9559-1658533795_1200x0.jpg",
+"publishedAt": "2022-07-23T00:24:18Z",
+"content": "\"Heat kills. Over the past decades, hundreds of thousands of people have died as a result of extreme heat during extended heatwaves, often with simultaneous wildfires,\" WHO regional director for Euro… [+1486 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Freerepublic.com"
+},
+"author": "Illinois Review",
+"title": "Eight Critical Steps to Restore the Republic",
+"description": "It is expected – unless the vote fraud is even worse than usual this time – that the Republicans will win back both the US House and the US Senate in November 2022. This is not certain, and nobody should count their chickens before they’re hatched, though eve…",
+"url": "https://freerepublic.com/focus/f-bloggers/4080371/posts",
+"urlToImage": null,
+"publishedAt": "2022-07-23T00:17:16Z",
+"content": "Skip to comments.\r\nEight Critical Steps to Restore the RepublicIllinois Review ^\r\n | July 22, AD 2022\r\n | John F Di Leo\r\nPosted on 07/22/2022 5:17:16 PM PDT by jfd1776\r\nIt is expected unless the vote… [+13359 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "https://www.facebook.com/bbcnews",
+"title": "The audacious PR plot that seeded doubt about climate change",
+"description": "Thirty years ago, a bold plan was hatched to persuade people that climate change was not a problem.",
+"url": "https://www.bbc.co.uk/news/science-environment-62225696",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/33DE/production/_125987231_1200-gettyimages-998732292.jpg",
+"publishedAt": "2022-07-22T23:23:52Z",
+"content": "By Jane McMullenBBC News\r\nThirty years ago, a bold plan was cooked up to spread doubt and persuade the public that climate change was not a problem. The little-known meeting - between some of America… [+10345 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Chinadigitaltimes.net"
+},
+"author": "Oliver Young",
+"title": "Zhengzhou Flood Anniversary: Censored Memorials and More Extreme Weather",
+"description": "This Wednesday marked the one-year anniversary of floods in Henan on July 20, 2021, when historic levels of rainfall left almost 400 people dead and caused billions of dollars in property damage. Despite a January 2022 State Council report that chastised loca…",
+"url": "https://chinadigitaltimes.net/2022/07/zhengzhou-flood-anniversary-censored-memorials-and-more-extreme-weather/",
+"urlToImage": "https://chinadigitaltimes.net/wp-content/uploads/2021/08/CDT-logo.png",
+"publishedAt": "2022-07-22T23:01:58Z",
+"content": "This Wednesday marked the one-year anniversary of floods in Henan on July 20, 2021, when historic levels of rainfall left almost 400 people dead and caused billions of dollars in property damage. Des… [+10784 chars]"
+},
+{
+"source": {
+"id": "cbs-news",
+"name": "CBS News"
+},
+"author": "Ben Tracy",
+"title": "Here's how Phoenix is cooling down its streets as summers get hotter",
+"description": "\"We could wind up with a Phoenix of the future that's cooler than the one we have today, even as global warming continues.\"",
+"url": "https://www.cbsnews.com/news/phoenix-arizona-heat-coating-streets-gray-sealant/?ftag=YHF4eb9d17",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/bY_kq93L2viLJImR8Y5RsA--~B/aD01NzA7dz0xMTA4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cbs_news_897/ded3d55a8a20ab323aa3581bbb8932a9",
+"publishedAt": "2022-07-22T23:01:42Z",
+"content": "Phoenix, Arizona — Phoenix is trying to beat the heat by turning its black asphalt streets gray. A special sealant reflects rather than absorbs the hot desert sun. \r\nPhoenix Mayor Kate Gallego says t… [+1800 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Star Online"
+},
+"author": "The Star Online",
+"title": "Green tech conference expected to generate RM3bil",
+"description": "KUALA LUMPUR: The Internat­ional Greentech and Eco Products Exhibition and Conference Malaysia (Igem) 2022, to be held from Oct 12 to 14, is expected to lure 30,000 visitors from 30 countries and generate RM3bil in business leads. Read full story",
+"url": "https://www.thestar.com.my/news/nation/2022/07/23/green-tech-conference-expected-to-generate-rm3bil",
+"urlToImage": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
+"publishedAt": "2022-07-22T23:00:00Z",
+"content": "KUALA LUMPUR: The International Greentech and Eco Products Exhibition and Conference Malaysia (Igem) 2022, to be held from Oct 12 to 14, is expected to lure 30,000 visitors from 30 countries and gene… [+2347 chars]"
+},
+{
+"source": {
+"id": "independent",
+"name": "Independent"
+},
+"author": "Ethan Freedman",
+"title": "Monarch butterflies are now endangered. Here’s how to help",
+"description": "Planting milkweed and pollinator-friendly plants is one way to start",
+"url": "https://www.independent.co.uk/climate-change/news/monarch-butterfly-endangered-help-milkweed-b2129525.html",
+"urlToImage": "https://static.independent.co.uk/2022/07/22/22/SEI115808483.jpg?quality=75&width=1200&auto=webp",
+"publishedAt": "2022-07-22T22:15:49Z",
+"content": "The migratory monarch butterfly, owner of those iconic black and orange wings, is in trouble.\r\nThis week, the beloved insects were listed as Endangered on the International Union for Conservation of … [+3363 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Zara Woodcock)",
+"title": "Amanda Holden shows off incredible figure in tiny green bikini on Sicily holiday",
+"description": "Heart Radio star Amanda Holden looked gorgeous as she topped up her tan in a green bikini. She shared the snap with her followers on Instagram",
+"url": "https://www.mirror.co.uk/3am/celebrity-news/amanda-holden-shows-incredible-figure-27555264",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27555309.ece/ALTERNATES/s1200/1_Amanda-Holden-shows-off-incredible-figure-in-tiny-green-bikini-on-Sicily-holiday.jpg",
+"publishedAt": "2022-07-22T22:01:08Z",
+"content": "Amanda Holden showed off her incredible figure as she soaked up in the sun during her Sicilian holiday. \r\n The Britain's Got Talent judge recently jumped on a private jet to meet pal Alan Carr on the… [+2413 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "The Straits Times"
+},
+"author": "Hermes Auto",
+"title": "How penguins beat the heat and went south",
+"description": "Few animals have evolved to survive the unforgiving Antarctic like penguins.\n Read more at straitstimes.com.",
+"url": "https://www.straitstimes.com/world/how-penguins-beat-the-heat-and-went-south",
+"urlToImage": "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2022/07/21/md_pengun_21072022.jpg?VersionId=DHBrxTdaEaUWL3w1vALjcyh_J_uHiieg",
+"publishedAt": "2022-07-22T21:00:00Z",
+"content": "NEW YORK (NYTIMES) - Few animals have evolved to survive the unforgiving Antarctic like penguins. Species like the emperor penguin have overlapping layers of insulating plumage, tightly packed veins … [+4445 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Stacy Liberatore",
+"title": "Drop in air pollution has INCREASED global warming, study reveals",
+"description": "The team found there is less haze in the atmosphere, which means the air is cleaner. They also uncovered less light is being reflected from Earth, which is adding to global warming.",
+"url": "https://www.dailymail.co.uk/sciencetech/article-11040557/Drop-air-pollution-INCREASED-global-warming-study-reveals.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/21/60592435-0-image-a-64_1658523335594.jpg",
+"publishedAt": "2022-07-22T20:56:23Z",
+"content": "Scientists have found a great paradox in nature clean air is enhancing global warming, while pollution keeps our planet cool.\r\nA team of international researchers determined current pollution rates a… [+3564 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Wordpress.com"
+},
+"author": null,
+"title": "We're going to need a lot of solar panels",
+"description": "The team at Terraform Industries is now 11 people working towards a near term future where atmospheric CO2, much of it centuries of unpriced industrial waste, becomes the preferred default source o…",
+"url": "https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/",
+"urlToImage": "https://caseyhandmer.files.wordpress.com/2022/07/screenshot-from-2022-07-22-10-57-56.png",
+"publishedAt": "2022-07-22T20:54:53Z",
+"content": "The team at Terraform Industries is now 11 people working towards a near term future where atmospheric CO2, much of it centuries of unpriced industrial waste, becomes the preferred default source of … [+23723 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "News.com.au",
+"title": "Polar bear says hi to class learning about climate change",
+"description": "The primary school teacher decided to jump in headfirst to his teachings and spent ten days on an ice breaker heading towards the North Pole.",
+"url": "https://nypost.com/2022/07/22/polar-bear-says-hi-to-class-learning-about-climate-change/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/07/polar-bear-comp.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2022-07-22T20:41:33Z",
+"content": "An educator with a passion for getting children emotionally invested in saving the ice caps gave a lesson to students as a polar bear hovered over his shoulder.\r\nGavin McCormack is trying to bring th… [+2531 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "FRANCE 24 English"
+},
+"author": "NEWS WIRES",
+"title": "Macron hosts Egypt's al-Sisi in Paris for talks on security and defence",
+"description": "French President Emmanuel Macron on Friday met Egyptian counterpart Abdel Fattah al-Sisi in Paris for their latest talks aimed at tightening a relationship based on security and defence ties that has troubled activists.",
+"url": "https://www.france24.com/en/europe/20220722-macron-hosts-egypt-s-al-sisi-in-paris-for-talks-on-security-and-defence",
+"urlToImage": "https://s.france24.com/media/display/4124122c-09f5-11ed-964f-005056a90321/w:1280/p:16x9/2022-07-22T104637Z_328070808_RC2YGV9PV1BL_RTRMADP_3_FRANCE-EGYPT.JPG",
+"publishedAt": "2022-07-22T20:20:45Z",
+"content": "French President Emmanuel Macron on Friday met Egyptian counterpart Abdel Fattah al-Sisi in Paris for their latest talks aimed at tightening a relationship based on security and defence ties that has… [+2028 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Gothamist"
+},
+"author": "James Ramsay",
+"title": "Extra Extra: More public bathrooms in NYC should hang posters of local legends",
+"description": "Because you can't find me a better public bathroom in NYC than the Brighton Beach 2nd Street Comfort Station, here are your end-of-day links: NYC Triathlon shortened, E.coli outbreak in New Jersey, wild boar attacked a surfer, a camera guy passed out filming …",
+"url": "https://gothamist.com/news/extra-extra-more-public-bathrooms-in-nyc-should-hang-posters-of-local-legends",
+"urlToImage": "https://cms.prod.nypr.digital/images/332808/fill-1200x650/",
+"publishedAt": "2022-07-22T19:05:49Z",
+"content": "Good Friday afternoon in New York City, where the upcomingNYC Triathlon has been cut by 16 miles so people don't die in the heat. Here's what else is happening:\r\n<ul><li>God bless Hazel Chatman, the … [+1862 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": null,
+"title": "World Athletics could move events because of global warming, says Lord Coe",
+"description": "Championships could be moved to more \"benign\" environments because of global warming, says World Athletics president Lord Coe.",
+"url": "https://www.bbc.co.uk/sport/athletics/62272758",
+"urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/14C63/production/_126019058_gettyimages-1408986352.jpg",
+"publishedAt": "2022-07-22T18:49:37Z",
+"content": "Lord Coe says government targets to achieve net zero \"are not going to make any difference\" to extreme conditions for athletes\r\nWorld Athletics president Lord Coe has said championships could be move… [+2640 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Science X staff",
+"title": "WHO says heatwave caused 1,700 deaths in Spain, Portugal",
+"description": "The World Health Organization's European office on Friday said the heatwave baking Europe has caused over 1,700 deaths on the Iberian peninsula alone, calling for joint action to tackle climate change.",
+"url": "https://phys.org/news/2022-07-heatwave-deaths-spain-portugal.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2020/heatwave.jpg",
+"publishedAt": "2022-07-22T18:13:06Z",
+"content": "The World Health Organization's European office on Friday said the heatwave baking Europe has caused over 1,700 deaths on the Iberian peninsula alone, calling for joint action to tackle climate chang… [+2097 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Max Witynski",
+"title": "False balance in news coverage of climate change makes it harder to address crisis",
+"description": "What does media coverage of climate change have in common with coverage of COVID-19? Each has been an example of the media practice of \"bothsidesism,\" whereby journalists strive to present both sides of an issue, even in cases where most credible sources fall…",
+"url": "https://phys.org/news/2022-07-false-news-coverage-climate-harder.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/reporters.jpg",
+"publishedAt": "2022-07-22T18:10:19Z",
+"content": "What does media coverage of climate change have in common with coverage of COVID-19? Each has been an example of the media practice of \"bothsidesism,\" whereby journalists strive to present both sides… [+4614 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "FRANCE 24 English"
+},
+"author": "FRANCE24",
+"title": "Macron hosts close ally Egypt's al-Sisi",
+"description": "Macron hosted the Egyptian strongman at the Elysee Palace days after hosting UAE leader Sheikh Mohamed bin Zayed Al-Nahyan, himself a close ally of Sisi's secular administration.\n\nWith growing concern over the effects of Russia's invasion of Ukraine on global…",
+"url": "https://www.france24.com/en/live-news/20220722-macron-hosts-close-ally-egypt-s-al-sisi",
+"urlToImage": "https://s.france24.com/media/display/880d1b22-09e9-11ed-841b-005056a90321/w:1280/p:16x9/a714e62c1b686563bc50f4c4e43d266cc477cead.jpg",
+"publishedAt": "2022-07-22T18:10:14Z",
+"content": "Paris (AFP) French President Emmanuel Macron on Friday met Egyptian counterpart Abdel Fattah al-Sisi in Paris for their latest talks aimed at tightening a relationship based on security and defence t… [+2045 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Science X staff",
+"title": "The bigger the temperature change, the larger the extinction event, reveals researcher",
+"description": "A professor emeritus at Tohoku University has unearthed evidence pointing to a strong relationship between the magnitude of mass extinctions and global temperature changes in geologic times.",
+"url": "https://phys.org/news/2022-07-bigger-temperature-larger-extinction-event.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/2022/the-bigger-the-tempera.jpg",
+"publishedAt": "2022-07-22T18:09:32Z",
+"content": "A professor emeritus at Tohoku University has unearthed evidence pointing to a strong relationship between the magnitude of mass extinctions and global temperature changes in geologic times.\r\nThe res… [+3132 chars]"
+},
+{
+"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "Matthew Cappucci",
+"title": "Why the Dust Bowl was hotter than this heat wave, despite global warming",
+"description": "The U.S. Dust Bowl brought some of the hottest and driest weather ever observed in the Lower 48.",
+"url": "https://www.washingtonpost.com/climate-environment/2022/07/22/climate-change-dustbowl-heat/",
+"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZ2YVHAJ3QI63AFWIPZL7TDGMI.jpg&w=1440",
+"publishedAt": "2022-07-22T17:43:22Z",
+"content": "Comment on this story\r\nA record-shattering heat wave in Europe brought readings topping 40 degrees Celsius (104 degrees Fahrenheit). Hundreds of deaths have been attributed to the event, and five cou… [+6513 chars]"
+},
+{
+"source": {
+"id": "the-times-of-india",
+"name": "The Times of India"
+},
+"author": null,
+"title": "Not Missing theLaw for the Trees",
+"description": "​​ This interpretation gives a new lease of life to the Forest (Conservation) Act, 1980, and extends protection to many biodiversity-rich areas. Forest areas across India, particularly those not notified under the 1927 Act, have been under increased stress. S…",
+"url": "https://economictimes.indiatimes.com/opinion/et-editorial/not-missing-thelaw-for-the-trees/articleshow/93060842.cms",
+"urlToImage": "https://img.etimg.com/thumb/msid-93060861,width-1070,height-580,imgsize-27732,overlay-economictimes/photo.jpg",
+"publishedAt": "2022-07-22T17:32:34Z",
+"content": "The Supreme Court's ruling on the Aravalli forests case is a decisive gain for forest conservation, environmental well-being and sustainable development. The court made it clear that the protection a… [+1561 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "DigitalCommerce360"
+},
+"author": "Paul A. Eisenstein",
+"title": "Amazon Prime begins deliveries with Rivan’s electric vans",
+"description": "You might not hear the delivery van pull up next time Amazon Prime delivers your package. That’s because the online retail giant has formally launched service using the first of what eventually will be 100,000 all-electric delivery trucks custom-built by EV s…",
+"url": "https://www.digitalcommerce360.com/2022/07/22/amazon-prime-begins-deliveries-with-rivan-electric-vans/",
+"urlToImage": "https://www.digitalcommerce360.com/wp-content/uploads/2022/07/Amazon-Rivian-EDV-front-REL.jpg",
+"publishedAt": "2022-07-22T17:28:42Z",
+"content": "Paul A. Eisenstein is publisher and editor-in-chief of The Detroit Bureau.\r\nYou might not hear the delivery van pull up next time Amazon Prime delivers your package.\r\nThats because the online retail … [+4116 chars]"
+},
+{
+"source": {
+"id": "independent",
+"name": "Independent"
+},
+"author": "Ethan Freedman",
+"title": "Greenland lost enough ice over three days to put West Virginia under a foot of water",
+"description": "Northern Greenland, which is usually well below freezing, reached 60F this past week",
+"url": "https://www.independent.co.uk/climate-change/news/greenland-ice-sheet-melting-how-much-b2129296.html",
+"urlToImage": "https://static.independent.co.uk/2022/07/22/17/SEI113118042.jpg?quality=75&width=1200&auto=webp",
+"publishedAt": "2022-07-22T17:25:50Z",
+"content": "A heatwave in northern Greenland melted nearly six billion tonnes of ice in just three days enough water to leave the entire state of West Virginia standing in a foot water, scientists said. \r\nTemper… [+2665 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Science X staff",
+"title": "Porous crystals bind fluorine-containing greenhouse gases",
+"description": "Emissions of greenhouse gases contribute significantly to global warming. Not only carbon dioxide (CO2) but also fluorine-containing gases—including so-called per- or polyfluorinated hydrocarbons, or PFCs—have a significant share in this development. Research…",
+"url": "https://phys.org/news/2022-07-porous-crystals-fluorine-containing-greenhouse-gases.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/porous-crystals-bind-f.jpg",
+"publishedAt": "2022-07-22T17:18:03Z",
+"content": "Emissions of greenhouse gases contribute significantly to global warming. Not only carbon dioxide (CO2) but also fluorine-containing gasesincluding so-called per- or polyfluorinated hydrocarbons, or … [+3367 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Politicopro.com"
+},
+"author": "Andres Picon, E&E News",
+"title": "Large Majority of Americans Blame Warming for Extreme Weather",
+"description": "As Americans have increasingly experienced extreme weather events, their perception of climate change has shifted, survey results show",
+"url": "https://subscriber.politicopro.com/article/eenews/2022/07/22/large-majority-of-americans-linking-extreme-weather-to-climate-change-00047263",
+"urlToImage": "https://static.scientificamerican.com/sciam/cache/file/4777EC8B-BAEC-4B25-89ED5D5E4AA59DF8.jpg",
+"publishedAt": "2022-07-22T17:00:00Z",
+"content": "CLIMATEWIRE | As extreme weather wracks much of the globe, large majorities of Americans believe that in many cases, climate change is to blame.\r\nRoughly three-quarters of respondents to a recent pol… [+4153 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Cynthia McCormick Hibbert",
+"title": "Can infrastructure and tourism endure triple-digit temperatures, extreme weather during 'danger season'?",
+"description": "Elizabeth O'Connell of Northeastern University-London worked through Britain's record breaking heat wave Tuesday at home with her curtains closed and a Dyson fan at her side.",
+"url": "https://phys.org/news/2022-07-infrastructure-tourism-triple-digit-temperatures-extreme.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/2022/can-infrastructure-and.jpg",
+"publishedAt": "2022-07-22T16:23:04Z",
+"content": "Elizabeth O'Connell of Northeastern University-London worked through Britain's record breaking heat wave Tuesday at home with her curtains closed and a Dyson fan at her side.\r\n\"Regular cold showers a… [+7762 chars]"
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Thomas Catenacci",
+"title": "Climate change 'deadline' crosses ominous threshold as activists warn world is nearly out of time",
+"description": "Activists warned Friday that the world is rapidly running out of time to substantially change energy usage and curb global warming as the \"deadline\" for action fell.",
+"url": "https://www.foxnews.com/politics/climate-change-deadline-crosses-ominous-threshold-activists-warn-world-nearly-out-time",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/11/climate-trump-nov-2009.jpg",
+"publishedAt": "2022-07-22T16:22:07Z",
+"content": "The Climate Clock, an online tool and algorithm designed to calculate humanity's deadline for reducing global warming, fell below seven years Friday.\r\nThe clock, which was developed in 2020 to give a… [+3425 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Steven Nelson",
+"title": "Biden had COVID fever but symptoms getting better, doctor says",
+"description": "President Biden had a fever Thursday after testing positive for COVID-19, his physician Dr. Kevin O'Connor said in a statement released Friday morning.",
+"url": "https://nypost.com/2022/07/22/biden-had-fever-from-covid-19-but-symptoms-getting-better/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/07/biden1.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2022-07-22T16:06:53Z",
+"content": "WASHINGTON President Biden had a fever Thursday after testing positive for COVID-19, his physician Dr. Kevin O’Connor said in a statement released Friday morning.\r\n“His symptoms have improved. He did… [+3102 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Nicekicks.com"
+},
+"author": "Joey Park",
+"title": "Nice Kicks Teams Up With Sneaker LAB On A Sneaker Cleaning Kit That Gives Back",
+"description": "When it comes to sustainability within sneakers, brands are trying to do their part in protecting the planet with initiatives and new manufacturing processes that cut down on material, glues, and dyes to help efforts for a healthier planet and environment. Wh…",
+"url": "https://www.nicekicks.com/?p=1063726",
+"urlToImage": "https://www.nicekicks.com/files/2022/06/Nice-Kicks-Sneaker-Lab-Lead.jpg",
+"publishedAt": "2022-07-22T16:00:00Z",
+"content": "When it comes to sustainability within sneakers, brands are trying to do their part in protecting the planet with initiatives and new manufacturing processes that cut down on material, glues, and dye… [+2540 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Times"
+},
+"author": "Neil Genzlinger",
+"title": "Patrick J. Michaels, Vocal Outlier on Climate Change, Dies at 72",
+"description": "He thought the conversation around global warming was alarmist, and his scientific credentials made him a go-to expert for those who played down the threat.",
+"url": "https://www.nytimes.com/2022/07/22/climate/patrick-j-michaels-dead.html",
+"urlToImage": "https://static01.nyt.com/images/2022/07/22/obituaries/22Michaels/22Michaels-facebookJumbo.jpg",
+"publishedAt": "2022-07-22T15:58:49Z",
+"content": "An expensive (read $6 trillion) attempt to prevent an effective doubling of CO2 will almost certainly fail, and at best will slow it down a few years, he wrote in a 1990 opinion article in USA Today.… [+2158 chars]"
+},
+
+{
+"source": {
+"id": "news24",
+"name": "News24"
+},
+"author": null,
+"title": "News24.com | WHO says heatwave caused 1 700 deaths in Spain, Portugal",
+"description": "The World Health Organisation's European office said the heatwave baking Europe has caused over 1 700 deaths on the Iberian peninsula alone, calling for joint action to tackle climate change.",
+"url": "https://www.news24.com/news24/World/News/who-says-heatwave-caused-1-700-deaths-in-spain-portugal-20220722",
+"urlToImage": "https://cdn.24.co.za/files/Cms/General/d/1888/09510b69ae894c19a7a7b7e2631261c5.jpg",
+"publishedAt": "2022-07-22T15:51:16Z",
+"content": "The World Health Organisation's European office on Friday said the heatwave baking Europe has caused over 1 700 deaths on the Iberian peninsula alone, calling for joint action to tackle climate chang… [+1687 chars]"
+},
+{
+"source": {
+"id": "time",
+"name": "Time"
+},
+"author": "Aryn Baker",
+"title": "The Next Hottest Alternative Milk Comes from Microbes",
+"description": "The diary industry is a big polluter. A new type of milk offers a more climate-friendly option.",
+"url": "https://time.com/6199318/milk-alternatives-microbes-perfect-day/",
+"urlToImage": "https://api.time.com/wp-content/uploads/2022/07/betterland-milk-01.jpg?quality=85&w=1200&h=628&crop=1",
+"publishedAt": "2022-07-22T15:48:48Z",
+"content": "Milk is an extraordinary substance, packed with all the proteins, sugars, fats, minerals, and vitamins a young mammal needs to flourish until it can eat on its own. Co-opted by humans, cow milk—and t… [+10239 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mirror Online"
+},
+"author": "mirrornews@mirror.co.uk (Stephen White)",
+"title": "UK's 40C heatwave will be normal in 30 years due to burning fossil fuels, study shows",
+"description": "Britain's worrying scorching temperatures of 40C will most likely be the norm within 30 years, according to research - as the extreme conditions could be a risk to lives and livelihoods",
+"url": "https://www.mirror.co.uk/news/uk-news/uks-40c-heatwave-normal-30-27550905",
+"urlToImage": "https://i2-prod.mirror.co.uk/incoming/article27550993.ece/ALTERNATES/s1200/0_Summer-weather-July-19th-2022.jpg",
+"publishedAt": "2022-07-22T15:45:05Z",
+"content": "Britain's record 40C temperatures will be the norm... within 30 years, according to new research. \r\nThe study warns that extreme heatwaves will increase by more than 30 percent in the coming years.\r\n… [+6994 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Mail"
+},
+"author": "Sam Tonkin",
+"title": "Britain's record 40C temperatures could be the norm within 30 years",
+"description": "A new study, which analysed atmospheric circulation patterns and greenhouse gases, looked at data from last year when temperatures in the US and Canada more than doubled.",
+"url": "https://www.dailymail.co.uk/sciencetech/article-11039705/Britains-record-40C-temperatures-norm-30-years.html",
+"urlToImage": "https://i.dailymail.co.uk/1s/2022/07/22/16/60581667-0-image-a-44_1658503101977.jpg",
+"publishedAt": "2022-07-22T15:44:50Z",
+"content": "It may have been Britain's hottest day in history this week, but researchers warn such 40C temperatures won't be out of the ordinary within the next three decades.\r\nA new study suggests that extreme … [+6983 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "GamesIndustry.biz"
+},
+"author": "James Batchelor",
+"title": "The heat is on | This Week In Business",
+"description": "This week's heatwave shows that more needs to be done about the climate crisis - and the games industry needs to do its part",
+"url": "https://www.gamesindustry.biz/articles/2022-07-22-the-heat-is-on-this-week-in-business",
+"urlToImage": "https://images.gnwcdn.com/2022/articles/2022-07-22-16-16/FYRBaLDUYAAhe8_.jpeg",
+"publishedAt": "2022-07-22T15:38:00Z",
+"content": "Share this article\r\nThings got very heated this week. Quite literally.\r\nThe heatwave that has swept parts of the world, particularly the UK and Europe, saw governments issuing warnings for people to … [+11750 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "24/7 Wall St."
+},
+"author": "Trey Thoelcke",
+"title": "Solar stocks lead ESG performers in rocky first half for climate, markets",
+"description": "By David Callaway, Callaway Climate Insights Investors hoping to offset treacherous global warming conditions this year with opportunities in environmental, social and governance (ESG) stocks were generally left wanting in the first half. But drilling down in…",
+"url": "https://247wallst.com/economy/2022/07/22/solar-stocks-lead-esg-performers-in-rocky-first-half-for-climate-markets/",
+"urlToImage": "https://247wallst.com/wp-content/uploads/2020/09/imageForEntry25-tOA.jpg",
+"publishedAt": "2022-07-22T15:35:14Z",
+"content": "By David Callaway, Callaway Climate Insights\r\nInvestors hoping to offset treacherous global warming conditions this year with opportunities in environmental, social and governance (ESG) stocks were g… [+7095 chars]"
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Associated Press",
+"title": "Vatican Cardinal Michael Czerny calls for a fossil fuel nonproliferation treaty",
+"description": "Cardinal Michael Czerny has endorsed a fossil fuel nonproliferation treaty, saying all production of oil should begin to be phased out to avoid climate change.",
+"url": "https://www.foxnews.com/us/vatican-cardinal-michael-czerny-calls-fossil-fuel-nonproliferation-treaty",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/07/GettyImages-1241721065.jpg",
+"publishedAt": "2022-07-22T15:32:38Z",
+"content": "A top Vatican cardinal endorsed calls for a fossil fuels nonproliferation treaty and said Thursday that all new exploration and production of oil must be phased out to prevent global temperatures fro… [+1969 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NPR"
+},
+"author": "Rachel Treisman",
+"title": "How people, pets and infrastructure can respond to extreme heat",
+"description": "Climate change is making heat waves more frequent and intense. With much of the U.S. facing a weekend of extreme temperatures, here are some tips for protecting yourself and your loved ones.",
+"url": "https://www.npr.org/2022/07/22/1112906389/heat-wave-tips-people-pets-buildings",
+"urlToImage": "https://media.npr.org/assets/img/2022/07/22/gettyimages-1242023863_wide-59d62ad019390e177a4b654cfa169d32e1294ceb.jpg?s=1400",
+"publishedAt": "2022-07-22T15:20:14Z",
+"content": "People walk along the East River in Brooklyn, New York, as temperatures reached into the 90s on Wednesday.\r\nSpencer Platt/Getty Images\r\nExtreme heat continues to blanket much of Europe and North Amer… [+8509 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Iucn.org"
+},
+"author": "gmays",
+"title": "Migratory monarch butterfly now Endangered",
+"description": "Gland, Switzerland, 21 July 2022 (IUCN) – The migratory monarch butterfly (Danaus plexippus plexippus), known for its spectacular annual journey of up to 4,000 kilometres across the Americas, has entered the IUCN Red List of Threatened SpeciesTM as Endangered…",
+"url": "https://www.iucn.org/press-release/202207/migratory-monarch-butterfly-now-endangered-iucn-red-list",
+"urlToImage": "https://www.iucn.org/sites/default/files/2022-07/3_monarch-butterfly_-joe-schelling_compressed-for-web.jpg",
+"publishedAt": "2022-07-22T15:02:29Z",
+"content": "The IUCN Red List now includes 147,517 species, of which 41,459 are threatened with extinction.\r\nTodays Red List update highlights the fragility of natures wonders, such as the unique spectacle of mo… [+8163 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Discover Magazine"
+},
+"author": "Gabe Allen",
+"title": "The Late Permian Mass Extinction Explained",
+"description": "Burning coal caused the largest mass extinction in earth’s history — the Late Permian Mass Extinction, or the Great Dying.",
+"url": "https://www.discovermagazine.com/the-sciences/the-late-permian-mass-extinction-explained",
+"urlToImage": "https://images.ctfassets.net/cnu0m8re1exe/7IlIYDTAHGK1M8PyJrUaYa/7dfad8c2cbb4ad4cd8b43d815ee9e95f/latepermian.jpg",
+"publishedAt": "2022-07-22T15:00:00Z",
+"content": "Mass extinctions are evolutionary turning points brief moments on a geologic time scale that drastically change the course of life on earth. One moment in particular stands out. The Permian-Triassic … [+6259 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Freerepublic.com"
+},
+"author": "The Seattle Times",
+"title": "Opinion: Surrender on climate change bakes catastrophe in the planet’s cake",
+"description": "Historians of the future will look back on 2022 as the year America gave up addressing human-caused climate change. And given the United States’ critical role in international leadership, this will be remembered as the year the world gave up, too. President J…",
+"url": "https://freerepublic.com/focus/f-news/4080232/posts",
+"urlToImage": null,
+"publishedAt": "2022-07-22T14:33:14Z",
+"content": "Skip to comments.\r\nOpinion: Surrender on climate change bakes catastrophe in the planets cakeThe Seattle Times ^\r\n | July 22, 2022\r\n | By Jon Talton\r\nPosted on 07/22/2022 7:33:14 AM PDT by Oldeconomy… [+7199 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Guardian"
+},
+"author": "Jim Waterson Media editor",
+"title": "‘Super scorchio!’: heat brings out new face of climate denial in UK press",
+"description": "Rightwing outlets are increasingly covering complaints about extreme heat as a culture war issueReaders of the Daily Mail were in no doubt as to what the newspaper thought about Monday’s hot weather: it was little more than a “sunny day” where “snowflake Brit…",
+"url": "https://amp.theguardian.com/media/2022/jul/22/climate-denial-uk-press-culture-war",
+"urlToImage": "https://i.guim.co.uk/img/media/8a541178f2f7c0c1a2681b8021a5e7602a61c87c/39_0_3291_1974/master/3291.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=db6667da179e9cfef5c9efe38a39e361",
+"publishedAt": "2022-07-22T14:33:05Z",
+"content": "Readers of the Daily Mail were in no doubt as to what the newspaper thought about Mondays hot weather: it was little more than a sunny day where snowflake Britain had a meltdown. There was criticism … [+4271 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Jodi Thornton-O'Connell",
+"title": "39 Supermarket Buys That Are a Waste of Money",
+"description": "Households across the nation have been pummeled by the COVID-19 pandemic, with many experiencing income loss and food insecurity. According to U.S census...",
+"url": "https://finance.yahoo.com/news/39-supermarket-buys-waste-money-143003261.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/0htkJcPPGQNP0rBa32HffA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/uu/api/res/1.2/v8Gjc30JRD4xn23ziaL4Mg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/gobankingrates_644/9bcc1fe45d488dc7e701239f2e1f4079",
+"publishedAt": "2022-07-22T14:30:03Z",
+"content": "PRImageFactory / Getty Images/iStockphoto\r\nHouseholds across the nation have been pummeled by the COVID-19 pandemic, with many experiencing income loss and food insecurity. According to U.S census da… [+15108 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Ashley Strickland, CNN",
+"title": "Meet the rare and mysterious Patagonian ice dragon that lives on rapidly disappearing glaciers",
+"description": "A mysterious tiny dragon lives among the ice of the Andes Mountains in South America. The Patagonian ice dragon, is just over half an inch long and it lives on rapidly disappearing glaciers.",
+"url": "https://www.cnn.com/2022/07/22/world/patagonian-ice-dragon-scn/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220718115135-patagonia-ice-dragon-super-tease.jpg",
+"publishedAt": "2022-07-22T14:19:19Z",
+"content": "The new docuseries \"Patagonia: Life on the Edge of the World\" explores one of the wildest places on Earth. Catch the latest episode at 9 p.m. ET/PT Sunday on CNN.\r\n (CNN)A mysterious tiny dragon live… [+5387 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Ami Gal, Forbes Councils Member, \n Ami Gal, Forbes Councils Member\n https://www.forbes.com/sites/forbestechcouncil/people/amigal/",
+"title": "The Power-Computing Weapon That Is Fighting Climate Change",
+"description": "So together with a number of best practices we can adopt—from cooling and utilizing renewable energy to shutting down idle servers—the GPU is a tool we should all be considering.",
+"url": "https://www.forbes.com/sites/forbestechcouncil/2022/07/22/the-power-computing-weapon-that-is-fighting-climate-change/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62d95c6502a7440147c1ec8f/0x0.jpg?format=jpg&width=1200",
+"publishedAt": "2022-07-22T14:15:00Z",
+"content": "Ami Gal, a serial entrepreneur, is the CEO and Co-Founder of SQream.\r\ngetty\r\nBack in 1965, engineer George Moore looked to the past to predict the future of computing power. He knew that the number o… [+4910 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Purseblog.com"
+},
+"author": "Sajid Bin Mohammad",
+"title": "MCM Backpacks: Uber Cool or Overly Gaudy?",
+"description": "Who influences your bag-buying decisions? Nope, this isn’t a Closet Confessional; I’m just curious. Are you the resolute buyer – dependent on the opinions of no one but yourself? Or do the style gurus on social media have a bearing in determining your choices…",
+"url": "https://www.purseblog.com/buzz-worthy/mcm-backpacks-uber-cool-or-overly-gaudy/",
+"urlToImage": "https://static.purseblog.com/images/2022/07/The-MCM-Stark-Backpack.jpg",
+"publishedAt": "2022-07-22T14:12:52Z",
+"content": "Who influences your bag-buying decisions? \r\nNope, this isn’t a Closet Confessional; I’m just curious. \r\nAre you the resolute buyer – dependent on the opinions of no one but yourself? Or do the style … [+9326 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Plos.org"
+},
+"author": "Shuai Gong, Zhenfang Zhu, Jiangtao Qi, Chunling Tong, Qiang Lu, Wenqing Wu",
+"title": "Improving extractive document summarization with sentence centrality",
+"description": "Extractive document summarization (EDS) is usually seen as a sequence labeling task, which extracts sentences from a document one by one to form a summary. However, extracting sentences separately ignores the relationship between the sentences and documents. …",
+"url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268278",
+"urlToImage": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0268278.g005&size=inline",
+"publishedAt": "2022-07-22T14:00:00Z",
+"content": "Abstract\r\nExtractive document summarization (EDS) is usually seen as a sequence labeling task, which extracts sentences from a document one by one to form a summary. However, extracting sentences sep… [+38960 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Business Wire"
+},
+"author": null,
+"title": "European Quantum Computing Leader IQM Raises €128m Led by World Fund to Help Combat the Climate Crisis",
+"description": "ESPOO, Finland--(BUSINESS WIRE)-- #deeptech--IQM Quantum Computers (IQM), the European leader in building superconducting quantum computers, is announcing today it has raised €128 million ($128m) in Series A2 funding led by World Fund to expand its internatio…",
+"url": "https://www.businesswire.com/news/home/20220722005277/en/European-Quantum-Computing-Leader-IQM-Raises-%E2%82%AC128m-Led-by-World-Fund-to-Help-Combat-the-Climate-Crisis",
+"urlToImage": "https://mms.businesswire.com/media/20220722005277/en/1521733/23/IQM_Quantum_Computer_Illustration.jpg",
+"publishedAt": "2022-07-22T13:56:12Z",
+"content": "ESPOO, Finland--(BUSINESS WIRE)--IQM Quantum Computers (IQM), the European leader in building superconducting quantum computers, is announcing today it has raised 128 million ($128m) in Series A2 fun… [+7372 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Kdnuggets.com"
+},
+"author": "Juha Kiili",
+"title": "The Difficulty of Estimating the Carbon Footprint of Machine Learning",
+"description": "Is machine learning killing the planet? Probably not, but let's make sure it doesn't.",
+"url": "https://www.kdnuggets.com/2022/07/difficulty-estimating-carbon-footprint-machine-learning.html",
+"urlToImage": "https://www.kdnuggets.com/wp-content/uploads/kiili_difficulty_estimating_carbon_footprint_machine_learning_1.jpg",
+"publishedAt": "2022-07-22T13:50:08Z",
+"content": "Photo by Dim Hou on Unsplash\r\nMachine learning (ML) often mimics how human brains operate by attaching virtual neurons with virtual synapses. Deep learning (DL) is a subset of ML putting steroids int… [+5232 chars]"
+},
+{
+"source": {
+"id": "breitbart-news",
+"name": "Breitbart News"
+},
+"author": "Robert Kraychik, Robert Kraychik",
+"title": "Exclusive: Steve Milloy -- Blackouts and Brownouts Seen in California and Texas 'Coming to the Rest of Us'",
+"description": "Blackouts and brownouts as seen in California and Texas will spread across the U.S. if the \"climate agenda\" continues, Steve Milloy said.",
+"url": "https://www.breitbart.com/podcast/2022/07/22/exclusive-steve-milloy-blackouts-and-brownouts-seen-in-california-and-texas-coming-to-the-rest-of-us/",
+"urlToImage": "https://media.breitbart.com/media/2022/07/california-brown-out-640x335.jpg",
+"publishedAt": "2022-07-22T13:49:40Z",
+"content": "Increasing adoption of solar and win power combined with government-driven removal of fossil fuel-sourced electricity will spread blackouts and brownouts across America, Steve Milloy, senior legal fe… [+2470 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Phys.Org"
+},
+"author": "Science X staff",
+"title": "Human activities increase likelihood of more extreme heatwaves, researchers find",
+"description": "July 19 was the hottest day ever recorded in the United Kingdom, with temperatures surpassing 40 degrees Celsius (about 104 degrees Fahrenheit). The heatwave serves as an early preview of what climate forecasters theorized will be typical summer weather in th…",
+"url": "https://phys.org/news/2022-07-human-likelihood-extreme-heatwaves.html",
+"urlToImage": "https://scx2.b-cdn.net/gfx/news/2022/human-activities-incre.jpg",
+"publishedAt": "2022-07-22T13:48:20Z",
+"content": "July 19 was the hottest day ever recorded in the United Kingdom, with temperatures surpassing 40 degrees Celsius (about 104 degrees Fahrenheit). The heatwave serves as an early preview of what climat… [+4441 chars]"
+},
+{
+"source": {
+"id": "reuters",
+"name": "Reuters"
+},
+"author": null,
+"title": "Gary Gensler has set the SEC on a perilous path - Reuters",
+"description": "Gary Gensler is the kind of regulator who gets things done. That’s not always the kind that serves America best. The chair of the Securities and Exchange Commission has flexed the rulemaking process in a way that has been helpful to a Democrat-led administrat…",
+"url": "https://www.reuters.com/legal/government/gary-gensler-has-set-sec-perilous-path-2022-07-22/",
+"urlToImage": "https://www.reuters.com/resizer/-DrRQ315XvKxZuKbohW-oZmrGnI=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/5WLC2TJMBNJ2NCG5A7F3H6WZPU.jpg",
+"publishedAt": "2022-07-22T13:38:00Z",
+"content": "WASHINGTON, July 22 (Reuters Breakingviews) - Gary Gensler is the kind of regulator who gets things done. Thats not always the kind that serves America best. The chair of the Securities and Exchange … [+5910 chars]"
+}
+]
+
+
+let art = document.querySelector("#global");
+      global.forEach(function (el) {
+        let div = document.createElement("div");
+        let imgage = document.createElement("img");
+        imgage.src = el.urlToImage;
+        let h2 = document.createElement("h2");
+        h2.innerText = el.title;
+        let para = document.createElement("p");
+        para.innerText = el.description;
+        let anc = document.createElement("a");
+        anc.href = el.url;
+        art.append(div);
+        div.append(imgage,h2,para);
+      });
+      let worldjs=document.getElementById("worldjs")
+worldjs.addEventListener("click",function(){
+  window.location.href="world.html"
+})
+let latestjs=document.getElementById("latestjs")
+latestjs.addEventListener("click",function(){
+  window.location.href="latest.html"
+})
+let photojs=document.getElementById("photojs")
+photojs.addEventListener("click",function(){
+  window.location.href="photo.html"
+})
+let enterjs=document.getElementById("enter")
+enterjs.addEventListener("click",function(){
+  window.location.href="enter.html"
+})
+let sportsjs=document.getElementById("sportsjs")
+sportsjs.addEventListener("click",function(){
+  window.location.href="sports.html"
+})
+let traveljs=document.getElementById("traveljs")
+traveljs.addEventListener("click",function(){
+  window.location.href="travel.html"
+})
+let lifestylejs=document.getElementById("lifestylejs")
+lifestylejs.addEventListener("click",function(){
+  window.location.href="lifestyle.html"
+})
+let india=document.getElementById("indiajs")
+india.addEventListener("click",function(){
+  window.location.href="india.html"
+})
+let logo=document.getElementById("logo")
+logo.addEventListener("click",function(){
+  window.location.href="home.html"
+})
+let cryptoC=document.getElementById("bitcoin")
+cryptoC.addEventListener("click",function(){
+  window.location.href="bitcoin.html"
+})
+let teslaC=document.getElementById("tesla")
+teslaC.addEventListener("click",function(){
+  window.location.href="tesla.html"
+})
+let globalC=document.getElementById("global")
+globalC.addEventListener("click",function(){
+  window.location.href="global.html"
+})
+</script>
