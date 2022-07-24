@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 75px;
+    height: 55px;
     margin: 5px 0px auto 0px;
     position: sticky;
     position: -webkit-sticky;
@@ -34,6 +34,7 @@ body{
 }
 #logo{
     height: 32px;
+    cursor: pointer;
 }
 #hindi{
     border: 2px solid black;
@@ -62,7 +63,7 @@ body{
     display: flex;
     width: 10%;
     background-color: rgb(165, 160, 160);
-    height: 65px;
+    height: 60px;
     align-items: center;
     justify-content: center;
     border-top-right-radius: 10px;;
@@ -75,7 +76,7 @@ body{
     background-color: black;
     color: white;
     width: 90%;
-    height: 65px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     
@@ -84,7 +85,7 @@ body{
     padding: 0 100px;
     color: white;
     /* font-weight: 800; */
-    font-size: 25px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
 }
@@ -104,10 +105,7 @@ body{
     margin-top: 15px;
     color: grey;
     width: 100%;
-    /* position: fixed; */
-    /* position: -webkit-sticky;
-    top: 10px; */
-    /* padding: 30px; */
+ 
 }
 #main-footer>hr{
    border: .1px solid grey;
@@ -170,14 +168,17 @@ body{
 /*-------------------------------------main body-----------------------------------*/
 #center{
     display: grid;
-    grid-template-columns: 1.5fr 4fr 2fr;
-    /* border: 4px solid black; */
+    grid-template-columns: 1fr 2fr 1fr;
+    
     margin-top: 20px;
     gap: 20px;
-    /* padding: 15x; */
+   
 }
 #center>div{
-    border: 2px solid red;
+
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
 }
 #left{
     display: grid;
@@ -188,23 +189,22 @@ body{
     position: sticky;
     position: -webkit-sticky;
     top: 100px;
-
-    font-size: 20px;
-    /* gap: 1px; */
+    /* font-size: 16px; */
     margin-left: 15px;
 }
 #left>div{
-    padding-top: 5px;
-    padding-bottom: 5px; 
-    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+    padding-left: 2px;
    display: flex;
    align-items: center;
-   gap: 10px;
+   gap: 20px;
  
 }
 #left>div:hover{
     background-color: rgb(226, 226, 43);
     cursor: pointer;
+
 }
 #righth1{
     display: flex;
@@ -214,32 +214,26 @@ body{
     margin-right: 5px;
     margin-top: 15px;
 }
+
 #righth1>p{
     font-weight: bolder;
+    border-bottom: 5px solid yellow;
 }
 #righth1>p+p{
     font-size: 14px;
+    border-bottom: 3px solid yellow;
     font-weight: 100;
 }
-#right>hr{
-    background-color: rgb(226, 226, 43);
-    height: 3px;
-    margin-top: 10px;
-}
-#trend-topics{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(3,1fr);
-}
+
 #trend-news a{
     
         text-decoration: none;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         color: white;
 }
 #trend-news{
-    display: flex;
+     display: flex;
         gap: 15px;
         flex-direction: column;
         margin-top: 10px;
@@ -274,12 +268,12 @@ body{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: auto;
-    gap: 20px;
+    gap: 10px;
     
 }
 #science img {
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
     display: block;
 }
 #science div{
@@ -292,10 +286,10 @@ body{
     overflow: auto;
     text-overflow: ellipsis;
     text-align:justify;
-    
+    margin-top: 10px;
 }
 #science p{
-    font-size: 20px;
+    /* font-size: 14px; */
     color: rgb(59, 57, 57);
 
     
@@ -313,10 +307,10 @@ margin-bottom: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     padding: 10px;
 }
-#first-head>h2:hover{
+#first-head>h3:hover{
     color: rgb(81, 81, 238);
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
 }
 #home-head{
@@ -329,8 +323,8 @@ margin-bottom: 10px;
     
 }
 #home-head img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     display: block;
 }
 #home-head div{
@@ -346,12 +340,40 @@ margin-bottom: 10px;
     
 }
 #home-head p{
-    font-size: 20px;
+    /* font-size: 20px; */
     color: rgb(59, 57, 57);
 }
 #home-head p:hover{
     color: blue;
     cursor: pointer;
     /* padding: 25px; */
-    font-size: 25px;
+    font-size: 18px;
+}
+#elon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+  #elon img{
+    width: 100%;
+  }
+  #elon div{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .btn{
+    padding: 10px;
+    width: 100px;
+    display: none;
+}
+#searchbtn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+input{
+    border-radius: 20px;
+
 }

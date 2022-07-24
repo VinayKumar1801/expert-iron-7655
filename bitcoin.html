@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      #crypto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        margin-top: 30px;
+        padding: 10px;
+      }
+      #crypto img {
+        width: 100%;
+      }
+      #crypto div {
+        padding: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+      #crypto div p:hover {
+        color: blue;
+        font-size: 18px;
+      }
+      #elon {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      #elon img {
+        width: 100%;
+      }
+      #elon div {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div id="latestjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div id="photojs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div id="indiajs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div id="enter">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div id="sportsjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div id="lifestylejs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div id="traveljs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div id="worldjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 style="border-bottom: 5px solid yellow">Cryptocurrency</h1>
+        <div id="crypto"></div>
+      </div>
+      <div>
+        <div id="right">
+          <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+          </div>
+          <!---------------------- extra ------------------>
+          <div id="elon">
+            <div id="bitcoin">
+                <img src="https://www.howtogeek.com/wp-content/uploads/2021/08/shutterstock_1434643079.jpg?height=200p&trim=2,2,2,2" alt="">
+                <h3>Cryptocurrency</h3>
+            </div>
+            <div id="tesla">
+                <img src="https://images.moneycontrol.com/static-mcnews/2022/03/385764247.jpg?impolicy=website&width=770&height=431" alt="">
+                <h3>Electric Vehicles</h3>
+            </div>
+            <div id="global">
+                <img src="https://www.conserve-energy-future.com/wp-content/uploads/2016/07/global-warming-burning-earth-burning.jpg" alt="">
+                <h3>Global Warming</h3>
+            </div>
+           </div>
+           <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+            <div id="trend-news">
+              <div>
+                <a href="health.html"> <p>HEALTH</p></a>
+              </div>
+              <div>
+                <a href="tech.html"> <p>TECHNOLOGY</p></a>
+              </div>
+              <div>
+                <a href="business.html"> <p>BUSINESS</p></a>
+              </div>
+            </div>
+            <div id="righth1">
+              <p>SPACE TOPICS</p>
+              <p>More</p>
+            </div>
+
+            <div id="science"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+  let crypto = [
+    {
+      source: {
+        id: null,
+        name: "U.Today",
+      },
+      author: "U.Today",
+      title:
+        "Solana (SOL) Has 'Far Too Many Red Flags,' Seasoned Investor Says",
+      description:
+        "Cryptocurrency investor and researcher Justin Bons, CIO of Cyber Capital fund, bashes Solana's (SOL) technical design and accuses its team of misleading investors",
+      url: "https://u.today/solana-sol-has-far-too-many-red-flags-seasoned-investor-says",
+      urlToImage:
+        "https://u.today/sites/default/files/styles/twitter/public/2022-07/22046.jpg",
+      publishedAt: "2022-07-23T13:22:00Z",
+      content:
+        "CIO and co-founder of a pioneering cryptocurrency VC fund Cyber Capital lists the reasons to avoid the SOL token as a long-term investment opportunity.\r\nCentralization, SOL supply manipulations, 'bad… [+1909 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Dcforecasts.com",
+      },
+      author: "Stefan",
+      title: "Animoca Brands Will Build Metaverse Standards With New DAO",
+      description:
+        "Animoca Brands will build metaverse standards with the newly launched DAO after a few prominent Web3 names joined the efforts so let’s have a closer look at today’s latest cryptocurrency news. An alliance of web3 companies joint efforts to build an open metav…",
+      url: "https://www.dcforecasts.com/altcoin-news/animoca-brands-will-build-metaverse-standards-with-new-dao/",
+      urlToImage:
+        "https://www.dcforecasts.com/wp-content/uploads/2021/10/animoca.png",
+      publishedAt: "2022-07-23T13:20:03Z",
+      content:
+        "Animoca Brands will build metaverse standards with the newly launched DAO after a few prominent Web3 names joined the efforts so lets have a closer look at todays latest cryptocurrency news.\r\nAn alli… [+3593 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Cointelegraph",
+      },
+      author: "Cointelegraph By Anthony Clarke",
+      title: "Proof-of-time vs proof-of-stake: How the two algorithms compare",
+      description:
+        "Blockchains use consensus algorithms to choose who gets to verify transactions on the network — what are the differences between the two?",
+      url: "https://cointelegraph.com/news/proof-of-time-vs-proof-of-stake-how-the-two-algorithms-compare",
+      urlToImage:
+        "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDcvYTU2Y2M0YTEtMTFkZi00YTM2LTkwYzktY2NlZmVkMTEzMzc0LmpwZw==.jpg",
+      publishedAt: "2022-07-23T13:05:00Z",
+      content:
+        "Consensus algorithms are processes where validators (also known as nodes or miners) within a blockchain network agree on the current state of the network. This mainly entails agreeing on whether a tr… [+6823 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Foundation for Economic Education",
+      },
+      author: "Emmanuel Rincón",
+      title: "Dictators Who Laud Bitcoin Deserve Your Scorn, Not Your Praise",
+      description:
+        "If we have learned anything from history, it is that money—of any kind—will be used for both the most beneficial and the most terrifying causes.\nMoney, like weapons, medicines, or any other element, is just a tool, which can be used by the human species for b…",
+      url: "https://fee.org/articles/dictators-who-laud-bitcoin-deserve-your-scorn-not-your-praise/",
+      urlToImage:
+        "https://fee.org/media/41921/bitcoin_dictators.jpg?center=0.44807121661721067,0.79833333333333334&mode=crop&height=466&widthratio=2.0171673819742489270386266094&rnd=133026239300000000",
+      publishedAt: "2022-07-23T13:00:18Z",
+      content:
+        "On June 19, Colombians elected the former socialist guerrilla, Gustavo Petro, as president of the nation. The Marxist, a deep believer in state intervention in the economy and redistribution of wealt… [+4819 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "ZDNet",
+      },
+      author: "Charlie Osborne",
+      title:
+        "Here are the top phone security threats in 2022 and how to avoid them",
+      description:
+        "Your handset is always at risk of being exploited. Here's what to look out for.",
+      url: "https://www.zdnet.com/article/here-are-the-top-phone-security-threats-in-2022-and-how-to-avoid-them/",
+      urlToImage:
+        "https://www.zdnet.com/a/img/resize/02e780e1a64d6826350e7b98ec3f0dce9c7e349e/2022/06/09/eb5d3729-8a2c-47da-89c0-065227d350bd/gettyimages-1310436400.jpg?auto=webp&fit=crop&height=675&width=1200",
+      publishedAt: "2022-07-23T13:00:09Z",
+      content:
+        "Oscar Wong / Getty\r\nOur mobile devices are now the keys to our communication, finances, and social lives -- and because of this, they are lucrative targets for cybercriminals. \r\nWhether or not you us… [+9357 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "New York Post",
+      },
+      author: "Kyle Thomas",
+      title:
+        "It’s Leo season! The lion’s beauty, finance, fitness and more 2022 trends",
+      description:
+        "Welcome to Leo Season, the time of the year where we feel the greatest heat of summer in the Northern Hemisphere. As we feel the sizzling spice of life, we will be eager to step forward and embrace what makes us passionate, authentic and unique.",
+      url: "https://nypost.com/2022/07/23/leo-season-beauty-finance-and-fitness-2022-trends/",
+      urlToImage:
+        "https://nypost.com/wp-content/uploads/sites/2/2022/07/leo-hotnot-zodiac.jpg?quality=75&strip=all&w=1024",
+      publishedAt: "2022-07-23T13:00:00Z",
+      content:
+        "Welcome to Leo Season, the time of the year where we feel the greatest heat of summer in the Northern Hemisphere. \r\nAs we feel the sizzling spice of life, we will be eager to step forward and embrace… [+12258 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Motley Fool",
+      },
+      author: "newsfeedback@fool.com (Leo Sun)",
+      title: "Better Bitcoin Stock: Block vs. Coinbase Global",
+      description:
+        "One of these fintech stocks is clearly the safer investment.",
+      url: "https://www.fool.com/investing/2022/07/23/better-bitcoin-stock-block-vs-coinbase-global/",
+      urlToImage:
+        "https://g.foolcdn.com/editorial/images/690782/bitcoin-tokens.jpg",
+      publishedAt: "2022-07-23T12:57:00Z",
+      content:
+        "Bitcoin's (BTC -4.86%) price has risen about 10% over the past month, seemingly stabilizing above the $20,000 level, as selling pressure across the cryptocurrency market has gradually eased. That sta… [+5017 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "VOA News",
+      },
+      author: "webdesk@voanews.com (Reuters)",
+      title:
+        "North Korea Denounces US Over Washington's Remarks on Cryptocurrency Stealing",
+      description:
+        "North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S. aggression toward it.\n\n\nA Foreign Ministry spokesperson said that branding No…",
+      url: "https://www.voanews.com/a/north-korea-denounces-us-over-washington-s-remarks-on-cryptocurrency-stealing/6670840.html",
+      urlToImage:
+        "https://gdb.voanews.com/7144D8C6-85D6-4CED-9E1C-28B999B822E3_w1200_r1.jpg",
+      publishedAt: "2022-07-23T12:48:43Z",
+      content:
+        "SEOUL  North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S. aggression… [+961 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Bitcoinist",
+      },
+      author: "Jet Encila",
+      title:
+        "Crypto Purchases Using Credit Cards To Be Banned In Taiwan: Report",
+      description:
+        "Cryptocurrency transactions using credit cards will no longer be allowed in Taiwan, as the island nation’s watchdog believes digital currencies are risky and speculative assets, local reports disclose. In a letter sent to the banking industry association earl…",
+      url: "https://bitcoinist.com/crypto-purchases-using-cards-to-be-banned-in-taiwan/",
+      urlToImage:
+        "https://bitcoinist.com/wp-content/uploads/2022/07/crypto-4.png",
+      publishedAt: "2022-07-23T12:48:14Z",
+      content:
+        "Cryptocurrency transactions using credit cards will no longer be allowed in Taiwan, as the island nation’s watchdog believes digital currencies are risky and speculative assets, local reports disclos… [+3086 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Dcforecasts.com",
+      },
+      author: "Stefan",
+      title: "Bankman-Fried’s FTX Might Purchase Bithumb Crypto Exchange",
+      description:
+        "Sam Bankman-Fried’s FTX might purchase the South Korean crypto exchange Bithumb and it seems that the company appears to be exploring more acquisition options so let’s read more today in our latest cryptocurrency news. Over the crypto winter, rumors of FTX ac…",
+      url: "https://www.dcforecasts.com/altcoin-news/bankman-frieds-ftx-might-purchase-bithumb-crypto-exchange/",
+      urlToImage:
+        "https://www.dcforecasts.com/wp-content/uploads/2021/03/sam-bankman-fried.bmp",
+      publishedAt: "2022-07-23T12:37:53Z",
+      content:
+        "Sam Bankman-Frieds FTX might purchase the South Korean crypto exchange Bithumb and it seems that the company appears to be exploring more acquisition options so lets read more today in our latest cry… [+2528 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Lucas Ropek",
+      title:
+        "What Is ‘Pig Butchering,’ the Crypto Scam That's Flooding the FBI's Phone Lines?",
+      description:
+        "Cryptocurrency is rife with scams—we all know this to be true. Everybody’s heard the horror stories: “rug pulls,” “pump and dumps,” the typical “investment” ploy that leaves your bank account high and dry. But there’s a new type of fraud going around and it s…",
+      url: "https://gizmodo.com/what-is-a-pig-butchering-crypto-scam-1849316921",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d467c26e7d6c3997366cb16e5e13068f.jpg",
+      publishedAt: "2022-07-23T12:30:00Z",
+      content:
+        "Cryptocurrency is rife with scamswe all know this to be true. Everybodys heard the horror stories: rug pulls, pump and dumps, the typical investment ploy that leaves your bank account high and dry. B… [+5732 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Dcforecasts.com",
+      },
+      author: "Stefan",
+      title:
+        "California Stops Ban On BTC Donations For Political Campaigns: Report",
+      description:
+        "California stops ban on BTC donations and other crypto donations for political campaigns and it seems that crypto is getting back into politics so let’s read more today in our latest cryptocurrency news. The legislators in the state voted to end the ban on cr…",
+      url: "https://www.dcforecasts.com/bitcoin-news/california-stops-ban-on-btc-donations-for-political-campaigns-report/",
+      urlToImage:
+        "https://www.dcforecasts.com/wp-content/uploads/2020/05/3227633996_cde029e9aa_b.jpg",
+      publishedAt: "2022-07-23T12:16:40Z",
+      content:
+        "California stops ban on BTC donations and other crypto donations for political campaigns and it seems that crypto is getting back into politics so lets read more today in our latest cryptocurrency ne… [+2574 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "U.Today",
+      },
+      author: "U.Today",
+      title: "Coinbase Wallet Integrates OpenSea, Rarible Orders: Details",
+      description:
+        "Latest upgrade to Coinbase Wallet unlocks new opportunities for NFT traders of two majors",
+      url: "https://u.today/coinbase-wallet-integrates-opensea-rarible-orders-details",
+      urlToImage:
+        "https://u.today/sites/default/files/styles/twitter/public/2022-07/22049.jpg",
+      publishedAt: "2022-07-23T12:13:00Z",
+      content:
+        "Coinbase Wallet, a multi-product cryptocurrency storage ecosystem by the largest U.S. crypto exchange Coinbase, releases a tech upgrade that streamlines non-fungible token (NFT) trading for pros and … [+1533 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Biztoc.com",
+      },
+      author: "wolfofbt",
+      title: "They Thought 'Crypto Banks' Were Safe, and Then Came the Crash",
+      description:
+        "Crypto firms such as Celsius and Voyager pitched themselves as good alternatives to traditional lenders. Lucas Holcomb had taken out a home-equity line of credit and deposited the proceeds with... #alexmashinsky #safeguardscelsius #jackwang #cryptofirms #aven…",
+      url: "https://biztoc.com/p/dbny6uc8?ref=rss",
+      urlToImage: "https://cdn.biztoc.com/og/dbny6uc8.jpg",
+      publishedAt: "2022-07-23T12:09:48Z",
+      content:
+        "Crypto firms such as Celsius and Voyager pitched themselves as good alternatives to traditional lenders. Lucas Holcomb had taken out a home-equity line of credit and deposited the proceeds with Celsi… [+1374 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Seeking Alpha",
+      },
+      author: "Wall Street Breakfast",
+      title: "Wall Street Breakfast: What Moved Markets",
+      description:
+        "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+      url: "https://seekingalpha.com/article/4525332-wall-street-breakfast-what-moved-markets",
+      urlToImage:
+        "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+      publishedAt: "2022-07-23T11:59:18Z",
+      content:
+        "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nStocks dropped on Friday to end a three-session winning stre… [+11889 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "ZyCrypto",
+      },
+      author: "Isa Nsereko",
+      title:
+        "Divergent Views Over Digital Asset Mining Call For Closer Stakeholder Engagement",
+      description:
+        "The Bitcoin Mining Council (BMC) has released the Global Bitcoin Mining Data Review Q2 2022 report. The report has interesting findings on digital asset mining that will certainly add to the debate on the impact of crypto mining on the environment. According …",
+      url: "https://zycrypto.com/divergent-views-over-digital-asset-mining-call-for-closer-stakeholder-engagement/",
+      urlToImage:
+        "https://zycrypto.com/wp-content/uploads/2021/10/U.S-Emerges-As-The-Global-Leader-In-The-Bitcoin-Mining-Industry-After-Chinas-Crackdown.jpg",
+      publishedAt: "2022-07-23T11:55:03Z",
+      content:
+        "The Bitcoin Mining Council (BMC) has released the Global Bitcoin Mining Data Review Q2 2022 report. The report has interesting findings on digital asset mining that will certainly add to the debate o… [+4539 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "The Daily Hodl",
+      },
+      author: "Daily Hodl Staff",
+      title:
+        "Ripple Objects to SEC’s Latest Push To Block Crucial Evidence in XRP Lawsuit",
+      description:
+        "The battle between the U.S. Securities and Exchange Commission (SEC) and Ripple Labs grinds on as the SEC disputes a key judicial ruling. Crypto attorney James K. Filan, who has been chronicling the SEC versus Ripple case since December 2020, shares with his …",
+      url: "https://dailyhodl.com/2022/07/23/ripple-objects-to-secs-latest-push-to-block-crucial-evidence-in-xrp-lawsuit/",
+      urlToImage:
+        "https://dailyhodl.com/wp-content/uploads/2022/07/Ripple-Objects-to-SEC.jpg",
+      publishedAt: "2022-07-23T11:45:32Z",
+      content:
+        "The battle between the U.S. Securities and Exchange Commission (SEC) and Ripple Labs grinds on as the SEC disputes a key judicial ruling.\r\nCrypto attorney James K. Filan, who has been chronicling the… [+2543 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Motley Fool",
+      },
+      author: "newsfeedback@fool.com (Courtney Carlsen)",
+      title: "How Rising Interest Rates Propelled This Crypto Stock Higher",
+      description:
+        "Rising interest rates gave this crypto company's earnings a big boost.",
+      url: "https://www.fool.com/investing/2022/07/23/how-rising-interest-rates-propelled-this-crypto-st/",
+      urlToImage:
+        "https://g.foolcdn.com/editorial/images/691071/woman-uses-cryptocurrency-app-on-phone-getty-2022.jpg",
+      publishedAt: "2022-07-23T11:45:00Z",
+      content:
+        "This has been a year many investors would like to forget, with the S&amp;P 500 index off to its worst first-half start in 50 years. Cryptocurrency markets have taken an even bigger hit, and Bitcoin i… [+3991 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "U.Today",
+      },
+      author: "U.Today",
+      title:
+        "Crypto Winter Is Behind, Damage Absorbed: Expert Mohamed A. El-Erian",
+      description:
+        "Economist and businessman Mohamed A. El-Erian cites an opinion that now crypto has a better base to go forward, here’s why",
+      url: "https://u.today/crypto-winter-is-behind-damage-absorbed-expert-mohamed-a-el-erian",
+      urlToImage:
+        "https://u.today/sites/default/files/styles/twitter/public/2022-07/22052.jpg",
+      publishedAt: "2022-07-23T11:16:00Z",
+      content:
+        "Disclaimer: The opinion expressed here is not investment advice it is provided for informational purposes only. It does not necessarily reflect the opinion of U.Today. Every investment and all tradin… [+2110 chars]",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "jsor@insider.com (Jennifer Sor)",
+      title:
+        "Black investors say crypto is still key to building wealth even as digital assets see steep sell-off in 2022",
+      description:
+        "Black investors are twice as likely to say crypto is their best investment option, according to a study. The trend worries some experts amid a steep slump.",
+      url: "https://markets.businessinsider.com/news/currencies/crypto-crash-bear-market-minorities-black-investors-financial-discrimination-bitcoin-2022-7",
+      urlToImage:
+        "https://i.insider.com/62dae8446fb3cf0018e08405?width=1200&format=jpeg",
+      publishedAt: "2022-07-23T11:14:49Z",
+      content:
+        "In 2013, as crypto was creeping into the mainstream, Cleve Mesidor was working as an appointee in the Obama administration's Department of Commerce. As a favor to a friend, Mesidor helped pen a press… [+4683 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Android Authority",
+      },
+      author: "Paula Beaton",
+      title: "The Weekly Authority:  Pixel pre-orders",
+      description:
+        "Pixel 6a pre-orders open, Unpacked date's confirmed, we get a peek at The Last of Us: Part 1, and more top tech news.",
+      url: "https://www.androidauthority.com/the-weekly-authority-23-july-2022-204-3188478/",
+      urlToImage:
+        "https://www.androidauthority.com/wp-content/uploads/2022/07/google-pixel-6a-home-screen.jpg",
+      publishedAt: "2022-07-23T11:12:25Z",
+      content:
+        "Welcome to The Weekly Authority, the Android Authority newsletter that breaks down the top Android and tech news from the week. The 204th edition here, with Pixel 6 pre-orders, a confirmed Unpacked d… [+10568 chars]",
+    },
+    {
+      source: {
+        id: "the-times-of-india",
+        name: "The Times of India",
+      },
+      author: "Reuters",
+      title:
+        "North Korea denounces U.S. over Washington's remarks on cryptocurrency stealing",
+      description:
+        "North Korea is widely believed to have thousands of trained hackers and stealing of cryptocurrencies has become a major source of funding for the sanctions-hit country and its weapons programmes.",
+      url: "https://economictimes.indiatimes.com/tech/technology/n-korea-denounces-u-s-over-washingtons-remarks-on-cryptocurrency-stealing/articleshow/93074307.cms",
+      urlToImage:
+        "https://img.etimg.com/thumb/msid-93074597,width-1070,height-580,imgsize-101802,overlay-ettech/photo.jpg",
+      publishedAt: "2022-07-23T11:11:16Z",
+      content:
+        "North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S. aggression toward… [+958 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Fast Company",
+      },
+      author: "Chris Morris",
+      title:
+        "Why 'Minecraft' creator's NFT snub may be a turning point for video ga",
+      description:
+        "Several video game makers have recently embraced NFTs over the protests of some gamers, but Microsoft and ‘Minecraft’ creator Mojang could reverse the trend.",
+      url: "https://www.fastcompany.com/90771619/minecraft-nft-mojang-video-game-industry",
+      urlToImage:
+        "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/07/p-1-minecraft-nft-mojang-video-game-industry.jpg",
+      publishedAt: "2022-07-23T11:08:42Z",
+      content:
+        "Mojang, creator of Minecraft, took a definitive stand against nonfungible tokens (NFTs) earlier this week, saying it has “no plans of implementing blockchain technology into Minecraft right now.”\r\nTh… [+3737 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "FX Empire",
+      },
+      author: "Reuters",
+      title:
+        "N.Korea denounces U.S. over Washington’s remarks on cryptocurrency stealing",
+      description:
+        "SEOUL (Reuters) -   North Korea on Saturday condemned remarks by a senior White House official about Pyongyang&#039;s cyberattack capabilities and said it would continue to stand against what it called U.S. aggression towards it.",
+      url: "https://www.fxempire.com/news/article/n-korea-denounces-u-s-over-washingtons-remarks-on-cryptocurrency-stealing-1073472",
+      urlToImage:
+        "https://responsive.fxempire.com/width/600/webp-lossy-70.q50/_fxempire_/2022/07/tagreuters.com2022newsml_LYNXMPEI6M04I2.jpg",
+      publishedAt: "2022-07-23T11:07:05Z",
+      content:
+        "Anne Neuberger, the U.S. deputy national security advisor for cyber and emerging technology, reportedly said on Wednesday that the North Koreans were a criminal syndicate pursuing revenue in the guis… [+629 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "The Star Online",
+      },
+      author: "The Star Online",
+      title:
+        "N.Korea denounces U.S. over Washington's remarks on cryptocurrency stealing",
+      description:
+        "SEOUL (Reuters) - North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S. aggression towards it. Read full story",
+      url: "https://www.thestar.com.my/news/world/2022/07/23/nkorea-denounces-us-over-washington039s-remarks-on-cryptocurrency-stealing",
+      urlToImage:
+        "https://apicms.thestar.com.my/uploads/images/2022/07/23/1670221.jpg",
+      publishedAt: "2022-07-23T11:04:00Z",
+      content:
+        "SEOUL (Reuters) - North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S.… [+1031 chars]",
+    },
+    {
+      source: {
+        id: "reuters",
+        name: "Reuters",
+      },
+      author: null,
+      title:
+        "N.Korea denounces U.S. over Washington's remarks on cryptocurrency stealing - Reuters",
+      description:
+        "North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it called U.S. aggression towards it.",
+      url: "https://www.reuters.com/world/asia-pacific/nkorea-denounces-us-over-washingtons-remarks-cryptocurrency-stealing-2022-07-23/",
+      urlToImage:
+        "https://www.reuters.com/resizer/t70ShI8ZtNaDSI8E1FHPDA3kH18=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/BW7LTOSQCZKQ3P6PWGCSI5J66M.jpg",
+      publishedAt: "2022-07-23T10:52:00Z",
+      content:
+        "SEOUL, July 23 (Reuters) - North Korea on Saturday condemned remarks by a senior White House official about Pyongyang's cyberattack capabilities and said it would continue to stand against what it ca… [+1200 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "ZyCrypto",
+      },
+      author: "Guest Author",
+      title:
+        "Whalemaker Fund Transitioned To Multichain Structure Within Just Two Months",
+      description:
+        "Greece / JULY 22, 2022 / WhaleMaker ($WMF) is responsible for protecting its investors’ capital. They have been able to provide the service due to their years of industry expertise and extensive skills in portfolio management. They officially kick-started the…",
+      url: "https://zycrypto.com/whalemaker-fund-transitioned-to-multichain-structure-within-just-two-months/",
+      urlToImage:
+        "https://zycrypto.com/wp-content/uploads/2022/07/Whalemaker-Fund-Transitioned-To-Multichain-Structure-Within-Just-Two-Months.jpg",
+      publishedAt: "2022-07-23T10:05:45Z",
+      content:
+        "Greece / JULY 22, 2022 / WhaleMaker ($WMF) is responsible for protecting its investors capital. They have been able to provide the service due to their years of industry expertise and extensive skill… [+2927 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Anchor.fm",
+      },
+      author: "Gary Vaynerchuk",
+      title: "The NEWEST WINE COLLAB with Veefriends!",
+      description:
+        "If you missed out on the livestream, theres still time... garyvee.com/moon\n\nToday's episode is a recent livestream I did on July 19 announcing the VEEFRIENDS x EMPATHY WINES collab! We had a ton of fun introducing the collab and answering a ton of business qu…",
+      url: "https://anchor.fm/garyvee/episodes/The-NEWEST-WINE-COLLAB-with-Veefriends-e1lh3e2",
+      urlToImage:
+        "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2454369/2454369-1608223076558-0b4a7ba0a4bb4.jpg",
+      publishedAt: "2022-07-23T10:00:01Z",
+      content:
+        "Skip to main content\r\nToday's episode is a new show I'm doing called Empathy Hour, the show focused on EQ, entrepreneurship, Web3 and of course, wine. I shared a glass of 2021 Empathy Rosè with entre… [+44903 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Motley Fool",
+      },
+      author: "newsfeedback@fool.com (Adria Cimino)",
+      title: "2 Cryptos That Could Outpace Ethereum",
+      description:
+        "Now may be a good time to get in on these young crypto players.",
+      url: "https://www.fool.com/investing/2022/07/23/2-cryptos-that-could-outpace-ethereum/",
+      urlToImage:
+        "https://g.foolcdn.com/editorial/images/691240/gettyimages-1320686310.jpg",
+      publishedAt: "2022-07-23T10:00:00Z",
+      content:
+        "Ethereum(ETH -4.14%) is the world's second-biggest cryptocurrency by market value -- and on its way to changing the way business is done. That's because decentralized applications (dApps) on the bloc… [+3686 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Ambcrypto.com",
+      },
+      author: "Michael Nderitu",
+      title:
+        "FLOW rides on a strong bullish wave as the alt attempts recovery to May support levels",
+      description:
+        "With the crypto bulls back in swing, gains can be seen across the crypto spectrum, including those native to NFT-focused networks. FLOW happens to be in this category and a look at its price action has so far bounced back 65% from the bottom of its latest bea…",
+      url: "https://ambcrypto.com/flow-rides-on-a-strong-bullish-wave-as-the-alt-attempts-recovery-to-may-support-levels/",
+      urlToImage:
+        "https://files.ambcrypto.com/wp-content/uploads/2022/07/22182202/mckenzie-river-5129717_1280-1000x600.jpg",
+      publishedAt: "2022-07-23T09:30:28Z",
+      content:
+        "With the crypto bulls back in swing, gains can be seen across the crypto spectrum, including those native to NFT-focused networks. FLOW happens to be in this category and a look at its price action h… [+2845 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Motley Fool",
+      },
+      author: "newsfeedback@fool.com (Katie Brockman)",
+      title: "Is Now the Time to Invest in Ethereum?",
+      description: "Ethereum seems to be bouncing back. Should you buy now?",
+      url: "https://www.fool.com/investing/2022/07/23/is-now-the-time-to-invest-in-ethereum/",
+      urlToImage:
+        "https://g.foolcdn.com/editorial/images/691383/person-looking-at-a-laptop-looking-focused.jpg",
+      publishedAt: "2022-07-23T09:30:00Z",
+      content:
+        "The price of Ethereum(ETH -4.45%) has been soaring lately, up more than 49% over the last three weeks.\r\nThis surge is at least partly due to developers setting a tentative date of Sept. 19 for the re… [+3088 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Crypto Daily",
+      },
+      author: "Crypto Daily",
+      title:
+        "Get That Million Dollar Portfolio With These Top Crypto Gems: Gnox (GNOX), Decentraland (MANA), and STEPN (GMT)",
+      description:
+        "In recent years, the value of many cryptocurrencies has increased significantly. In fact, if you had invested in cryptocurrencies ten years ago, you might now be worth $1,000,000! Investors are becoming pickier about where they put their money as new coins en…",
+      url: "https://cryptodaily.co.uk/2022/07/get-that-million-dollar-portfolio-with-these-top-crypto-gems-gnox-gnox-decentraland-mana-and-stepn-gmt",
+      urlToImage:
+        "https://cryptodailycdn.ams3.cdn.digitaloceanspaces.com/screenshot-2022-07-22-at-152212.png",
+      publishedAt: "2022-07-23T09:00:00Z",
+      content:
+        "In recent years, the value of many cryptocurrencies has increased significantly. In fact, if you had invested in cryptocurrencies ten years ago, you might now be worth $1,000,000! Investors are becom… [+2922 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Business Standard",
+      },
+      author: "IANS",
+      title:
+        "Crypto exchange Blockchain.com cuts 25% of its workforce, halts expansion",
+      description:
+        "Leading cryptocurrency exchange Blockchain.com has laid off 25 per cent of its workforce, nearly 150 employees, amid the global economic meltdown",
+      url: "https://www.business-standard.com/article/international/crypto-exchange-blockchain-com-cuts-25-of-its-workforce-halts-expansion-122072300333_1.html",
+      urlToImage:
+        "https://bsmedia.business-standard.com/_media/bs/img/article/2022-04/11/full/1649641898-4757.jpg",
+      publishedAt: "2022-07-23T08:49:00Z",
+      content:
+        "Leading cryptocurrency exchange Blockchain.com has laid off 25 per cent of its workforce, nearly 150 employees, amid the global economic meltdown.\r\nThe digital assets trading firm said it will shut i… [+3211 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CryptoGlobe",
+      },
+      author: "Michael Lavere",
+      title:
+        "Ethereum Creator Vitalik Buterin Thanks Shiba Inu ($SHIB) Community",
+      description:
+        "Ethereum ($ETH) creator Vitalik Buterin has used some of the Shiba Inu ($SHIB) tokens he was gifted to fund a PhD fellowship program.  According to a report by Decrypt, on Wednesday (July 20), Buterin thanked the Shiba Inu community for helping him realize hi…",
+      url: "https://www.cryptoglobe.com/latest/2022/07/ethereum-creator-vitalik-buterin-thanks-shiba-inu-shib-community/",
+      urlToImage:
+        "https://cryptoglobe.s3.eu-west-2.amazonaws.com/2021/11/shiba-6763358_1280-768x432.jpg",
+      publishedAt: "2022-07-23T08:45:57Z",
+      content:
+        "Ethereum ($ETH) creator Vitalik Buterin has used some of the Shiba Inu ($SHIB) tokens he was gifted to fund a PhD fellowship program. \r\nAccording to a report by Decrypt, on Wednesday (July 20), Buter… [+1372 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "newsBTC",
+      },
+      author: "NewsBTC",
+      title:
+        "CoinEx Ambassador (Futures Special Program) | The Win-win Strategy in a Bear Market: Referral Commissions of up to 60%",
+      description:
+        "After LUNA crashed, cryptocurrency is bound to go through a long bear period. As BTC and ETH plunge for days, the assets that crypto investors hold in their wallets rapidly depreciate. Many crypto users have had no choice but to remain inactive as they wait f…",
+      url: "https://www.newsbtc.com/news/company/coinex-ambassador-futures-special-program-the-win-win-strategy-in-a-bear-market-referral-commissions-of-up-to-60/",
+      urlToImage:
+        "https://www.newsbtc.com/wp-content/uploads/2022/07/Picture257.png",
+      publishedAt: "2022-07-23T08:43:30Z",
+      content:
+        "After LUNA crashed, cryptocurrency is bound to go through a long bear period. As BTC and ETH plunge for days, the assets that crypto investors hold in their wallets rapidly depreciate. Many crypto us… [+4755 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Kiplinger's Personal Finance",
+      },
+      author: "Neale Godfrey, Financial Literacy Expert",
+      title:
+        "Millennials: Get Off Your Assets and Take Charge of Your Financial Life",
+      description:
+        "Millennials, of course, you want to take charge of your financial life. Financial freedom is what most people want.  Can you imagine not having to worry about money?  You would have enough savings and investments.   You would not worry about an emergency cree…",
+      url: "https://www.kiplinger.com/personal-finance/604964/millennials-get-off-your-assets-and-take-charge-of-your-financial-life",
+      urlToImage:
+        "https://mediacloud.kiplinger.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1636737538/BathtubWindfall.jpg",
+      publishedAt: "2022-07-23T08:42:05Z",
+      content:
+        "Millennials, of course, you want to take charge of your financial life. Financial freedom is what most people want.  Can you imagine not having to worry about money?  You would have enough savings an… [+8071 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Yahoo Entertainment",
+      },
+      author: "Neale Godfrey, Financial Literacy Expert, President & CEO",
+      title:
+        "Millennials: Get Off Your Assets and Take Charge of Your Financial Life",
+      description:
+        "Millennials are the most confident generation when it comes to money. But they still have some work to do on their finances.",
+      url: "https://finance.yahoo.com/news/millennials-off-assets-charge-financial-084205211.html",
+      urlToImage:
+        "https://s.yimg.com/uu/api/res/1.2/krAzD3ojdCrHcg8cf1W_sA--~B/aD00NzU7dz04NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/kiplinger.com/8cc9302f811624397c8895179faf3904",
+      publishedAt: "2022-07-23T08:42:05Z",
+      content:
+        "A man in a suit sits in a bathtub as cash rains down on him. Getty Images \r\nMillennials, of course, you want to take charge of your financial life. Financial freedom is what most people want.  Can yo… [+7705 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "This is Money",
+      },
+      author: "Ed Magnus",
+      title: "Average saver loses £1,000 to inflation over the past five years",
+      description:
+        "Rising inflation and low interest rates have combined to  decimate the savings Britons have stashed away, new research has revealed.",
+      url: "https://www.thisismoney.co.uk/money/saving/article-11032065/Average-saver-loses-1-000-inflation-past-five-years.html",
+      urlToImage:
+        "https://i.dailymail.co.uk/1s/2022/07/20/13/60489463-0-image-a-10_1658321134391.jpg",
+      publishedAt: "2022-07-23T08:27:12Z",
+      content:
+        "Rising inflation and low interest rates have combined to decimate the savings Britons have stashed away, new research has revealed.\r\nSavers have typically lost more than £1,000 in real terms over the… [+5858 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Blognone.com",
+      },
+      author: "arjin",
+      title:
+        "[ลือ] FTX เจรจาซื้อกิจการ Bithumb กระดานซื้อขายคริปโตของเกาหลีใต้",
+      description:
+        "มีรายงานจาก Bloomberg ว่าแพลตฟอร์มซื้อขายคริปโตรายใหญ่ FTX กำลังเจรจาขอซื้อกิจการ Bithumb กระดานซื้อขายคริปโตของเกาหลีใต้ โดยได้เจรจามาหลายเดือนแล้ว แต่ยังไม่มีข้อสรุป\r\n\nBithumb เริ่มให้บริการซื้อขายคริปโตมาตั้งแต่ปี 2014 ที่ผ่านมาบริษัทมีรายงานปัญหาการถูกแฮก…",
+      url: "https://www.blognone.com/node/129496",
+      urlToImage:
+        "https://www.blognone.com/sites/default/files/externals/a55c2718be6254f86a6fdd7b92b2c824.jpg",
+      publishedAt: "2022-07-23T07:28:38Z",
+      content:
+        "Creative Commons Attribution 3.0©2004-2019\r\nBlognone.com is owned and operated by Blognone Co., Ltd. (LinkedIn Profile)\r\nBlognone is a subsidiary company of wongnai.com",
+    },
+    {
+      source: {
+        id: null,
+        name: "Fast Company",
+      },
+      author: "Chris Morris",
+      title:
+        "Why ‘Minecraft’ creator’s NFT snub could be a turning point for the video game industry",
+      description:
+        "Mojang, creator of Minecraft, took a definitive stand against nonfungible tokens (NFTs) earlier this week, saying it has “no plans of implementing blockchain technology into Minecraft right now.”\nThat’s an approach that’s contrary to what many video game make…",
+      url: "https://www.fastcompany.com/90771619/minecraft-nft-mojang-video-game-industry?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      urlToImage:
+        "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/07/p-1-minecraft-nft-mojang-video-game-industry.jpg",
+      publishedAt: "2022-07-23T07:00:25Z",
+      content:
+        "Mojang, creator of Minecraft, took a definitive stand against nonfungible tokens (NFTs) earlier this week, saying it has “no plans of implementing blockchain technology into Minecraft right now.”\r\nTh… [+3737 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gadgets360.com",
+      },
+      author: "Reuters",
+      title:
+        "FTX Crypto Exchange Plans Partial Bailout of Bankrupt Voyager's Customers",
+      description:
+        "FTX said on Friday it was planning to offer Voyager Digital's customers access to some of their funds, the latest relief measure by the Sam Bankman-Fried-led cryptocurrency exchange for the ailing crypto industry.",
+      url: "https://gadgets360.com/cryptocurrency/news/ftx-voyager-customers-plans-partial-bailout-exchange-sam-bankman-fried-3185981",
+      urlToImage:
+        "https://i.gadgets360cdn.com/large/india-btc_eth_pixabay_Dean_Crosby_101_large_1652675059057.jpg",
+      publishedAt: "2022-07-23T06:48:26Z",
+      content:
+        "FTX said on Friday it was planning to offer Voyager Digital's customers access to some of their funds, the latest relief measure by the Sam Bankman-Fried-led cryptocurrency exchange for the ailing cr… [+887 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Blognone.com",
+      },
+      author: "mk",
+      title:
+        "ผู้ก่อตั้งกองทุนคริปโต Three Arrows โผล่ให้สัมภาษณ์หลังหนีหาย 5 สัปดาห์ บอกไม่ได้เชิดเงิน",
+      description:
+        "หลังจาก Three Arrows Capital (3AC) กองทุนคริปโตรายใหญ่จากสิงคโปร์ประกาศล้มละลาย และลากเอาบริษัทคริปโตหลายแห่งล้มละลายหรือมีปัญหาสภาพคล่องตามไปด้วย\r\n\nSu Zhu และ Kyle Davies สองผู้ก่อตั้ง 3AC ก็เงียบหายไป ติดต่อไม่ได้เลยเป็นเวลานาน 5 สัปดาห์ ก่อนโผล่มาให้สัมภาษ…",
+      url: "https://www.blognone.com/node/129493",
+      urlToImage:
+        "https://www.blognone.com/sites/default/files/externals/51b28df63c41ac0922ecf4f4596f8565.png",
+      publishedAt: "2022-07-23T06:21:13Z",
+      content:
+        "Three Arrows Capital (3AC) \r\nSu Zhu Kyle Davies 3AC 5 Bloomberg Bloomberg UAE\r\n ( British Virgin Islands )\r\nWe are in the process of communicating with relevant parties and fully committed to working… [+124 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Seeking Alpha",
+      },
+      author: "Fear & Greed Trader",
+      title: "The Week On Wall Street - The Bulls Mount A Challenge",
+      description:
+        "The Fed is raising rates to fight inflation in a slowing economy. The war on fossil fuels has morphed into a war on the U.S. economy itself. See why I feel downside risk is mostly priced in.",
+      url: "https://seekingalpha.com/article/4525298-week-on-wall-street-the-bulls-mount-a-challenge",
+      urlToImage:
+        "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1402380866/image_1402380866.jpg?io=getty-c-w750",
+      publishedAt: "2022-07-23T05:51:13Z",
+      content:
+        "PhonlamaiPhoto/iStock via Getty Images\r\n“The erosion of our confidence in the future is threatening to destroy the social and the political fabric of America.” – President Jimmy Carter 7/15/79\r\n43 ye… [+47198 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Forbes",
+      },
+      author:
+        "Jason Brett, Contributor, \n Jason Brett, Contributor\n https://www.forbes.com/sites/jasonbrett/",
+      title:
+        "A New Stablecoin Bill From The Biden Administration May Pass Quickly In Congress",
+      description:
+        "This means that there could be a bill as early as next week that is essentially coming from the President’s desk if the White House buys into the compromise, making this legislation vastly different than other bills the cryptocurrency industry has seen before.",
+      url: "https://www.forbes.com/sites/jasonbrett/2022/07/23/a-new-stablecoin-bill-from-the-biden-administration-may-pass-quickly-in-congress/",
+      urlToImage:
+        "https://imageio.forbes.com/specials-images/imageserve/62db2eef4ad0bf807739dc3c/0x0.jpg?format=jpg&width=1200",
+      publishedAt: "2022-07-23T04:48:13Z",
+      content:
+        "Following the $60 billion collapse of the Terra Luna stablecoin that led to a $2 trillion downsizing of the crypto marketplace just a few months ago, the cryptocurrency industry that appears unable t… [+4006 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Trendhunter.com",
+      },
+      author: null,
+      title:
+        "Crypto-Themed Soap Bars - Dr. Squatch's Crypto Cleanse is a Limited-Edition Body Care Product (TrendHunter.com)",
+      description:
+        "(TrendHunter.com) Crypto Cleanse is a limited-edition soap bar from men's natural soap and personal care company Dr. Squatch and it ties in with the cryptocurrency craze.\n \nWith an invigorating minted banana...",
+      url: "https://www.trendhunter.com/trends/crypto-cleans",
+      urlToImage:
+        "https://cdn.trendhunterstatic.com/thumbs/484/crypto-cleans.jpeg?auto=webp",
+      publishedAt: "2022-07-23T04:44:03Z",
+      content:
+        "Crypto Cleanse is a limited-edition soap bar from men's natural soap and personal care company Dr. Squatch and it ties in with the cryptocurrency craze.With an invigorating minted banana scent, the p… [+702 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Ambcrypto.com",
+      },
+      author: "Aashna Dunwani",
+      title: "Reasons why CRV outshined AAVE, MKR to impress its investors",
+      description:
+        "Curve DAO token [CRV], the native cryptocurrency of DeFi maestro, Curve Finance, surged as high as 22% in the last 24 hours of 22 July. In an unexpected upward move, CRV has been one of the most profitable cryptocurrencies. With a market capitalization of $77…",
+      url: "https://ambcrypto.com/reasons-why-crv-outshined-aave-mkr-to-impress-its-short-term-investors/",
+      urlToImage:
+        "https://files.ambcrypto.com/wp-content/uploads/2022/07/22175513/Untitled-design-61-1000x600.png",
+      publishedAt: "2022-07-23T04:30:46Z",
+      content:
+        "Curve DAO token [CRV], the native cryptocurrency of DeFi maestro, Curve Finance, surged as high as 22% in the last 24 hours of 22 July. \r\nIn an unexpected upward move, CRV has been one of the most pr… [+2469 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CryptoGlobe",
+      },
+      author: "Francisco Memoria",
+      title:
+        "$SOL: Crypto Expert Panel Sees Solana Trade at $166 by End of 2025",
+      description:
+        "A panel of cryptocurrency and fintech experts has revealed that they expect, on average, that the price of Solana ($SOL) will jump to $166 by the end of 2025, up from the $45 they expect the cryptocurrency to trade at by the end of this year. According to Fin…",
+      url: "https://www.cryptoglobe.com/latest/2022/07/sol-crypto-expert-panel-sees-solana-trade-at-166-by-end-of-2025/",
+      urlToImage:
+        "https://cryptoglobe.s3.eu-west-2.amazonaws.com/2020/07/trader-looking-at-charts-unsplash-512x768.jpg",
+      publishedAt: "2022-07-23T04:23:00Z",
+      content:
+        "A panel of cryptocurrency and fintech experts has revealed that they expect, on average, that the price of Solana ($SOL) will jump to $166 by the end of 2025, up from the $45 they expect the cryptocu… [+2344 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "NDTV News",
+      },
+      author: null,
+      title:
+        "Bitcoin Recovers After Sell-Off On News Tesla Sold 75% Of Its holdings",
+      description:
+        "Bitcoin rebounded after a brief sell-off late on Wednesday sparked by news that electric carmaker Tesla Inc had sold about 75 per cent of its holdings of the virtual token.",
+      url: "https://www.ndtv.com/business/bitcoin-recovers-after-sell-off-on-news-tesla-sold-75-of-its-holdings-3185726",
+      urlToImage:
+        "https://c.ndtvimg.com/2022-07/j7v0oa6_image_625x300_23_July_22.jpeg",
+      publishedAt: "2022-07-23T04:08:05Z",
+      content:
+        "Bitcoin recovers after falling on news Tesla sold 75% of its holdings\r\nBitcoin rebounded after a brief sell-off late on Wednesday sparked by news that electric carmaker Tesla Inc had sold about 75 pe… [+1781 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "DailyFX",
+      },
+      author: "Zain Vawda",
+      title:
+        "Crypto Forecast: BTC, ETH Lead Rally as ‘Merge’ Date Announced; Risk Event Ahead",
+      description:
+        "Too early to call the Crypto winter over…is the Ethereum ‘Merge’ driving the rally?",
+      url: "https://www.dailyfx.com/forex/fundamental/forecast/weekly/title/2022/07/23/Crypto-Forecast-BTC-ETH-Lead-Rally-as-Merge-Date-Announced-Risk-Event-Ahead.html",
+      urlToImage: "https://a.c-dn.net/b/3k4Cfm/headline_iStock-696301332.jpg",
+      publishedAt: "2022-07-23T04:00:00Z",
+      content:
+        "Crypto Key Points:\r\n<ul><li>BitcoinPrice Surges 20%, Ethereum up 50% Ahead of Historic Event.</li><li>Collective Gains Push Overall Crypto Market Cap Back Above $1 trillion.</li><li>Bitcoin Short-Ter… [+4092 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Livedoor.biz",
+      },
+      author: "kuromacyo",
+      title:
+        "【NHK党】立花党首「ガーシーは一生日本に帰国しない可能性がある。8/3臨時国会には登院せず」",
+      description:
+        "1 名前：ベクトル空間 ★：2022/07/23(土) 02:54:47 ID:2i0rCyqv9.net ガーシーは「一生帰ってこないんじゃ」とＮ党立花党首　国会登院せずドバイで （全文はリンク先を見てください） https://news.yahoo.co.jp/articles/73d109d86ce86dcc8bdc6c614601116fd19cad14 ...",
+      url: "http://kuromacyo.livedoor.biz/archives/1994624.html",
+      urlToImage: null,
+      publishedAt: "2022-07-23T03:00:33Z",
+      content:
+        "2022/07/23() 02:55:38 ID:1S+CnmWZ0.net\r\n2022/07/23() 02:56:51 ID:qf41rLxE0.net\r\n2022/07/23() 06:35:39.97 ID:qjJspjvc0.net\r\n&gt;&gt;3\r\n2022/07/23() 06:38:56.04 ID:jFR7nKiL0.net\r\n&gt;&gt;3\r\n2022/07/23(… [+35824 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "PRNewswire",
+      },
+      author: null,
+      title:
+        "Metaverse Real Estate Market Size to grow by USD 5.37 billion, Market Driven by Growing Popularity of Mixed Reality & Cryptocurrency - Technavio",
+      description:
+        'NEW YORK, July 22, 2022 /PRNewswire/ -- The "Metaverse Real Estate Market by End-user (Enterprises and Individuals) and Geographic (North America, Europe, APAC, South America, and the Middle East and Africa) - Forecast and Analysis 2022-2026" report has been …',
+      url: "https://www.prnewswire.com/news-releases/metaverse-real-estate-market-size-to-grow-by-usd-5-37-billion-market-driven-by-growing-popularity-of-mixed-reality--cryptocurrency---technavio-301591153.html",
+      urlToImage:
+        "https://mma.prnewswire.com/media/1864016/Technavio_Metaverse_Real_Estate_Market.jpg?p=facebook",
+      publishedAt: "2022-07-23T02:05:00Z",
+      content:
+        "Metaverse Real Estate Market - Key Market Dynamics\r\n<ul><li>Market Driver - The key factor driving the global metaverse in real estate market growth is the growing popularity of mixed reality and cry… [+22941 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Yahoo Entertainment",
+      },
+      author: "PR Newswire",
+      title:
+        "Metaverse Real Estate Market Size to grow by USD 5.37 billion, Market Driven by Growing Popularity of Mixed Reality & Cryptocurrency - Technavio",
+      description:
+        'The "Metaverse Real Estate Market by End-user (Enterprises and Individuals) and Geographic (North America, Europe, APAC, South America, and the Middle East...',
+      url: "https://finance.yahoo.com/news/metaverse-real-estate-market-size-020500156.html",
+      urlToImage:
+        "https://s.yimg.com/uu/api/res/1.2/8sLNWg5b64RPsymkiuXt5w--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/742396c527615b0fd113b10a75e16fa2",
+      publishedAt: "2022-07-23T02:05:00Z",
+      content:
+        'NEW YORK, July 22, 2022 /PRNewswire/ -- The "Metaverse Real Estate Market by End-user (Enterprises and Individuals) and Geographic (North America, Europe, APAC, South America, and the Middle East and… [+19528 chars]',
+    },
+    {
+      source: {
+        id: null,
+        name: "Luxuo.com",
+      },
+      author: "Joseph Low",
+      title: "Part of the Cycle: NFTs, Cryptocurrencies Can Still Hang On",
+      description:
+        "While NFTs and Crypto prices have plummeted, this presents an opportunity to consolidate and reach greater heights in the future.\nThe post Part of the Cycle: NFTs, Cryptocurrencies Can Still Hang On appeared first on LUXUO.",
+      url: "https://www.luxuo.com/business/business-luxury/part-of-the-cycle-nfts-cryptocurrencies-can-still-hang-on.html",
+      urlToImage:
+        "https://eoouae45rgb.exactdn.com/2022/07/NFT-and-Bitcoin%40660x550.jpg",
+      publishedAt: "2022-07-23T02:04:51Z",
+      content:
+        "While NFTs and Crypto prices have plummeted, this presents an opportunity to consolidate and reach greater heights in the future.Without a doubt, the past two years have been a rewarding period for t… [+5151 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "GeekWire",
+      },
+      author: "Alan Boyle",
+      title:
+        "Blue Origin’s next crew will include the first Portuguese and Egyptian spacefliers",
+      description:
+        "Jeff Bezos’ Blue Origin space venture still has some final-frontier firsts up its sleeve: Today the company said its next crewed suborbital flight will send up the first spacefliers to hail from Egypt and Portugal. But when will they fly? The launch date is s…",
+      url: "https://www.geekwire.com/2022/blue-origins-next-crew-will-include-the-first-portuguese-and-egyptian-spacefliers/",
+      urlToImage:
+        "https://cdn.geekwire.com/wp-content/uploads/2022/07/220722-ns22crew.jpg",
+      publishedAt: "2022-07-23T02:00:05Z",
+      content:
+        "Blue Origin reveals its latest crew list, but the launch date hasnt yet been announced. (Blue Origin Photo)\r\nJeff Bezos Blue Origin space venture still has some final-frontier firsts up its sleeve: T… [+3445 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Activistpost.com",
+      },
+      author: "Activist Post",
+      title:
+        "CON-CERN Erupts Over Portals, Particles & The Large Hadron Collider",
+      description:
+        "By Maryam Henein What are the implications of smashing particles together at such high speeds? Is CERN responsible for the Mandela Effects we’ve cataloged over...\nCON-CERN Erupts Over Portals, Particles & The Large Hadron Collider",
+      url: "https://www.activistpost.com/2022/07/con-cern-erupts-over-portals-particles-the-large-hadron-collider.html",
+      urlToImage:
+        "https://www.activistpost.com/wp-content/uploads/2022/07/cern-pixa.jpg",
+      publishedAt: "2022-07-23T01:20:51Z",
+      content:
+        "By Maryam Henein\r\nWhat are the implications of smashing particles together at such high speeds? Is CERN responsible for the Mandela Effects weve cataloged over the last few years? What are the facts … [+16564 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "WGN TV Chicago",
+      },
+      author: "Nabil Remadna, Nexstar Media Wire",
+      title: "Growing 'pig butchering' scam costing victims billions",
+      description:
+        "On the search for love, many people turn to dating apps, but a few friendly texts with a potential match can quickly turn into one of the newest and fastest growing scams.",
+      url: "https://wgntv.com/news/nexstar-media-wire/growing-pig-butchering-scam-costing-victims-billions/",
+      urlToImage:
+        "https://wgntv.com/wp-content/uploads/sites/5/2022/07/GettyImages-1170519312.jpg?w=1280",
+      publishedAt: "2022-07-23T00:59:44Z",
+      content:
+        "(KXAN) On the search for love, many people turn to dating apps, but a few friendly texts with a potential match can quickly turn into one of the newest and fastest growing scams. \r\n“Pig butchering” o… [+1330 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Activistpost.com",
+      },
+      author: "Activist Post",
+      title: "New Study Sledgehammers Universal Basic Income Arguments",
+      description:
+        "By Tyler Durden The “experts” didn’t expect it to turn out this way. An experiment conducted by Harvard University and University of Exeter social scientists found no-strings-attached...\nNew Study Sledgehammers Universal Basic Income Arguments",
+      url: "https://www.activistpost.com/2022/07/new-study-sledgehammers-universal-basic-income-arguments.html",
+      urlToImage:
+        "https://www.activistpost.com/wp-content/uploads/2022/07/ubi-zh.jpg",
+      publishedAt: "2022-07-23T00:40:07Z",
+      content:
+        "By Tyler Durden\r\nThe “experts” didn’t expect it to turn out this way. An experiment conducted by Harvard University and University of Exeter social scientists found no-strings-attached handouts harme… [+4896 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Crypto Daily",
+      },
+      author: "Crypto Daily",
+      title:
+        "Analysts Say Now Is Right Time to Invest In These: Stellar (XLM), Atom (ATOM) and Degrain (DGRN)",
+      description:
+        "&nbsp;\r\nThey say that generational wealth can be made in the bear market, and that&rsquo;s true. This is one of the best times for investors to track down better profitable investments while most try to get the best buys. \r\nGranted, the market conditions are …",
+      url: "https://cryptodaily.co.uk/2022/07/analysts-say-now-is-right-time-to-invest-in-these-stellar-xlm-atom-atom-and-degrain-dgrn",
+      urlToImage:
+        "https://cryptodailycdn.ams3.cdn.digitaloceanspaces.com/b7bc61be-159a-4861-8fd5-b0af1468c24c.jpeg",
+      publishedAt: "2022-07-23T00:30:00Z",
+      content:
+        "They say that generational wealth can be made in the bear market, and that’s true. This is one of the best times for investors to track down better profitable investments while most try to get the be… [+2967 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Activistpost.com",
+      },
+      author: "Activist Post",
+      title: "“Smart Necklace” Monitors Wearers’ Health with Their Sweat",
+      description:
+        "By B.N. Frank Wireless aka “Smart” wearables are privacy invasive.  If you’re not concerned about your privacy, some wireless wearables have also been recalled for...\n“Smart Necklace” Monitors Wearers’ Health with Their Sweat",
+      url: "https://www.activistpost.com/2022/07/smart-necklace-monitors-wearers-health-with-their-sweat.html",
+      urlToImage:
+        "https://www.activistpost.com/wp-content/uploads/2022/07/sweat-pixa.jpg",
+      publishedAt: "2022-07-23T00:28:48Z",
+      content:
+        "By B.N. Frank\r\nWireless aka Smart wearables are privacy invasive.  If youre not concerned about your privacy, some wireless wearables have also been recalled for burning wearers and ALL OF THEM emit … [+4495 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "NPR",
+      },
+      author: "",
+      title: "Little House on the Blockchain",
+      description:
+        "It has great bones, three bedrooms and one and half baths, and it comes with its own machine that mines cryptocurrency. But in a year of reckoning for crypto, how interested are potential buyers? | Subscribe to Planet Money+ in Apple Podcasts or at plus.npr.o…",
+      url: "https://www.npr.org/2022/07/22/1113115868/little-house-on-the-blockchain",
+      urlToImage:
+        "https://media.npr.org/assets/img/2022/07/22/crypto_house_philly_wide-e427eaeefdd9ccc3cde8b7402f912d5b68ba55be.png?s=1400",
+      publishedAt: "2022-07-22T23:38:56Z",
+      content:
+        "Since late last year, the bottom has fallen out of the crypto market. It's lost $2 trillion, about two-thirds of its peak value, making people skeptical about cryptocurrencies and their long term via… [+951 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Ambcrypto.com",
+      },
+      author: "Abiodun Oladokun",
+      title: "Tezos: The A to Z of XTZ’s performance in last quarter",
+      description:
+        "According to a new report by Messari (provider of crypto market intelligence products), Tezos, an open source blockchain for deploying smart contracts, recorded some growth in the last quarter.  With a 58.1% decrease in the total cryptocurrency market capital…",
+      url: "https://ambcrypto.com/tezos-all-you-need-to-know-about-xtzs-performance-in-last-quarter/",
+      urlToImage:
+        "https://files.ambcrypto.com/wp-content/uploads/2022/07/22140358/mike-kiev-pSevc0QsYb0-unsplash-1-1000x600.jpg",
+      publishedAt: "2022-07-22T23:30:58Z",
+      content:
+        "According to a new report by Messari (provider of crypto market intelligence products), Tezos, an open source blockchain for deploying smart contracts, recorded some growth in the last quarter. \r\nWit… [+2631 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Theregister.com",
+      },
+      author: "Jessica Lyons Hardcastle",
+      title: "My Big Coin founder is – you guessed it – a $6m crypto-fraudster",
+      description:
+        "Con man blew victims' cash on antiques, artwork and other riches\nA crook who created a business called My Big Coin to cheat victims out of more than $6 million has been found guilty by a jury.…<!--#include virtual='/data_centre/_whitepaper_textlinks_top.html'…",
+      url: "https://www.theregister.com/2022/07/22/my_big_coin_founder_convicted/",
+      urlToImage:
+        "https://regmedia.co.uk/2022/07/22/mousetrap_bitcoin_crypto_scam_shutterstock.jpg",
+      publishedAt: "2022-07-22T23:08:31Z",
+      content:
+        "A crook who created a business called My Big Coin to cheat victims out of more than $6 million has been found guilty by a jury.\r\nRandall Crater, 51, of East Hampton, New York was this week convicted … [+2892 chars]",
+    },
+    {
+      source: {
+        id: "abc-news",
+        name: "ABC News",
+      },
+      author: "ABC News",
+      title: "Film producer pleads guilty in fraud investment scams",
+      description:
+        "Federal prosecutors say a movie producer has pleaded guilty to several counts of fraud and money laundering arising from his fraudulent promotion of two cryptocurrency investment schemes",
+      url: "https://abcnews.go.com/Entertainment/wireStory/film-producer-pleads-guilty-fraud-investment-scams-87270202",
+      urlToImage:
+        "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+      publishedAt: "2022-07-22T22:59:11Z",
+      content:
+        "ATLANTA -- A movie producer has pleaded guilty to several counts of fraud and money laundering arising from his fraudulent promotion of two cryptocurrency investment schemes, federal prosecutors said… [+1893 chars]",
+    },
+    {
+      source: {
+        id: "associated-press",
+        name: "Associated Press",
+      },
+      author: "AP",
+      title: "Film producer pleads guilty in fraud investment scams",
+      description:
+        "Federal prosecutors say a movie producer has pleaded guilty to several counts of fraud and money laundering arising from his fraudulent promotion of two cryptocurrency investment schemes. Ryan Felton entered the plea on the fourth day of his jury trial…",
+      url: "https://apnews.com/210e9ca6cb9d5d8ca15a5d419914fc44",
+      urlToImage:
+        "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?resize=600%2C315",
+      publishedAt: "2022-07-22T22:56:54Z",
+      content:
+        "ATLANTA (AP) A movie producer has pleaded guilty to several counts of fraud and money laundering arising from his fraudulent promotion of two cryptocurrency investment schemes, federal prosecutors sa… [+2089 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Seeking Alpha",
+      },
+      author: "Left Brain Investment Research",
+      title: "Markets Strong: Are We Out Of The Woods?",
+      description:
+        "What's Working Begins This Week with Crypto; What's Not Working are Munis and the U.S. Dollar. Earnings Season is Upon Us: Patterns Begin to Emerge.",
+      url: "https://seekingalpha.com/article/4525269-markets-strong-are-we-out-of-the-woods",
+      urlToImage:
+        "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1363888716/image_1363888716.jpg?io=getty-c-w750",
+      publishedAt: "2022-07-22T22:46:42Z",
+      content:
+        "Are we out of the Woods?\r\n gremlin/E+ via Getty Images\r\nBrian Dress, CFA -- Director of Research, Investment Advisor.\r\n For most of 2022, investors of all types have been under siege and there’s been… [+13815 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "The Denver Post",
+      },
+      author: "Playtogga",
+      title:
+        "Best Crypto Gambling Sites: Top Cryptocurrency Online Gambling Sites",
+      description:
+        "The best crypto gambling sites are similar to traditional online casinos, but they’re turbocharged with zero transaction fees, instant withdrawals, and enhanced security. They’ve also got the best games and the most generous bonuses! Our team of iGaming exper…",
+      url: "https://www.denverpost.com/2022/07/22/best-crypto-gambling-sites/",
+      urlToImage:
+        "https://www.denverpost.com/wp-content/uploads/2022/07/best-crypto-gambling-sites.jpg?w=1024&h=607",
+      publishedAt: "2022-07-22T22:40:32Z",
+      content:
+        "The best crypto gambling sites are similar to traditional online casinos, but they’re turbocharged with zero transaction fees, instant withdrawals, and enhanced security. They’ve also got the best ga… [+22088 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Business Wire",
+      },
+      author: null,
+      title:
+        "Glancy Prongay & Murray LLP, a Leading Securities Fraud Law Firm, Continues Its Investigation of Discover Financial Services (DFS) on Behalf of Investors",
+      description:
+        "LOS ANGELES--(BUSINESS WIRE)--Glancy Prongay & Murray LLP (“GPM”), a leading national shareholder rights law firm, continues its investigation on behalf of Discover Financial Services (“Discover” or the “Company”) (NYSE: DFS) investors concerning the Company’…",
+      url: "https://www.businesswire.com/news/home/20220722005462/en/Glancy-Prongay-Murray-LLP-a-Leading-Securities-Fraud-Law-Firm-Continues-Its-Investigation-of-Discover-Financial-Services-DFS-on-Behalf-of-Investors",
+      urlToImage:
+        "https://mms.businesswire.com/media/20220722005462/en/478343/23/GPM_Logo_Colo.jpg",
+      publishedAt: "2022-07-22T22:35:17Z",
+      content:
+        "LOS ANGELES--(BUSINESS WIRE)--Glancy Prongay &amp; Murray LLP (GPM), a leading national shareholder rights law firm, continues its investigation on behalf of Discover Financial Services (Discover or … [+3126 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CryptoGlobe",
+      },
+      author: "Francisco Memoria",
+      title:
+        "What Will ‘Lead the Next Bull Run in Digital Assets’, Explains CryptoCompare Research",
+      description:
+        "In a newly published report researchers from leading digital asset data provider CryptoCompare have noted that while the space has undoubtedly entered a bear market there are factors they believe will trigger the next bull run in the future. CryptoCompare’s 2…",
+      url: "https://www.cryptoglobe.com/latest/2022/07/what-will-lead-the-next-bull-run-in-digital-assets-explains-cryptocompare-research/",
+      urlToImage:
+        "https://cryptoglobe.s3.eu-west-2.amazonaws.com/2022/02/dylan-calluy-JpflvzEl5cg-unsplash-614x768.jpg",
+      publishedAt: "2022-07-22T22:31:00Z",
+      content:
+        "In a newly published report researchers from leading digital asset data provider CryptoCompare have noted that while the space has undoubtedly entered a bear market there are factors they believe wil… [+2890 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Ambcrypto.com",
+      },
+      author: "Michael Nderitu",
+      title:
+        "APE turtle traders can consider these metrics before buying breakouts",
+      description:
+        "APE holders had a pleasant period since mid-July courtesy of the bullish market conditions. The cryptocurrency achieved a strong upside on 13 July, which was enough to propel it back above its lowest price point in May. APE’s latest rally builds on its previo…",
+      url: "https://ambcrypto.com/ape-turtle-traders-can-consider-these-metrics-before-buying-breakouts/",
+      urlToImage:
+        "https://files.ambcrypto.com/wp-content/uploads/2022/07/22160953/art-2410485_1280-1000x600.png",
+      publishedAt: "2022-07-22T22:30:58Z",
+      content:
+        "APE holders had a pleasant period since mid-July courtesy of the bullish market conditions. The cryptocurrency achieved a strong upside on 13 July, which was enough to propel it back above its lowest… [+2089 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Neowin",
+      },
+      author: "Paul Hill",
+      title:
+        "FTX proposal would offer a lifeline to investors with assets stuck on bankrupt Voyager",
+      description:
+        "FTX is offering to help Voyager customers get a portion of their assets back if they sign up on FTX. The liquidity offer has not yet been taken up by Voyager and will be optional for users. Read more...",
+      url: "https://www.neowin.net/news/ftx-proposal-would-offer-a-lifeline-to-investors-with-assets-stuck-on-bankrupt-voyager/",
+      urlToImage:
+        "https://cdn.neow.in/news/images/uploaded/2022/07/1658527743_ftx_story.jpg",
+      publishedAt: "2022-07-22T22:14:01Z",
+      content:
+        "FTX, one of the cryptocurrency exchanges that has weathered the ongoing storm, has made a proposal to provide early liquidity to Voyager. This would allow Voyager customers to make a new account on F… [+1297 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "TheStreet",
+      },
+      author: "Luc Olinga",
+      title: "Crypto: Trump's ex-Ally's Bitcoin Troubles Worsen",
+      description:
+        "Anthony Scaramucci, the short-lived White House communications director under Donald Trump, is a bitcoin evangelist.",
+      url: "https://www.thestreet.com/investing/cryptocurrency/crypto-trumps-ex-allys-bitcoin-troubles-worsen",
+      urlToImage:
+        "https://www.thestreet.com/.image/t_share/MTY4NjUxNTg5NDUyMTEzNTQz/anthony-scaramucci.png",
+      publishedAt: "2022-07-22T22:08:00Z",
+      content:
+        'The past few days have been eventful for Anthony Scaramucci, the former White House communications director under Donald Trump. He spent 11 days in the role.\r\n"The Mooch," as he is nicknamed, recentl… [+3777 chars]',
+    },
+    {
+      source: {
+        id: null,
+        name: "Yahoo Entertainment",
+      },
+      author: "Sam  Kessler",
+      title:
+        "Failed Crypto Lender Cred Blames Its Demise on Uphold Exchange in Suit",
+      description:
+        "The 2022 meltdown is not the first time that the risks of “Centralized DeFi” products have been laid bare.",
+      url: "https://finance.yahoo.com/news/failed-crypto-lender-cred-blames-220029309.html",
+      urlToImage:
+        "https://s.yimg.com/uu/api/res/1.2/EyEcua60UurZGVVO.ZfNrQ--~B/aD02MDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coindesk_75/b00e6f0b05a2ec51e71a47aee8c8e932",
+      publishedAt: "2022-07-22T22:00:29Z",
+      content:
+        "The liquidation trust for cryptocurrency lender Cred sued Uphold Friday, alleging that the crypto exchange masterminded the product that ultimately caused Cred to seek bankruptcy protection in 2020.\r… [+5175 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CoinDesk",
+      },
+      author: "Sam Kessler",
+      title:
+        "Failed Crypto Lender Cred Blames Its Demise on Uphold Exchange in Suit",
+      description:
+        "The 2022 meltdown is not the first time that the risks of “Centralized DeFi” products have been laid bare.",
+      url: "https://www.coindesk.com/layer2/2022/07/22/failed-crypto-lender-cred-blames-uphold-exchange-for-its-demise-in-suit/",
+      urlToImage:
+        "https://www.coindesk.com/resizer/DxZMH8cr-mBsJehPYZnhuHU0AVM=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/SVZQOWJYY5GLXOPLYHZ5Y6QZL4.jpg",
+      publishedAt: "2022-07-22T22:00:29Z",
+      content:
+        "The liquidation trust for cryptocurrency lender Cred sued Uphold Friday, alleging that the crypto exchange masterminded the product that ultimately caused Cred to seek bankruptcy protection in 2020.\r… [+5111 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "msnNOW",
+      },
+      author: "msn",
+      title: "TESLA Bitcoin Dump Leaves Accounting Mystery...",
+      description: null,
+      url: "https://www.msn.com/en-us/money/companies/tesla-s-bitcoin-dump-leaves-accounting-mystery-in-its-wake/ar-AAZS4ls",
+      urlToImage: null,
+      publishedAt: "2022-07-22T22:00:04Z",
+      content:
+        "Tesla’s Bitcoin Dump Leaves Accounting Mystery in Its Wake\n(Bloomberg Law) -- Tesla Inc. made waves this week when it announced that it had dumped the bulk of its Bitcoin stash. Selling 75% of its cr… [+5382 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Motley Fool Australia",
+      },
+      author: "Mitchell Lawler",
+      title:
+        "Own Westpac shares? Why the major bank could soon make a crypto splash",
+      description:
+        "Is this old banking dog about to learn some new tricks? \nThe post Own Westpac shares? Why the major bank could soon make a crypto splash appeared first on The Motley Fool Australia.",
+      url: "https://www.fool.com.au/2022/07/23/own-westpac-shares-why-the-major-bank-could-soon-make-a-crypto-splash/",
+      urlToImage:
+        "https://www.fool.com.au/wp-content/uploads/2022/05/surprise.jpg",
+      publishedAt: "2022-07-22T22:00:00Z",
+      content:
+        "Shares in Westpac Banking Corp(ASX: WBC) experienced a green end to the week. However, it isn’t the share price that may have caught the attention of investors in the big four bank this week. \r\nWhile… [+2363 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Bangkok Post",
+      },
+      author: "Nuntawun Polkuamdee and Pornkamon Teerapiboonkun",
+      title: "Shares rebound as energy supply concerns ease",
+      description:
+        "Recap: Global shares rebounded yesterday as concerns over energy supplies eased while investors awaited second-quarter economic data and corporate earnings.",
+      url: "https://www.bangkokpost.com/business/2352287/shares-rebound-as-energy-supply-concerns-ease",
+      urlToImage:
+        "https://static.bangkokpost.com/newdesign/assets/images/bg/business/images_business_1.jpg?v=0.1",
+      publishedAt: "2022-07-22T22:00:00Z",
+      content:
+        "Recap: Global shares rebounded yesterday as concerns over energy supplies eased while investors awaited second-quarter economic data and corporate earnings.\r\nThe SET index moved in a range of 1,520.7… [+7525 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Forbes",
+      },
+      author:
+        "Roselyne Wanjiru, Contributor, \n Roselyne Wanjiru, Contributor\n https://www.forbes.com/sites/roselynewanjiru/",
+      title:
+        "Three Reasons Behind The Remarkable Growth Of Cryptocurrency Use In Africa Despite Regulatory Uncertainty",
+      description:
+        "Trust, product value and the need for intermediaries are three of these principles that give insight into some of the reasons why presently, cryptocurrency adoption in Africa has grown significantly in recent years in spite of regulatory uncertainty.",
+      url: "https://www.forbes.com/sites/roselynewanjiru/2022/07/22/three-reasons-behind-the-remarkable-growth-of-cryptocurrency-use-in-africa-despite-regulatory-uncertainty/",
+      urlToImage:
+        "https://imageio.forbes.com/specials-images/imageserve/62db18e0394aa75eacc1ec8d/0x0.jpg?format=jpg&width=1200",
+      publishedAt: "2022-07-22T21:59:37Z",
+      content:
+        "In traditional barter trade, mutual integrity and respect were expected of traders in different market places. If your bag of rice was worth the equivalent of three goats, youd expect nothing less, a… [+7279 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Talosintelligence.com",
+      },
+      author: "William Largent",
+      title: "Threat Roundup for July 15 to July 22",
+      description:
+        "A blog from the world class Intelligence Group, Talos, Cisco's Intelligence Group",
+      url: "http://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html",
+      urlToImage:
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDbBfe7re3_GTXSXxhXHE2wNeKNUPJ-Odym2Hj407JIEsoqhaRncqbWWVdFGF8HVFeuFf-9tRYJTDr5Yv3KtHFWHwNNCw0SfBhK253m7gw8NPS3_tw9byysNDzJXeSV6PpKRjM8ZQ31WcZe4BeFH6I-QvghzbC5suPfKxL3LS5jWtvSbxbS7DCiyVI/w1200-h630-p-k-no-nu/threat%20roundup.jpg",
+      publishedAt: "2022-07-22T21:51:00Z",
+      content:
+        "Today, Talos is publishing a glimpse into the most prevalent threats we've observed between July 15 and July 22. As with previous roundups, this post isn't meant to be an in-depth analysis. Instead, … [+54263 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "PC Gamer",
+      },
+      author: "andy.chalk@pcgamer.com (Andy Chalk)",
+      title:
+        "After Minecraft says no to NFTs, NFT Worlds vows to make its own game",
+      description:
+        'The NFT-based Minecraft platform said Mojang\'s new NFT policy has "no regard for creators, builders, and players."',
+      url: "https://www.pcgamer.com/after-minecraft-says-no-to-nfts-nft-worlds-vows-to-make-its-own-game/",
+      urlToImage:
+        "https://cdn.mos.cms.futurecdn.net/qQfN8GBRNcNsnE3S6EWdkn-1200-80.jpg",
+      publishedAt: "2022-07-22T21:43:02Z",
+      content:
+        "Mojang made waves yesterday when it said, in no uncertain terms, that NFTs are not welcome in Minecraft (opens in new tab). Good news for gamers, perhaps, but not so much for anyone who has already c… [+4148 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Blockworks.co",
+      },
+      author: "Hannah Finnerty",
+      title: "Ether Dominance Rises as Altcoins Outperform Bitcoin",
+      description:
+        "Cryptocurrency markets lit up over the past week, with all but three top-100 digital assets booking gains\nThe post Ether Dominance Rises as Altcoins Outperform Bitcoin appeared first on Blockworks.",
+      url: "http://blockworks.co/ether-dominance-rises-as-altcoins-outperform-bitcoin/",
+      urlToImage:
+        "https://blockworks.co/wp-content/uploads/2022/06/Ethereum-2-1024x576.png",
+      publishedAt: "2022-07-22T21:38:17Z",
+      content:
+        "<ul><li>Ether now makes up 18.7% of all cryptocurrencies, its highest point since May</li><li>Bitcoin dominance dropped slightly after leading altcoins outperformed the top digital asset</li></ul>\r\nC… [+3402 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Coinjournal.net",
+      },
+      author: "Benson Toti",
+      title: "Bitcoin price outlook: What levels are analysts watching?",
+      description:
+        "Bitcoin (BTC) rose to a seven-day high above $24,000 this week, hitting its highest…\nThe post Bitcoin price outlook: What levels are analysts watching? appeared first on CoinJournal.",
+      url: "https://coinjournal.net/news/bitcoin-price-outlook-what-levels-are-analysts-watching/",
+      urlToImage:
+        "https://coinjournal.net/wp-content/uploads/2022/07/1658525648643-5b1540a2-ce6f-43b0-ae03-751a3466e728.jpg",
+      publishedAt: "2022-07-22T21:34:34Z",
+      content:
+        "Bitcoin (BTC) rose to a seven-day high above $24,000 this week, hitting its highest price level since mid-June.  \r\nThe benchmark cryptocurrency has however found it hard to break higher, with a subse… [+2015 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Decrypt",
+      },
+      author: "Jason Nelson",
+      title: "Animoca Brands Launches DAO to Develop Metaverse Standards",
+      description:
+        "Several prominent Web3 names have joined the effort to ensure interoperability among virtual worlds.",
+      url: "https://decrypt.co/105791/new-interoperability-alliance-launches-dao-to-develop-metaverse-standards",
+      urlToImage:
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/07/OMA3-gID_7.png",
+      publishedAt: "2022-07-22T21:22:36Z",
+      content:
+        "An alliance of Web3 companies has come together to build an open and borderless metaverse called OMA3, or the Open Metaverse Alliance for Web3. The group says it aims to solve key challenges of the n… [+3207 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Decrypt",
+      },
+      author: "Kate Irwin",
+      title:
+        "Sam Bankman-Fried’s FTX May Buy South Korean Crypto Exchange Bithumb: Report",
+      description:
+        "The emergent white-knight firm of the 2022 crypto winter appears to be exploring more acquisition options.",
+      url: "https://decrypt.co/105790/sam-bankman-frieds-ftx-may-buy-south-korean-crypto-exchange-bithumb-report",
+      urlToImage:
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2021/06/ftx-ceo-tsm-esports-gID_4.png",
+      publishedAt: "2022-07-22T21:12:44Z",
+      content:
+        "This crypto winter, rumors of FTX rescuing or acquiring struggling crypto companies have proliferatedand now South Korean crypto exchange Bithumb is said to be on FTX CEO Sam Bankman-Frieds shopping … [+2061 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Coinjournal.net",
+      },
+      author: "Dan Ashmore",
+      title:
+        "Podcast: Jeremy Koven, COO of publicly-listed Canadian exchange CoinSmart",
+      description:
+        "Spotify podcast link here There are hundreds of cryptocurrency exchanges and trading platforms, with…\nThe post Podcast: Jeremy Koven, COO of publicly-listed Canadian exchange CoinSmart appeared first on CoinJournal.",
+      url: "https://coinjournal.net/news/podcast-jeremy-koven-coo-of-publicly-listed-canadian-exchange-coinsmart/",
+      urlToImage:
+        "https://coinjournal.net/wp-content/uploads/2022/07/1658524110085-7ee9f4ba-e6d8-4102-b08c-85ec895147a5.png",
+      publishedAt: "2022-07-22T21:07:55Z",
+      content:
+        "Spotify podcast link here\r\nThere are hundreds of cryptocurrency exchanges and trading platforms, with more popping up every single day. With the industry still only a few years old, however, most of … [+1537 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Forbes",
+      },
+      author:
+        "Hank Tucker, Forbes Staff, \n Hank Tucker, Forbes Staff\n https://www.forbes.com/sites/hanktucker/",
+      title:
+        "Small Cap Stock Watch: Bitcoin Miner Marathon Strikes Power Deal; Electric Carmaker Faraday Deflates As Short Squeeze Ends",
+      description: "Crypto firm gains 55% as it secures energy supply.",
+      url: "https://www.forbes.com/sites/hanktucker/2022/07/22/small-cap-stock-watch-bitcoin-miner-marathon-strikes-power-deal-electric-carmaker-faraday-deflates-as-short-squeeze-ends/",
+      urlToImage:
+        "https://imageio.forbes.com/specials-images/imageserve/62daf7cf8a1a5c89ef39dc42/0x0.jpg?format=jpg&width=1200",
+      publishedAt: "2022-07-22T21:02:26Z",
+      content:
+        "Marathon Digital uses powerful computers like these to mine for bitcoin in datacenters and supercharged its operations with an agreement this week.\r\nGetty\r\nThe U.S. stock market is heating up with th… [+3956 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Theregister.com",
+      },
+      author: "Jessica Lyons Hardcastle",
+      title: "Don't dive head first into that crypto pool, FBI warns",
+      description:
+        "Liquidity scams cost victims more than $70m, agents say\nThe FBI has warned cryptocurrency owners and would-be owners about a scam involving phony liquidity mining that the bureau says has cost victims more than $70 million in combined losses since 2019.…",
+      url: "https://www.theregister.com/2022/07/22/fbi_liquidity_mining_scam/",
+      urlToImage:
+        "https://regmedia.co.uk/2022/07/22/man_diving_into_pool_shutterstock.jpg",
+      publishedAt: "2022-07-22T21:00:33Z",
+      content:
+        "The FBI has warned cryptocurrency owners and would-be owners about a scam involving phony liquidity mining that the bureau says has cost victims more than $70 million in combined losses since 2019.\r\n… [+3722 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CryptoSlate",
+      },
+      author: "Zeynep Geylan",
+      title: "Crypto.com continues expansion with Cyprus",
+      description:
+        "Cryptocurrency platform Crypto dot com received regulatory approval from the Cyprus Securities and Exchange Commission (CySEC) just three days after registering with the Italian watchdogs. \nThe post Crypto.com continues expansion with Cyprus appeared first on…",
+      url: "https://cryptoslate.com/crypto-com-continues-expansion-with-cyprus/",
+      urlToImage:
+        "https://cryptoslate.com/wp-content/uploads/2022/07/bitcoin-sell-1-1.jpg",
+      publishedAt: "2022-07-22T21:00:10Z",
+      content:
+        "Cryptocurrency platform Crypto.com received regulatory approval from the Cyprus Securities and Exchange Commission (CySEC) just three days after registering with the Italian watchdogs.\r\nCrypto.com’s … [+3356 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Cointelegraph",
+      },
+      author: "Cointelegraph By Derek Andersen",
+      title:
+        "FTX proposes a way to give Voyager Digital clients some of their digital assets back early",
+      description:
+        "Cryptocurrency exchange FTX and its U.S. affiliate are offering to buy out bankrupt Voyager Digital’s digital assets and digital asset loans and return client money faster.",
+      url: "https://cointelegraph.com/news/ftx-proposes-a-way-to-give-voyager-digital-clients-some-of-their-digital-assets-back-early",
+      urlToImage:
+        "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDcvZDBmMDZkNDAtODRiZS00OTgxLTk1YTYtZDZkNGY4ZDNlODFhLmpwZWc=.jpg",
+      publishedAt: "2022-07-22T20:59:00Z",
+      content:
+        "FTX and Alameda Ventures want to offer Voyager Digital customers a chance to start a new FTX account with an opening cash balance funded by an early distribution on a portion of their bankruptcy clai… [+1863 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Biztoc.com",
+      },
+      author: "bruces",
+      title:
+        "FTX Proposes Joint Plan to Offer Early Liquidity to Voyager Digital's Customers in Bankruptcy Proceeding",
+      description:
+        "Voyager Digital, LLC filed for bankruptcy in New York earlier this month. Customers of Voyager would have the opportunity to start a new account with FTX with an opening cash balance funded by an... #debtors #threearrowscapital #founding #recoveries #bankrupt…",
+      url: "https://biztoc.com/p/5g74ayti?ref=rss",
+      urlToImage: "https://cdn.biztoc.com/og/5g74ayti.jpg",
+      publishedAt: "2022-07-22T20:56:40Z",
+      content:
+        "Voyager Digital, LLC filed for bankruptcy in New York earlier this month. Customers of Voyager would have the opportunity to start a new account with FTX with an opening cash balance funded by an ear… [+1463 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CoinDesk",
+      },
+      author: "Cameron Thompson",
+      title:
+        "FTX to Offer Early Liquidity to Customers of Bankrupt Crypto Lender Voyager",
+      description:
+        "The crypto exchange will allow Voyager customers  to create accounts funded by an early distribution of a part of their bankruptcy claims.",
+      url: "https://www.coindesk.com/business/2022/07/22/ftx-to-offer-early-liquidity-to-customers-of-bankrupt-crypto-lender-voyager/",
+      urlToImage:
+        "https://www.coindesk.com/resizer/EufGLdFLuKrmKR9643QNYujO1kg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/FUEF3WVXPRH6RNPOH5LEZRNRZU.jpg",
+      publishedAt: "2022-07-22T20:39:58Z",
+      content:
+        "Please note that ourprivacy policy,terms of use,cookies, anddo not sell my personal informationhas been updated.\r\nThe leader in news and information on cryptocurrency, digital assets and the future o… [+556 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Cointelegraph",
+      },
+      author: "Cointelegraph By Jordan Finneseth",
+      title:
+        "Bitcoin dips to $22.6K, risking further losses if it fails to hold above 200-week MA",
+      description:
+        "BTC price slides back below its 200-week moving average as analysts stress the importance of staying above $22,800 for bullish momentum to continue.",
+      url: "https://cointelegraph.com/news/bitcoin-dips-to-22-6k-risking-further-losses-if-it-fails-to-hold-above-200-week-ma",
+      urlToImage:
+        "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDcvZGZiYjMwMDEtNDRjYi00MzAzLTlmNGQtZjg4N2QzMjhmMWU5LmpwZWc=.jpg",
+      publishedAt: "2022-07-22T20:28:57Z",
+      content:
+        "The mood across the cryptocurrency ecosystem is noticeably brighter on July 22 after a week of gains helped traders put the events of the past two months behind them and look toward a positive future… [+3616 chars]",
+    },
+    {
+      source: {
+        id: "independent",
+        name: "Independent",
+      },
+      author: "Ethan Freedman",
+      title:
+        "US power grids stretch to capacity as 100million people under heatwave alerts",
+      description: "Power grids seeking spikes in demand amid soaring heat",
+      url: "https://www.independent.co.uk/climate-change/news/heatwave-us-power-grid-end-texas-new-york-b2129422.html",
+      urlToImage:
+        "https://static.independent.co.uk/2022/07/22/21/SEI115826421.jpg?quality=75&width=1200&auto=webp",
+      publishedAt: "2022-07-22T20:28:13Z",
+      content:
+        "Electricity grids are being stretched to the limits as an extended heatwave hits the US, causing people to crank up air conditioners to stay safe and cool during skyrocketing temperatures.\r\nMore than… [+3737 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CoinDesk",
+      },
+      author: "Glenn Williams, Jimmy He",
+      title:
+        "Market Wrap: Bitcoin Finishes the Week in Positive Territory Again",
+      description:
+        "Bitcoin finishes strong, sees correlations with traditional markets narrow to prior levels.",
+      url: "https://www.coindesk.com/markets/2022/07/22/market-wrap-bitcoin-finishes-the-week-in-positive-territory-again/",
+      urlToImage:
+        "https://www.coindesk.com/resizer/26lcQ9ubgciPBeNL5kLuLaiwzsw=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/6RXUUODANRBMRP7Y6CCZ34QW4Q.jpg",
+      publishedAt: "2022-07-22T20:23:07Z",
+      content:
+        "Hi, I'm Glenn Williams Jr., here to take you through the day's crypto market highlights and news.\r\nBitcoin (BTC) advanced slightly on Friday to trade just over $23,000, recently up 0.6% over the past… [+5675 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Yahoo Entertainment",
+      },
+      author: "Glenn Williams, Jimmy He",
+      title:
+        "Market Wrap: Bitcoin Finishes the Week in Positive Territory Again",
+      description:
+        "Bitcoin finishes strong, sees correlations with traditional markets narrow to prior levels.",
+      url: "https://finance.yahoo.com/news/market-wrap-bitcoin-finishes-week-202307228.html",
+      urlToImage:
+        "https://s.yimg.com/uu/api/res/1.2/uEQ7lwdIJ48PlBBKMaVf6Q--~B/aD02MDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coindesk_75/39ac320bca455c537ff55a0d859aac2e",
+      publishedAt: "2022-07-22T20:23:07Z",
+      content:
+        "Hi, I'm Glenn Williams Jr., here to take you through the day's crypto market highlights and news.\r\nBitcoin (BTC) advanced slightly on Friday to trade just over $23,000, recently up 0.6% over the past… [+7651 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Decrypt",
+      },
+      author: "Mathew Di Salvo",
+      title: "Bitcoin Traders in Argentina Restricted From Buying Dollars",
+      description:
+        "It’s an attempt by the central bank to stop the flight of capital and tame inflation.",
+      url: "https://decrypt.co/105772/bitcoin-traders-argentina-restricted-buying-dollars",
+      urlToImage:
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/09/argentina-dollars-cryptocurrency-dai-stablecoin-bitcoin-gID_1.jpg",
+      publishedAt: "2022-07-22T20:20:28Z",
+      content:
+        "Argentina, a country battered by sky-high inflation, is restricting Bitcoin traders from buying U.S. dollars at the official exchange rate in a bid to tame capital flight. \r\nIn a Thursday announcemen… [+2265 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "PRNewswire",
+      },
+      author: null,
+      title:
+        "Nation's Mayors Launch Standing Committee on Technology and Innovation to Strengthen City Broadband Deployment, Cybersecurity Defenses, and Digital Services",
+      description:
+        "Seattle Mayor Bruce Harrell Named Chair WASHINGTON, July 22, 2022 /PRNewswire/ -- Today, U.S. Conference of Mayors (USCM) President Miami Mayor Francis Suarez named Seattle Mayor Bruce Harrell as the first chair of the organization's new Standing Committee on…",
+      url: "https://www.prnewswire.com/news-releases/nations-mayors-launch-standing-committee-on-technology-and-innovation-to-strengthen-city-broadband-deployment-cybersecurity-defenses-and-digital-services-301591954.html",
+      urlToImage:
+        "https://mma.prnewswire.com/media/767293/US_Conference_of_Mayors_Logo.jpg?p=facebook",
+      publishedAt: "2022-07-22T20:16:00Z",
+      content:
+        "Seattle Mayor Bruce Harrell Named Chair\r\nWASHINGTON, July 22, 2022 /PRNewswire/ -- Today, U.S. Conference of Mayors (USCM) President Miami Mayor Francis Suarez named Seattle Mayor Bruce Harrell as th… [+3298 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "U.Today",
+      },
+      author: "U.Today",
+      title: "American Cancer Society Claims Dogecoin Donations Are Popular",
+      description:
+        "American Cancer Society, a prominent health organization, started accepting Dogecoin donations last May",
+      url: "https://u.today/american-cancer-society-claims-dogecoin-donations-are-popular",
+      urlToImage:
+        "https://u.today/sites/default/files/styles/twitter/public/2022-07/333524812344232351.png",
+      publishedAt: "2022-07-22T20:15:25Z",
+      content:
+        "American Cancer Society, a voluntary health organization that is focused on eliminating cancer, has revealed that Dogecoin is its third most donated cryptocurrency.\r\nThe most popular meme coin accoun… [+1480 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "KPBS",
+      },
+      author: "",
+      title: "California to allow cryptocurrency campaign donations",
+      description:
+        "Candidates for state and local offices in California will soon be able to accept cryptocurrency campaign donations.",
+      url: "https://www.kpbs.org/news/local/2022/07/22/california-to-allow-cryptocurrency-campaign-donations",
+      urlToImage:
+        "https://cdn.kpbs.org/dims4/default/b20b60a/2147483647/strip/true/crop/6000x3150+0+425/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F87%2F68%2F201aecad4a2cb5c8f45f1e6f1516%2Fap22124607347273.jpg",
+      publishedAt: "2022-07-22T20:12:13Z",
+      content:
+        "Candidates for state and local offices in California will soon be able to accept cryptocurrency campaign donations.\r\nThe Fair Political Practices Commission voted Thursday to approve new rules allowi… [+833 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Yahoo Entertainment",
+      },
+      author: "Matt Turner",
+      title: "Crypto Stocks Get Boost From Retail Traders Who Drove Meme Craze",
+      description:
+        "(Bloomberg) -- Retail traders, responsible for the wild price swings in everything from GameStop Corp. to Revlon Inc., have returned to another old favorite:...",
+      url: "https://finance.yahoo.com/news/crypto-stocks-boost-retail-traders-135711022.html",
+      urlToImage:
+        "https://s.yimg.com/ny/api/res/1.2/ZLlsU.gheJqI9.hHhuGsZg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDY-/https://s.yimg.com/uu/api/res/1.2/w81KlE7lQXFCpbCtLGL9vQ--~B/aD04NzA7dz0xMjk2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/abc4e087ba7ccd5f7af9ac5fbeadbdcc",
+      publishedAt: "2022-07-22T20:11:46Z",
+      content:
+        "(Bloomberg) -- Retail traders, responsible for the wild price swings in everything from GameStop Corp. to Revlon Inc., have returned to another old favorite: beaten-down cryptocurrency stocks.\r\nMost … [+3439 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Observer",
+      },
+      author: "James Ledbetter, James Ledbetter",
+      title: "The SEC’s New Complaint Does Not Look Good for Coinbase",
+      description:
+        "The contentious question of which cryptocurrencies are legally securities has come up in a SEC lawsuit. Coinbase isn't a party in the suit but it's indirectly been implied dated in a legal violation.",
+      url: "https://observer.com/2022/07/the-secs-new-insider-trading-complaint-does-not-look-good-for-coinbase/",
+      urlToImage:
+        "https://observer.com/wp-content/uploads/sites/2/2022/07/GettyImages-1144022597.jpg?quality=80&strip",
+      publishedAt: "2022-07-22T20:11:26Z",
+      content:
+        "Coinbase Founder and CEO Brian Armstrong (Photo by Steven Ferdman/Getty Images) Getty ImagesGetty Images\r\nThe indictment Thursday (July 21) of three men on insider trading counts received a lot of at… [+1695 chars]",
+    },
+  ];
+</script>
+<script>
+  let art = document.querySelector("#crypto");
+  crypto.forEach(function (el) {
+    let div = document.createElement("div");
+    let imgage = document.createElement("img");
+    imgage.src = el.urlToImage;
+    let h2 = document.createElement("h2");
+    h2.innerText = el.title;
+    let para = document.createElement("p");
+    para.innerText = el.description;
+    let anc = document.createElement("a");
+    anc.href = el.url;
+    art.append(div);
+    div.append(imgage, h2, para);
+  });
+  let worldjs = document.getElementById("worldjs");
+  worldjs.addEventListener("click", function () {
+    window.location.href = "world.html";
+  });
+  let latestjs = document.getElementById("latestjs");
+  latestjs.addEventListener("click", function () {
+    window.location.href = "latest.html";
+  });
+  let photojs = document.getElementById("photojs");
+  photojs.addEventListener("click", function () {
+    window.location.href = "photo.html";
+  });
+  let enterjs = document.getElementById("enter");
+  enterjs.addEventListener("click", function () {
+    window.location.href = "enter.html";
+  });
+  let sportsjs = document.getElementById("sportsjs");
+  sportsjs.addEventListener("click", function () {
+    window.location.href = "sports.html";
+  });
+  let traveljs = document.getElementById("traveljs");
+  traveljs.addEventListener("click", function () {
+    window.location.href = "travel.html";
+  });
+  let lifestylejs = document.getElementById("lifestylejs");
+  lifestylejs.addEventListener("click", function () {
+    window.location.href = "lifestyle.html";
+  });
+  let india = document.getElementById("indiajs");
+  india.addEventListener("click", function () {
+    window.location.href = "india.html";
+  });
+  let logo = document.getElementById("logo");
+  logo.addEventListener("click", function () {
+    window.location.href = "home.html";
+  });
+  let cryptoC = document.getElementById("bitcoin");
+  cryptoC.addEventListener("click", function () {
+    window.location.href = "bitcoin.html";
+  });
+  let teslaC = document.getElementById("tesla");
+  teslaC.addEventListener("click", function () {
+    window.location.href = "tesla.html";
+  });
+  let globalC = document.getElementById("global");
+  globalC.addEventListener("click", function () {
+    window.location.href = "global.html";
+  });
+</script>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA India| Latest News</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      #tesla {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        margin-top: 30px;
+        padding: 10px;
+      }
+      #tesla img{
+        width: 100%;
+      }
+      #tesla div{
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+      }
+      #tesla div p:hover{
+        color: blue;
+        font-size: 18px;;
+      }
+      #elon{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+      }
+      #elon img{
+        width: 100%;
+      }
+      #elon div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div>
+        <img
+          id="logo"
+          src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+          alt=""
+        />
+        <div id="hindi">हिंदी में पढ़ें</div>
+      </div>
+      <img
+        id="search"
+        src="https://english.cdn.zeenews.com/static/public/menusearch.svg"
+        alt=""
+      />
+    </div>
+    <!-- top section -->
+    <div id="top-section">
+      <div id="top">
+        <div>Top News</div>
+      </div>
+      <div id="slide">
+        <!-- <div id="slide1">Slide</div>
+        <div id="slide2">><</div> -->
+        <marquee
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            In Sri Lanka, the crisis is not over, yet</a
+          >
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Elon Musk-Twitter takeover dispute trial set to begin in October
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            High blood pressure may double risk of severe Covid despite
+            vaccination: Study
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            Liz Truss likely to be new UK PM, not Rishi Sunak: Report
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">21 July 2022</p>
+            England skipper Jos Buttler terms Ben Stokes as,
+            "once-in-a-generation player" after Ben Stokes played his last ODI
+          </a>
+        </marquee>
+      </div>
+    </div>
+    <div id="center">
+      <div>
+        <div id="left">
+          <div id="latestjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
+              alt=""
+            />
+            <p>Latest News</p>
+          </div>
+
+          <div id="photojs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
+              alt=""
+            />
+            <p>Photos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg"
+              alt=""
+            />
+            <p>Videos</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg"
+              alt=""
+            />
+            <p>Exlainers</p>
+          </div>
+
+          <div id="indiajs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
+              alt=""
+            />
+            <p>India</p>
+          </div>
+
+          <div id="enter">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
+              alt=""
+            />
+            <p>Entertainment</p>
+          </div>
+
+          <div id="sportsjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
+              alt=""
+            />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg"
+              alt=""
+            />
+            <p>Viral News</p>
+          </div>
+
+          <div id="lifestylejs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
+              alt=""
+            />
+            <p>Lifestyle</p>
+          </div>
+
+          <div id="traveljs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+              alt=""
+            />
+            <p>Travels</p>
+          </div>
+
+          <div id="worldjs">
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
+              alt=""
+            />
+            <p>World</p>
+          </div>
+
+          <div>
+            <img
+              src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png"
+              alt=""
+            />
+            <p>Ezmall</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 style="border-bottom: 5px solid yellow;">Electric Vehicle</h1>
+        <div id="tesla"></div>
+        
+      </div>
+      <div> <div id="right">
+        <div id="righth1">
+            <p>TRENDING NEWS TOPIC</p>
+            <p>More</p>
+        </div>
+        <div id="elon">
+            <div id="bitcoin">
+                <img src="https://www.howtogeek.com/wp-content/uploads/2021/08/shutterstock_1434643079.jpg?height=200p&trim=2,2,2,2" alt="">
+                <h3>Cryptocurrency</h3>
+            </div>
+            <div id="tesla">
+                <img src="https://images.moneycontrol.com/static-mcnews/2022/03/385764247.jpg?impolicy=website&width=770&height=431" alt="">
+                <h3>Electric Vehicles</h3>
+            </div>
+            <div id="global">
+                <img src="https://www.conserve-energy-future.com/wp-content/uploads/2016/07/global-warming-burning-earth-burning.jpg" alt="">
+                <h3>Global Warming</h3>
+            </div>
+           </div>
+           <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+       <div id="trend-news">
+        <div >
+           <a href="health.html">
+            <p>HEALTH</p></a>
+        </div>
+        <div>
+            <a href="tech.html">
+            <p>TECHNOLOGY</p></a>
+        </div>
+        <div><a href="business.html">
+            <p>BUSINESS</p></a>
+        </div>
+       </div>
+       <div id="righth1">
+        <p>SPACE TOPICS</p>
+        <p>More</p>
+    </div>
+   
+    <div id="science"></div>
+      </div>
+     
+    </div></div>
+    </div>
+   
+    <!-------------- footer------------------- -->
+    <div id="main-footer">
+      <div id="footer">
+        <div>
+          <img
+            src="https://english.cdn.zeenews.com/static/apprun/dna/icons/logodna.png"
+            alt=""
+          />
+        </div>
+        <div id="footer1">
+          <div>INDIA</div>
+          <div>WORLD</div>
+          <div>TECHNOLOGY</div>
+          <div>SPORTS</div>
+          <div>CRICKET</div>
+          <div>ENTERTAINMENT</div>
+        </div>
+      </div>
+      <hr />
+      <div id="follow">
+        <div>
+          <div>FOLLOW US ON</div>
+          <div id="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+        <div id="icon1">
+          <div>ABOUT DNA</div>
+          <div>CONTACT US</div>
+          <div>INVESTORS</div>
+          <div>ADVERTISE</div>
+          <div>PRIVACY-POLICY</div>
+        </div>
+      </div>
+      <hr />
+      <div id="partner">
+        <div>PARTNER SITE</div>
+        <div id="partner1">
+          <div>ZEE NEWS</div>
+          <div>HINDI NEWS</div>
+          <div>MARATHI NEWS</div>
+          <div>BENGALI NEWS</div>
+          <div>TAMIL NEWS</div>
+          <div>MALAYALAM NEWS</div>
+          <div>ZEE BUSINESS</div>
+          <div>WION</div>
+        </div>
+      </div>
+      <hr />
+      <div id="bot-line">
+        <div>
+          ©1998-2022 INDIA DOT COM PRIVATE LIMITED, ALL RIGHTS RESERVED.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="home.js"></script>
+<script>
+let tesla = [
+{
+"source": {
+"id": null,
+"name": "BGR"
+},
+"author": "Christian de Looper",
+"title": "2022 Hyundai Ioniq 5 review",
+"description": "Over the past year or two, a number of high-profile electric cars have come out to take on the likes of Tesla. We’ve already reviewed a number of them, like the Kia EV6, Ford Mustang Mach-E, and BMW iX. But there’s one we haven’t had a chance to test out just…",
+"url": "https://bgr.com/reviews/2022-hyundai-ioniq-5-review/",
+"urlToImage": "https://bgr.com/wp-content/uploads/2022/07/hyundai-ioniq-5-5.jpg?quality=82&strip=all",
+"publishedAt": "2022-07-23T14:04:00Z",
+"content": "Over the past year or two, a number of high-profile electric cars have come out to take on the likes of Tesla. We’ve already reviewed a number of them, like the Kia EV6, Ford Mustang Mach-E, and BMW … [+9600 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "rhogg@insider.com (Ryan Hogg)",
+"title": "Tesla gets its own lane at the Mexican border after Elon Musk strikes a deal with local officials, report says",
+"description": "The pro-business state of Nuevo Leon is allowing Tesla and its suppliers to use a dedicated lane when leaving Mexico, Bloomberg reported.",
+"url": "https://www.businessinsider.com/tesla-gets-own-lane-mexican-border-elon-musk-strikes-deal-2022-7",
+"urlToImage": "https://i.insider.com/62dbf7115bf4820019b5e69e?width=1200&format=jpeg",
+"publishedAt": "2022-07-23T13:48:56Z",
+"content": "Tesla has been given its own lane at the US-Mexico border to speed up deliveries from its suppliers in Mexico, Bloomberg reported.\r\nThe pro-business state of Nuevo Leon struck a deal with Tesla and i… [+1501 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Www.nzz.ch"
+},
+"author": "Rewert Hoffer (rew)",
+"title": "KURZMELDUNGEN - Wirtschaft: Diess soll VW laut Unternehmenskreisen nach seinem Abtritt beraten",
+"description": "NZZ Nachrichten, Hintergründe, Meinungen aus der Schweiz, International, Sport, Digital, Wirtschaft, Auto & mehr. Fundierte Berichterstattung rund um die Uhr.",
+"url": "https://www.nzz.ch/wirtschaft/diess-soll-vw-laut-unternehmenskreisen-weiter-beraten-ld.1694592",
+"urlToImage": "https://img.nzz.ch/2022/07/22/0ea09008-6046-41a6-bf22-d31cd182a45f.jpeg?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=1795,1010,x0,y94&wmark=nzz",
+"publishedAt": "2022-07-23T13:44:35Z",
+"content": "Diess soll VW laut Unternehmenskreisen nach seinem Abtritt beraten\r\n(dpa) Volkswagen-Chef Herbert Diess wird laut Unternehmenskreisen nach seinem Abtritt weiter für das Unternehmen tätig sein. Der 63… [+28614 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Ritholtz.com"
+},
+"author": "Barry Ritholtz",
+"title": "MiB: Graham Weaver, Alpine Investors",
+"description": "This week, we speak with Graham Weaver, who is the founder and CEO of Alpine Investors, a private equity firm in San Francisco that invests in software and services. Graham has been in private equity for over 20 years, having started Alpine in his dorm room a…",
+"url": "https://ritholtz.com/2022/07/mib-graham-weaver-alpine-investors/",
+"urlToImage": "https://ritholtz.com/wp-content/uploads/2021/01/MIB-.png",
+"publishedAt": "2022-07-23T13:30:49Z",
+"content": "This week, we speak with Graham Weaver, who is the founder and CEO of Alpine Investors, a private equity firm in San Francisco that invests in software and services. Graham has been in private equity… [+1423 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Minneapolis Star Tribune"
+},
+"author": "Patrick Kennedy",
+"title": "Public company executives cashed in equity awards in rebounding 2021 stock market",
+"description": "Stock market gains increased the value of long-term equity awards, and the CEO-worker pay gap widened.",
+"url": "https://www.startribune.com/minnesota-public-company-executives-cashed-in-equity-awards-in-rebounding-2021-stock-market/600192111/",
+"urlToImage": "https://chorus.stimg.co/23892216/execcompfull.png?h=630&w=1200&fit=crop&bg=999&crop=faces",
+"publishedAt": "2022-07-23T13:06:49Z",
+"content": "The income gap has only become larger in the past few years, as the stock market saw record gains. And the inequality is particularly glaring in the pay packages of the country's chief executives.\r\nA… [+7221 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CleanTechnica"
+},
+"author": "Joe Wachunas",
+"title": "We Spent $95 To Drive 2,700 Miles On A Summer Roadtrip. Life With An EV Is Sweet Indeed",
+"description": "For the second year in a row, my family embarked on a massive EV road trip. Five of us — my wife, 3 year-old, 7-year-old, and 17-year old exchange student — piled into a rented Model 3 and drove 2,661 miles across the Northeast to see family and friends and e…",
+"url": "https://cleantechnica.com/2022/07/23/we-spent-95-to-drive-2700-miles-on-a-summer-roadtrip-life-with-an-ev-is-sweet-indeed/",
+"urlToImage": "https://cleantechnica.com/files/2022/07/Tesla-1-e1658497539271.jpg",
+"publishedAt": "2022-07-23T13:00:53Z",
+"content": "For the second year in a row, my family embarked on a massive EV road trip. Five of us — my wife, 3 year-old, 7-year-old, and 17-year old exchange student — piled into a rented Model 3 and drove 2,66… [+9863 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "stabahriti@insider.com (Sam Tabahriti)",
+"title": "The boss who wanted Europe's biggest car maker to overtake Tesla in the EV race is pushed out the door",
+"description": "Herbert Diess, who wanted VW to become the world's biggest maker of electric cars, is being replaced by the chief of its Porsche sports car division.",
+"url": "https://www.businessinsider.com/herbert-diess-volkwsagen-overtake-tesla-is-pushed-out-2022-7",
+"urlToImage": "https://i.insider.com/62dbedcb21142200185ee3e7?width=1200&format=jpeg",
+"publishedAt": "2022-07-23T12:56:13Z",
+"content": "Volkswagen's chief executive Herbert Diess has been ousted after little more than four years in the role and three years before the end of his contract.\r\nHe was the architect of the German carmaker's… [+2318 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Seeking Alpha"
+},
+"author": "Wall Street Breakfast",
+"title": "Wall Street Breakfast: What Moved Markets",
+"description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+"url": "https://seekingalpha.com/article/4525332-wall-street-breakfast-what-moved-markets",
+"urlToImage": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+"publishedAt": "2022-07-23T11:59:18Z",
+"content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nStocks dropped on Friday to end a three-session winning stre… [+11889 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "tlevin@insider.com (Tim Levin)",
+"title": "Elon Musk is right: Getting enough lithium is one of the biggest challenges facing electric-car companies",
+"description": "Here's what to know about lithium, the metal crucial to electric-car batteries that Elon Musk is pleading for more of.",
+"url": "https://www.businessinsider.com/lithium-supply-electric-cars-elon-musk-tesla-2022-7",
+"urlToImage": "https://i.insider.com/62db00fa5bf4820019b5d962?width=1200&format=jpeg",
+"publishedAt": "2022-07-23T11:59:00Z",
+"content": "Elon Musk is pleading for more investment in lithium, the silvery-white metal that's crucial to making electric-car batteries. He recently complained about the metal's \"insane\" costs and said anyone … [+3742 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Will Healy)",
+"title": "Why This PayPal Investor Avoids PayPal Leveraged ETFs",
+"description": "Single-stock leveraged ETFs suffer the same challenges as their multi-stock counterparts.",
+"url": "https://www.fool.com/investing/2022/07/23/why-paypal-investor-avoid-paypal-leveraged-etf/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/690955/personreactsinhorror.jpg",
+"publishedAt": "2022-07-23T11:40:00Z",
+"content": "AXS Investments recently launched leveraged single-stock exchange-traded funds (ETFs). To this end, AXS has targeted some of the more heavily traded stocks across several industries.\r\nOne stock AXS h… [+3405 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CarScoops"
+},
+"author": "Stephen Rivers",
+"title": "Tesla’s Prices Are “Embarrassing” To Elon Musk As He Offers Hope That They Might Come Down",
+"description": "Tesla's CEO blamed the increases on inflation and supply issues.",
+"url": "https://www.carscoops.com/2022/07/teslas-prices-are-embarrassing-to-elon-musk-as-he-offers-hope-that-they-might-come-down/",
+"urlToImage": "https://www.carscoops.com/wp-content/uploads/2022/02/Elon-Musk.jpg",
+"publishedAt": "2022-07-23T11:24:46Z",
+"content": "It’s no secret that Tesla has been raising its prices throughout the year. Today, the least expensive vehicle in the lineup is the Model 3 which starts at $46,990. That’s up more than $10,000 since l… [+1963 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Electrek"
+},
+"author": "Micah Toll",
+"title": "Awesomely Weird Alibaba EV of the Week: Move over, Tesla Semi – I want to buy this electric big rig!",
+"description": "Remember the good old days of your youth, taking road trips with your family and giving truckers the arm signal to blow their air horns? What if I told you that you could soon be blowing your very own air horn in your very own electric semitruck? It’s a real …",
+"url": "https://electrek.co/2022/07/23/alibaba-ev-of-the-week-electric-big-rig-semi-truck/",
+"urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/07/semi-truck-ev-alibaba.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+"publishedAt": "2022-07-23T11:20:00Z",
+"content": "Remember the good old days of your youth, taking road trips with your family and giving truckers the arm signal to blow their air horns? What if I told you that you could soon be blowing your very ow… [+3236 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "heise online"
+},
+"author": "Jan Petermann, Marco Engemann, dpa",
+"title": "Volkswagen auf neuem Kurs? Porsche-Lenker Blume beerbt Volkswagen-Chef Diess",
+"description": "Dicke Luft zwischen dem VW-Vorstandsvorsitzenden Diess und seinen Kontrolleuren war im \"System Wolfsburg\" fast normal. Welchen Kurs nimmt VW nach dem Rücktritt?",
+"url": "https://www.heise.de/hintergrund/Volkswagen-auf-neuem-Kurs-Porsche-Lenker-Blume-beerbt-Volkswagen-Chef-Diess-7188209.html",
+"urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/5/8/0/9/8/3/Bildschirmfoto_2022-07-23_um_13.09.07-5b61a2ef4a05b571.png",
+"publishedAt": "2022-07-23T11:17:00Z",
+"content": "Am Ende war es wohl doch ein Problem, ein Streit zu viel. Angeblich schrammte Herbert Diess bereits zweimal haarscharf an einem Rauswurf als VW-Konzernchef vorbei. Am Freitagabend kam die überraschen… [+5546 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "U.Today"
+},
+"author": "U.Today",
+"title": "Crypto Winter Is Behind, Damage Absorbed: Expert Mohamed A. El-Erian",
+"description": "Economist and businessman Mohamed A. El-Erian cites an opinion that now crypto has a better base to go forward, here’s why",
+"url": "https://u.today/crypto-winter-is-behind-damage-absorbed-expert-mohamed-a-el-erian",
+"urlToImage": "https://u.today/sites/default/files/styles/twitter/public/2022-07/22052.jpg",
+"publishedAt": "2022-07-23T11:16:00Z",
+"content": "Disclaimer: The opinion expressed here is not investment advice it is provided for informational purposes only. It does not necessarily reflect the opinion of U.Today. Every investment and all tradin… [+2110 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Lee Samaha)",
+"title": "3 Signs the Market Will Dip Further, and 3 Signs We May Have Hit the Bottom",
+"description": "There are clear warning signs of a slowdown in economic growth, but that might bring some benefits too.",
+"url": "https://www.fool.com/investing/2022/07/23/3-bullish-and-3-bearish-market-signs/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/691047/buysell-stock.jpg",
+"publishedAt": "2022-07-23T11:13:00Z",
+"content": "The signs of slowing growth are gathering, but ignoring the silver linings also coming alongside them would be a mistake. Some very high-profile companies, notably semiconductor manufacturer Micron T… [+4564 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Android Authority"
+},
+"author": "Paula Beaton",
+"title": "The Weekly Authority:  Pixel pre-orders",
+"description": "Pixel 6a pre-orders open, Unpacked date's confirmed, we get a peek at The Last of Us: Part 1, and more top tech news.",
+"url": "https://www.androidauthority.com/the-weekly-authority-23-july-2022-204-3188478/",
+"urlToImage": "https://www.androidauthority.com/wp-content/uploads/2022/07/google-pixel-6a-home-screen.jpg",
+"publishedAt": "2022-07-23T11:12:25Z",
+"content": "Welcome to The Weekly Authority, the Android Authority newsletter that breaks down the top Android and tech news from the week. The 204th edition here, with Pixel 6 pre-orders, a confirmed Unpacked d… [+10568 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "DW (English)"
+},
+"author": "Deutsche Welle (www.dw.com)",
+"title": "Meinung: Volkswagen - Abgang mit Ansage",
+"description": "Nach nur vier Jahren muss Herbert Diess den Chefsessel beim Autobauer Volkswagen wieder räumen. Gescheitert ist er an einem Software-Problem, doch die Ursachen liegen tiefer, meint Henrik Böhme.",
+"url": "https://www.dw.com/de/meinung-volkswagen-abgang-mit-ansage/a-62572766",
+"urlToImage": "https://static.dw.com/image/62568812_6.jpg",
+"publishedAt": "2022-07-23T11:03:00Z",
+"content": "Der Chefsessel bei Europas größtem Autobauer Volkswagen bleibt ein Schleudersitz. Der überraschende Abgang von Konzernchef Herbert Diess nach nur vier Jahren im Amt ist ein weiterer Beleg dafür. Dies… [+4264 chars]"
+},
+
+
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "newsfeedback@fool.com (Joe Tenebruso)",
+"title": "Amazon Starts Using Rivian's Electric Vehicles. Is It Time to Buy This EV Stock?",
+"description": "The e-commerce juggernaut could fuel the EV-upstart's growth.",
+"url": "https://www.fool.com/investing/2022/07/23/amazon-using-evs-is-rivian-stock-a-buy/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/691377/rivian-electric-delivery-van.png",
+"publishedAt": "2022-07-23T10:55:00Z",
+"content": "You may soon see one of Rivian Automotive's (RIVN -4.83%) battery-powered delivery vans outside your home. Amazon's (AMZN -1.77%) drivers began using the electric vehicles (EVs) on Thursday to delive… [+4233 chars]"
+},
+
+{
+"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "Jeanne Whalen",
+"title": "Computer chip shortage hits Detroit",
+"description": "The chip shortage may be the biggest disruption of the auto industry since the 1970s, when the oil crisis forced companies to make more fuel-efficient cars.",
+"url": "https://www.washingtonpost.com/technology/2022/07/23/chip-shortage-detroit-manufacturing/",
+"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TWVVJMAJKUI63AFWIPZL7TDGMI.jpg&w=1440",
+"publishedAt": "2022-07-23T10:10:15Z",
+"content": "Comment on this story\r\nDETROIT Even Motor City is running short of cars these days.\r\nRental counters at the Detroit airport have run out of vehicles recently. Dealerships all over town are reporting … [+9470 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CarScoops"
+},
+"author": "Thanos Pappas",
+"title": "VW, Skoda, And Seat Models To Share More Parts Under Their Uniquely Designed Bodies",
+"description": "The VW Group hopes to boost efficiency among its affordable brands in a quest to save money for electrification.",
+"url": "https://www.carscoops.com/2022/07/vw-skoda-and-seat-models-to-share-more-parts-under-their-uniquely-designed-bodies/",
+"urlToImage": "https://www.carscoops.com/wp-content/uploads/2022/07/VW-Polo-Skoda-Fabia-Seat-Ibiza-main.jpg",
+"publishedAt": "2022-07-23T10:09:05Z",
+"content": "The Vokswagen Group will use more common parts in future models by its affordable core brands, VW, Seat and Skoda, targeting a further 20 percent boost in efficiency thanks to a greater deal of share… [+2805 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Monevator.com"
+},
+"author": "The Investor",
+"title": "Weekend reading: Where are all the workers?",
+"description": "Is chronic illness to blame for the UK's missing half-a-million workers? Plus the rest of the week's good reads…\nThe post Weekend reading: Where are all the workers? appeared first on Monevator.",
+"url": "https://monevator.com/weekend-reading-what-about-the-workers-2/",
+"urlToImage": "https://monevator-monevator.netdna-ssl.com/wp-content/uploads/2021/03/Weekend-Reading-Social.png",
+"publishedAt": "2022-07-23T10:03:05Z",
+"content": "What caught my eye this week.\r\nBritain has a problem with its workers. No, I’m not only thinking about the ones you can’t find to fix your boiler. Or the increasing number missing in action because t… [+12586 chars]"
+},
+{
+"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "Rachel Lerman, Gerrit De Vynck",
+"title": "Big Tech lay-offs and hiring freezes prompt recession fears - The Washington Post",
+"description": "Big Tech has soared for the past decade. But hiring freezes, slowing revenue growth and lay-offs show Silicon Valley is preparing for a recession.",
+"url": "https://www.washingtonpost.com/technology/2022/07/23/big-tech-recession-concerns/",
+"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VU26UHAJB4I63AFWIPZL7TDGMI.jpg&w=1440",
+"publishedAt": "2022-07-23T10:02:15Z",
+"content": "Comment on this story\r\nBig Tech is bracing for an economic recession and an uncertain future. That, in turn, is triggering more economic angst.\r\nThe biggest tech firms, most of whom report quarterly … [+8438 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Bitcoin Magazine"
+},
+"author": "Boomer",
+"title": "A Newcomer’s Perspective On Toxic Bitcoin Maximalism",
+"description": "Toxic Bitcoin Maximalism can serve an important purpose to ward off newcomers from scams and altcoins, but is there a time when the toxicity is too much?",
+"url": "https://bitcoinmagazine.com/culture/what-toxic-bitcoin-maximalism-means-to-onlookers",
+"urlToImage": "https://bitcoinmagazine.com/.image/t_share/MTkxMDc2MTY4MDIyMTA3NTAy/toxic-bitcoin-maximalism-maximalist-top-photo.png",
+"publishedAt": "2022-07-23T10:00:00Z",
+"content": "This is an opinion editorial by Boomer, a long-time and active member of the financial independence/retire early (FIRE) movement and a contributor for Bitcoin Magazine.\r\nI was recently inspired after… [+7715 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Notebookcheck.net"
+},
+"author": "Polly Allcock",
+"title": "Cadillac Celestiq EV revealed with Ultra Cruise and Smart Glass roof as rumors suggest it will cost US$300,000",
+"description": "A concept version of the Cadillac Celestiq has been unveiled. The all-electric sedan boasts a range of unusual features, such as a Smart Glass Roof with the ability to have its transparency altered. Ultra Cruise technology will provide driver assistance both …",
+"url": "https://www.notebookcheck.net/Cadillac-Celestiq-EV-revealed-with-Ultra-Cruise-and-Smart-Glass-roof-as-rumors-suggest-it-will-cost-US-300-000.636189.0.html",
+"urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Cadillac_Celestiq.png",
+"publishedAt": "2022-07-23T09:36:00Z",
+"content": "Cadillac has unveiled the first concept for the Celestiq, an all-electric sedan. A 2025 production model of the ultra-luxury EV will go on sale in 2024. The company has revealed a host of unusual fea… [+1284 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "James Morris, Contributor, \n James Morris, Contributor\n https://www.forbes.com/sites/jamesmorris/",
+"title": "MG4 Mulan Could Be Europe’s First Really Affordable Mainstream EV",
+"description": "The electric car market has been crying out for an affordable family option, and with the MG4 we could finally have found it.",
+"url": "https://www.forbes.com/sites/jamesmorris/2022/07/23/mg4-mulan-could-be-europes-first-really-affordable-mainstream-ev/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/62dbbd34aa72c95ceb9391bf/0x0.jpg?format=jpg&width=1200",
+"publishedAt": "2022-07-23T09:32:56Z",
+"content": "We have been waiting for electric vehicles to hit price parity with fossil fuel cars for a while. Right now, EVs are still quite a bit more expensive, and this has led to claims that they are just to… [+5196 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Paul Tan's Automotive News"
+},
+"author": "Gerard Lye",
+"title": "EVx 2022: Discover EV charging solutions available through the Petronas Setel app – 10% off merchandise",
+"description": "If you’re a current EV owner or plan to buy one in the future, the paultan.org Electric Vehicle Expo (EVx) 2022 is where you’ll want to be this weekend to learn more about the world […]\nThe post EVx 2022: Discover EV charging solutions available through the P…",
+"url": "https://paultan.org/2022/07/23/evx-2022-discover-ev-charging-solutions-available-through-the-petronas-setel-app-10-off-merchandise/",
+"urlToImage": "https://paultan.org/image/2022/07/2022_EVx_Booth_Petronas-Cover-1200x628.jpg",
+"publishedAt": "2022-07-23T06:03:30Z",
+"content": "If youre a current EV owner or plan to buy one in the future, the paultan.org Electric Vehicle Expo (EVx) 2022 is where youll want to be this weekend to learn more about the world of electrification.… [+1921 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Paul Tan's Automotive News"
+},
+"author": "Danny Tan",
+"title": "EVx 2022: Experience the Tesla Model 3 Long Range Dual-Motor AWD – 576 km range, 0-100 km/h in 4.2s",
+"description": "The big boys of the auto industry are all fully into electric vehicles now, but things could have been very different without Tesla, as it was Elon Musk’s EV company, among other things, that pushed […]\nThe post EVx 2022: Experience the Tesla Model 3 Long Ran…",
+"url": "https://paultan.org/2022/07/23/evx-2022-experience-the-tesla-model-3-long-range-dual-motor-awd-576-km-range-0-100-km-h-in-4-2s/",
+"urlToImage": "https://paultan.org/image/2022/07/2022_EVx_Booth_Vision-Cover-1200x628.jpg",
+"publishedAt": "2022-07-23T06:02:57Z",
+"content": "The big boys of the auto industry are all fully into electric vehicles now, but things could have been very different without Tesla, as it was Elon Musks EV company, among other things, that pushed t… [+2372 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Business Standard"
+},
+"author": "Jef Feeley | Bloomberg",
+"title": "Twitter gets a win over Elon Musk with trial fast-tracked for October",
+"description": "The ruling marks the first victory for Twitter in a case in which many legal experts say Musk will be the underdog",
+"url": "https://www.business-standard.com/article/international/twitter-gets-a-win-over-elon-musk-with-trial-fast-tracked-for-october-122072300247_1.html",
+"urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-04/26/full/1650922666-9947.jpg",
+"publishedAt": "2022-07-23T05:55:00Z",
+"content": "Twitter Inc. scored an early win against Elon Musk in its fight to make him complete his $44 billion buyout, as a Delaware judge agreed to fast-track the case with an October trial date.\r\nChancery Co… [+5229 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Paul Tan's Automotive News"
+},
+"author": "Anthony Lim",
+"title": "EVx 2022: Volvo XC40 Recharge Pure Electric on show",
+"description": "Greetings from the paultan.org Electric Vehicle Expo (EVx) 2022, which is running this weekend at the Setia City Convention Centre (SCCC). No shortage of things to see and learn about, if you’re keen on discovering all about electrification. Volvo Car Malaysi…",
+"url": "https://paultan.org/2022/07/23/evx-2022-volvo-xc40-recharge-pure-electric-on-show/",
+"urlToImage": "https://paultan.org/image/2022/07/2022_EVx_Booth_Volvo-Cover-1200x628.jpg",
+"publishedAt": "2022-07-23T05:39:06Z",
+"content": "Greetings from the paultan.org Electric Vehicle Expo (EVx) 2022, which is running this weekend at the Setia City Convention Centre (SCCC). No shortage of things to see and learn about, if youre keen … [+2058 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Telegraph.co.uk"
+},
+"author": "Jessica Beard",
+"title": "The electric car tax trap that could land you a £30,000 bill",
+"description": "A quirk in the generally tax-efficient leasing rules will drive pensioners round the bend",
+"url": "https://www.telegraph.co.uk/pensions-retirement/news/electric-car-tax-trap-could-land-30000-bill/",
+"urlToImage": "https://www.telegraph.co.uk/content/dam/pensions-retirement/2022/07/22/TELEMMGLPICT000298454255_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=logo-overlay",
+"publishedAt": "2022-07-23T05:00:00Z",
+"content": "You would think that buying an electric car had nothing to do with your pension. But leasing one through your company could land you with a pension tax bill of tens of thousands of pounds and slash y… [+3872 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "Seeking Alpha"
+},
+"author": "Tim Travis",
+"title": "Buy The Dip On Undervalued Cleveland-Cliffs While You Can",
+"description": "Cleveland-Cliffs reported very strong Q2 quarter with revenues of $6.3B. See why I believe CLF stock is attractively valued given near and long-term future prospects.",
+"url": "https://seekingalpha.com/article/4525294-buy-dip-undervalued-cleveland-cliffs-while-you-can",
+"urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1401236974/image_1401236974.jpg?io=getty-c-w750",
+"publishedAt": "2022-07-23T04:54:21Z",
+"content": "JHVEPhoto\r\nA month ago, I wrote about the tremendous transformation that Cleveland-Cliffs (NYSE:CLF) CEO Lourenco Goncalves has executed since taking over in August 2014. The stock of it and other co… [+8169 chars]"
+},
+
+{
+"source": {
+"id": null,
+"name": "CleanTechnica"
+},
+"author": "José Pontes",
+"title": "26% of New Car Sales in Germany Have a Plug, 14% Fully Electric",
+"description": "With several disruptions affecting it, the overall German automotive market is still in the red, with the market dropping 11% last month year over year. And it seems all this doom and gloom has finally got to EVs, with sales of full electric vehicles (BEVs) d…",
+"url": "https://cleantechnica.com/2022/07/23/26-of-new-car-sales-in-germany-have-a-plug-14-fully-electric/",
+"urlToImage": "https://cleantechnica.com/files/2022/07/Germany-top-automakers-for-electric-vehicle-sales-January-June-2022-logo.png",
+"publishedAt": "2022-07-23T04:15:54Z",
+"content": "With several disruptions affecting it, the overall German automotive market is still in the red, with the market dropping 11% last month year over year. And it seems all this doom and gloom has final… [+6699 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Paul Tan's Automotive News"
+},
+"author": "Gerard Lye",
+"title": "EVx 2022: Explore the world of Mercedes-Benz EVs with Hap Seng Star – come see the EQS and EQA",
+"description": "The paultan.org Electric Vehicle Expo (EVx) 2022 begins today, so make your way down to the Setia City Convention Centre (SCCC) from today until July 24 (Sunday) if you’re curious to learn more about all […]\nThe post EVx 2022: Explore the world of Mercedes-Be…",
+"url": "https://paultan.org/2022/07/23/evx-2022-explore-the-world-of-mercedes-benz-evs-with-hap-seng-star-come-see-the-eqs-and-eqa/",
+"urlToImage": "https://paultan.org/image/2022/07/2022_EVx_Booth_HapSengStar-Cover-1200x628.jpg",
+"publishedAt": "2022-07-23T04:13:41Z",
+"content": "The paultan.org Electric Vehicle Expo (EVx) 2022 begins today, so make your way down to the Setia City Convention Centre (SCCC) from today until July 24 (Sunday) if youre curious to learn more about … [+2050 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NDTV News"
+},
+"author": null,
+"title": "Bitcoin Recovers After Sell-Off On News Tesla Sold 75% Of Its holdings",
+"description": "Bitcoin rebounded after a brief sell-off late on Wednesday sparked by news that electric carmaker Tesla Inc had sold about 75 per cent of its holdings of the virtual token.",
+"url": "https://www.ndtv.com/business/bitcoin-recovers-after-sell-off-on-news-tesla-sold-75-of-its-holdings-3185726",
+"urlToImage": "https://c.ndtvimg.com/2022-07/j7v0oa6_image_625x300_23_July_22.jpeg",
+"publishedAt": "2022-07-23T04:08:05Z",
+"content": "Bitcoin recovers after falling on news Tesla sold 75% of its holdings\r\nBitcoin rebounded after a brief sell-off late on Wednesday sparked by news that electric carmaker Tesla Inc had sold about 75 pe… [+1781 chars]"
+},
+
+]
+    
+</script>
+<script>
+        let art = document.querySelector("#tesla");
+      tesla.forEach(function (el) {
+        let div = document.createElement("div");
+        let imgage = document.createElement("img");
+        imgage.src = el.urlToImage;
+        let h2 = document.createElement("h2");
+        h2.innerText = el.title;
+        let para = document.createElement("p");
+        para.innerText = el.description;
+        let anc = document.createElement("a");
+        anc.href = el.url;
+        art.append(div);
+        div.append(imgage,h2,para);
+      });
+      let worldjs=document.getElementById("worldjs")
+worldjs.addEventListener("click",function(){
+  window.location.href="world.html"
+})
+let latestjs=document.getElementById("latestjs")
+latestjs.addEventListener("click",function(){
+  window.location.href="latest.html"
+})
+let photojs=document.getElementById("photojs")
+photojs.addEventListener("click",function(){
+  window.location.href="photo.html"
+})
+let enterjs=document.getElementById("enter")
+enterjs.addEventListener("click",function(){
+  window.location.href="enter.html"
+})
+let sportsjs=document.getElementById("sportsjs")
+sportsjs.addEventListener("click",function(){
+  window.location.href="sports.html"
+})
+let traveljs=document.getElementById("traveljs")
+traveljs.addEventListener("click",function(){
+  window.location.href="travel.html"
+})
+let lifestylejs=document.getElementById("lifestylejs")
+lifestylejs.addEventListener("click",function(){
+  window.location.href="lifestyle.html"
+})
+let india=document.getElementById("indiajs")
+india.addEventListener("click",function(){
+  window.location.href="india.html"
+})
+let logo=document.getElementById("logo")
+logo.addEventListener("click",function(){
+  window.location.href="home.html"
+})
+let cryptoC=document.getElementById("bitcoin")
+cryptoC.addEventListener("click",function(){
+  window.location.href="bitcoin.html"
+})
+let teslaC=document.getElementById("tesla")
+teslaC.addEventListener("click",function(){
+  window.location.href="tesla.html"
+})
+let globalC=document.getElementById("global")
+globalC.addEventListener("click",function(){
+  window.location.href="global.html"
+})
+</script>

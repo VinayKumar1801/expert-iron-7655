@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
-      #business {
+      #tech {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
@@ -20,20 +20,17 @@
         margin-top: 30px;
         padding: 10px;
       }
-      #business img{
-        width: 300px;
-        height: 250px;
+      #tech img{
+        width: 100%;
       }
-      #business div{
-        padding: 20px;
+      #tech div{
+    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
       }
-      a{
-        text-decoration: none;
-        font-size: 30px;
-        font-weight: bold;
-        color: white;
+      #tech div p:hover{
+        color: blue;
+        font-size: 20px;;
       }
     </style>
   </head>
@@ -95,7 +92,7 @@
     <div id="center">
       <div>
         <div id="left">
-          <div>
+          <div id="latestjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg"
               alt=""
@@ -103,7 +100,7 @@
             <p>Latest News</p>
           </div>
 
-          <div>
+          <div id="photojs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg"
               alt=""
@@ -127,7 +124,7 @@
             <p>Exlainers</p>
           </div>
 
-          <div>
+          <div id="indiajs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg"
               alt=""
@@ -135,7 +132,7 @@
             <p>India</p>
           </div>
 
-          <div>
+          <div id="enter">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg"
               alt=""
@@ -143,7 +140,7 @@
             <p>Entertainment</p>
           </div>
 
-          <div>
+          <div id="sportsjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg"
               alt=""
@@ -159,7 +156,7 @@
             <p>Viral News</p>
           </div>
 
-          <div>
+          <div id="lifestylejs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg"
               alt=""
@@ -167,7 +164,7 @@
             <p>Lifestyle</p>
           </div>
 
-          <div>
+          <div id="traveljs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
               alt=""
@@ -175,7 +172,7 @@
             <p>Travels</p>
           </div>
 
-          <div>
+          <div id="worldjs">
             <img
               src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
               alt=""
@@ -193,8 +190,8 @@
         </div>
       </div>
       <div>
-        <h1>Technology News</h1>
-        <div id="business"></div>
+        <h1  style="border-bottom: 5px solid yellow;">Technology News</h1>
+        <div id="tech"></div>
         
       </div>
       <div> <div id="right">
@@ -202,7 +199,21 @@
             <p>TRENDING NEWS TOPIC</p>
             <p>More</p>
         </div>
-        <hr>
+        <div id="elon">
+          <div id="bitcoin">
+              <img src="https://www.howtogeek.com/wp-content/uploads/2021/08/shutterstock_1434643079.jpg?height=200p&trim=2,2,2,2" alt="">
+              <h3>Cryptocurrency</h3>
+          </div>
+          <div id="tesla">
+              <img src="https://images.moneycontrol.com/static-mcnews/2022/03/385764247.jpg?impolicy=website&width=770&height=431" alt="">
+              <h3>Electric Vehicles</h3>
+          </div>
+          <div id="global">
+              <img src="https://www.conserve-energy-future.com/wp-content/uploads/2016/07/global-warming-burning-earth-burning.jpg" alt="">
+              <h3>Global Warming</h3>
+          </div>
+         </div>
+         <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
        <div id="trend-news">
         <div >
            <a href="health.html">
@@ -220,7 +231,7 @@
         <p>SPACE TOPICS</p>
         <p>More</p>
     </div>
-    <hr>
+   
     <div id="science"></div>
       </div>
      
@@ -517,7 +528,7 @@
 "content": "Following a more limited test that started in March\r\nTwitter imagery showing the process of clipping a Space.\r\nImage: Twitter\r\nA new feature that lets you extract a short audio clip from a Twitter Sp… [+1411 chars]"
 }
 ]
-      let art = document.querySelector("#business");
+      let art = document.querySelector("#tech");
       articles.forEach(function (el) {
         let div = document.createElement("div");
         let imgage = document.createElement("img");
@@ -528,10 +539,58 @@
         para.innerText = el.description;
         let anc = document.createElement("a");
         anc.href = el.url;
-        document.querySelector("#business").append(div);
+        document.querySelector("#tech").append(div);
         div.append(imgage, h2, para);
       });
       console.log(articles);
+      let worldjs=document.getElementById("worldjs")
+worldjs.addEventListener("click",function(){
+  window.location.href="world.html"
+})
+let latestjs=document.getElementById("latestjs")
+latestjs.addEventListener("click",function(){
+  window.location.href="latest.html"
+})
+let photojs=document.getElementById("photojs")
+photojs.addEventListener("click",function(){
+  window.location.href="photo.html"
+})
+let enterjs=document.getElementById("enter")
+enterjs.addEventListener("click",function(){
+  window.location.href="enter.html"
+})
+let sportsjs=document.getElementById("sportsjs")
+sportsjs.addEventListener("click",function(){
+  window.location.href="sports.html"
+})
+let traveljs=document.getElementById("traveljs")
+traveljs.addEventListener("click",function(){
+  window.location.href="travel.html"
+})
+let lifestylejs=document.getElementById("lifestylejs")
+lifestylejs.addEventListener("click",function(){
+  window.location.href="lifestyle.html"
+})
+let india=document.getElementById("indiajs")
+india.addEventListener("click",function(){
+  window.location.href="india.html"
+})
+let logo=document.getElementById("logo")
+logo.addEventListener("click",function(){
+  window.location.href="home.html"
+})
+let cryptoC=document.getElementById("bitcoin")
+cryptoC.addEventListener("click",function(){
+  window.location.href="bitcoin.html"
+})
+let teslaC=document.getElementById("tesla")
+teslaC.addEventListener("click",function(){
+  window.location.href="tesla.html"
+})
+let globalC=document.getElementById("global")
+globalC.addEventListener("click",function(){
+  window.location.href="global.html"
+})
     </script>
   </body>
 </html>
